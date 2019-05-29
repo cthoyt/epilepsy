@@ -1,0 +1,202 @@
+# This document was created by PyBEL v0.1.11.dev0 on Fri May 19 11:51:01 2017
+
+################################################################################
+# Metadata
+################################################################################
+
+SET DOCUMENT Name = "Epilepsy - Transport"
+SET DOCUMENT Description = "A knowledge assembly of biological entities involved in transport processes and their relations to epilepsy."
+SET DOCUMENT Version = "1.0.0"
+SET DOCUMENT Authors = "Nora Filep, Anka Gueldenpfennig, Charles Tapley Hoyt, Daniel Domingo-Fernandez"
+SET DOCUMENT ContactInfo = "nora.filep@gmail.com"
+SET DOCUMENT Copyright = "Copyright © 2012-2018 Fraunhofer SCAI, All rights reserved."
+SET DOCUMENT Licenses = "CC BY 4.0"
+
+################################################################################
+# Author Credits
+################################################################################
+# Nora Filep - main curation
+# Anka Gueldenpfennig - main curation
+# Charles Tapley Hoyt - revision and evaluation
+# Daniel Domingo-Fernandez - revision, evaluation, and supervision
+
+################################################################################
+# Namespaces
+################################################################################
+
+# Enumerated Namespaces
+
+DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20170511.belns"
+DEFINE NAMESPACE GOBP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go-biological-process/go-biological-process-20170511.belns"
+DEFINE NAMESPACE GOCC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go-cellular-component/go-cellular-component-20170511.belns"
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc-human-genes/hgnc-human-genes-20170511.belns"
+DEFINE NAMESPACE MESHD AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-diseases/mesh-diseases-20170511.belns"
+#DEFINE NAMESPACE MGI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mgi-mouse-genes/mgi-mouse-genes-20170511.belns"
+#DEFINE NAMESPACE SFAM AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/selventa-protein-families/selventa-protein-families-20170511.belns"
+DEFINE NAMESPACE PTS AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/neurodegeneration-pathways/neurodegeneration-pathways-1.0.0.belns"
+
+################################################################################
+# Annotations
+################################################################################
+
+DEFINE ANNOTATION Subgraph AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/neurommsig/neurommsig-1.0.3.belanno"
+
+################################################################################
+# Statements
+################################################################################
+SET Citation = {"Other", "GeneID:10058 NCBI Gene"}
+
+SET Evidence = "ABCB6: This gene encodes a member of the ATP-binding cassette (ABC) transporter superfamily. ABC proteins transport various molecules across extra- and intra-cellular membranes. This protein is a member of the heavy metal importer subfamily and plays a role in porphyrin transport. This gene is the molecular basis of the Langereis (Lan) blood group antigen and mutations in this gene underlie familial pseudohyperkalemia and dyschromatosis universalis hereditaria. This protein is a member of the MDR/TAP subfamily. Members of the MDR/TAP subfamily are involved in multidrug resistance as well as antigen presentation. This half-transporter likely plays a role in mitochondrial function."
+
+SET Subgraph = {"Transport related subgraph", "Adaptive immune system subgraph"}
+
+p(HGNC:ABCB6, var("?")) pos path(MESHD:Hyperkalemia)
+p(HGNC:ABCB6) reg tport(a(CHEBI:porphyrin))
+p(HGNC:ABCB6) -- bp(GOBP:"mitochondrial ATP transmembrane transport")
+p(HGNC:ABCB6) -- bp(PTS:"mitochondrial pathway")
+p(HGNC:ABCB6) -| act(a(CHEBI:anticonvulsant))
+p(HGNC:ABCB6) -> bp(PTS:"antigen presentation pathway")
+
+########################################################
+SET Citation = {"Other", "GeneID:4363 NCBI Gene"}
+
+SET Evidence = "ABCC1: The protein encoded by this gene is a member of the superfamily of ATP-binding cassette (ABC) transporters. ABC proteins transport various molecules across extra-and intra-cellular membranes. ABC genes are divided into seven distinct subfamilies (ABC1, MDR/TAP, MRP, ALD, OABP, GCN20, White). This full transporter is a member of the MRP subfamily which is involved in multi-drug resistance. This protein functions as a multispecific organic anion transporter, with oxidized glutatione, cysteinyl leukotrienes, and activated aflatoxin B1 as substrates. This protein also transports glucuronides and sulfate conjugates of steroid hormones and bile salts. Alternatively spliced variants of this gene have been described but their full-length nature is unknown. [provided by RefSeq, Apr 2012]"
+
+SET Subgraph = "Transport related subgraph"
+p(HGNC:ABCC1) -| act(a(CHEBI:anticonvulsant))
+
+# oxidized glutatione = glutathione disulfide
+p(HGNC:ABCC1) -- tloc(a(CHEBI:"glutathione disulfide"), fromLoc(GOCC:"extracellular space"), toLoc(GOCC:"intracellular"))
+
+#: Replace by future CHEBI term
+# cysteinyl leukotrienes = leukotriene C4, D4, E4, F4
+p(HGNC:ABCC1) -- tloc(a(CHEBI:"leukotriene C4"), fromLoc(GOCC:"extracellular space"), toLoc(GOCC:"intracellular"))
+p(HGNC:ABCC1) -- tloc(a(CHEBI:"leukotriene D4"), fromLoc(GOCC:"extracellular space"), toLoc(GOCC:"intracellular"))
+p(HGNC:ABCC1) -- tloc(a(CHEBI:"leukotriene E4"), fromLoc(GOCC:"extracellular space"), toLoc(GOCC:"intracellular"))
+p(HGNC:ABCC1) -- tloc(a(CHEBI:"leukotriene F4"), fromLoc(GOCC:"extracellular space"), toLoc(GOCC:"intracellular"))
+p(HGNC:ABCC1) -- tloc(a(CHEBI:"aflatoxin B1 triol"), fromLoc(GOCC:"extracellular space"), toLoc(GOCC:"intracellular"))
+
+##########################################################
+SET Citation = {"PubMed", "Int J Oncol. 2016 Aug;49(2):479-86. doi: 10.3892/ijo.2016.3534. Epub 2016 May 23.", "27221150"}
+
+SET Evidence = "Taken together, these findings suggest MUC1 regulates the expression of MRP1 and provides a direct link between
+cancer progression and chemoresistance in mammary carcinoma cells."
+SET Subgraph = "Transport related subgraph"
+p(HGNC:MUC1) -> p(HGNC:ABCC1)
+
+##########################################################
+SET Citation = {"PubMed", "Behav Brain Funct. 2016 Jul 8;12(1):21. doi: 10.1186/s12993-016-0106-z.", "27391700"}
+
+SET Evidence = "The multidrug resistance protein 1 and glycoprotein P, encoded by MDR1, play a significant role in the transmembrane transport of anti-epileptic agents"
+
+# ABCB1 is MDR1
+
+SET Subgraph = "Transport related subgraph"
+tport(p(HGNC:ABCC1)) -> tloc(a(CHEBI:anticonvulsant), fromLoc(GOCC:"extracellular space"), toLoc(GOCC:"intracellular"))
+tport(p(HGNC:ABCB1)) -> tloc(a(CHEBI:anticonvulsant), fromLoc(GOCC:"extracellular space"), toLoc(GOCC:"intracellular"))
+
+##########################################################
+SET Citation = {"Other", "GeneID:1244 NCBI Gene"}
+
+SET Evidence = "ABCC2: The protein encoded by this gene is a member of the superfamily of ATP-binding cassette (ABC) transporters.
+ABC proteins transport various molecules across extra- and intra-cellular membranes. ABC genes are divided into seven distinct
+subfamilies (ABC1, MDR/TAP, MRP, ALD, OABP, GCN20, White). This protein is a member of the MRP subfamily which is involved in
+multi-drug resistance. This protein is expressed in the canalicular (apical) part of the hepatocyte and functions in biliary
+transport. Substrates include anticancer drugs such as vinblastine; therefore, this protein appears to contribute
+to drug resistance in mammalian cells. Several different mutations in this gene have been observed in patients with
+Dubin-Johnson syndrome (DJS), an autosomal recessive disorder characterized by conjugated hyperbilirubinemia.
+[provided by RefSeq, Jul 2008]"
+
+SET Subgraph = "Transport related subgraph"
+p(HGNC:ABCC2) -| act(a(CHEBI:anticonvulsant))
+p(HGNC:ABCC2) -> tport(a(CHEBI:"antineoplastic agent"))
+
+#########################################################
+SET Citation = {"PubMed", "J Pharmacol Exp Ther. 2015 Feb;352(2):368-78. doi: 10.1124/jpet.114.218180. Epub 2014 Dec 12.", "25503388"}
+
+SET Evidence = "aken together the findings provide first evidence for a role of a glutamate-induced NMDA receptor/cyclooxygenase-2
+signaling pathway in the regulation of MRP2 expression and function. "
+
+SET Subgraph = "Transport related subgraph"
+a(CHEBI:"glutamate(1-)") -- p(HGNC:ABCC2)
+a(CHEBI:"glutamate(1-)") -- act(p(HGNC:ABCC2))
+bp(PTS:"glutamate signaling pathway") -- p(HGNC:ABCC2)
+bp(PTS:"glutamate signaling pathway") -- act(p(HGNC:ABCC2))
+
+########################################################
+SET Citation = {"Other", "GeneID:10257 NCBI Gene"}
+
+SET Evidence = "ABCC4: The protein encoded by this gene is a member of the superfamily of ATP-binding cassette (ABC) transporters.
+ABC proteins transport various molecules across extra- and intra-cellular membranes. ABC genes are divided into seven distinct
+subfamilies (ABC1, MDR/TAP, MRP, ALD, OABP, GCN20, White). This protein is a member of the MRP subfamily which is involved
+in multi-drug resistance. This family member plays a role in cellular detoxification as a pump for its substrate, organic
+anions. It may also function in prostaglandin-mediated cAMP signaling in ciliogenesis. Alternative splicing of this gene
+results in multiple transcript variants. [provided by RefSeq, Sep 2014]"
+
+SET Subgraph = "Transport related subgraph"
+p(HGNC:ABCC4) -> bp(GOBP:"cellular detoxification")
+p(HGNC:ABCC4) -> tport(a(CHEBI:"organic anion"))
+p(HGNC:ABCC4) -| act(a(CHEBI:anticonvulsant))
+
+#########################################################
+SET Citation = {"Other", "GeneID:10057 NCBI Gene"}
+
+SET Evidence = "The protein encoded by this gene is a member of the superfamily of ATP-binding cassette (ABC) transporters.
+ABC proteins transport various molecules across extra- and intra-cellular membranes. ABC genes are divided into seven
+distinct subfamilies (ABC1, MDR/TAP, MRP, ALD, OABP, GCN20, White). This protein is a member of the MRP subfamily which
+is involved in multi-drug resistance. This protein functions in the cellular export of its substrate, cyclic nucleotides.
+This export contributes to the degradation of phosphodiesterases and possibly an elimination pathway for cyclic
+nucleotides. Studies show that this protein provides resistance to thiopurine anticancer drugs, 6-mercatopurine
+and thioguanine, and the anti-HIV drug 9-(2-phosphonylmethoxyethyl)adenine. This protein may be involved in
+resistance to thiopurines in acute lymphoblastic leukemia and antiretroviral nucleoside analogs in HIV-infected patients.
+Alternative splicing results in multiple transcript variants. [provided by RefSeq, Feb 2016]"
+
+SET Subgraph = "Transport related subgraph"
+p(HGNC:ABCC4) -| act(a(CHEBI:anticonvulsant))
+p(HGNC:ABCC4) -> tport(a(CHEBI:"cyclic nucleotide"))
+
+
+############################################################
+SET Citation = {"PubMed", "PeerJ. 2016 May 26;4:e2081. doi: 10.7717/peerj.2081. eCollection 2016.", "27257556"}
+
+SET Evidence = "Cannabidiol (CBD) is currently being investigated as a novel therapeutic for the treatment of CNS disorders like
+schizophrenia and epilepsy. ABC transporters such as P-glycoprotein (P-gp) and breast cancer resistance protein (Bcrp) mediate pharmacoresistance in these disorders"
+
+SET Subgraph = "Transport related subgraph"
+p(HGNC:ABCB1) -> bp(PTS:"transport pathway")
+p(HGNC:ABCB1) -| act(a(CHEBI:anticonvulsant))
+p(HGNC:ABCG2) -| act(a(CHEBI:anticonvulsant))
+a(CHEBI:cannabidiol) -| path(MESHD:Epilepsy)
+a(CHEBI:cannabidiol) isA a(CHEBI:anticonvulsant)
+
+SET Evidence = " These results suggest that CBD is not a substrate of P-gp or Bcrp and may be free from the complication of reduced brain uptake by these transporters."
+
+p(HGNC:ABCB1) causesNoChange tport(a(CHEBI:cannabidiol))
+p(HGNC:ABCG2) causesNoChange tport(a(CHEBI:cannabidiol))
+
+###########################################################
+SET Citation = {"Other", "GeneID:538 NCBI Gene"}
+
+SET Evidence = "ATP7A: This gene encodes a transmembrane protein that functions in copper transport across membranes.
+This protein is localized to the trans Golgi network, where it is predicted to supply copper to copper-dependent enzymes
+in the secretory pathway. It relocalizes to the plasma membrane under conditions of elevated extracellular copper, and
+functions in the efflux of copper from cells. Mutations in this gene are associated with Menkes disease, X-linked
+distal spinal muscular atrophy, and occipital horn syndrome. Alternatively-spliced transcript variants have been
+observed. [provided by RefSeq, Aug 2013]"
+
+SET Subgraph = "Transport related subgraph"
+p(HGNC:ATP7A) -> tport(a(CHEBI:"copper(0)"))
+
+##########################################################
+
+
+
+
+
+
+
+
+
+
+
+

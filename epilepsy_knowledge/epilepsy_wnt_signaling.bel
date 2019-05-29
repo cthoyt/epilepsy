@@ -1,0 +1,129 @@
+# This document was created by PyBEL v0.1.11.dev0 on Wed May 17 14:12:02 2017
+
+################################################################################
+# Metadata
+################################################################################
+
+SET DOCUMENT Name = "Epilepsy - Wnt Signaling"
+SET DOCUMENT Description = "A knowledge assembly of biological entities involved in Wnt signaling and their relation to epilepsy."
+SET DOCUMENT Version = "1.0.0"
+SET DOCUMENT Authors = "Nora Filep, Anka Gueldenpfennig, Charles Tapley Hoyt, Daniel Domingo-Fernandez"
+SET DOCUMENT ContactInfo = "nora.filep@gmail.com"
+SET DOCUMENT Copyright = "Copyright © 2012-2018 Fraunhofer SCAI, All rights reserved."
+SET DOCUMENT Licenses = "CC BY 4.0"
+
+################################################################################
+# Author Credits
+################################################################################
+# Nora Filep - main curation
+# Anka Gueldenpfennig - main curation
+# Charles Tapley Hoyt - revision and evaluation
+# Daniel Domingo-Fernandez - revision, evaluation, and supervision
+
+################################################################################
+# Namespaces
+################################################################################
+
+# Enumerated Namespaces
+
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc-human-genes/hgnc-human-genes-20170511.belns"
+DEFINE NAMESPACE MESHD AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-diseases/mesh-diseases-20170511.belns"
+DEFINE NAMESPACE PTS AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/neurodegeneration-pathways/neurodegeneration-pathways-1.0.0.belns"
+
+DEFINE NAMESPACE dbSNP AS PATTERN "rs[0-9]+"
+
+################################################################################
+# Annotations
+################################################################################
+
+DEFINE ANNOTATION MeSHAnatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20170511.belanno"
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+DEFINE ANNOTATION Subgraph AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/neurommsig/neurommsig-1.0.3.belanno"
+
+################################################################################
+# Statements
+################################################################################
+
+SET Citation = {"PubMed","Induction of the Wnt inhibitor, Dickkopf-1, is associated with neurodegeneration related to temporal lobe epilepsy.","17437412"}
+
+SET Evidence = "By using a Wnt signaling reporter mice line Topgal mice, we found that Wnt/β-catenin signaling was upregulated in reactive astrocytes after ischemia. Overexpression of beta-catenin in reactive astrocytes, in contrast, significantly increased seizure susceptibility and the expression of c-Fos."
+
+SET Species = "10090"
+SET MeSHAnatomy= "Astrocytes"
+SET Subgraph = "Wnt signaling subgraph"
+bp(PTS:"Wnt signaling pathway") -- path(MESHD:Ischemia)
+
+p(HGNC:CTNNB1) pos path(MESHD:Seizures)
+p(HGNC:CTNNB1) -> p(HGNC:FOS)
+
+######################################################
+SET Citation = {"PubMed","Identifying domains of EFHC1 involved in ciliary localization, ciliogenesis, and the regulation of Wnt signaling.","26783883"}
+
+SET Evidence = "Recent evidence suggests that an increased expression of Dickkopf-1 (Dkk-1), a secreted protein that negatively modulates the canonical Wnt pathway, is causally related to processes of neurodegeneration in a number of CNS disorders, including Alzheimer's disease (AD), brain ischemia and temporal lobe epilepsy (TLE)."
+
+SET Subgraph = "Wnt signaling subgraph"
+p(HGNC:DKK1) -| bp(PTS:"Wnt signaling pathway")
+p(HGNC:DKK1) -- path(MESHD:"Epilepsy, Temporal Lobe")
+p(HGNC:DKK1) -- path(MESHD:"Alzheimer Disease")
+p(HGNC:DKK1) -- path(MESHD:"Brain Ischemia")
+
+#######################################################
+SET Citation = {"PubMed","The Wnt antagonist, Dickkopf-1, as a target for the treatment of neurodegenerative disorders.","18427981"}
+
+SET Evidence = "Our data raise the attractive possibility that drugs able to rescue the canonical Wnt pathway, such as Dkk-1 antagonists
+or inhibitors of glycogen synthase kinase-3beta, reduce the development of hippocampal sclerosis in patients with temporal lobe epilepsy."
+
+SET Subgraph = "Wnt signaling subgraph"
+p(HGNC:GSK3B) -| bp(PTS:"Wnt signaling pathway")
+p(HGNC:DKK1) -- path(MESHD:"Epilepsy, Temporal Lobe")
+
+#########################################################
+SET Citation = {"PubMed","Wnt/beta-catenin signaling mediates the seizure-facilitating effect of postischemic reactive astrocytes after pentylenetetrazole-kindling.","27003605"}
+SET Evidence = " Laforin is also a tumor suppressor that dephosphorylates GSK3beta at the critical Ser9 position and regulates Wnt signaling"
+SET Subgraph = "Wnt signaling subgraph"
+
+p(HGNC:EPM2A) reg bp(PTS:"Wnt signaling pathway")
+p(HGNC:EPM2A) -| p(HGNC:GSK3B, pmod(P, S, 9))
+
+########################################################
+SET Citation = {"PubMed","Malin regulates Wnt signaling pathway through degradation of dishevelled2.","22223637"}
+
+SET Evidence = " Overexpression of malin enhances the degradation of dishevelled2 (dishevelled2, a key mediator of Wnt signaling pathway.) and inhibits Wnt signaling, which
+is evident from the down-regulation of β-catenin target genes and the decrease in β-catenin-mediated transcriptional activity."
+
+SET Subgraph = "Wnt signaling subgraph"
+p(HGNC:NHLRC1) -> deg(p(HGNC:DVL2))
+p(HGNC:NHLRC1) -| p(HGNC:DVL2)
+p(HGNC:NHLRC1) -| bp(PTS:"Wnt signaling pathway")
+p(HGNC:NHLRC1) -| act(p(HGNC:CTNNB1))
+p(HGNC:DVL2) -- bp(PTS:"Wnt signaling pathway")
+
+#############################################################
+SET Citation = {"PubMed","Dimerization of Laforin is required for its optimal phosphatase activity, regulation of GSK3beta phosphorylation, and Wnt signaling.","16971387"}
+
+SET Evidence = "Identifying domains of EFHC1 involved in ciliary localization, ciliogenesis, and the regulation of Wnt signaling."
+
+SET Subgraph = "Wnt signaling subgraph"
+p(HGNC:EFHC1) -- bp(PTS:"Wnt signaling pathway")
+
+#############################################################
+SET Citation = {"PubMed","Levetiracetam resistance: Synaptic signatures & corresponding promoter SNPs in epileptic hippocampi.","24018139"}
+
+SET Evidence = "Subsequent promoter characterization revealed accumulation of the single nucleotide polymorphism (SNP)
+rs9305614 G-allele in a priori non-responders to correlate to abundant mRNAs of phosphatidylinositol N-acetylglucosaminyltransferase
+(PIGP), i.e. a key component of the Wnt-signaling pathway."
+
+SET Subgraph = "Wnt signaling subgraph"
+p(HGNC:PIGP) -- bp(PTS:"Wnt signaling pathway")
+p(HGNC:PIGP) hasVariant g(dbSNP:rs9305614)
+g(dbSNP:rs9305614) pos path(MESHD:"Epilepsy, Temporal Lobe")
+
+#########################################################
+
+
+
+
+
+
+
+

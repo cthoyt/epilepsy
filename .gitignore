@@ -102,3 +102,6 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+epilepsy_knowledge/*.bel.pickle
+epilepsy_knowledge/*.bel.summary.json

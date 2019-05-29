@@ -1,0 +1,134 @@
+################################################################################
+# Metadata
+################################################################################
+
+SET DOCUMENT Name = "Epilepsy - Neuroimaging"
+SET DOCUMENT Description = "A knowledge assembly of biological entities related to neuroimaging and epilepsy."
+SET DOCUMENT Version = "1.0.0"
+SET DOCUMENT Authors = "Nora Filep, Anka Gueldenpfennig, Charles Tapley Hoyt, Daniel Domingo-Fernandez"
+SET DOCUMENT ContactInfo = "nora.filep@gmail.com"
+SET DOCUMENT Copyright = "Copyright © 2012-2018 Fraunhofer SCAI, All rights reserved."
+SET DOCUMENT Licenses = "CC BY 4.0"
+
+################################################################################
+# Author Credits
+################################################################################
+# Nora Filep - main curation
+# Anka Gueldenpfennig - main curation
+# Charles Tapley Hoyt - revision and evaluation
+# Daniel Domingo-Fernandez - revision, evaluation, and supervision
+
+################################################################################
+# Namespaces
+################################################################################
+
+# Enumerated Namespaces
+
+DEFINE NAMESPACE UBERON AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/uberon/uberon-20170724.belns"
+DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20170511.belns"
+DEFINE NAMESPACE GOBP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go-biological-process/go-biological-process-20170511.belns"
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc-human-genes/hgnc-human-genes-20170511.belns"
+DEFINE NAMESPACE MESHD AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-diseases/mesh-diseases-20170511.belns"
+DEFINE NAMESPACE PTS AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/neurodegeneration-pathways/neurodegeneration-pathways-1.0.0.belns"
+DEFINE NAMESPACE NIFT AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/imaging-ontology/imaging-ontology-1.0.0.belns"
+DEFINE NAMESPACE EPT AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/epilepsy-terminology/epilepsy-terminology-1.0.3.belns"
+
+################################################################################
+# Annotations
+################################################################################
+
+DEFINE ANNOTATION Anatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/anatomy/anatomy-20170511.belanno"
+DEFINE ANNOTATION MeSHAnatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20170511.belanno"
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+DEFINE ANNOTATION Subgraph AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/neurommsig/neurommsig-1.0.3.belanno"
+
+################################################################################
+# Statements
+################################################################################
+SET Citation = {"PubMed", "Neurology. 1990 Oct;40(10):1593-6.", "2215952"}
+
+SET Evidence = "There was a significant increase of the C4 index in these patients compared with controls and a significantly higher
+CSF C4 index in patients with an increased IgM index. We conclude that intrathecal C4 is being produced in diffuse CNS-SLE."
+
+SET Subgraph = {"Adaptive immune system subgraph", "Innate immune system subgraph"}
+
+p(HGNC:C4A) pos path(MESHD:"Lupus Vasculitis, Central Nervous System")
+p(HGNC:C4B) pos path(MESHD:"Lupus Vasculitis, Central Nervous System")
+
+#########################################
+SET Citation = {"PubMed", "Int J Clin Exp Med. 2014 Jul 15;7(7):1639-49. eCollection 2014.", "25126160"}
+
+SET Evidence = "  miR-132 silencing suppresses the spontaneous seizures. The number of apoptotic neurons and MFS reduced after miR-132 silencing."
+SET Subgraph = {"miRNA subgraph", "Inflammatory response subgraph", "Innate immune system subgraph"}
+r(HGNC:MIR132) -> path(MESHD:Epilepsy)
+r(HGNC:MIR132) positiveCorrelation bp(PTS:Apoptosis)
+r(HGNC:MIR132) -> act(a(UBERON:"mossy fiber"), ma(EPT:sprouting))
+
+##########################################
+SET Citation = {"PubMed", "Neurochem Res. 2014 Nov;39(11):2211-7. doi: 10.1007/s11064-014-1422-z. Epub 2014 Aug 27.", "25161078"}
+
+SET Evidence = "TGFβ levels are increased in the CSF of patients with drug-resistant epilepsy. High CSF-TGFβ1 levels may be a potential screening biomarker of antiepileptic drug resistance in patients with epilepsy."
+
+SET Anatomy = "cerebrospinal fluid"
+SET Subgraph = {"Inflammatory response subgraph", "Innate immune system subgraph"}
+p(HGNC:TGFB1) pos path(MESHD:"Drug Resistant Epilepsy")
+p(HGNC:TGFB1) -| a(CHEBI:anticonvulsant)
+
+###########################################
+SET Citation = {"PubMed", "Clin Lab. 2014;60(2):233-40.", "24660535"}
+
+SET Evidence = " Our data demonstrated that both the mRNA and protein expression of TLR2 and TLR4 were significantly upregulated in the rat hippocampus with PTZ injection,"
+
+SET Subgraph = "Inflammatory response subgraph"
+p(HGNC:TLR4) -> a(NIFT:Hippocampus)
+p(HGNC:TLR4) positiveCorrelation path(MESHD:Epilepsy)
+
+############################################
+SET Citation = {"PubMed", "EJNMMI Res. 2012 Nov 8;2(1):60. doi: 10.1186/2191-219X-2-60.", "23136853"}
+
+SET Evidence = " Animals with substantial SE showed huge overexpression of TSPO in vitro in relevant brain regions such as the hippocampus and amygdala "
+SET Subgraph = "Inflammatory response subgraph"
+
+p(HGNC:TSPO) -> a(NIFT:Hippocampus)
+p(HGNC:TSPO) -> a(NIFT:Amygdala)
+p(HGNC:TSPO) positiveCorrelation path(MESHD:Epilepsy)
+
+#############################################
+SET Citation = {"PubMed", "Zhong Nan Da Xue Xue Bao Yi Xue Ban. 2008 Aug;33(8):657-62.", "18772502"}
+
+SET Evidence = "The down-regulation of Eph A5 mRNA and protein in entorhinal cortex and dentate gyrus, and
+ephrin A3 mRNA in dentate gyrus after status epilepticus may be part of the endogenous molecular mechanism of mossy
+fiber sprouting to the inner molecular layer of dentate gyrus."
+
+SET Subgraph = "Mossy Fiber Subgraph"
+p(HGNC:EFNA3) negativeCorrelation a(EPT:"dentate gyrus") 
+path(MESHD:"Status Epilepticus") -| p(HGNC:EFNA3)
+p(HGNC:EFNA3) -- act(a(UBERON:"mossy fiber"), ma(EPT:sprouting))
+
+p(HGNC:EPHA5) negativeCorrelation a(EPT:"dentate gyrus") 
+p(HGNC:EPHA5) negativeCorrelation a(NIFT:"Entorhinal Cortex")
+path(MESHD:"Status Epilepticus") -| p(HGNC:EFNA3)
+p(HGNC:EFNA3) -- act(a(UBERON:"mossy fiber"), ma(EPT:sprouting))
+
+###############################################
+SET Citation = {"PubMed", "J Neuropathol Exp Neurol. 2013 Nov;72(11):1029-42. doi: 10.1097/NEN.0000000000000002.", "24128677"}
+
+SET Evidence = "These findings support a close association between MFS and NT expression in the hippocampi of MTLE patients and
+suggest that distinct structural and neurochemical milieu may contribute to the genesis or maintenance of psychiatric comorbidities in MTLE."
+
+SET Subgraph = "Mossy Fiber Subgraph"
+p(HGNC:NTF3) -> act(a(UBERON:"mossy fiber"), ma(EPT:sprouting))
+p(HGNC:NTF3) -> a(NIFT:Hippocampus)
+p(HGNC:NTF3) -> path(MESHD:"Epilepsy, Temporal Lobe")
+
+################################################
+SET Citation = {"PubMed", "Mol Neurobiol. 2015 Aug;52(1):562-72. doi: 10.1007/s12035-014-8871-x. Epub 2014 Sep 12.", "25213992"}
+
+SET Evidence = "Expression of TRPC3 and TRPC6 protein also increased significantly in the CA3 region of the hippocampus of SE mice."
+
+SET MeSHAnatomy="CA3 Region, Hippocampal"
+SET Species = "10090"
+SET Subgraph = "Mossy Fiber Subgraph"
+p(HGNC:TRPC3) positiveCorrelation path(MESHD:"Status Epilepticus")
+p(HGNC:TRPC6) positiveCorrelation path(MESHD:"Status Epilepticus")
+
