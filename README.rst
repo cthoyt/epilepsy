@@ -9,8 +9,8 @@ in this repository, use the following code in your shell:
 
 .. code-block:: sh
 
-    $ git clone https://github.com/neurommsig-epilepsy/knowledge.git
-    $ epilepsy
+    $ git clone https://github.com/neurommsig-epilepsy/knowledge.git neurommsig_epilepsy_knowledge
+    $ cd neurommsig_epilepsy_knowledge
     $ pip install -e .
 
 To compile all of the BEL files, use
