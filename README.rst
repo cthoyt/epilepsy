@@ -9,7 +9,7 @@ in this repository, use the following code in your shell:
 
 .. code-block:: sh
 
-    $ git clone https://github.com/cthoyt/epilepsy.git
+    $ git clone https://github.com/neurommsig-epilepsy/knowledge.git
     $ epilepsy
     $ pip install -e .
 
