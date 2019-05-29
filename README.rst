@@ -13,6 +13,8 @@ in this repository, use the following code in your shell:
     $ cd neurommsig_epilepsy_knowledge
     $ pip install -e .
 
+**Note** this package *must* be installed in editable mode.
+
 To compile all of the BEL files, use
 
 .. code-block:: sh
