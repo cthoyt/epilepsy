@@ -39,7 +39,7 @@ metadata = BELMetadata(
 
 repository = BELRepository(
     HERE,
-    bel_metadata=metadata,
+    metadata=metadata,
 )
 
 get_graph = repository.get_graph
