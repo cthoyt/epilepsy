@@ -705,7 +705,7 @@ kin(p(HGNC:TSC2, pmod(P))) -> p(HGNC:MTOR, pmod(P))
 SET Evidence = "AKT can be fully activated by phosphorylation at Ser473 by mTORC2, inhibiting mTORC2-regulating molecules
 such as FOXO and BAD."
 
-kin(complex(SCOMP:"TORC2 Complex")) -> p(HGNC:AKT1, pmod(P, S, 473))
+kin(complex(FPLX:mTORC2)) -> p(HGNC:AKT1, pmod(P, S, 473))
 p(HGNC:AKT1, pmod(P, S, 473)) -| p(HGNC:FOXO1)
 p(HGNC:AKT1, pmod(P, S, 473)) -| p(HGNC:BAD)
 
@@ -773,24 +773,24 @@ complex(SCOMP:"TORC1 Complex") -- p(HGNC:SFN)
 SET Evidence = "The upstream regulators of mTORC2 are less clearly defined- it is TSC1/2-dependent, possibly via
 direct TSC2-RICTOR interaction"
 
-p(HGNC:TSC1) -- complex(SCOMP:"TORC2 Complex")
-p(HGNC:TSC2) -- complex(SCOMP:"TORC2 Complex")
+p(HGNC:TSC1) -- complex(FPLX:mTORC2)
+p(HGNC:TSC2) -- complex(FPLX:mTORC2)
 
 SET Evidence = "mTORC2 is generally known as rapamycin-insensitive, and it seems to be regulated only by growth factors."
 
-a(CHEBI:sirolimus) causesNoChange complex(SCOMP:"TORC2 Complex")
-a(CHEBI:sirolimus) causesNoChange complex(SCOMP:"TORC2 Complex")
-complex(GOCC:"growth factor complex") reg complex(SCOMP:"TORC2 Complex")
+a(CHEBI:sirolimus) causesNoChange complex(FPLX:mTORC2)
+a(CHEBI:sirolimus) causesNoChange complex(FPLX:mTORC2)
+complex(GOCC:"growth factor complex") reg complex(FPLX:mTORC2)
 
 SET Evidence = "AKT/PKB, PKC‚ and SGK1 are known downstream targets of mTORC2."
 
-complex(SCOMP:"TORC2 Complex") -- p(HGNC:AKT1)
-complex(SCOMP:"TORC2 Complex") -- p(HGNC:PRKCA)
-complex(SCOMP:"TORC2 Complex") -- p(HGNC:SGK1)
+complex(FPLX:mTORC2) -- p(HGNC:AKT1)
+complex(FPLX:mTORC2) -- p(HGNC:PRKCA)
+complex(FPLX:mTORC2) -- p(HGNC:SGK1)
 
 SET Evidence = "By releasing the inhibitory action of TSC via AKT, mTORC2 controls the upstream of mTORC1 activity."
 
-kin(complex(SCOMP:"TORC2 Complex")) -> p(HGNC:AKT1, pmod(P))
+kin(complex(FPLX:mTORC2)) -> p(HGNC:AKT1, pmod(P))
 kin(p(HGNC:AKT1, pmod(P))) -> p(HGNC:TSC1, pmod(P))
 p(HGNC:TSC1, pmod(P)) -| complex(SCOMP:"TORC1 Complex")
 
@@ -802,16 +802,16 @@ p(HGNC:AKT1, pmod(P)) -- p(HGNC:BAD)
 
 SET Evidence = "mTORC2 also reorganizes actin cytoskeleton through Rho-associated kinase (ROCK1) and PKC‚beta¬±."
 
-kin(complex(SCOMP:"TORC2 Complex")) -> p(HGNC:ROCK1, pmod(P))
-kin(complex(SCOMP:"TORC2 Complex")) -> p(HGNC:PRKCA, pmod(P))
+kin(complex(FPLX:mTORC2)) -> p(HGNC:ROCK1, pmod(P))
+kin(complex(FPLX:mTORC2)) -> p(HGNC:PRKCA, pmod(P))
 p(HGNC:ROCK1, pmod(P)) -> bp(GOBP:"actin cytoskeleton reorganization")
 p(HGNC:PRKCA, pmod(P)) -> bp(GOBP:"actin cytoskeleton reorganization")
 
 SET Evidence = "P-REX1, HSP70, and 14-3-3 interact closely with mTORC2."
 
-complex(SCOMP:"TORC2 Complex") -- p(HGNC:REXO1)
-complex(SCOMP:"TORC2 Complex") -- p(HGNC:HSPA1A)
-complex(SCOMP:"TORC2 Complex") -- p(HGNC:SFN)
+complex(FPLX:mTORC2) -- p(HGNC:REXO1)
+complex(FPLX:mTORC2) -- p(HGNC:HSPA1A)
+complex(FPLX:mTORC2) -- p(HGNC:SFN)
 
 SET Evidence = "mTOR participates in signaling pathways associated with human diseases including tuberous sclerosis complex,
 lymphangioleiomyomatosis, Cowden disease, Peutz-Jeghers syndrome, neurofibromatosis, familial cardiac hypertrophy,
@@ -836,12 +836,12 @@ kin(p(HGNC:MTOR)) -> p(HGNC:MTOR, pmod(P, S, 2481))
 SET Evidence = "mLST8 (mammalian lethal with Sec13 protein 8) is a positive regulator of mTORC1 and mTORC2."
 
 p(HGNC:MLST8) -> complex(SCOMP:"TORC1 Complex")
-p(HGNC:MLST8) -> complex(SCOMP:"TORC2 Complex")
+p(HGNC:MLST8) -> complex(FPLX:mTORC2)
 
 SET Evidence = "DEPTOR (DEP-domain containing mTOR-interacting protein) is a negative regulator of mTOR complexes."
 
 p(HGNC:DEPTOR) -| complex(SCOMP:"TORC1 Complex")
-p(HGNC:DEPTOR) -| complex(SCOMP:"TORC2 Complex")
+p(HGNC:DEPTOR) -| complex(FPLX:mTORC2)
 
 SET Evidence = "RAPTOR (regulatory-associated protein of mTOR) is a positive regulator of mTORC1, and recruits mTOR substrates."
 
@@ -2328,12 +2328,12 @@ SET Evidence = "Among these DEGs in the co-expression module, C1QB and C1S encod
 human complement component C1 and play roles in the complement activation pathway."
 p(HGNC:C1QB) -- bp(GOBP:"complement activation, classical pathway")
 p(HGNC:C1S) -- bp(GOBP:"complement activation, classical pathway")
-complex(SCOMP:"C1 Complex") hasComponent p(HGNC:C1QB)
-complex(SCOMP:"C1 Complex") hasComponent p(HGNC:C1S)
+complex(FPLX:C1) hasComponent p(HGNC:C1QB)
+complex(FPLX:C1) hasComponent p(HGNC:C1S)
 
 SET Evidence = "C1 deficiency and impaired activation of the complement classical pathway
 generally leads to severe immune complex disease"
-complex(SCOMP:"C1 Complex") -| path(MESHD:"Immune Complex Diseases")
+complex(FPLX:C1) -| path(MESHD:"Immune Complex Diseases")
 
 SET Evidence = "In addition to down-co-expression module, in the
 up-co-expression module, SCN3B was found enriched in GO terms related to sodium ion transport."
