@@ -1,1 +1,16 @@
-{"Title": "Epilepsy Curation", "Authors": "Daniel Domingo-Fernandez, Nora Filep, Anka Gueldenpfennig, Charles Tapley Hoyt", "Number of Nodes": 2221, "Number of Edges": 6969, "Number of Citations": 688, "Number of Authors": 4417, "Network Density": "1.41E-03", "Number of Components": 23, "Number of Warnings": 0, "Number of URL Namespaces": 19, "Number of Regex Namespaces": 3, "Number of URL Annotations": 10, "Number of Regex Annotations": 0, "Number of Local Annotations": 3}
+{
+  "Title": "Epilepsy Curation",
+  "Authors": "Daniel Domingo-Fernandez, Nora Filep, Anka Gueldenpfennig, Charles Tapley Hoyt",
+  "Number of URL Namespaces": 11,
+  "Number of Regex Namespaces": 2,
+  "Number of URL Annotations": 4,
+  "Number of Regex Annotations": 0,
+  "Number of Local Annotations": 0,
+  "Number of Nodes": 118,
+  "Number of Edges": 273,
+  "Number of Citations": 46,
+  "Number of Authors": 254,
+  "Network Density": "1.98E-02",
+  "Number of Components": 3,
+  "Number of Warnings": 0
+}
