@@ -105,3 +105,4 @@ venv.bak/
 
 epilepsy_knowledge/*.bel.pickle
 epilepsy_knowledge/*.bel.summary.json
+.DS_Store
