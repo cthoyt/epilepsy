@@ -49,8 +49,7 @@ DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/be
 
 # List Annotations
 
-DEFINE ANNOTATION Subgraph AS URL "https://owncloud.scai.fraunhofer.de/index.php/s/JsfpQvkdx3Y5EMx/download?path=subgraph.belanno"
-
+DEFINE ANNOTATION Subgraph AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/neurommsig/neurommsig-1.0.3.belanno"
 ###############################################################################
 # Statements
 ###############################################################################

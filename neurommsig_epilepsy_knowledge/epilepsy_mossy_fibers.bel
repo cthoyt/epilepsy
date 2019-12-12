@@ -46,7 +46,7 @@ DEFINE NAMESPACE INCHI AS PATTERN "^((InChI=)?[^J][0-9BCOHNSOPrIFla+\-\(\)\\\/,p
 DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
 
 # List Annotations
-DEFINE ANNOTATION Subgraph AS URL "https://owncloud.scai.fraunhofer.de/index.php/s/JsfpQvkdx3Y5EMx/download?path=subgraph.belanno"
+DEFINE ANNOTATION Subgraph AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/neurommsig/neurommsig-1.0.3.belanno"
 
 ################################################################################
 # Statements
