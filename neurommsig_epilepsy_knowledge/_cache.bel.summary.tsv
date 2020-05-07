@@ -1,0 +1,8 @@
+	Title	Authors	Number of URL Namespaces	Number of Regex Namespaces	Number of URL Annotations	Number of Regex Annotations	Number of Local Annotations	Number of Nodes	Number of Edges	Number of Citations	Number of Authors	Network Density	Number of Components	Number of Warnings
+epilepsy.bel	Epilepsy Curation	Daniel Domingo-Fernandez, Nora Filep, Anka Gueldenpfennig, Charles Tapley Hoyt	19	3	10	0	3	2143	6614	641	4237	1.44E-03	24	30
+epilepsy_adaptive_immune_system.bel	Epilepsy - Adaptive Immune System	Nora Filep, Anka Gueldenpfennig, Charles Tapley Hoyt, Daniel Domingo-Fernandez	10	0	2	0	0	33	62	3	16	5.87E-02	2	0
+epilepsy_innate_and_inflammatory_immune_system.bel	Epilepsy - Innate and Inflammatory Immune Response	Nora Filep, Anka Gueldenpfennig, Charles Tapley Hoyt, Daniel Domingo-Fernandez	8	0	2	0	0	36	94	11	83	7.46E-02	3	0
+epilepsy_mossy_fibers.bel	Epilepsy - Mossy Fibers	Nora Filep, Anka Gueldenpfennig, Charles Tapley Hoyt, Daniel Domingo-Fernandez	7	1	2	0	0	36	65	13	76	5.16E-02	2	0
+epilepsy_neuroimaging.bel	Epilepsy - Neuroimaging	Nora Filep, Anka Gueldenpfennig, Charles Tapley Hoyt, Daniel Domingo-Fernandez	8	0	4	0	0	23	34	8	55	6.72E-02	3	0
+epilepsy_transport.bel	Epilepsy - Transport	Nora Filep, Anka Gueldenpfennig, Charles Tapley Hoyt, Daniel Domingo-Fernandez	6	0	1	0	0	31	49	10	24	5.27E-02	2	0
+epilepsy_wnt_signaling.bel	Epilepsy - Wnt Signaling	Nora Filep, Anka Gueldenpfennig, Charles Tapley Hoyt, Daniel Domingo-Fernandez	3	1	3	0	0	17	31	7	49	1.14E-01	1	0
