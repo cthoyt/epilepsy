@@ -1,0 +1,1646 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_curie": [],
+    "annotation_list": {},
+    "annotation_miriam": [],
+    "annotation_pattern": {},
+    "annotation_url": {
+      "Anatomy": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/anatomy/anatomy-20170511.belanno",
+      "MeSHAnatomy": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20170511.belanno",
+      "Species": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno",
+      "Subgraph": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/neurommsig/neurommsig-1.0.3.belanno"
+    },
+    "document_metadata": {
+      "authors": "Nora Filep, Anka Gueldenpfennig, Charles Tapley Hoyt, Daniel Domingo-Fernandez",
+      "contact": "nora.filep@gmail.com",
+      "copyright": "Copyright © 2012-2018 Fraunhofer SCAI, All rights reserved.",
+      "description": "A knowledge assembly of biological entities related to neuroimaging and epilepsy.",
+      "licenses": "CC BY 4.0",
+      "name": "Epilepsy - Neuroimaging",
+      "version": "1.0.0"
+    },
+    "namespace_pattern": {},
+    "namespace_url": {
+      "CHEBI": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20170511.belns",
+      "EPT": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/epilepsy-terminology/epilepsy-terminology-1.0.3.belns",
+      "GOBP": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go-biological-process/go-biological-process-20170511.belns",
+      "HGNC": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc-human-genes/hgnc-human-genes-20170511.belns",
+      "MESHD": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-diseases/mesh-diseases-20170511.belns",
+      "NIFT": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/imaging-ontology/imaging-ontology-1.0.0.belns",
+      "PTS": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/neurodegeneration-pathways/neurodegeneration-pathways-1.0.0.belns",
+      "UBERON": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/uberon/uberon-20170724.belns"
+    },
+    "path": "epilepsy_neuroimaging.bel",
+    "pybel_version": "0.15.0"
+  },
+  "links": [
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Adaptive immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Boerbooms AM",
+          "Jongen PJ",
+          "Lamers KJ",
+          "Raes BC",
+          "Vierwinden G"
+        ],
+        "date": "1990-10-01",
+        "first": "Jongen PJ",
+        "identifier": "2215952",
+        "journal": "Neurology",
+        "last": "Vierwinden G",
+        "name": "Diffuse CNS involvement in systemic lupus erythematosus: intrathecal synthesis of the 4th component of complement.",
+        "namespace": "pubmed",
+        "pages": "1593-6",
+        "volume": "40"
+      },
+      "evidence": "There was a significant increase of the C4 index in these patients compared with controls and a significantly higher CSF C4 index in patients with an increased IgM index. We conclude that intrathecal C4 is being produced in diffuse CNS-SLE.",
+      "key": "9e32f6330bb809be570b939f5bfdc178",
+      "line": 55,
+      "relation": "positiveCorrelation",
+      "source": 7,
+      "target": 19
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Adaptive immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Boerbooms AM",
+          "Jongen PJ",
+          "Lamers KJ",
+          "Raes BC",
+          "Vierwinden G"
+        ],
+        "date": "1990-10-01",
+        "first": "Jongen PJ",
+        "identifier": "2215952",
+        "journal": "Neurology",
+        "last": "Vierwinden G",
+        "name": "Diffuse CNS involvement in systemic lupus erythematosus: intrathecal synthesis of the 4th component of complement.",
+        "namespace": "pubmed",
+        "pages": "1593-6",
+        "volume": "40"
+      },
+      "evidence": "There was a significant increase of the C4 index in these patients compared with controls and a significantly higher CSF C4 index in patients with an increased IgM index. We conclude that intrathecal C4 is being produced in diffuse CNS-SLE.",
+      "key": "7481bbd8d2c8dc32420100a2a8ec321d",
+      "line": 55,
+      "relation": "positiveCorrelation",
+      "source": 19,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Adaptive immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Boerbooms AM",
+          "Jongen PJ",
+          "Lamers KJ",
+          "Raes BC",
+          "Vierwinden G"
+        ],
+        "date": "1990-10-01",
+        "first": "Jongen PJ",
+        "identifier": "2215952",
+        "journal": "Neurology",
+        "last": "Vierwinden G",
+        "name": "Diffuse CNS involvement in systemic lupus erythematosus: intrathecal synthesis of the 4th component of complement.",
+        "namespace": "pubmed",
+        "pages": "1593-6",
+        "volume": "40"
+      },
+      "evidence": "There was a significant increase of the C4 index in these patients compared with controls and a significantly higher CSF C4 index in patients with an increased IgM index. We conclude that intrathecal C4 is being produced in diffuse CNS-SLE.",
+      "key": "7e5fbd75479a194d0d7dc6909ac2486e",
+      "line": 56,
+      "relation": "positiveCorrelation",
+      "source": 19,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Adaptive immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Boerbooms AM",
+          "Jongen PJ",
+          "Lamers KJ",
+          "Raes BC",
+          "Vierwinden G"
+        ],
+        "date": "1990-10-01",
+        "first": "Jongen PJ",
+        "identifier": "2215952",
+        "journal": "Neurology",
+        "last": "Vierwinden G",
+        "name": "Diffuse CNS involvement in systemic lupus erythematosus: intrathecal synthesis of the 4th component of complement.",
+        "namespace": "pubmed",
+        "pages": "1593-6",
+        "volume": "40"
+      },
+      "evidence": "There was a significant increase of the C4 index in these patients compared with controls and a significantly higher CSF C4 index in patients with an increased IgM index. We conclude that intrathecal C4 is being produced in diffuse CNS-SLE.",
+      "key": "5dc4de1fe34671126408e2fe8950f72d",
+      "line": 56,
+      "relation": "positiveCorrelation",
+      "source": 8,
+      "target": 19
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "miRNA subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Chen Y",
+          "Guo J",
+          "Huang Y",
+          "Wang Q"
+        ],
+        "date": "2014-01-01",
+        "first": "Huang Y",
+        "identifier": "25126160",
+        "journal": "International journal of clinical and experimental medicine",
+        "last": "Chen Y",
+        "name": "MicroRNA-132 silencing decreases the spontaneous recurrent seizures.",
+        "namespace": "pubmed",
+        "pages": "1639-49",
+        "volume": "7"
+      },
+      "evidence": "  miR-132 silencing suppresses the spontaneous seizures. The number of apoptotic neurons and MFS reduced after miR-132 silencing.",
+      "key": "d148df14d1f95a046fd4d0ba97fc8499",
+      "line": 63,
+      "relation": "increases",
+      "source": 22,
+      "target": 21
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "miRNA subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Chen Y",
+          "Guo J",
+          "Huang Y",
+          "Wang Q"
+        ],
+        "date": "2014-01-01",
+        "first": "Huang Y",
+        "identifier": "25126160",
+        "journal": "International journal of clinical and experimental medicine",
+        "last": "Chen Y",
+        "name": "MicroRNA-132 silencing decreases the spontaneous recurrent seizures.",
+        "namespace": "pubmed",
+        "pages": "1639-49",
+        "volume": "7"
+      },
+      "evidence": "  miR-132 silencing suppresses the spontaneous seizures. The number of apoptotic neurons and MFS reduced after miR-132 silencing.",
+      "key": "0f3080b625a2cee8be900d7f68489cc8",
+      "line": 64,
+      "relation": "positiveCorrelation",
+      "source": 22,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "miRNA subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Chen Y",
+          "Guo J",
+          "Huang Y",
+          "Wang Q"
+        ],
+        "date": "2014-01-01",
+        "first": "Huang Y",
+        "identifier": "25126160",
+        "journal": "International journal of clinical and experimental medicine",
+        "last": "Chen Y",
+        "name": "MicroRNA-132 silencing decreases the spontaneous recurrent seizures.",
+        "namespace": "pubmed",
+        "pages": "1639-49",
+        "volume": "7"
+      },
+      "evidence": "  miR-132 silencing suppresses the spontaneous seizures. The number of apoptotic neurons and MFS reduced after miR-132 silencing.",
+      "key": "8f5fc476ded85a21a6bd3b0256326c0d",
+      "line": 65,
+      "relation": "increases",
+      "source": 22,
+      "target": 5,
+      "target_modifier": {
+        "effect": {
+          "name": "sprouting",
+          "namespace": "EPT"
+        },
+        "modifier": "Activity"
+      }
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Dang J",
+          "Ding DX",
+          "Huang WJ",
+          "Liu H",
+          "Song MY",
+          "Tian FF",
+          "Wang YZ"
+        ],
+        "date": "2014-01-01",
+        "first": "Song MY",
+        "identifier": "24660535",
+        "journal": "Clinical laboratory",
+        "last": "Ding DX",
+        "name": "Expression of SOCSs and TLRs in the hippocampus of pentylenetetrazole kindling model.",
+        "namespace": "pubmed",
+        "pages": "233-40",
+        "volume": "60"
+      },
+      "evidence": " Our data demonstrated that both the mRNA and protein expression of TLR2 and TLR4 were significantly upregulated in the rat hippocampus with PTZ injection,",
+      "key": "5a74b125d2fa0d60b9d7fa07b08e8672",
+      "line": 84,
+      "relation": "positiveCorrelation",
+      "source": 21,
+      "target": 13
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Amhaoul H",
+          "Berghofer P",
+          "Callaghan PD",
+          "Dedeurwaerdere S",
+          "Grégoire MC",
+          "Katsifis A",
+          "Loc'h C",
+          "Mattner F",
+          "Pham T",
+          "Quinlivan M",
+          "Rahardjo GL"
+        ],
+        "date": "2012-11-08",
+        "first": "Dedeurwaerdere S",
+        "identifier": "23136853",
+        "journal": "EJNMMI research",
+        "last": "Grégoire MC",
+        "name": "PET imaging of brain inflammation during early epileptogenesis in a rat model of temporal lobe epilepsy.",
+        "namespace": "pubmed",
+        "pages": "60",
+        "volume": "2"
+      },
+      "evidence": " Animals with substantial SE showed huge overexpression of TSPO in vitro in relevant brain regions such as the hippocampus and amygdala ",
+      "key": "c1eb62e1e86b90ba91ef3e0cac11ba99",
+      "line": 94,
+      "relation": "positiveCorrelation",
+      "source": 21,
+      "target": 16
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "miRNA subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Chen Y",
+          "Guo J",
+          "Huang Y",
+          "Wang Q"
+        ],
+        "date": "2014-01-01",
+        "first": "Huang Y",
+        "identifier": "25126160",
+        "journal": "International journal of clinical and experimental medicine",
+        "last": "Chen Y",
+        "name": "MicroRNA-132 silencing decreases the spontaneous recurrent seizures.",
+        "namespace": "pubmed",
+        "pages": "1639-49",
+        "volume": "7"
+      },
+      "evidence": "  miR-132 silencing suppresses the spontaneous seizures. The number of apoptotic neurons and MFS reduced after miR-132 silencing.",
+      "key": "15b65aa7607f1e4108fa7898b2d53f4a",
+      "line": 64,
+      "relation": "positiveCorrelation",
+      "source": 6,
+      "target": 22
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Li SY",
+          "Liu WP",
+          "Lu XQ",
+          "Xiao B"
+        ],
+        "date": "2008-08-01",
+        "first": "Liu WP",
+        "identifier": "18772502",
+        "journal": "Zhong nan da xue xue bao. Yi xue ban = Journal of Central South University. Medical sciences",
+        "last": "Lu XQ",
+        "name": "[Eph in the mechanism of mossy fiber axon sprouting in dentate gyrus in rats with chronic temporal lobe epilepsy].",
+        "namespace": "pubmed",
+        "pages": "657-62",
+        "volume": "33"
+      },
+      "evidence": "The down-regulation of Eph A5 mRNA and protein in entorhinal cortex and dentate gyrus, and ephrin A3 mRNA in dentate gyrus after status epilepticus may be part of the endogenous molecular mechanism of mossy fiber sprouting to the inner molecular layer of dentate gyrus.",
+      "key": "2c9b7c88965e1a0380316e8ebf83ad05",
+      "line": 106,
+      "relation": "association",
+      "source": 5,
+      "source_modifier": {
+        "effect": {
+          "name": "sprouting",
+          "namespace": "EPT"
+        },
+        "modifier": "Activity"
+      },
+      "target": 9
+    },
+    {
+      "annotations": {
+        "Anatomy": [
+          {
+            "identifier": "cerebrospinal fluid",
+            "namespace": "Anatomy"
+          }
+        ],
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Du Y",
+          "Luo J",
+          "Lü Y",
+          "Wang X",
+          "Yang W",
+          "Yu W",
+          "Zhang M",
+          "Zou Y"
+        ],
+        "date": "2014-11-01",
+        "first": "Yu W",
+        "identifier": "25161078",
+        "journal": "Neurochemical research",
+        "last": "Lü Y",
+        "name": "Altered cerebrospinal fluid concentrations of TGFβ1 in patients with drug-resistant epilepsy.",
+        "namespace": "pubmed",
+        "pages": "2211-7",
+        "volume": "39"
+      },
+      "evidence": "TGFβ levels are increased in the CSF of patients with drug-resistant epilepsy. High CSF-TGFβ1 levels may be a potential screening biomarker of antiepileptic drug resistance in patients with epilepsy.",
+      "key": "2b93b67ab5e87f3b70efd787816ee33a",
+      "line": 74,
+      "relation": "positiveCorrelation",
+      "source": 12,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "Anatomy": [
+          {
+            "identifier": "cerebrospinal fluid",
+            "namespace": "Anatomy"
+          }
+        ],
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Du Y",
+          "Luo J",
+          "Lü Y",
+          "Wang X",
+          "Yang W",
+          "Yu W",
+          "Zhang M",
+          "Zou Y"
+        ],
+        "date": "2014-11-01",
+        "first": "Yu W",
+        "identifier": "25161078",
+        "journal": "Neurochemical research",
+        "last": "Lü Y",
+        "name": "Altered cerebrospinal fluid concentrations of TGFβ1 in patients with drug-resistant epilepsy.",
+        "namespace": "pubmed",
+        "pages": "2211-7",
+        "volume": "39"
+      },
+      "evidence": "TGFβ levels are increased in the CSF of patients with drug-resistant epilepsy. High CSF-TGFβ1 levels may be a potential screening biomarker of antiepileptic drug resistance in patients with epilepsy.",
+      "key": "ea5a1bc89f75f2b6f78aeb61d34970fd",
+      "line": 75,
+      "relation": "decreases",
+      "source": 12,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "Anatomy": [
+          {
+            "identifier": "cerebrospinal fluid",
+            "namespace": "Anatomy"
+          }
+        ],
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Du Y",
+          "Luo J",
+          "Lü Y",
+          "Wang X",
+          "Yang W",
+          "Yu W",
+          "Zhang M",
+          "Zou Y"
+        ],
+        "date": "2014-11-01",
+        "first": "Yu W",
+        "identifier": "25161078",
+        "journal": "Neurochemical research",
+        "last": "Lü Y",
+        "name": "Altered cerebrospinal fluid concentrations of TGFβ1 in patients with drug-resistant epilepsy.",
+        "namespace": "pubmed",
+        "pages": "2211-7",
+        "volume": "39"
+      },
+      "evidence": "TGFβ levels are increased in the CSF of patients with drug-resistant epilepsy. High CSF-TGFβ1 levels may be a potential screening biomarker of antiepileptic drug resistance in patients with epilepsy.",
+      "key": "c99fc137da55d096a9d0f336e93d4bc4",
+      "line": 74,
+      "relation": "positiveCorrelation",
+      "source": 17,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Dang J",
+          "Ding DX",
+          "Huang WJ",
+          "Liu H",
+          "Song MY",
+          "Tian FF",
+          "Wang YZ"
+        ],
+        "date": "2014-01-01",
+        "first": "Song MY",
+        "identifier": "24660535",
+        "journal": "Clinical laboratory",
+        "last": "Ding DX",
+        "name": "Expression of SOCSs and TLRs in the hippocampus of pentylenetetrazole kindling model.",
+        "namespace": "pubmed",
+        "pages": "233-40",
+        "volume": "60"
+      },
+      "evidence": " Our data demonstrated that both the mRNA and protein expression of TLR2 and TLR4 were significantly upregulated in the rat hippocampus with PTZ injection,",
+      "key": "6e467b9b57a7473f67b9101a58698ac3",
+      "line": 83,
+      "relation": "increases",
+      "source": 13,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Dang J",
+          "Ding DX",
+          "Huang WJ",
+          "Liu H",
+          "Song MY",
+          "Tian FF",
+          "Wang YZ"
+        ],
+        "date": "2014-01-01",
+        "first": "Song MY",
+        "identifier": "24660535",
+        "journal": "Clinical laboratory",
+        "last": "Ding DX",
+        "name": "Expression of SOCSs and TLRs in the hippocampus of pentylenetetrazole kindling model.",
+        "namespace": "pubmed",
+        "pages": "233-40",
+        "volume": "60"
+      },
+      "evidence": " Our data demonstrated that both the mRNA and protein expression of TLR2 and TLR4 were significantly upregulated in the rat hippocampus with PTZ injection,",
+      "key": "f8080dcbf0a44e643792a023ebf558a9",
+      "line": 84,
+      "relation": "positiveCorrelation",
+      "source": 13,
+      "target": 21
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Amhaoul H",
+          "Berghofer P",
+          "Callaghan PD",
+          "Dedeurwaerdere S",
+          "Grégoire MC",
+          "Katsifis A",
+          "Loc'h C",
+          "Mattner F",
+          "Pham T",
+          "Quinlivan M",
+          "Rahardjo GL"
+        ],
+        "date": "2012-11-08",
+        "first": "Dedeurwaerdere S",
+        "identifier": "23136853",
+        "journal": "EJNMMI research",
+        "last": "Grégoire MC",
+        "name": "PET imaging of brain inflammation during early epileptogenesis in a rat model of temporal lobe epilepsy.",
+        "namespace": "pubmed",
+        "pages": "60",
+        "volume": "2"
+      },
+      "evidence": " Animals with substantial SE showed huge overexpression of TSPO in vitro in relevant brain regions such as the hippocampus and amygdala ",
+      "key": "7262ec8f018c299a134c560065a02ccd",
+      "line": 92,
+      "relation": "increases",
+      "source": 16,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Amhaoul H",
+          "Berghofer P",
+          "Callaghan PD",
+          "Dedeurwaerdere S",
+          "Grégoire MC",
+          "Katsifis A",
+          "Loc'h C",
+          "Mattner F",
+          "Pham T",
+          "Quinlivan M",
+          "Rahardjo GL"
+        ],
+        "date": "2012-11-08",
+        "first": "Dedeurwaerdere S",
+        "identifier": "23136853",
+        "journal": "EJNMMI research",
+        "last": "Grégoire MC",
+        "name": "PET imaging of brain inflammation during early epileptogenesis in a rat model of temporal lobe epilepsy.",
+        "namespace": "pubmed",
+        "pages": "60",
+        "volume": "2"
+      },
+      "evidence": " Animals with substantial SE showed huge overexpression of TSPO in vitro in relevant brain regions such as the hippocampus and amygdala ",
+      "key": "1539cf23f877e37165c4a3d91399876d",
+      "line": 93,
+      "relation": "increases",
+      "source": 16,
+      "target": 3
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Amhaoul H",
+          "Berghofer P",
+          "Callaghan PD",
+          "Dedeurwaerdere S",
+          "Grégoire MC",
+          "Katsifis A",
+          "Loc'h C",
+          "Mattner F",
+          "Pham T",
+          "Quinlivan M",
+          "Rahardjo GL"
+        ],
+        "date": "2012-11-08",
+        "first": "Dedeurwaerdere S",
+        "identifier": "23136853",
+        "journal": "EJNMMI research",
+        "last": "Grégoire MC",
+        "name": "PET imaging of brain inflammation during early epileptogenesis in a rat model of temporal lobe epilepsy.",
+        "namespace": "pubmed",
+        "pages": "60",
+        "volume": "2"
+      },
+      "evidence": " Animals with substantial SE showed huge overexpression of TSPO in vitro in relevant brain regions such as the hippocampus and amygdala ",
+      "key": "f50fbf4909ae84d7c3bc2cd530f4b6a3",
+      "line": 94,
+      "relation": "positiveCorrelation",
+      "source": 16,
+      "target": 21
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Li SY",
+          "Liu WP",
+          "Lu XQ",
+          "Xiao B"
+        ],
+        "date": "2008-08-01",
+        "first": "Liu WP",
+        "identifier": "18772502",
+        "journal": "Zhong nan da xue xue bao. Yi xue ban = Journal of Central South University. Medical sciences",
+        "last": "Lu XQ",
+        "name": "[Eph in the mechanism of mossy fiber axon sprouting in dentate gyrus in rats with chronic temporal lobe epilepsy].",
+        "namespace": "pubmed",
+        "pages": "657-62",
+        "volume": "33"
+      },
+      "evidence": "The down-regulation of Eph A5 mRNA and protein in entorhinal cortex and dentate gyrus, and ephrin A3 mRNA in dentate gyrus after status epilepticus may be part of the endogenous molecular mechanism of mossy fiber sprouting to the inner molecular layer of dentate gyrus.",
+      "key": "480d72ceefb0833791588f41deee0a3a",
+      "line": 104,
+      "relation": "negativeCorrelation",
+      "source": 9,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Li SY",
+          "Liu WP",
+          "Lu XQ",
+          "Xiao B"
+        ],
+        "date": "2008-08-01",
+        "first": "Liu WP",
+        "identifier": "18772502",
+        "journal": "Zhong nan da xue xue bao. Yi xue ban = Journal of Central South University. Medical sciences",
+        "last": "Lu XQ",
+        "name": "[Eph in the mechanism of mossy fiber axon sprouting in dentate gyrus in rats with chronic temporal lobe epilepsy].",
+        "namespace": "pubmed",
+        "pages": "657-62",
+        "volume": "33"
+      },
+      "evidence": "The down-regulation of Eph A5 mRNA and protein in entorhinal cortex and dentate gyrus, and ephrin A3 mRNA in dentate gyrus after status epilepticus may be part of the endogenous molecular mechanism of mossy fiber sprouting to the inner molecular layer of dentate gyrus.",
+      "key": "5c10134a26cf169125cbd8d2b6a4897f",
+      "line": 106,
+      "relation": "association",
+      "source": 9,
+      "target": 5,
+      "target_modifier": {
+        "effect": {
+          "name": "sprouting",
+          "namespace": "EPT"
+        },
+        "modifier": "Activity"
+      }
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Li SY",
+          "Liu WP",
+          "Lu XQ",
+          "Xiao B"
+        ],
+        "date": "2008-08-01",
+        "first": "Liu WP",
+        "identifier": "18772502",
+        "journal": "Zhong nan da xue xue bao. Yi xue ban = Journal of Central South University. Medical sciences",
+        "last": "Lu XQ",
+        "name": "[Eph in the mechanism of mossy fiber axon sprouting in dentate gyrus in rats with chronic temporal lobe epilepsy].",
+        "namespace": "pubmed",
+        "pages": "657-62",
+        "volume": "33"
+      },
+      "evidence": "The down-regulation of Eph A5 mRNA and protein in entorhinal cortex and dentate gyrus, and ephrin A3 mRNA in dentate gyrus after status epilepticus may be part of the endogenous molecular mechanism of mossy fiber sprouting to the inner molecular layer of dentate gyrus.",
+      "key": "3eee2f789f32fc953c73692ac173b3f2",
+      "line": 104,
+      "relation": "negativeCorrelation",
+      "source": 1,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Li SY",
+          "Liu WP",
+          "Lu XQ",
+          "Xiao B"
+        ],
+        "date": "2008-08-01",
+        "first": "Liu WP",
+        "identifier": "18772502",
+        "journal": "Zhong nan da xue xue bao. Yi xue ban = Journal of Central South University. Medical sciences",
+        "last": "Lu XQ",
+        "name": "[Eph in the mechanism of mossy fiber axon sprouting in dentate gyrus in rats with chronic temporal lobe epilepsy].",
+        "namespace": "pubmed",
+        "pages": "657-62",
+        "volume": "33"
+      },
+      "evidence": "The down-regulation of Eph A5 mRNA and protein in entorhinal cortex and dentate gyrus, and ephrin A3 mRNA in dentate gyrus after status epilepticus may be part of the endogenous molecular mechanism of mossy fiber sprouting to the inner molecular layer of dentate gyrus.",
+      "key": "57820a55c40553b3f8e5e17a3da4eb03",
+      "line": 108,
+      "relation": "negativeCorrelation",
+      "source": 1,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Li SY",
+          "Liu WP",
+          "Lu XQ",
+          "Xiao B"
+        ],
+        "date": "2008-08-01",
+        "first": "Liu WP",
+        "identifier": "18772502",
+        "journal": "Zhong nan da xue xue bao. Yi xue ban = Journal of Central South University. Medical sciences",
+        "last": "Lu XQ",
+        "name": "[Eph in the mechanism of mossy fiber axon sprouting in dentate gyrus in rats with chronic temporal lobe epilepsy].",
+        "namespace": "pubmed",
+        "pages": "657-62",
+        "volume": "33"
+      },
+      "evidence": "The down-regulation of Eph A5 mRNA and protein in entorhinal cortex and dentate gyrus, and ephrin A3 mRNA in dentate gyrus after status epilepticus may be part of the endogenous molecular mechanism of mossy fiber sprouting to the inner molecular layer of dentate gyrus.",
+      "key": "82a870d984e6fb5e48590478fa86d3d3",
+      "line": 105,
+      "relation": "decreases",
+      "source": 20,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": [
+          {
+            "identifier": "CA3 Region, Hippocampal",
+            "namespace": "MeSHAnatomy"
+          }
+        ],
+        "Species": [
+          {
+            "identifier": "10090",
+            "namespace": "Species"
+          }
+        ],
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Feng L",
+          "Jiang T",
+          "Liu R",
+          "Long X",
+          "Ma Y",
+          "Tang W",
+          "Tian F",
+          "Xiao B",
+          "Yuan C",
+          "Zeng C",
+          "Zhou P"
+        ],
+        "date": "2015-08-01",
+        "first": "Zeng C",
+        "identifier": "25213992",
+        "journal": "Molecular neurobiology",
+        "last": "Tian F",
+        "name": "Upregulation and Diverse Roles of TRPC3 and TRPC6 in Synaptic Reorganization of the Mossy Fiber Pathway in Temporal Lobe Epilepsy.",
+        "namespace": "pubmed",
+        "pages": "562-72",
+        "volume": "52"
+      },
+      "evidence": "Expression of TRPC3 and TRPC6 protein also increased significantly in the CA3 region of the hippocampus of SE mice.",
+      "key": "0e0b61976319c3df53e4b980fac961f0",
+      "line": 132,
+      "relation": "positiveCorrelation",
+      "source": 20,
+      "target": 14
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": [
+          {
+            "identifier": "CA3 Region, Hippocampal",
+            "namespace": "MeSHAnatomy"
+          }
+        ],
+        "Species": [
+          {
+            "identifier": "10090",
+            "namespace": "Species"
+          }
+        ],
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Feng L",
+          "Jiang T",
+          "Liu R",
+          "Long X",
+          "Ma Y",
+          "Tang W",
+          "Tian F",
+          "Xiao B",
+          "Yuan C",
+          "Zeng C",
+          "Zhou P"
+        ],
+        "date": "2015-08-01",
+        "first": "Zeng C",
+        "identifier": "25213992",
+        "journal": "Molecular neurobiology",
+        "last": "Tian F",
+        "name": "Upregulation and Diverse Roles of TRPC3 and TRPC6 in Synaptic Reorganization of the Mossy Fiber Pathway in Temporal Lobe Epilepsy.",
+        "namespace": "pubmed",
+        "pages": "562-72",
+        "volume": "52"
+      },
+      "evidence": "Expression of TRPC3 and TRPC6 protein also increased significantly in the CA3 region of the hippocampus of SE mice.",
+      "key": "e02b35c2c6a3df40cdc3aeabfd0bb14d",
+      "line": 133,
+      "relation": "positiveCorrelation",
+      "source": 20,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Li SY",
+          "Liu WP",
+          "Lu XQ",
+          "Xiao B"
+        ],
+        "date": "2008-08-01",
+        "first": "Liu WP",
+        "identifier": "18772502",
+        "journal": "Zhong nan da xue xue bao. Yi xue ban = Journal of Central South University. Medical sciences",
+        "last": "Lu XQ",
+        "name": "[Eph in the mechanism of mossy fiber axon sprouting in dentate gyrus in rats with chronic temporal lobe epilepsy].",
+        "namespace": "pubmed",
+        "pages": "657-62",
+        "volume": "33"
+      },
+      "evidence": "The down-regulation of Eph A5 mRNA and protein in entorhinal cortex and dentate gyrus, and ephrin A3 mRNA in dentate gyrus after status epilepticus may be part of the endogenous molecular mechanism of mossy fiber sprouting to the inner molecular layer of dentate gyrus.",
+      "key": "af20c60fd0a17e0d44507a57f38c6c71",
+      "line": 108,
+      "relation": "negativeCorrelation",
+      "source": 10,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Li SY",
+          "Liu WP",
+          "Lu XQ",
+          "Xiao B"
+        ],
+        "date": "2008-08-01",
+        "first": "Liu WP",
+        "identifier": "18772502",
+        "journal": "Zhong nan da xue xue bao. Yi xue ban = Journal of Central South University. Medical sciences",
+        "last": "Lu XQ",
+        "name": "[Eph in the mechanism of mossy fiber axon sprouting in dentate gyrus in rats with chronic temporal lobe epilepsy].",
+        "namespace": "pubmed",
+        "pages": "657-62",
+        "volume": "33"
+      },
+      "evidence": "The down-regulation of Eph A5 mRNA and protein in entorhinal cortex and dentate gyrus, and ephrin A3 mRNA in dentate gyrus after status epilepticus may be part of the endogenous molecular mechanism of mossy fiber sprouting to the inner molecular layer of dentate gyrus.",
+      "key": "21e27862d80df1fc14a4746bc46fd7b9",
+      "line": 109,
+      "relation": "negativeCorrelation",
+      "source": 10,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Li SY",
+          "Liu WP",
+          "Lu XQ",
+          "Xiao B"
+        ],
+        "date": "2008-08-01",
+        "first": "Liu WP",
+        "identifier": "18772502",
+        "journal": "Zhong nan da xue xue bao. Yi xue ban = Journal of Central South University. Medical sciences",
+        "last": "Lu XQ",
+        "name": "[Eph in the mechanism of mossy fiber axon sprouting in dentate gyrus in rats with chronic temporal lobe epilepsy].",
+        "namespace": "pubmed",
+        "pages": "657-62",
+        "volume": "33"
+      },
+      "evidence": "The down-regulation of Eph A5 mRNA and protein in entorhinal cortex and dentate gyrus, and ephrin A3 mRNA in dentate gyrus after status epilepticus may be part of the endogenous molecular mechanism of mossy fiber sprouting to the inner molecular layer of dentate gyrus.",
+      "key": "b5393996065b84b9e8a720098ecc97f2",
+      "line": 109,
+      "relation": "negativeCorrelation",
+      "source": 2,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Assirati JA Jr",
+          "Carlotti CG Jr",
+          "Hallak JE",
+          "Kandratavicius L",
+          "Leite JP",
+          "Monteiro MR"
+        ],
+        "date": "2013-11-01",
+        "first": "Kandratavicius L",
+        "identifier": "24128677",
+        "journal": "Journal of neuropathology and experimental neurology",
+        "last": "Leite JP",
+        "name": "Neurotrophins in mesial temporal lobe epilepsy with and without psychiatric comorbidities.",
+        "namespace": "pubmed",
+        "pages": "1029-42",
+        "volume": "72"
+      },
+      "evidence": "These findings support a close association between MFS and NT expression in the hippocampi of MTLE patients and suggest that distinct structural and neurochemical milieu may contribute to the genesis or maintenance of psychiatric comorbidities in MTLE.",
+      "key": "80b599199cdc7bdcfd6b8f2cf870b981",
+      "line": 120,
+      "relation": "increases",
+      "source": 11,
+      "target": 5,
+      "target_modifier": {
+        "effect": {
+          "name": "sprouting",
+          "namespace": "EPT"
+        },
+        "modifier": "Activity"
+      }
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Assirati JA Jr",
+          "Carlotti CG Jr",
+          "Hallak JE",
+          "Kandratavicius L",
+          "Leite JP",
+          "Monteiro MR"
+        ],
+        "date": "2013-11-01",
+        "first": "Kandratavicius L",
+        "identifier": "24128677",
+        "journal": "Journal of neuropathology and experimental neurology",
+        "last": "Leite JP",
+        "name": "Neurotrophins in mesial temporal lobe epilepsy with and without psychiatric comorbidities.",
+        "namespace": "pubmed",
+        "pages": "1029-42",
+        "volume": "72"
+      },
+      "evidence": "These findings support a close association between MFS and NT expression in the hippocampi of MTLE patients and suggest that distinct structural and neurochemical milieu may contribute to the genesis or maintenance of psychiatric comorbidities in MTLE.",
+      "key": "994e7fd3f91eeb4dbbf057a2e7c4d78e",
+      "line": 121,
+      "relation": "increases",
+      "source": 11,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Assirati JA Jr",
+          "Carlotti CG Jr",
+          "Hallak JE",
+          "Kandratavicius L",
+          "Leite JP",
+          "Monteiro MR"
+        ],
+        "date": "2013-11-01",
+        "first": "Kandratavicius L",
+        "identifier": "24128677",
+        "journal": "Journal of neuropathology and experimental neurology",
+        "last": "Leite JP",
+        "name": "Neurotrophins in mesial temporal lobe epilepsy with and without psychiatric comorbidities.",
+        "namespace": "pubmed",
+        "pages": "1029-42",
+        "volume": "72"
+      },
+      "evidence": "These findings support a close association between MFS and NT expression in the hippocampi of MTLE patients and suggest that distinct structural and neurochemical milieu may contribute to the genesis or maintenance of psychiatric comorbidities in MTLE.",
+      "key": "fd76cefb6f1a57804fd8627c0d55e4c7",
+      "line": 122,
+      "relation": "increases",
+      "source": 11,
+      "target": 18
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": [
+          {
+            "identifier": "CA3 Region, Hippocampal",
+            "namespace": "MeSHAnatomy"
+          }
+        ],
+        "Species": [
+          {
+            "identifier": "10090",
+            "namespace": "Species"
+          }
+        ],
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Feng L",
+          "Jiang T",
+          "Liu R",
+          "Long X",
+          "Ma Y",
+          "Tang W",
+          "Tian F",
+          "Xiao B",
+          "Yuan C",
+          "Zeng C",
+          "Zhou P"
+        ],
+        "date": "2015-08-01",
+        "first": "Zeng C",
+        "identifier": "25213992",
+        "journal": "Molecular neurobiology",
+        "last": "Tian F",
+        "name": "Upregulation and Diverse Roles of TRPC3 and TRPC6 in Synaptic Reorganization of the Mossy Fiber Pathway in Temporal Lobe Epilepsy.",
+        "namespace": "pubmed",
+        "pages": "562-72",
+        "volume": "52"
+      },
+      "evidence": "Expression of TRPC3 and TRPC6 protein also increased significantly in the CA3 region of the hippocampus of SE mice.",
+      "key": "17a3a178daa8b6b456d859f8a3343dcb",
+      "line": 132,
+      "relation": "positiveCorrelation",
+      "source": 14,
+      "target": 20
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": [
+          {
+            "identifier": "CA3 Region, Hippocampal",
+            "namespace": "MeSHAnatomy"
+          }
+        ],
+        "Species": [
+          {
+            "identifier": "10090",
+            "namespace": "Species"
+          }
+        ],
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Feng L",
+          "Jiang T",
+          "Liu R",
+          "Long X",
+          "Ma Y",
+          "Tang W",
+          "Tian F",
+          "Xiao B",
+          "Yuan C",
+          "Zeng C",
+          "Zhou P"
+        ],
+        "date": "2015-08-01",
+        "first": "Zeng C",
+        "identifier": "25213992",
+        "journal": "Molecular neurobiology",
+        "last": "Tian F",
+        "name": "Upregulation and Diverse Roles of TRPC3 and TRPC6 in Synaptic Reorganization of the Mossy Fiber Pathway in Temporal Lobe Epilepsy.",
+        "namespace": "pubmed",
+        "pages": "562-72",
+        "volume": "52"
+      },
+      "evidence": "Expression of TRPC3 and TRPC6 protein also increased significantly in the CA3 region of the hippocampus of SE mice.",
+      "key": "66b04e36dc33a0dd4136944a3bc06881",
+      "line": 133,
+      "relation": "positiveCorrelation",
+      "source": 15,
+      "target": 20
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(CHEBI:anticonvulsant)",
+      "concept": {
+        "name": "anticonvulsant",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "a8c01b5f9d16b04afd5a36fa5d60e863"
+    },
+    {
+      "bel": "a(EPT:\"dentate gyrus\")",
+      "concept": {
+        "name": "dentate gyrus",
+        "namespace": "EPT"
+      },
+      "function": "Abundance",
+      "id": "eb536103d9069d06df79fd8331299500"
+    },
+    {
+      "bel": "a(NIFT:\"Entorhinal Cortex\")",
+      "concept": {
+        "name": "Entorhinal Cortex",
+        "namespace": "NIFT"
+      },
+      "function": "Abundance",
+      "id": "fccee608445387db7f8fae699e200273"
+    },
+    {
+      "bel": "a(NIFT:Amygdala)",
+      "concept": {
+        "name": "Amygdala",
+        "namespace": "NIFT"
+      },
+      "function": "Abundance",
+      "id": "5f79aa4d6e46aaa1aaf0620504571a1f"
+    },
+    {
+      "bel": "a(NIFT:Hippocampus)",
+      "concept": {
+        "name": "Hippocampus",
+        "namespace": "NIFT"
+      },
+      "function": "Abundance",
+      "id": "588d4e0223b08a11c50f78c67e5bb3a8"
+    },
+    {
+      "bel": "a(UBERON:\"mossy fiber\")",
+      "concept": {
+        "name": "mossy fiber",
+        "namespace": "UBERON"
+      },
+      "function": "Abundance",
+      "id": "59def8acedd9a70f230f865931ec4292"
+    },
+    {
+      "bel": "bp(PTS:Apoptosis)",
+      "concept": {
+        "name": "Apoptosis",
+        "namespace": "PTS"
+      },
+      "function": "BiologicalProcess",
+      "id": "193eaf3a76b59d8c20f3e43179876438"
+    },
+    {
+      "bel": "p(HGNC:C4A)",
+      "concept": {
+        "name": "C4A",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "504298b277f5a364ef1a3ec5cae991a9"
+    },
+    {
+      "bel": "p(HGNC:C4B)",
+      "concept": {
+        "name": "C4B",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "3d000199b6967655bb2e193c74d3ad0a"
+    },
+    {
+      "bel": "p(HGNC:EFNA3)",
+      "concept": {
+        "name": "EFNA3",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "195d2161e4789205c5e3883f77fb244e"
+    },
+    {
+      "bel": "p(HGNC:EPHA5)",
+      "concept": {
+        "name": "EPHA5",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "179e609a0e4d116ef4b6c4847c3d9598"
+    },
+    {
+      "bel": "p(HGNC:NTF3)",
+      "concept": {
+        "name": "NTF3",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "f3bbae10139162289728f06b1f79d964"
+    },
+    {
+      "bel": "p(HGNC:TGFB1)",
+      "concept": {
+        "name": "TGFB1",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "f1f493c4771241860fc73aaa3bfdad66"
+    },
+    {
+      "bel": "p(HGNC:TLR4)",
+      "concept": {
+        "name": "TLR4",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "4d3aa2ce51d0cd7f2aa9267a9c61f9f7"
+    },
+    {
+      "bel": "p(HGNC:TRPC3)",
+      "concept": {
+        "name": "TRPC3",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "07d0617bd70b31331dbc5a015cbe896c"
+    },
+    {
+      "bel": "p(HGNC:TRPC6)",
+      "concept": {
+        "name": "TRPC6",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "dcdd7f951934b4480c2d18b77ccfb03a"
+    },
+    {
+      "bel": "p(HGNC:TSPO)",
+      "concept": {
+        "name": "TSPO",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "e5ecacbf2bae4ee06943f864a30b4df5"
+    },
+    {
+      "bel": "path(MESHD:\"Drug Resistant Epilepsy\")",
+      "concept": {
+        "name": "Drug Resistant Epilepsy",
+        "namespace": "MESHD"
+      },
+      "function": "Pathology",
+      "id": "2d8db5688d4b75b1a08373ec9d1627b3"
+    },
+    {
+      "bel": "path(MESHD:\"Epilepsy, Temporal Lobe\")",
+      "concept": {
+        "name": "Epilepsy, Temporal Lobe",
+        "namespace": "MESHD"
+      },
+      "function": "Pathology",
+      "id": "18d0a9bfb8776f6c01c3cd6933066c80"
+    },
+    {
+      "bel": "path(MESHD:\"Lupus Vasculitis, Central Nervous System\")",
+      "concept": {
+        "name": "Lupus Vasculitis, Central Nervous System",
+        "namespace": "MESHD"
+      },
+      "function": "Pathology",
+      "id": "bd2c5b2e5bc533d69231e52243ee01f6"
+    },
+    {
+      "bel": "path(MESHD:\"Status Epilepticus\")",
+      "concept": {
+        "name": "Status Epilepticus",
+        "namespace": "MESHD"
+      },
+      "function": "Pathology",
+      "id": "2fd90888ad599a9e5478468f33ebd6aa"
+    },
+    {
+      "bel": "path(MESHD:Epilepsy)",
+      "concept": {
+        "name": "Epilepsy",
+        "namespace": "MESHD"
+      },
+      "function": "Pathology",
+      "id": "fee7b78c63a926bb128c9148a0f3b960"
+    },
+    {
+      "bel": "r(HGNC:MIR132)",
+      "concept": {
+        "name": "MIR132",
+        "namespace": "HGNC"
+      },
+      "function": "RNA",
+      "id": "fa58155a18e2cd3a1500b015eeb95981"
+    }
+  ]
+}

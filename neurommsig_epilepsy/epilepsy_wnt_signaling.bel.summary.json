@@ -1,0 +1,14 @@
+{
+  "Name": "Epilepsy - Wnt Signaling",
+  "Version": "1.0.0",
+  "Authors": "Nora Filep, Anka Gueldenpfennig, Charles Tapley Hoyt, Daniel Domingo-Fernandez",
+  "Number of Nodes": 17,
+  "Number of Namespaces": 5,
+  "Number of Edges": 31,
+  "Number of Annotations": 3,
+  "Number of Citations": 7,
+  "Number of Authors": 49,
+  "Network Density": "1.14E-01",
+  "Number of Components": 1,
+  "Number of Warnings": 0
+}

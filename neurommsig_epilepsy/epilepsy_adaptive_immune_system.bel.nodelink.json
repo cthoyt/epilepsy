@@ -1,0 +1,2812 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_curie": [],
+    "annotation_list": {},
+    "annotation_miriam": [],
+    "annotation_pattern": {},
+    "annotation_url": {
+      "Species": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno",
+      "Subgraph": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/neurommsig/neurommsig-1.0.3.belanno"
+    },
+    "document_metadata": {
+      "authors": "Nora Filep, Anka Gueldenpfennig, Charles Tapley Hoyt, Daniel Domingo-Fernandez",
+      "contact": "nora.filep@gmail.com",
+      "copyright": "Copyright © 2012-2018 Fraunhofer SCAI, All rights reserved.",
+      "description": "A knowledge assembly of biological entities associated with the adaptive immune system and its relation to epilepsy.",
+      "licenses": "CC BY 4.0",
+      "name": "Epilepsy - Adaptive Immune System",
+      "version": "1.0.0"
+    },
+    "namespace_pattern": {},
+    "namespace_url": {
+      "BRCO": "http://belief.scai.fraunhofer.de/openbel/repository/namespaces/BRCO.belns",
+      "CHEBI": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20170511.belns",
+      "EPT": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/epilepsy-terminology/epilepsy-terminology-1.0.3.belns",
+      "GOBP": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go-biological-process/go-biological-process-20170511.belns",
+      "HGNC": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc-human-genes/hgnc-human-genes-20170511.belns",
+      "MESHD": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-diseases/mesh-diseases-20170511.belns",
+      "NIFT": "http://belief.scai.fraunhofer.de/openbel/repository/namespaces/NIFT.belns",
+      "PTS": "http://belief.scai.fraunhofer.de/openbel/repository/namespaces/PTS.belns",
+      "SCOMP": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/selventa-named-complexes/selventa-named-complexes-20170511.belns",
+      "UBERON": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/uberon/uberon-20170724.belns"
+    },
+    "path": "epilepsy_adaptive_immune_system.bel",
+    "pybel_version": "0.15.0"
+  },
+  "links": [
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Adaptive immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Barnum SR",
+          "Buckingham SC",
+          "Ramos TN"
+        ],
+        "date": "2014-12-01",
+        "first": "Buckingham SC",
+        "identifier": "25385326",
+        "journal": "Epilepsia",
+        "last": "Barnum SR",
+        "name": "Complement C5-deficient mice are protected from seizures in experimental cerebral malaria.",
+        "namespace": "pubmed",
+        "pages": "e139-42",
+        "volume": "55"
+      },
+      "evidence": "Studies have demonstrated that the membrane attack complex (MAC) of complement can evoke seizures when injected directly into rodent brain. In the course of studies that examine the role of complement in the development of experimental cerebral malaria (ECM), we observed fewer seizures in mice deficient in C5, a component required for MAC formation",
+      "key": "b372473a95bb51e6276600f7d3bd458c",
+      "line": 66,
+      "relation": "positiveCorrelation",
+      "source": 11,
+      "target": 32
+    },
+    {
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Baayen JC",
+          "Boer K",
+          "Gorter JA",
+          "Redeker S",
+          "Spliet WG",
+          "Troost D",
+          "Wadman WJ",
+          "da Silva FH",
+          "van Rijen PC",
+          "van Vliet EA"
+        ],
+        "date": "2007-06-01",
+        "first": "Aronica E",
+        "identifier": "17412602",
+        "journal": "Neurobiology of disease",
+        "last": "Gorter JA",
+        "name": "Complement activation in experimental and human temporal lobe epilepsy.",
+        "namespace": "pubmed",
+        "pages": "497-511",
+        "volume": "26"
+      },
+      "evidence": " Thus, C5b-C9 expression could contribute to the persistent activation of microglial cells, observed within the sclerotic hippocampus of TLE patients.",
+      "key": "5dd6c92d6e664079e2f94aa8f54288e4",
+      "line": 160,
+      "relation": "increases",
+      "source": 11,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Adaptive immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Barnum SR",
+          "Buckingham SC",
+          "Ramos TN"
+        ],
+        "date": "2014-12-01",
+        "first": "Buckingham SC",
+        "identifier": "25385326",
+        "journal": "Epilepsia",
+        "last": "Barnum SR",
+        "name": "Complement C5-deficient mice are protected from seizures in experimental cerebral malaria.",
+        "namespace": "pubmed",
+        "pages": "e139-42",
+        "volume": "55"
+      },
+      "evidence": "Studies have demonstrated that the membrane attack complex (MAC) of complement can evoke seizures when injected directly into rodent brain. In the course of studies that examine the role of complement in the development of experimental cerebral malaria (ECM), we observed fewer seizures in mice deficient in C5, a component required for MAC formation",
+      "key": "9a1c0c266dc1d404d3c0cf4581fb0880",
+      "line": 66,
+      "relation": "positiveCorrelation",
+      "source": 32,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Adaptive immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Barnum SR",
+          "Buckingham SC",
+          "Ramos TN"
+        ],
+        "date": "2014-12-01",
+        "first": "Buckingham SC",
+        "identifier": "25385326",
+        "journal": "Epilepsia",
+        "last": "Barnum SR",
+        "name": "Complement C5-deficient mice are protected from seizures in experimental cerebral malaria.",
+        "namespace": "pubmed",
+        "pages": "e139-42",
+        "volume": "55"
+      },
+      "evidence": "Studies have demonstrated that the membrane attack complex (MAC) of complement can evoke seizures when injected directly into rodent brain. In the course of studies that examine the role of complement in the development of experimental cerebral malaria (ECM), we observed fewer seizures in mice deficient in C5, a component required for MAC formation",
+      "key": "aae1ea5f82018c97a544bc84d3e67837",
+      "line": 68,
+      "relation": "positiveCorrelation",
+      "source": 32,
+      "target": 20
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Adaptive immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Baayen JC",
+          "Gorter JA",
+          "Iyer A",
+          "Spliet WG",
+          "Zurolo E",
+          "van Rijen PC"
+        ],
+        "date": "2010-09-01",
+        "first": "Iyer A",
+        "identifier": "20345941",
+        "journal": "Epilepsia",
+        "last": "Aronica E",
+        "name": "Evaluation of the innate and adaptive immunity in type I and type II focal cortical dysplasias.",
+        "namespace": "pubmed",
+        "pages": "1763-73",
+        "volume": "51"
+      },
+      "evidence": "Expression of components of the complement cascade, IL-1beta, and MCP1 was prominent in FCD II cases. DISCUSSION: Our findings indicate a prominent activation of both innate and adaptive immunity, with involvement of different inflammatory pathways in FCD II cases, supporting the possible involvement of inflammation in the epileptogenesis of these lesions",
+      "key": "0788be380190b1f807fd5ee069e140d1",
+      "line": 77,
+      "relation": "positiveCorrelation",
+      "source": 32,
+      "target": 27
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Adaptive immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Baayen JC",
+          "Gorter JA",
+          "Iyer A",
+          "Spliet WG",
+          "Zurolo E",
+          "van Rijen PC"
+        ],
+        "date": "2010-09-01",
+        "first": "Iyer A",
+        "identifier": "20345941",
+        "journal": "Epilepsia",
+        "last": "Aronica E",
+        "name": "Evaluation of the innate and adaptive immunity in type I and type II focal cortical dysplasias.",
+        "namespace": "pubmed",
+        "pages": "1763-73",
+        "volume": "51"
+      },
+      "evidence": "Expression of components of the complement cascade, IL-1beta, and MCP1 was prominent in FCD II cases. DISCUSSION: Our findings indicate a prominent activation of both innate and adaptive immunity, with involvement of different inflammatory pathways in FCD II cases, supporting the possible involvement of inflammation in the epileptogenesis of these lesions",
+      "key": "f4140963264b7f1609f31e9610e79cfc",
+      "line": 78,
+      "relation": "positiveCorrelation",
+      "source": 32,
+      "target": 24
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Adaptive immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Baayen JC",
+          "Gorter JA",
+          "Iyer A",
+          "Spliet WG",
+          "Zurolo E",
+          "van Rijen PC"
+        ],
+        "date": "2010-09-01",
+        "first": "Iyer A",
+        "identifier": "20345941",
+        "journal": "Epilepsia",
+        "last": "Aronica E",
+        "name": "Evaluation of the innate and adaptive immunity in type I and type II focal cortical dysplasias.",
+        "namespace": "pubmed",
+        "pages": "1763-73",
+        "volume": "51"
+      },
+      "evidence": "Expression of components of the complement cascade, IL-1beta, and MCP1 was prominent in FCD II cases. DISCUSSION: Our findings indicate a prominent activation of both innate and adaptive immunity, with involvement of different inflammatory pathways in FCD II cases, supporting the possible involvement of inflammation in the epileptogenesis of these lesions",
+      "key": "b2a994760d78a62b6a9b2cdb9608aa12",
+      "line": 79,
+      "relation": "positiveCorrelation",
+      "source": 32,
+      "target": 10
+    },
+    {
+      "key": "872689c7092129542349ffab57c8bf1a",
+      "relation": "hasMember",
+      "source": 20,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Adaptive immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Barnum SR",
+          "Buckingham SC",
+          "Ramos TN"
+        ],
+        "date": "2014-12-01",
+        "first": "Buckingham SC",
+        "identifier": "25385326",
+        "journal": "Epilepsia",
+        "last": "Barnum SR",
+        "name": "Complement C5-deficient mice are protected from seizures in experimental cerebral malaria.",
+        "namespace": "pubmed",
+        "pages": "e139-42",
+        "volume": "55"
+      },
+      "evidence": "Studies have demonstrated that the membrane attack complex (MAC) of complement can evoke seizures when injected directly into rodent brain. In the course of studies that examine the role of complement in the development of experimental cerebral malaria (ECM), we observed fewer seizures in mice deficient in C5, a component required for MAC formation",
+      "key": "89bed87470668cecd406596af346d25c",
+      "line": 68,
+      "relation": "positiveCorrelation",
+      "source": 20,
+      "target": 32
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Adaptive immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Baayen JC",
+          "Gorter JA",
+          "Iyer A",
+          "Spliet WG",
+          "Zurolo E",
+          "van Rijen PC"
+        ],
+        "date": "2010-09-01",
+        "first": "Iyer A",
+        "identifier": "20345941",
+        "journal": "Epilepsia",
+        "last": "Aronica E",
+        "name": "Evaluation of the innate and adaptive immunity in type I and type II focal cortical dysplasias.",
+        "namespace": "pubmed",
+        "pages": "1763-73",
+        "volume": "51"
+      },
+      "evidence": "Expression of components of the complement cascade, IL-1beta, and MCP1 was prominent in FCD II cases. DISCUSSION: Our findings indicate a prominent activation of both innate and adaptive immunity, with involvement of different inflammatory pathways in FCD II cases, supporting the possible involvement of inflammation in the epileptogenesis of these lesions",
+      "key": "82a58579813d3a22978838dc886cf9df",
+      "line": 76,
+      "relation": "increases",
+      "source": 7,
+      "target": 32
+    },
+    {
+      "annotations": {
+        "Species": [
+          {
+            "identifier": "10116",
+            "namespace": "Species"
+          }
+        ],
+        "Subgraph": [
+          {
+            "identifier": "Adaptive immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Baayen JC",
+          "Boer K",
+          "Gorter JA",
+          "Redeker S",
+          "Spliet WG",
+          "Troost D",
+          "Wadman WJ",
+          "da Silva FH",
+          "van Rijen PC",
+          "van Vliet EA"
+        ],
+        "date": "2007-06-01",
+        "first": "Aronica E",
+        "identifier": "17412602",
+        "journal": "Neurobiology of disease",
+        "last": "Gorter JA",
+        "name": "Complement activation in experimental and human temporal lobe epilepsy.",
+        "namespace": "pubmed",
+        "pages": "497-511",
+        "volume": "26"
+      },
+      "evidence": "We investigated the involvement of the complement cascade during epileptogenesis in a rat model of temporal lobe epilepsy (TLE), and in the chronic epileptic phase in both experimental as well as human TLE. The persistence of complement activation could contribute to a sustained inflammatory response and could destabilize neuronal networks involved.",
+      "key": "508dce0537e96b6d46e23942742f7ee1",
+      "line": 90,
+      "relation": "increases",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Adaptive immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Baayen JC",
+          "Gorter JA",
+          "Iyer A",
+          "Spliet WG",
+          "Zurolo E",
+          "van Rijen PC"
+        ],
+        "date": "2010-09-01",
+        "first": "Iyer A",
+        "identifier": "20345941",
+        "journal": "Epilepsia",
+        "last": "Aronica E",
+        "name": "Evaluation of the innate and adaptive immunity in type I and type II focal cortical dysplasias.",
+        "namespace": "pubmed",
+        "pages": "1763-73",
+        "volume": "51"
+      },
+      "evidence": "Expression of components of the complement cascade, IL-1beta, and MCP1 was prominent in FCD II cases. DISCUSSION: Our findings indicate a prominent activation of both innate and adaptive immunity, with involvement of different inflammatory pathways in FCD II cases, supporting the possible involvement of inflammation in the epileptogenesis of these lesions",
+      "key": "b578526e85c6a3d2e617cbd8cf17b67c",
+      "line": 77,
+      "relation": "positiveCorrelation",
+      "source": 27,
+      "target": 32
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Adaptive immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Baayen JC",
+          "Gorter JA",
+          "Iyer A",
+          "Spliet WG",
+          "Zurolo E",
+          "van Rijen PC"
+        ],
+        "date": "2010-09-01",
+        "first": "Iyer A",
+        "identifier": "20345941",
+        "journal": "Epilepsia",
+        "last": "Aronica E",
+        "name": "Evaluation of the innate and adaptive immunity in type I and type II focal cortical dysplasias.",
+        "namespace": "pubmed",
+        "pages": "1763-73",
+        "volume": "51"
+      },
+      "evidence": "Expression of components of the complement cascade, IL-1beta, and MCP1 was prominent in FCD II cases. DISCUSSION: Our findings indicate a prominent activation of both innate and adaptive immunity, with involvement of different inflammatory pathways in FCD II cases, supporting the possible involvement of inflammation in the epileptogenesis of these lesions",
+      "key": "07b70ebe1ebac7415cb8ed6bc8652846",
+      "line": 78,
+      "relation": "positiveCorrelation",
+      "source": 24,
+      "target": 32
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Adaptive immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Baayen JC",
+          "Gorter JA",
+          "Iyer A",
+          "Spliet WG",
+          "Zurolo E",
+          "van Rijen PC"
+        ],
+        "date": "2010-09-01",
+        "first": "Iyer A",
+        "identifier": "20345941",
+        "journal": "Epilepsia",
+        "last": "Aronica E",
+        "name": "Evaluation of the innate and adaptive immunity in type I and type II focal cortical dysplasias.",
+        "namespace": "pubmed",
+        "pages": "1763-73",
+        "volume": "51"
+      },
+      "evidence": "Expression of components of the complement cascade, IL-1beta, and MCP1 was prominent in FCD II cases. DISCUSSION: Our findings indicate a prominent activation of both innate and adaptive immunity, with involvement of different inflammatory pathways in FCD II cases, supporting the possible involvement of inflammation in the epileptogenesis of these lesions",
+      "key": "1e1f410556bcbd27147353a661caac7f",
+      "line": 79,
+      "relation": "positiveCorrelation",
+      "source": 10,
+      "target": 32
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Adaptive immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Baayen JC",
+          "Gorter JA",
+          "Iyer A",
+          "Spliet WG",
+          "Zurolo E",
+          "van Rijen PC"
+        ],
+        "date": "2010-09-01",
+        "first": "Iyer A",
+        "identifier": "20345941",
+        "journal": "Epilepsia",
+        "last": "Aronica E",
+        "name": "Evaluation of the innate and adaptive immunity in type I and type II focal cortical dysplasias.",
+        "namespace": "pubmed",
+        "pages": "1763-73",
+        "volume": "51"
+      },
+      "evidence": "Expression of components of the complement cascade, IL-1beta, and MCP1 was prominent in FCD II cases. DISCUSSION: Our findings indicate a prominent activation of both innate and adaptive immunity, with involvement of different inflammatory pathways in FCD II cases, supporting the possible involvement of inflammation in the epileptogenesis of these lesions",
+      "key": "0d685acbea531fc5fd6629bf0408b5d6",
+      "line": 80,
+      "relation": "positiveCorrelation",
+      "source": 10,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Adaptive immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Baayen JC",
+          "Gorter JA",
+          "Iyer A",
+          "Spliet WG",
+          "Zurolo E",
+          "van Rijen PC"
+        ],
+        "date": "2010-09-01",
+        "first": "Iyer A",
+        "identifier": "20345941",
+        "journal": "Epilepsia",
+        "last": "Aronica E",
+        "name": "Evaluation of the innate and adaptive immunity in type I and type II focal cortical dysplasias.",
+        "namespace": "pubmed",
+        "pages": "1763-73",
+        "volume": "51"
+      },
+      "evidence": "Expression of components of the complement cascade, IL-1beta, and MCP1 was prominent in FCD II cases. DISCUSSION: Our findings indicate a prominent activation of both innate and adaptive immunity, with involvement of different inflammatory pathways in FCD II cases, supporting the possible involvement of inflammation in the epileptogenesis of these lesions",
+      "key": "bf32c02c333ea5d799b74e44bccab6e1",
+      "line": 80,
+      "relation": "positiveCorrelation",
+      "source": 6,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "Species": [
+          {
+            "identifier": "10116",
+            "namespace": "Species"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Baayen JC",
+          "Boer K",
+          "Gorter JA",
+          "Redeker S",
+          "Spliet WG",
+          "Troost D",
+          "Wadman WJ",
+          "da Silva FH",
+          "van Rijen PC",
+          "van Vliet EA"
+        ],
+        "date": "2007-06-01",
+        "first": "Aronica E",
+        "identifier": "17412602",
+        "journal": "Neurobiology of disease",
+        "last": "Gorter JA",
+        "name": "Complement activation in experimental and human temporal lobe epilepsy.",
+        "namespace": "pubmed",
+        "pages": "497-511",
+        "volume": "26"
+      },
+      "evidence": "Temporal lobe epilepsy (TLE) represents a severe and common epilepsy syndrome in patients with medically intractable epilepsy. The epileptogenic focus involves often the hippocampal formation,",
+      "key": "06f144f5e997a404ab051b0eebb0d707",
+      "line": 95,
+      "relation": "association",
+      "source": 31,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "Species": [
+          {
+            "identifier": "10116",
+            "namespace": "Species"
+          }
+        ],
+        "Subgraph": [
+          {
+            "identifier": "Adaptive immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Baayen JC",
+          "Boer K",
+          "Gorter JA",
+          "Redeker S",
+          "Spliet WG",
+          "Troost D",
+          "Wadman WJ",
+          "da Silva FH",
+          "van Rijen PC",
+          "van Vliet EA"
+        ],
+        "date": "2007-06-01",
+        "first": "Aronica E",
+        "identifier": "17412602",
+        "journal": "Neurobiology of disease",
+        "last": "Gorter JA",
+        "name": "Complement activation in experimental and human temporal lobe epilepsy.",
+        "namespace": "pubmed",
+        "pages": "497-511",
+        "volume": "26"
+      },
+      "evidence": "The major histopathological features of HS include selective neuronal cell loss, gliosis and synaptic reorganization of the mossy fibers (mossy fiber sprouting) (Wieser and Epilepsy, 2004). However, an increasing number of evidence shows that the immune response plays a prominent role in the affected brain tissue in TLE",
+      "key": "96e966b2276f6a603d21551282dcd03b",
+      "line": 100,
+      "relation": "association",
+      "source": 31,
+      "target": 5,
+      "target_modifier": {
+        "effect": {
+          "name": "sprouting",
+          "namespace": "EPT"
+        },
+        "modifier": "Activity"
+      }
+    },
+    {
+      "annotations": {
+        "Species": [
+          {
+            "identifier": "10116",
+            "namespace": "Species"
+          }
+        ],
+        "Subgraph": [
+          {
+            "identifier": "Adaptive immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Baayen JC",
+          "Boer K",
+          "Gorter JA",
+          "Redeker S",
+          "Spliet WG",
+          "Troost D",
+          "Wadman WJ",
+          "da Silva FH",
+          "van Rijen PC",
+          "van Vliet EA"
+        ],
+        "date": "2007-06-01",
+        "first": "Aronica E",
+        "identifier": "17412602",
+        "journal": "Neurobiology of disease",
+        "last": "Gorter JA",
+        "name": "Complement activation in experimental and human temporal lobe epilepsy.",
+        "namespace": "pubmed",
+        "pages": "497-511",
+        "volume": "26"
+      },
+      "evidence": "The major histopathological features of HS include selective neuronal cell loss, gliosis and synaptic reorganization of the mossy fibers (mossy fiber sprouting) (Wieser and Epilepsy, 2004). However, an increasing number of evidence shows that the immune response plays a prominent role in the affected brain tissue in TLE",
+      "key": "f7a2ef2df5dcdff09ade659ca837a396",
+      "line": 101,
+      "relation": "association",
+      "source": 31,
+      "target": 9
+    },
+    {
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Baayen JC",
+          "Boer K",
+          "Gorter JA",
+          "Redeker S",
+          "Spliet WG",
+          "Troost D",
+          "Wadman WJ",
+          "da Silva FH",
+          "van Rijen PC",
+          "van Vliet EA"
+        ],
+        "date": "2007-06-01",
+        "first": "Aronica E",
+        "identifier": "17412602",
+        "journal": "Neurobiology of disease",
+        "last": "Gorter JA",
+        "name": "Complement activation in experimental and human temporal lobe epilepsy.",
+        "namespace": "pubmed",
+        "pages": "497-511",
+        "volume": "26"
+      },
+      "evidence": "The classical pattern of HS was observed in 8 cases with neuronal loss predominantly in CA1 and hilar regions and with sparing of the CA2 region",
+      "key": "b35b1af5e69df1d2619ba89440069ef9",
+      "line": 119,
+      "relation": "association",
+      "source": 31,
+      "target": 3
+    },
+    {
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Baayen JC",
+          "Boer K",
+          "Gorter JA",
+          "Redeker S",
+          "Spliet WG",
+          "Troost D",
+          "Wadman WJ",
+          "da Silva FH",
+          "van Rijen PC",
+          "van Vliet EA"
+        ],
+        "date": "2007-06-01",
+        "first": "Aronica E",
+        "identifier": "17412602",
+        "journal": "Neurobiology of disease",
+        "last": "Gorter JA",
+        "name": "Complement activation in experimental and human temporal lobe epilepsy.",
+        "namespace": "pubmed",
+        "pages": "497-511",
+        "volume": "26"
+      },
+      "evidence": " HLA-DR staining showed the presence of activated microglia in HS cases",
+      "key": "75a9a420d30b38529ce0a059037b09cb",
+      "line": 122,
+      "relation": "association",
+      "source": 31,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Adaptive immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Baayen JC",
+          "Boer K",
+          "Gorter JA",
+          "Redeker S",
+          "Spliet WG",
+          "Troost D",
+          "Wadman WJ",
+          "da Silva FH",
+          "van Rijen PC",
+          "van Vliet EA"
+        ],
+        "date": "2007-06-01",
+        "first": "Aronica E",
+        "identifier": "17412602",
+        "journal": "Neurobiology of disease",
+        "last": "Gorter JA",
+        "name": "Complement activation in experimental and human temporal lobe epilepsy.",
+        "namespace": "pubmed",
+        "pages": "497-511",
+        "volume": "26"
+      },
+      "evidence": "C1q and C3 gene products were significantly upregulated in patient material",
+      "key": "78bcf6681b88cad5a2f290242632004e",
+      "line": 127,
+      "relation": "positiveCorrelation",
+      "source": 31,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Adaptive immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Baayen JC",
+          "Boer K",
+          "Gorter JA",
+          "Redeker S",
+          "Spliet WG",
+          "Troost D",
+          "Wadman WJ",
+          "da Silva FH",
+          "van Rijen PC",
+          "van Vliet EA"
+        ],
+        "date": "2007-06-01",
+        "first": "Aronica E",
+        "identifier": "17412602",
+        "journal": "Neurobiology of disease",
+        "last": "Gorter JA",
+        "name": "Complement activation in experimental and human temporal lobe epilepsy.",
+        "namespace": "pubmed",
+        "pages": "497-511",
+        "volume": "26"
+      },
+      "evidence": "C1q and C3 gene products were significantly upregulated in patient material",
+      "key": "998860926623323feef4e6ab802bb770",
+      "line": 128,
+      "relation": "positiveCorrelation",
+      "source": 31,
+      "target": 16
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Adaptive immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Baayen JC",
+          "Boer K",
+          "Gorter JA",
+          "Redeker S",
+          "Spliet WG",
+          "Troost D",
+          "Wadman WJ",
+          "da Silva FH",
+          "van Rijen PC",
+          "van Vliet EA"
+        ],
+        "date": "2007-06-01",
+        "first": "Aronica E",
+        "identifier": "17412602",
+        "journal": "Neurobiology of disease",
+        "last": "Gorter JA",
+        "name": "Complement activation in experimental and human temporal lobe epilepsy.",
+        "namespace": "pubmed",
+        "pages": "497-511",
+        "volume": "26"
+      },
+      "evidence": "The expression of CD59, a complement inhibitor at the level of the MAC, was increased in cells of the microglial/macrophage lineage present within the sclerotic hippocampus ",
+      "key": "cf086869d503aa5a37a6967336e77854",
+      "line": 135,
+      "relation": "positiveCorrelation",
+      "source": 31,
+      "target": 25
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Adaptive immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Baayen JC",
+          "Boer K",
+          "Gorter JA",
+          "Redeker S",
+          "Spliet WG",
+          "Troost D",
+          "Wadman WJ",
+          "da Silva FH",
+          "van Rijen PC",
+          "van Vliet EA"
+        ],
+        "date": "2007-06-01",
+        "first": "Aronica E",
+        "identifier": "17412602",
+        "journal": "Neurobiology of disease",
+        "last": "Gorter JA",
+        "name": "Complement activation in experimental and human temporal lobe epilepsy.",
+        "namespace": "pubmed",
+        "pages": "497-511",
+        "volume": "26"
+      },
+      "evidence": "In our previous microarray study in the rat we detected changes in the expression of several components of the classical pathway (C1q and C4), of the alternative pathway (Cfh) and of the common pathway (C3, C3ar1)",
+      "key": "02276a1b3cc2b31d479ae33b67d741db",
+      "line": 141,
+      "relation": "positiveCorrelation",
+      "source": 31,
+      "target": 13
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Adaptive immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Baayen JC",
+          "Boer K",
+          "Gorter JA",
+          "Redeker S",
+          "Spliet WG",
+          "Troost D",
+          "Wadman WJ",
+          "da Silva FH",
+          "van Rijen PC",
+          "van Vliet EA"
+        ],
+        "date": "2007-06-01",
+        "first": "Aronica E",
+        "identifier": "17412602",
+        "journal": "Neurobiology of disease",
+        "last": "Gorter JA",
+        "name": "Complement activation in experimental and human temporal lobe epilepsy.",
+        "namespace": "pubmed",
+        "pages": "497-511",
+        "volume": "26"
+      },
+      "evidence": "In our previous microarray study in the rat we detected changes in the expression of several components of the classical pathway (C1q and C4), of the alternative pathway (Cfh) and of the common pathway (C3, C3ar1)",
+      "key": "00077a14c0bf40afb3cc11dd7bd29931",
+      "line": 142,
+      "relation": "positiveCorrelation",
+      "source": 31,
+      "target": 26
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Adaptive immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Baayen JC",
+          "Boer K",
+          "Gorter JA",
+          "Redeker S",
+          "Spliet WG",
+          "Troost D",
+          "Wadman WJ",
+          "da Silva FH",
+          "van Rijen PC",
+          "van Vliet EA"
+        ],
+        "date": "2007-06-01",
+        "first": "Aronica E",
+        "identifier": "17412602",
+        "journal": "Neurobiology of disease",
+        "last": "Gorter JA",
+        "name": "Complement activation in experimental and human temporal lobe epilepsy.",
+        "namespace": "pubmed",
+        "pages": "497-511",
+        "volume": "26"
+      },
+      "evidence": "In our previous microarray study in the rat we detected changes in the expression of several components of the classical pathway (C1q and C4), of the alternative pathway (Cfh) and of the common pathway (C3, C3ar1)",
+      "key": "94397ab87ec75e9fdb393c08827327b2",
+      "line": 143,
+      "relation": "positiveCorrelation",
+      "source": 31,
+      "target": 17
+    },
+    {
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Baayen JC",
+          "Boer K",
+          "Gorter JA",
+          "Redeker S",
+          "Spliet WG",
+          "Troost D",
+          "Wadman WJ",
+          "da Silva FH",
+          "van Rijen PC",
+          "van Vliet EA"
+        ],
+        "date": "2007-06-01",
+        "first": "Aronica E",
+        "identifier": "17412602",
+        "journal": "Neurobiology of disease",
+        "last": "Gorter JA",
+        "name": "Complement activation in experimental and human temporal lobe epilepsy.",
+        "namespace": "pubmed",
+        "pages": "497-511",
+        "volume": "26"
+      },
+      "evidence": " Thus, C5b-C9 expression could contribute to the persistent activation of microglial cells, observed within the sclerotic hippocampus of TLE patients.",
+      "key": "724d3bfb9f3dca881744dfd22726b651",
+      "line": 161,
+      "relation": "positiveCorrelation",
+      "source": 31,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "Species": [
+          {
+            "identifier": "10116",
+            "namespace": "Species"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Baayen JC",
+          "Boer K",
+          "Gorter JA",
+          "Redeker S",
+          "Spliet WG",
+          "Troost D",
+          "Wadman WJ",
+          "da Silva FH",
+          "van Rijen PC",
+          "van Vliet EA"
+        ],
+        "date": "2007-06-01",
+        "first": "Aronica E",
+        "identifier": "17412602",
+        "journal": "Neurobiology of disease",
+        "last": "Gorter JA",
+        "name": "Complement activation in experimental and human temporal lobe epilepsy.",
+        "namespace": "pubmed",
+        "pages": "497-511",
+        "volume": "26"
+      },
+      "evidence": "Temporal lobe epilepsy (TLE) represents a severe and common epilepsy syndrome in patients with medically intractable epilepsy. The epileptogenic focus involves often the hippocampal formation,",
+      "key": "0f9aefc4990a0786ba218b8c81a23404",
+      "line": 95,
+      "relation": "association",
+      "source": 4,
+      "target": 31
+    },
+    {
+      "annotations": {
+        "Species": [
+          {
+            "identifier": "10116",
+            "namespace": "Species"
+          }
+        ],
+        "Subgraph": [
+          {
+            "identifier": "Adaptive immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Baayen JC",
+          "Boer K",
+          "Gorter JA",
+          "Redeker S",
+          "Spliet WG",
+          "Troost D",
+          "Wadman WJ",
+          "da Silva FH",
+          "van Rijen PC",
+          "van Vliet EA"
+        ],
+        "date": "2007-06-01",
+        "first": "Aronica E",
+        "identifier": "17412602",
+        "journal": "Neurobiology of disease",
+        "last": "Gorter JA",
+        "name": "Complement activation in experimental and human temporal lobe epilepsy.",
+        "namespace": "pubmed",
+        "pages": "497-511",
+        "volume": "26"
+      },
+      "evidence": "The major histopathological features of HS include selective neuronal cell loss, gliosis and synaptic reorganization of the mossy fibers (mossy fiber sprouting) (Wieser and Epilepsy, 2004). However, an increasing number of evidence shows that the immune response plays a prominent role in the affected brain tissue in TLE",
+      "key": "af7c269d28ffcb956c89219f9e8a9789",
+      "line": 100,
+      "relation": "association",
+      "source": 5,
+      "source_modifier": {
+        "effect": {
+          "name": "sprouting",
+          "namespace": "EPT"
+        },
+        "modifier": "Activity"
+      },
+      "target": 31
+    },
+    {
+      "annotations": {
+        "Species": [
+          {
+            "identifier": "10116",
+            "namespace": "Species"
+          }
+        ],
+        "Subgraph": [
+          {
+            "identifier": "Adaptive immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Baayen JC",
+          "Boer K",
+          "Gorter JA",
+          "Redeker S",
+          "Spliet WG",
+          "Troost D",
+          "Wadman WJ",
+          "da Silva FH",
+          "van Rijen PC",
+          "van Vliet EA"
+        ],
+        "date": "2007-06-01",
+        "first": "Aronica E",
+        "identifier": "17412602",
+        "journal": "Neurobiology of disease",
+        "last": "Gorter JA",
+        "name": "Complement activation in experimental and human temporal lobe epilepsy.",
+        "namespace": "pubmed",
+        "pages": "497-511",
+        "volume": "26"
+      },
+      "evidence": "The major histopathological features of HS include selective neuronal cell loss, gliosis and synaptic reorganization of the mossy fibers (mossy fiber sprouting) (Wieser and Epilepsy, 2004). However, an increasing number of evidence shows that the immune response plays a prominent role in the affected brain tissue in TLE",
+      "key": "767ed1dcd211e32f7e512e3d0df18d0e",
+      "line": 101,
+      "relation": "association",
+      "source": 9,
+      "target": 31
+    },
+    {
+      "key": "743999eef134aec906c9c98bf6601607",
+      "relation": "isA",
+      "source": 21,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "Species": [
+          {
+            "identifier": "10116",
+            "namespace": "Species"
+          }
+        ],
+        "Subgraph": [
+          {
+            "identifier": "Adaptive immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Baayen JC",
+          "Boer K",
+          "Gorter JA",
+          "Redeker S",
+          "Spliet WG",
+          "Troost D",
+          "Wadman WJ",
+          "da Silva FH",
+          "van Rijen PC",
+          "van Vliet EA"
+        ],
+        "date": "2007-06-01",
+        "first": "Aronica E",
+        "identifier": "17412602",
+        "journal": "Neurobiology of disease",
+        "last": "Gorter JA",
+        "name": "Complement activation in experimental and human temporal lobe epilepsy.",
+        "namespace": "pubmed",
+        "pages": "497-511",
+        "volume": "26"
+      },
+      "evidence": "Interestingly, sequential infusion of individual proteins of the membrane attack pathway (C5b6, C7, C8, and C9) into the hippocampus of awake, freely moving rats induces both behavioral and electrographic seizures as well as cytotoxicity (Xiong et al., 2003), suggesting a role for the complement system in epileptogenesis.",
+      "key": "538747d25d0e2db7f08037bf0e1966df",
+      "line": 108,
+      "relation": "increases",
+      "source": 21,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "Species": [
+          {
+            "identifier": "10116",
+            "namespace": "Species"
+          }
+        ],
+        "Subgraph": [
+          {
+            "identifier": "Adaptive immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Baayen JC",
+          "Boer K",
+          "Gorter JA",
+          "Redeker S",
+          "Spliet WG",
+          "Troost D",
+          "Wadman WJ",
+          "da Silva FH",
+          "van Rijen PC",
+          "van Vliet EA"
+        ],
+        "date": "2007-06-01",
+        "first": "Aronica E",
+        "identifier": "17412602",
+        "journal": "Neurobiology of disease",
+        "last": "Gorter JA",
+        "name": "Complement activation in experimental and human temporal lobe epilepsy.",
+        "namespace": "pubmed",
+        "pages": "497-511",
+        "volume": "26"
+      },
+      "evidence": "Interestingly, sequential infusion of individual proteins of the membrane attack pathway (C5b6, C7, C8, and C9) into the hippocampus of awake, freely moving rats induces both behavioral and electrographic seizures as well as cytotoxicity (Xiong et al., 2003), suggesting a role for the complement system in epileptogenesis.",
+      "key": "191a4d1b19e5f3341977710f7746fa22",
+      "line": 109,
+      "relation": "increases",
+      "source": 21,
+      "target": 32
+    },
+    {
+      "key": "111b38966ed95720a088d880dad50abc",
+      "relation": "isA",
+      "source": 22,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "Species": [
+          {
+            "identifier": "10116",
+            "namespace": "Species"
+          }
+        ],
+        "Subgraph": [
+          {
+            "identifier": "Adaptive immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Baayen JC",
+          "Boer K",
+          "Gorter JA",
+          "Redeker S",
+          "Spliet WG",
+          "Troost D",
+          "Wadman WJ",
+          "da Silva FH",
+          "van Rijen PC",
+          "van Vliet EA"
+        ],
+        "date": "2007-06-01",
+        "first": "Aronica E",
+        "identifier": "17412602",
+        "journal": "Neurobiology of disease",
+        "last": "Gorter JA",
+        "name": "Complement activation in experimental and human temporal lobe epilepsy.",
+        "namespace": "pubmed",
+        "pages": "497-511",
+        "volume": "26"
+      },
+      "evidence": "Interestingly, sequential infusion of individual proteins of the membrane attack pathway (C5b6, C7, C8, and C9) into the hippocampus of awake, freely moving rats induces both behavioral and electrographic seizures as well as cytotoxicity (Xiong et al., 2003), suggesting a role for the complement system in epileptogenesis.",
+      "key": "71239dbe389b60c3b8c342e42b728bd9",
+      "line": 110,
+      "relation": "increases",
+      "source": 22,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "Species": [
+          {
+            "identifier": "10116",
+            "namespace": "Species"
+          }
+        ],
+        "Subgraph": [
+          {
+            "identifier": "Adaptive immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Baayen JC",
+          "Boer K",
+          "Gorter JA",
+          "Redeker S",
+          "Spliet WG",
+          "Troost D",
+          "Wadman WJ",
+          "da Silva FH",
+          "van Rijen PC",
+          "van Vliet EA"
+        ],
+        "date": "2007-06-01",
+        "first": "Aronica E",
+        "identifier": "17412602",
+        "journal": "Neurobiology of disease",
+        "last": "Gorter JA",
+        "name": "Complement activation in experimental and human temporal lobe epilepsy.",
+        "namespace": "pubmed",
+        "pages": "497-511",
+        "volume": "26"
+      },
+      "evidence": "Interestingly, sequential infusion of individual proteins of the membrane attack pathway (C5b6, C7, C8, and C9) into the hippocampus of awake, freely moving rats induces both behavioral and electrographic seizures as well as cytotoxicity (Xiong et al., 2003), suggesting a role for the complement system in epileptogenesis.",
+      "key": "1ea8e99307359a91be54dab4490b079b",
+      "line": 111,
+      "relation": "increases",
+      "source": 22,
+      "target": 32
+    },
+    {
+      "key": "f63c05f180128beefaa68a7d8fb281e7",
+      "relation": "isA",
+      "source": 23,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "Species": [
+          {
+            "identifier": "10116",
+            "namespace": "Species"
+          }
+        ],
+        "Subgraph": [
+          {
+            "identifier": "Adaptive immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Baayen JC",
+          "Boer K",
+          "Gorter JA",
+          "Redeker S",
+          "Spliet WG",
+          "Troost D",
+          "Wadman WJ",
+          "da Silva FH",
+          "van Rijen PC",
+          "van Vliet EA"
+        ],
+        "date": "2007-06-01",
+        "first": "Aronica E",
+        "identifier": "17412602",
+        "journal": "Neurobiology of disease",
+        "last": "Gorter JA",
+        "name": "Complement activation in experimental and human temporal lobe epilepsy.",
+        "namespace": "pubmed",
+        "pages": "497-511",
+        "volume": "26"
+      },
+      "evidence": "Interestingly, sequential infusion of individual proteins of the membrane attack pathway (C5b6, C7, C8, and C9) into the hippocampus of awake, freely moving rats induces both behavioral and electrographic seizures as well as cytotoxicity (Xiong et al., 2003), suggesting a role for the complement system in epileptogenesis.",
+      "key": "9a959a1d72fbff5a7407d1dce24db8ba",
+      "line": 112,
+      "relation": "increases",
+      "source": 23,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "Species": [
+          {
+            "identifier": "10116",
+            "namespace": "Species"
+          }
+        ],
+        "Subgraph": [
+          {
+            "identifier": "Adaptive immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Baayen JC",
+          "Boer K",
+          "Gorter JA",
+          "Redeker S",
+          "Spliet WG",
+          "Troost D",
+          "Wadman WJ",
+          "da Silva FH",
+          "van Rijen PC",
+          "van Vliet EA"
+        ],
+        "date": "2007-06-01",
+        "first": "Aronica E",
+        "identifier": "17412602",
+        "journal": "Neurobiology of disease",
+        "last": "Gorter JA",
+        "name": "Complement activation in experimental and human temporal lobe epilepsy.",
+        "namespace": "pubmed",
+        "pages": "497-511",
+        "volume": "26"
+      },
+      "evidence": "Interestingly, sequential infusion of individual proteins of the membrane attack pathway (C5b6, C7, C8, and C9) into the hippocampus of awake, freely moving rats induces both behavioral and electrographic seizures as well as cytotoxicity (Xiong et al., 2003), suggesting a role for the complement system in epileptogenesis.",
+      "key": "29f4f1fceef9cede06c117241c4a425e",
+      "line": 113,
+      "relation": "increases",
+      "source": 23,
+      "target": 32
+    },
+    {
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Baayen JC",
+          "Boer K",
+          "Gorter JA",
+          "Redeker S",
+          "Spliet WG",
+          "Troost D",
+          "Wadman WJ",
+          "da Silva FH",
+          "van Rijen PC",
+          "van Vliet EA"
+        ],
+        "date": "2007-06-01",
+        "first": "Aronica E",
+        "identifier": "17412602",
+        "journal": "Neurobiology of disease",
+        "last": "Gorter JA",
+        "name": "Complement activation in experimental and human temporal lobe epilepsy.",
+        "namespace": "pubmed",
+        "pages": "497-511",
+        "volume": "26"
+      },
+      "evidence": "The classical pattern of HS was observed in 8 cases with neuronal loss predominantly in CA1 and hilar regions and with sparing of the CA2 region",
+      "key": "162378fe24db613914b2af250b961f01",
+      "line": 119,
+      "relation": "association",
+      "source": 3,
+      "target": 31
+    },
+    {
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Baayen JC",
+          "Boer K",
+          "Gorter JA",
+          "Redeker S",
+          "Spliet WG",
+          "Troost D",
+          "Wadman WJ",
+          "da Silva FH",
+          "van Rijen PC",
+          "van Vliet EA"
+        ],
+        "date": "2007-06-01",
+        "first": "Aronica E",
+        "identifier": "17412602",
+        "journal": "Neurobiology of disease",
+        "last": "Gorter JA",
+        "name": "Complement activation in experimental and human temporal lobe epilepsy.",
+        "namespace": "pubmed",
+        "pages": "497-511",
+        "volume": "26"
+      },
+      "evidence": " HLA-DR staining showed the presence of activated microglia in HS cases",
+      "key": "e42e3308f763d9d864ff0e26def6276a",
+      "line": 122,
+      "relation": "association",
+      "source": 0,
+      "target": 31
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Adaptive immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Baayen JC",
+          "Boer K",
+          "Gorter JA",
+          "Redeker S",
+          "Spliet WG",
+          "Troost D",
+          "Wadman WJ",
+          "da Silva FH",
+          "van Rijen PC",
+          "van Vliet EA"
+        ],
+        "date": "2007-06-01",
+        "first": "Aronica E",
+        "identifier": "17412602",
+        "journal": "Neurobiology of disease",
+        "last": "Gorter JA",
+        "name": "Complement activation in experimental and human temporal lobe epilepsy.",
+        "namespace": "pubmed",
+        "pages": "497-511",
+        "volume": "26"
+      },
+      "evidence": "The expression of CD59, a complement inhibitor at the level of the MAC, was increased in cells of the microglial/macrophage lineage present within the sclerotic hippocampus ",
+      "key": "9210b3d41a14e59b58887b4a8819632c",
+      "line": 136,
+      "relation": "association",
+      "source": 0,
+      "target": 25
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Adaptive immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Baayen JC",
+          "Boer K",
+          "Gorter JA",
+          "Redeker S",
+          "Spliet WG",
+          "Troost D",
+          "Wadman WJ",
+          "da Silva FH",
+          "van Rijen PC",
+          "van Vliet EA"
+        ],
+        "date": "2007-06-01",
+        "first": "Aronica E",
+        "identifier": "17412602",
+        "journal": "Neurobiology of disease",
+        "last": "Gorter JA",
+        "name": "Complement activation in experimental and human temporal lobe epilepsy.",
+        "namespace": "pubmed",
+        "pages": "497-511",
+        "volume": "26"
+      },
+      "evidence": "C1q and C3 gene products were significantly upregulated in patient material",
+      "key": "1e781c3ac3b5818f840ab6302946220f",
+      "line": 127,
+      "relation": "positiveCorrelation",
+      "source": 12,
+      "target": 31
+    },
+    {
+      "key": "646ef1ca8069b312414628ea27e08f33",
+      "relation": "partOf",
+      "source": 14,
+      "target": 12
+    },
+    {
+      "key": "17f4d682d07bb327eb36fbcf8cd86288",
+      "relation": "partOf",
+      "source": 15,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Adaptive immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Baayen JC",
+          "Boer K",
+          "Gorter JA",
+          "Redeker S",
+          "Spliet WG",
+          "Troost D",
+          "Wadman WJ",
+          "da Silva FH",
+          "van Rijen PC",
+          "van Vliet EA"
+        ],
+        "date": "2007-06-01",
+        "first": "Aronica E",
+        "identifier": "17412602",
+        "journal": "Neurobiology of disease",
+        "last": "Gorter JA",
+        "name": "Complement activation in experimental and human temporal lobe epilepsy.",
+        "namespace": "pubmed",
+        "pages": "497-511",
+        "volume": "26"
+      },
+      "evidence": "C1q and C3 gene products were significantly upregulated in patient material",
+      "key": "0981a6021c71256c3079f237f877a45f",
+      "line": 128,
+      "relation": "positiveCorrelation",
+      "source": 16,
+      "target": 31
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Adaptive immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Baayen JC",
+          "Boer K",
+          "Gorter JA",
+          "Redeker S",
+          "Spliet WG",
+          "Troost D",
+          "Wadman WJ",
+          "da Silva FH",
+          "van Rijen PC",
+          "van Vliet EA"
+        ],
+        "date": "2007-06-01",
+        "first": "Aronica E",
+        "identifier": "17412602",
+        "journal": "Neurobiology of disease",
+        "last": "Gorter JA",
+        "name": "Complement activation in experimental and human temporal lobe epilepsy.",
+        "namespace": "pubmed",
+        "pages": "497-511",
+        "volume": "26"
+      },
+      "evidence": "The expression of CD59, a complement inhibitor at the level of the MAC, was increased in cells of the microglial/macrophage lineage present within the sclerotic hippocampus ",
+      "key": "23ee0f71b882c824d22bf2dcad5d421d",
+      "line": 133,
+      "relation": "decreases",
+      "source": 25,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Adaptive immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Baayen JC",
+          "Boer K",
+          "Gorter JA",
+          "Redeker S",
+          "Spliet WG",
+          "Troost D",
+          "Wadman WJ",
+          "da Silva FH",
+          "van Rijen PC",
+          "van Vliet EA"
+        ],
+        "date": "2007-06-01",
+        "first": "Aronica E",
+        "identifier": "17412602",
+        "journal": "Neurobiology of disease",
+        "last": "Gorter JA",
+        "name": "Complement activation in experimental and human temporal lobe epilepsy.",
+        "namespace": "pubmed",
+        "pages": "497-511",
+        "volume": "26"
+      },
+      "evidence": "The expression of CD59, a complement inhibitor at the level of the MAC, was increased in cells of the microglial/macrophage lineage present within the sclerotic hippocampus ",
+      "key": "3e5f23901f8d097a8bcd40742aa5e58d",
+      "line": 134,
+      "relation": "decreases",
+      "source": 25,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Adaptive immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Baayen JC",
+          "Boer K",
+          "Gorter JA",
+          "Redeker S",
+          "Spliet WG",
+          "Troost D",
+          "Wadman WJ",
+          "da Silva FH",
+          "van Rijen PC",
+          "van Vliet EA"
+        ],
+        "date": "2007-06-01",
+        "first": "Aronica E",
+        "identifier": "17412602",
+        "journal": "Neurobiology of disease",
+        "last": "Gorter JA",
+        "name": "Complement activation in experimental and human temporal lobe epilepsy.",
+        "namespace": "pubmed",
+        "pages": "497-511",
+        "volume": "26"
+      },
+      "evidence": "The expression of CD59, a complement inhibitor at the level of the MAC, was increased in cells of the microglial/macrophage lineage present within the sclerotic hippocampus ",
+      "key": "30415f73e94144c160793d49823a2d9a",
+      "line": 135,
+      "relation": "positiveCorrelation",
+      "source": 25,
+      "target": 31
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Adaptive immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Baayen JC",
+          "Boer K",
+          "Gorter JA",
+          "Redeker S",
+          "Spliet WG",
+          "Troost D",
+          "Wadman WJ",
+          "da Silva FH",
+          "van Rijen PC",
+          "van Vliet EA"
+        ],
+        "date": "2007-06-01",
+        "first": "Aronica E",
+        "identifier": "17412602",
+        "journal": "Neurobiology of disease",
+        "last": "Gorter JA",
+        "name": "Complement activation in experimental and human temporal lobe epilepsy.",
+        "namespace": "pubmed",
+        "pages": "497-511",
+        "volume": "26"
+      },
+      "evidence": "The expression of CD59, a complement inhibitor at the level of the MAC, was increased in cells of the microglial/macrophage lineage present within the sclerotic hippocampus ",
+      "key": "a2a59df334d6100ba26a918f9d92904b",
+      "line": 136,
+      "relation": "association",
+      "source": 25,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Adaptive immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Baayen JC",
+          "Boer K",
+          "Gorter JA",
+          "Redeker S",
+          "Spliet WG",
+          "Troost D",
+          "Wadman WJ",
+          "da Silva FH",
+          "van Rijen PC",
+          "van Vliet EA"
+        ],
+        "date": "2007-06-01",
+        "first": "Aronica E",
+        "identifier": "17412602",
+        "journal": "Neurobiology of disease",
+        "last": "Gorter JA",
+        "name": "Complement activation in experimental and human temporal lobe epilepsy.",
+        "namespace": "pubmed",
+        "pages": "497-511",
+        "volume": "26"
+      },
+      "evidence": "In our previous microarray study in the rat we detected changes in the expression of several components of the classical pathway (C1q and C4), of the alternative pathway (Cfh) and of the common pathway (C3, C3ar1)",
+      "key": "cec91e4eada6c7bc3b30cc715ee13aa0",
+      "line": 141,
+      "relation": "positiveCorrelation",
+      "source": 13,
+      "target": 31
+    },
+    {
+      "key": "5bb2ab36e0ce9de351ede85168c3d313",
+      "relation": "partOf",
+      "source": 18,
+      "target": 13
+    },
+    {
+      "key": "75b59f9a77d569cf7faa8d4d5fe36c0a",
+      "relation": "partOf",
+      "source": 19,
+      "target": 13
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Adaptive immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Baayen JC",
+          "Boer K",
+          "Gorter JA",
+          "Redeker S",
+          "Spliet WG",
+          "Troost D",
+          "Wadman WJ",
+          "da Silva FH",
+          "van Rijen PC",
+          "van Vliet EA"
+        ],
+        "date": "2007-06-01",
+        "first": "Aronica E",
+        "identifier": "17412602",
+        "journal": "Neurobiology of disease",
+        "last": "Gorter JA",
+        "name": "Complement activation in experimental and human temporal lobe epilepsy.",
+        "namespace": "pubmed",
+        "pages": "497-511",
+        "volume": "26"
+      },
+      "evidence": "In our previous microarray study in the rat we detected changes in the expression of several components of the classical pathway (C1q and C4), of the alternative pathway (Cfh) and of the common pathway (C3, C3ar1)",
+      "key": "2dc5b27275d22d1de0c29cde84f10942",
+      "line": 142,
+      "relation": "positiveCorrelation",
+      "source": 26,
+      "target": 31
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Adaptive immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Baayen JC",
+          "Boer K",
+          "Gorter JA",
+          "Redeker S",
+          "Spliet WG",
+          "Troost D",
+          "Wadman WJ",
+          "da Silva FH",
+          "van Rijen PC",
+          "van Vliet EA"
+        ],
+        "date": "2007-06-01",
+        "first": "Aronica E",
+        "identifier": "17412602",
+        "journal": "Neurobiology of disease",
+        "last": "Gorter JA",
+        "name": "Complement activation in experimental and human temporal lobe epilepsy.",
+        "namespace": "pubmed",
+        "pages": "497-511",
+        "volume": "26"
+      },
+      "evidence": "In our previous microarray study in the rat we detected changes in the expression of several components of the classical pathway (C1q and C4), of the alternative pathway (Cfh) and of the common pathway (C3, C3ar1)",
+      "key": "67e451ce02fc1104bc39e595991bb5e2",
+      "line": 143,
+      "relation": "positiveCorrelation",
+      "source": 17,
+      "target": 31
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Adaptive immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Baayen JC",
+          "Boer K",
+          "Gorter JA",
+          "Redeker S",
+          "Spliet WG",
+          "Troost D",
+          "Wadman WJ",
+          "da Silva FH",
+          "van Rijen PC",
+          "van Vliet EA"
+        ],
+        "date": "2007-06-01",
+        "first": "Aronica E",
+        "identifier": "17412602",
+        "journal": "Neurobiology of disease",
+        "last": "Gorter JA",
+        "name": "Complement activation in experimental and human temporal lobe epilepsy.",
+        "namespace": "pubmed",
+        "pages": "497-511",
+        "volume": "26"
+      },
+      "evidence": "However, the reported changes suggest a reduced response of the immune system and inflammatory components (transient immunodeficiency) in patients receiving carbamazepine (Moreno-Ancillo et al., 2004) or reduced production of TNF-alpha and IL-6 and activation of NF-kappaB by sodium valproate in vitro (Ichiyama et al., 2000).",
+      "key": "c09c7589afd81f530d785f5a45a1b87f",
+      "line": 151,
+      "relation": "decreases",
+      "source": 1,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Adaptive immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Baayen JC",
+          "Boer K",
+          "Gorter JA",
+          "Redeker S",
+          "Spliet WG",
+          "Troost D",
+          "Wadman WJ",
+          "da Silva FH",
+          "van Rijen PC",
+          "van Vliet EA"
+        ],
+        "date": "2007-06-01",
+        "first": "Aronica E",
+        "identifier": "17412602",
+        "journal": "Neurobiology of disease",
+        "last": "Gorter JA",
+        "name": "Complement activation in experimental and human temporal lobe epilepsy.",
+        "namespace": "pubmed",
+        "pages": "497-511",
+        "volume": "26"
+      },
+      "evidence": "However, the reported changes suggest a reduced response of the immune system and inflammatory components (transient immunodeficiency) in patients receiving carbamazepine (Moreno-Ancillo et al., 2004) or reduced production of TNF-alpha and IL-6 and activation of NF-kappaB by sodium valproate in vitro (Ichiyama et al., 2000).",
+      "key": "7884cb8af4d42efd1392eb83d8aae92f",
+      "line": 152,
+      "relation": "decreases",
+      "source": 1,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Adaptive immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Baayen JC",
+          "Boer K",
+          "Gorter JA",
+          "Redeker S",
+          "Spliet WG",
+          "Troost D",
+          "Wadman WJ",
+          "da Silva FH",
+          "van Rijen PC",
+          "van Vliet EA"
+        ],
+        "date": "2007-06-01",
+        "first": "Aronica E",
+        "identifier": "17412602",
+        "journal": "Neurobiology of disease",
+        "last": "Gorter JA",
+        "name": "Complement activation in experimental and human temporal lobe epilepsy.",
+        "namespace": "pubmed",
+        "pages": "497-511",
+        "volume": "26"
+      },
+      "evidence": "However, the reported changes suggest a reduced response of the immune system and inflammatory components (transient immunodeficiency) in patients receiving carbamazepine (Moreno-Ancillo et al., 2004) or reduced production of TNF-alpha and IL-6 and activation of NF-kappaB by sodium valproate in vitro (Ichiyama et al., 2000).",
+      "key": "d77f4b3040599abd975bd3f1aea555d2",
+      "line": 153,
+      "relation": "decreases",
+      "source": 2,
+      "target": 28
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Adaptive immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Baayen JC",
+          "Boer K",
+          "Gorter JA",
+          "Redeker S",
+          "Spliet WG",
+          "Troost D",
+          "Wadman WJ",
+          "da Silva FH",
+          "van Rijen PC",
+          "van Vliet EA"
+        ],
+        "date": "2007-06-01",
+        "first": "Aronica E",
+        "identifier": "17412602",
+        "journal": "Neurobiology of disease",
+        "last": "Gorter JA",
+        "name": "Complement activation in experimental and human temporal lobe epilepsy.",
+        "namespace": "pubmed",
+        "pages": "497-511",
+        "volume": "26"
+      },
+      "evidence": "However, the reported changes suggest a reduced response of the immune system and inflammatory components (transient immunodeficiency) in patients receiving carbamazepine (Moreno-Ancillo et al., 2004) or reduced production of TNF-alpha and IL-6 and activation of NF-kappaB by sodium valproate in vitro (Ichiyama et al., 2000).",
+      "key": "f4c5e34e90716fd8f35e69ee5e61cfbd",
+      "line": 154,
+      "relation": "decreases",
+      "source": 2,
+      "target": 30
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Adaptive immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Baayen JC",
+          "Boer K",
+          "Gorter JA",
+          "Redeker S",
+          "Spliet WG",
+          "Troost D",
+          "Wadman WJ",
+          "da Silva FH",
+          "van Rijen PC",
+          "van Vliet EA"
+        ],
+        "date": "2007-06-01",
+        "first": "Aronica E",
+        "identifier": "17412602",
+        "journal": "Neurobiology of disease",
+        "last": "Gorter JA",
+        "name": "Complement activation in experimental and human temporal lobe epilepsy.",
+        "namespace": "pubmed",
+        "pages": "497-511",
+        "volume": "26"
+      },
+      "evidence": "However, the reported changes suggest a reduced response of the immune system and inflammatory components (transient immunodeficiency) in patients receiving carbamazepine (Moreno-Ancillo et al., 2004) or reduced production of TNF-alpha and IL-6 and activation of NF-kappaB by sodium valproate in vitro (Ichiyama et al., 2000).",
+      "key": "9f381cf87f48ae3953072067262c88c0",
+      "line": 155,
+      "relation": "decreases",
+      "source": 2,
+      "target": 29,
+      "target_modifier": {
+        "modifier": "Activity"
+      }
+    },
+    {
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Baayen JC",
+          "Boer K",
+          "Gorter JA",
+          "Redeker S",
+          "Spliet WG",
+          "Troost D",
+          "Wadman WJ",
+          "da Silva FH",
+          "van Rijen PC",
+          "van Vliet EA"
+        ],
+        "date": "2007-06-01",
+        "first": "Aronica E",
+        "identifier": "17412602",
+        "journal": "Neurobiology of disease",
+        "last": "Gorter JA",
+        "name": "Complement activation in experimental and human temporal lobe epilepsy.",
+        "namespace": "pubmed",
+        "pages": "497-511",
+        "volume": "26"
+      },
+      "evidence": " Thus, C5b-C9 expression could contribute to the persistent activation of microglial cells, observed within the sclerotic hippocampus of TLE patients.",
+      "key": "2cf9ef89b10a7b3d6b98e7f791951669",
+      "line": 161,
+      "relation": "positiveCorrelation",
+      "source": 8,
+      "target": 31
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(BRCO:Microglia)",
+      "concept": {
+        "name": "Microglia",
+        "namespace": "BRCO"
+      },
+      "function": "Abundance",
+      "id": "eaa45e1ee726d874f4fff1da77631f3c"
+    },
+    {
+      "bel": "a(CHEBI:carbamazepine)",
+      "concept": {
+        "name": "carbamazepine",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "28811420d0431d9669f98793276dc308"
+    },
+    {
+      "bel": "a(CHEBI:valproate)",
+      "concept": {
+        "name": "valproate",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "023a7e08e104ec8887e5131c9b644879"
+    },
+    {
+      "bel": "a(NIFT:\"CA1 of the hippocampus\")",
+      "concept": {
+        "name": "CA1 of the hippocampus",
+        "namespace": "NIFT"
+      },
+      "function": "Abundance",
+      "id": "bbbe083650494c6390293f6ea077c98f"
+    },
+    {
+      "bel": "a(NIFT:\"Hippocampal Formation\")",
+      "concept": {
+        "name": "Hippocampal Formation",
+        "namespace": "NIFT"
+      },
+      "function": "Abundance",
+      "id": "f5b2694490554242d20bcdf38a047ec3"
+    },
+    {
+      "bel": "a(UBERON:\"mossy fiber\")",
+      "concept": {
+        "name": "mossy fiber",
+        "namespace": "UBERON"
+      },
+      "function": "Abundance",
+      "id": "59def8acedd9a70f230f865931ec4292"
+    },
+    {
+      "bel": "bp(EPT:epileptogenesis)",
+      "concept": {
+        "name": "epileptogenesis",
+        "namespace": "EPT"
+      },
+      "function": "BiologicalProcess",
+      "id": "5bc33d9391c2ef56042b8890530f3ad4"
+    },
+    {
+      "bel": "bp(GOBP:\"complement activation\")",
+      "concept": {
+        "name": "complement activation",
+        "namespace": "GOBP"
+      },
+      "function": "BiologicalProcess",
+      "id": "61d561fae04f1d4c4fd013b1c6615246"
+    },
+    {
+      "bel": "bp(GOBP:\"microglial cell activation\")",
+      "concept": {
+        "name": "microglial cell activation",
+        "namespace": "GOBP"
+      },
+      "function": "BiologicalProcess",
+      "id": "a15c092ef2e85fa83cb7338ffc08568c"
+    },
+    {
+      "bel": "bp(PTS:\"immune response pathway\")",
+      "concept": {
+        "name": "immune response pathway",
+        "namespace": "PTS"
+      },
+      "function": "BiologicalProcess",
+      "id": "e1b9b7cd452bb03144774e10ef1466c9"
+    },
+    {
+      "bel": "bp(PTS:\"inflammatory response pathway\")",
+      "concept": {
+        "name": "inflammatory response pathway",
+        "namespace": "PTS"
+      },
+      "function": "BiologicalProcess",
+      "id": "fc2ee3dd7283cf2103a6782cab0025d8"
+    },
+    {
+      "bel": "complex(SCOMP:\"Membrane Attack Complex\")",
+      "concept": {
+        "name": "Membrane Attack Complex",
+        "namespace": "SCOMP"
+      },
+      "function": "Complex",
+      "id": "df0bc5221c9a8d086ed6ad93683478bc"
+    },
+    {
+      "bel": "complex(p(HGNC:C1QA), p(HGNC:C1QB))",
+      "function": "Complex",
+      "id": "9ef77edc11298c773ab86c21d6e39732",
+      "members": [
+        {
+          "bel": "p(HGNC:C1QA)",
+          "concept": {
+            "name": "C1QA",
+            "namespace": "HGNC"
+          },
+          "function": "Protein",
+          "id": "434b684ae308fe9386a9998e2b8882b9"
+        },
+        {
+          "bel": "p(HGNC:C1QB)",
+          "concept": {
+            "name": "C1QB",
+            "namespace": "HGNC"
+          },
+          "function": "Protein",
+          "id": "fc12474892771929cd375c271d49f18d"
+        }
+      ]
+    },
+    {
+      "bel": "complex(p(HGNC:C4A), p(HGNC:C4B))",
+      "function": "Complex",
+      "id": "e46920cd90df4fda59ed4a4d6138880d",
+      "members": [
+        {
+          "bel": "p(HGNC:C4A)",
+          "concept": {
+            "name": "C4A",
+            "namespace": "HGNC"
+          },
+          "function": "Protein",
+          "id": "504298b277f5a364ef1a3ec5cae991a9"
+        },
+        {
+          "bel": "p(HGNC:C4B)",
+          "concept": {
+            "name": "C4B",
+            "namespace": "HGNC"
+          },
+          "function": "Protein",
+          "id": "3d000199b6967655bb2e193c74d3ad0a"
+        }
+      ]
+    },
+    {
+      "bel": "p(HGNC:C1QA)",
+      "concept": {
+        "name": "C1QA",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "434b684ae308fe9386a9998e2b8882b9"
+    },
+    {
+      "bel": "p(HGNC:C1QB)",
+      "concept": {
+        "name": "C1QB",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "fc12474892771929cd375c271d49f18d"
+    },
+    {
+      "bel": "p(HGNC:C3)",
+      "concept": {
+        "name": "C3",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "26a8a2f1cb63e49c899e482f0bcf01f3"
+    },
+    {
+      "bel": "p(HGNC:C3AR1)",
+      "concept": {
+        "name": "C3AR1",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "c4e4254c697dfcbbdbb3303b2f64faee"
+    },
+    {
+      "bel": "p(HGNC:C4A)",
+      "concept": {
+        "name": "C4A",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "504298b277f5a364ef1a3ec5cae991a9"
+    },
+    {
+      "bel": "p(HGNC:C4B)",
+      "concept": {
+        "name": "C4B",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "3d000199b6967655bb2e193c74d3ad0a"
+    },
+    {
+      "bel": "p(HGNC:C5)",
+      "concept": {
+        "name": "C5",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "ec34a9521e14334ed6cb1f86d3afc3a0"
+    },
+    {
+      "bel": "p(HGNC:C7)",
+      "concept": {
+        "name": "C7",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "f5dcd926ad7877dcb140182eb0414f9a"
+    },
+    {
+      "bel": "p(HGNC:C8B)",
+      "concept": {
+        "name": "C8B",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "a1d3bb45c7d854e1bd966f74bc6a21d0"
+    },
+    {
+      "bel": "p(HGNC:C9)",
+      "concept": {
+        "name": "C9",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "112655931e01bba0342e7f7f9c86b44d"
+    },
+    {
+      "bel": "p(HGNC:CCL2)",
+      "concept": {
+        "name": "CCL2",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "2a1fddd8526478c2c7edadaa639bbe85"
+    },
+    {
+      "bel": "p(HGNC:CD59)",
+      "concept": {
+        "name": "CD59",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "1a2cb99b640f84eed33548681003af33"
+    },
+    {
+      "bel": "p(HGNC:CFH)",
+      "concept": {
+        "name": "CFH",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "afb9aa5abfd9d2c6fd6d71af95794009"
+    },
+    {
+      "bel": "p(HGNC:IL1B)",
+      "concept": {
+        "name": "IL1B",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "cca08112d9fcf1a31015f1dbfc30b04c"
+    },
+    {
+      "bel": "p(HGNC:IL6)",
+      "concept": {
+        "name": "IL6",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "8a1d3c4828c5416eba867c395cc65caa"
+    },
+    {
+      "bel": "p(HGNC:NFKB1)",
+      "concept": {
+        "name": "NFKB1",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "6e6f7419cc0edfa08d7d4c82eae0f4c4"
+    },
+    {
+      "bel": "p(HGNC:TNF)",
+      "concept": {
+        "name": "TNF",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "fdc1c1f5a73c3c992b6eb71ce9b6908e"
+    },
+    {
+      "bel": "path(MESHD:\"Epilepsy, Temporal Lobe\")",
+      "concept": {
+        "name": "Epilepsy, Temporal Lobe",
+        "namespace": "MESHD"
+      },
+      "function": "Pathology",
+      "id": "18d0a9bfb8776f6c01c3cd6933066c80"
+    },
+    {
+      "bel": "path(MESHD:Seizures)",
+      "concept": {
+        "name": "Seizures",
+        "namespace": "MESHD"
+      },
+      "function": "Pathology",
+      "id": "8fbe2d99d8be7144cb09ec0a77fd6466"
+    }
+  ]
+}

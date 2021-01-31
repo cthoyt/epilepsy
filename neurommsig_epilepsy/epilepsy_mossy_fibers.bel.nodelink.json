@@ -1,0 +1,2854 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_curie": [],
+    "annotation_list": {},
+    "annotation_miriam": [],
+    "annotation_pattern": {},
+    "annotation_url": {
+      "Species": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno",
+      "Subgraph": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/neurommsig/neurommsig-1.0.3.belanno"
+    },
+    "document_metadata": {
+      "authors": "Nora Filep, Anka Gueldenpfennig, Charles Tapley Hoyt, Daniel Domingo-Fernandez",
+      "contact": "nora.filep@gmail.com",
+      "copyright": "Copyright © 2012-2018 Fraunhofer SCAI, All rights reserved.",
+      "description": "A knowledge assembly of biological entities associated with mossy fibers and their relation to epilepsy.",
+      "licenses": "CC BY 4.0",
+      "name": "Epilepsy - Mossy Fibers",
+      "version": "1.0.0"
+    },
+    "namespace_pattern": {
+      "INCHI": "^((InChI=)?[^J][0-9BCOHNSOPrIFla+\\-\\(\\)\\\\\\/,pqbtmsih]{6,})$"
+    },
+    "namespace_url": {
+      "EPT": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/epilepsy-terminology/epilepsy-terminology-1.0.3.belns",
+      "GOBP": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go-biological-process/go-biological-process-20170511.belns",
+      "HGNC": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc-human-genes/hgnc-human-genes-20170511.belns",
+      "MESHD": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-diseases/mesh-diseases-20170511.belns",
+      "NIFT": "http://belief.scai.fraunhofer.de/openbel/repository/namespaces/NIFT.belns",
+      "PMIBP": "http://belief.scai.fraunhofer.de/BeliefDashboard/dicten/namespaces/pmibp.belns",
+      "UBERON": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/uberon/uberon-20170724.belns"
+    },
+    "path": "epilepsy_mossy_fibers.bel",
+    "pybel_version": "0.15.0"
+  },
+  "links": [
+    {
+      "annotations": {
+        "Species": [
+          {
+            "identifier": "10116",
+            "namespace": "Species"
+          }
+        ],
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Arshadmansab MF",
+          "Ermolinsky BS",
+          "Francisco S",
+          "Garrido-Sanabria ER",
+          "Herrera B",
+          "Otalora LF"
+        ],
+        "date": "2008-11-13",
+        "first": "Garrido-Sanabria ER",
+        "identifier": "18804094",
+        "journal": "Brain research",
+        "last": "Ermolinsky BS",
+        "name": "Impaired expression and function of group II metabotropic glutamate receptors in pilocarpine-treated chronically epileptic rats.",
+        "namespace": "pubmed",
+        "pages": "165-76",
+        "volume": "1240"
+      },
+      "evidence": "A down-regulation of mGlu2/3 protein expression at the mossy fiber pathway was associated with a significant reduction in mGlu2/3 protein expression in the hippocampus and cortex of chronically epileptic rats.",
+      "key": "db4e342fed0a05ffc2e80ca38d52c76b",
+      "line": 66,
+      "relation": "association",
+      "source": 20,
+      "target": 35
+    },
+    {
+      "annotations": {
+        "Species": [
+          {
+            "identifier": "10116",
+            "namespace": "Species"
+          }
+        ],
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Arshadmansab MF",
+          "Ermolinsky BS",
+          "Francisco S",
+          "Garrido-Sanabria ER",
+          "Herrera B",
+          "Otalora LF"
+        ],
+        "date": "2008-11-13",
+        "first": "Garrido-Sanabria ER",
+        "identifier": "18804094",
+        "journal": "Brain research",
+        "last": "Ermolinsky BS",
+        "name": "Impaired expression and function of group II metabotropic glutamate receptors in pilocarpine-treated chronically epileptic rats.",
+        "namespace": "pubmed",
+        "pages": "165-76",
+        "volume": "1240"
+      },
+      "evidence": "A down-regulation of mGlu2/3 protein expression at the mossy fiber pathway was associated with a significant reduction in mGlu2/3 protein expression in the hippocampus and cortex of chronically epileptic rats.",
+      "key": "a84a139adb556a5a84b0866635acf7dd",
+      "line": 67,
+      "relation": "association",
+      "source": 20,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "Species": [
+          {
+            "identifier": "10116",
+            "namespace": "Species"
+          }
+        ],
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Arshadmansab MF",
+          "Ermolinsky BS",
+          "Francisco S",
+          "Garrido-Sanabria ER",
+          "Herrera B",
+          "Otalora LF"
+        ],
+        "date": "2008-11-13",
+        "first": "Garrido-Sanabria ER",
+        "identifier": "18804094",
+        "journal": "Brain research",
+        "last": "Ermolinsky BS",
+        "name": "Impaired expression and function of group II metabotropic glutamate receptors in pilocarpine-treated chronically epileptic rats.",
+        "namespace": "pubmed",
+        "pages": "165-76",
+        "volume": "1240"
+      },
+      "evidence": "A down-regulation of mGlu2/3 protein expression at the mossy fiber pathway was associated with a significant reduction in mGlu2/3 protein expression in the hippocampus and cortex of chronically epileptic rats.",
+      "key": "a31ada4d566ae8ccafafc53f518095b8",
+      "line": 66,
+      "relation": "association",
+      "source": 35,
+      "target": 20
+    },
+    {
+      "annotations": {
+        "Species": [
+          {
+            "identifier": "10116",
+            "namespace": "Species"
+          }
+        ],
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Arshadmansab MF",
+          "Ermolinsky BS",
+          "Francisco S",
+          "Garrido-Sanabria ER",
+          "Herrera B",
+          "Otalora LF"
+        ],
+        "date": "2008-11-13",
+        "first": "Garrido-Sanabria ER",
+        "identifier": "18804094",
+        "journal": "Brain research",
+        "last": "Ermolinsky BS",
+        "name": "Impaired expression and function of group II metabotropic glutamate receptors in pilocarpine-treated chronically epileptic rats.",
+        "namespace": "pubmed",
+        "pages": "165-76",
+        "volume": "1240"
+      },
+      "evidence": "A down-regulation of mGlu2/3 protein expression at the mossy fiber pathway was associated with a significant reduction in mGlu2/3 protein expression in the hippocampus and cortex of chronically epileptic rats.",
+      "key": "a9c2dc32c2b85cc497fa68847d4c9620",
+      "line": 68,
+      "relation": "association",
+      "source": 35,
+      "target": 21
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Assirati JA Jr",
+          "Carlotti CG Jr",
+          "Hallak JE",
+          "Kandratavicius L",
+          "Leite JP",
+          "Monteiro MR"
+        ],
+        "date": "2013-11-01",
+        "first": "Kandratavicius L",
+        "identifier": "24128677",
+        "journal": "Journal of neuropathology and experimental neurology",
+        "last": "Leite JP",
+        "name": "Neurotrophins in mesial temporal lobe epilepsy with and without psychiatric comorbidities.",
+        "namespace": "pubmed",
+        "pages": "1029-42",
+        "volume": "72"
+      },
+      "evidence": " Mossy fiber sprouting correlated with granular layer NGF immunoreactivity and seizure frequency.",
+      "key": "36fe4289b1dca1d077820f4a42213852",
+      "line": 109,
+      "relation": "positiveCorrelation",
+      "source": 35,
+      "target": 2,
+      "target_modifier": {
+        "effect": {
+          "name": "sprouting",
+          "namespace": "EPT"
+        },
+        "modifier": "Activity"
+      }
+    },
+    {
+      "annotations": {
+        "Species": [
+          {
+            "identifier": "10116",
+            "namespace": "Species"
+          }
+        ],
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Arshadmansab MF",
+          "Ermolinsky BS",
+          "Francisco S",
+          "Garrido-Sanabria ER",
+          "Herrera B",
+          "Otalora LF"
+        ],
+        "date": "2008-11-13",
+        "first": "Garrido-Sanabria ER",
+        "identifier": "18804094",
+        "journal": "Brain research",
+        "last": "Ermolinsky BS",
+        "name": "Impaired expression and function of group II metabotropic glutamate receptors in pilocarpine-treated chronically epileptic rats.",
+        "namespace": "pubmed",
+        "pages": "165-76",
+        "volume": "1240"
+      },
+      "evidence": "A down-regulation of mGlu2/3 protein expression at the mossy fiber pathway was associated with a significant reduction in mGlu2/3 protein expression in the hippocampus and cortex of chronically epileptic rats.",
+      "key": "4ba8758357390736a3c8e8ada8c7417a",
+      "line": 67,
+      "relation": "association",
+      "source": 1,
+      "target": 20
+    },
+    {
+      "annotations": {
+        "Species": [
+          {
+            "identifier": "10116",
+            "namespace": "Species"
+          }
+        ],
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Arshadmansab MF",
+          "Ermolinsky BS",
+          "Francisco S",
+          "Garrido-Sanabria ER",
+          "Herrera B",
+          "Otalora LF"
+        ],
+        "date": "2008-11-13",
+        "first": "Garrido-Sanabria ER",
+        "identifier": "18804094",
+        "journal": "Brain research",
+        "last": "Ermolinsky BS",
+        "name": "Impaired expression and function of group II metabotropic glutamate receptors in pilocarpine-treated chronically epileptic rats.",
+        "namespace": "pubmed",
+        "pages": "165-76",
+        "volume": "1240"
+      },
+      "evidence": "A down-regulation of mGlu2/3 protein expression at the mossy fiber pathway was associated with a significant reduction in mGlu2/3 protein expression in the hippocampus and cortex of chronically epileptic rats.",
+      "key": "0da3cd02fce393ebed61d2ca81485d52",
+      "line": 69,
+      "relation": "association",
+      "source": 1,
+      "target": 21
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Chen YC",
+          "Huang YG",
+          "Lin H",
+          "Wen XN",
+          "Wu LW"
+        ],
+        "date": "2007-01-30",
+        "first": "Lin H",
+        "identifier": "17456365",
+        "journal": "Zhonghua yi xue za zhi",
+        "last": "Wen XN",
+        "name": "[Correlation between hippocampal mossy fiber sprouting and synaptic reorganization and mechanisms of temporal lobe epilepsy].",
+        "namespace": "pubmed",
+        "pages": "341-4",
+        "volume": "87"
+      },
+      "evidence": " To explore the effects of the ultrastructural features of sprouted mossy fiber synapses in the mechanism of temporal lobe epilepsy. The time course of the increase of netrin-1 mRNA in the dentate granule cell layers was correlated with the time course of mossy fiber sprouting and synaptic reorganization in hippocampus. The axon guidance molecule- netrin-1 plays an important role in the process of mossy fiber axonal outgrowth and synaptogenesis in the hippocampal dentate gyrus.",
+      "key": "f4a53df2e2e498efaf59776c07ac9759",
+      "line": 122,
+      "relation": "association",
+      "source": 1,
+      "target": 26
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Jiang YW",
+          "Jin MF",
+          "Ni H",
+          "Tao LY",
+          "Wu XR"
+        ],
+        "date": "2009-02-10",
+        "first": "Ni H",
+        "identifier": "19059322",
+        "journal": "Toxicology letters",
+        "last": "Wu XR",
+        "name": "ZnT-1, ZnT-3, CaMK II, PRG-1 expressions in hippocampus following neonatal seizure-induced cognitive deficit in rats.",
+        "namespace": "pubmed",
+        "pages": "145-50",
+        "volume": "184"
+      },
+      "evidence": " Our results suggest that the long-term adverse effects of recurrent neonatal seizures on cognition and mossy fiber sprouting may be associated with the down-regulated expression of ZnT-1 and CaMK II in hippocampus.",
+      "key": "22193e10986e510dc7f38de56349e109",
+      "line": 165,
+      "relation": "association",
+      "source": 1,
+      "target": 30
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Jiang YW",
+          "Jin MF",
+          "Ni H",
+          "Tao LY",
+          "Wu XR"
+        ],
+        "date": "2009-02-10",
+        "first": "Ni H",
+        "identifier": "19059322",
+        "journal": "Toxicology letters",
+        "last": "Wu XR",
+        "name": "ZnT-1, ZnT-3, CaMK II, PRG-1 expressions in hippocampus following neonatal seizure-induced cognitive deficit in rats.",
+        "namespace": "pubmed",
+        "pages": "145-50",
+        "volume": "184"
+      },
+      "evidence": " Our results suggest that the long-term adverse effects of recurrent neonatal seizures on cognition and mossy fiber sprouting may be associated with the down-regulated expression of ZnT-1 and CaMK II in hippocampus.",
+      "key": "3139133e885f7a6042497e61872a89eb",
+      "line": 166,
+      "relation": "association",
+      "source": 1,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "Species": [
+          {
+            "identifier": "10116",
+            "namespace": "Species"
+          }
+        ],
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Arshadmansab MF",
+          "Ermolinsky BS",
+          "Francisco S",
+          "Garrido-Sanabria ER",
+          "Herrera B",
+          "Otalora LF"
+        ],
+        "date": "2008-11-13",
+        "first": "Garrido-Sanabria ER",
+        "identifier": "18804094",
+        "journal": "Brain research",
+        "last": "Ermolinsky BS",
+        "name": "Impaired expression and function of group II metabotropic glutamate receptors in pilocarpine-treated chronically epileptic rats.",
+        "namespace": "pubmed",
+        "pages": "165-76",
+        "volume": "1240"
+      },
+      "evidence": "A down-regulation of mGlu2/3 protein expression at the mossy fiber pathway was associated with a significant reduction in mGlu2/3 protein expression in the hippocampus and cortex of chronically epileptic rats.",
+      "key": "776d571a2a14fcc3e91103f0f22d3146",
+      "line": 68,
+      "relation": "association",
+      "source": 21,
+      "target": 35
+    },
+    {
+      "annotations": {
+        "Species": [
+          {
+            "identifier": "10116",
+            "namespace": "Species"
+          }
+        ],
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Arshadmansab MF",
+          "Ermolinsky BS",
+          "Francisco S",
+          "Garrido-Sanabria ER",
+          "Herrera B",
+          "Otalora LF"
+        ],
+        "date": "2008-11-13",
+        "first": "Garrido-Sanabria ER",
+        "identifier": "18804094",
+        "journal": "Brain research",
+        "last": "Ermolinsky BS",
+        "name": "Impaired expression and function of group II metabotropic glutamate receptors in pilocarpine-treated chronically epileptic rats.",
+        "namespace": "pubmed",
+        "pages": "165-76",
+        "volume": "1240"
+      },
+      "evidence": "A down-regulation of mGlu2/3 protein expression at the mossy fiber pathway was associated with a significant reduction in mGlu2/3 protein expression in the hippocampus and cortex of chronically epileptic rats.",
+      "key": "2a78f83c83a50b35534fd86cf02e5a0e",
+      "line": 69,
+      "relation": "association",
+      "source": 21,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Feng L",
+          "Jiang T",
+          "Liu R",
+          "Long X",
+          "Ma Y",
+          "Tang W",
+          "Tian F",
+          "Xiao B",
+          "Yuan C",
+          "Zeng C",
+          "Zhou P"
+        ],
+        "date": "2015-08-01",
+        "first": "Zeng C",
+        "identifier": "25213992",
+        "journal": "Molecular neurobiology",
+        "last": "Tian F",
+        "name": "Upregulation and Diverse Roles of TRPC3 and TRPC6 in Synaptic Reorganization of the Mossy Fiber Pathway in Temporal Lobe Epilepsy.",
+        "namespace": "pubmed",
+        "pages": "562-72",
+        "volume": "52"
+      },
+      "evidence": " Our results indicate that TRPC3 and TRPC6 participate diversely in synaptic reorganization in the mossy fiber pathway in TLE.",
+      "key": "39e4338faf3ed338c7e79b213e5d1026",
+      "line": 77,
+      "relation": "association",
+      "source": 31,
+      "target": 33
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Feng L",
+          "Jiang T",
+          "Liu R",
+          "Long X",
+          "Ma Y",
+          "Tang W",
+          "Tian F",
+          "Xiao B",
+          "Yuan C",
+          "Zeng C",
+          "Zhou P"
+        ],
+        "date": "2015-08-01",
+        "first": "Zeng C",
+        "identifier": "25213992",
+        "journal": "Molecular neurobiology",
+        "last": "Tian F",
+        "name": "Upregulation and Diverse Roles of TRPC3 and TRPC6 in Synaptic Reorganization of the Mossy Fiber Pathway in Temporal Lobe Epilepsy.",
+        "namespace": "pubmed",
+        "pages": "562-72",
+        "volume": "52"
+      },
+      "evidence": " Our results indicate that TRPC3 and TRPC6 participate diversely in synaptic reorganization in the mossy fiber pathway in TLE.",
+      "key": "a8e3c1d0ed906b35e136f5d0f3e0fed3",
+      "line": 77,
+      "relation": "association",
+      "source": 33,
+      "target": 31
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Feng L",
+          "Jiang T",
+          "Liu R",
+          "Long X",
+          "Ma Y",
+          "Tang W",
+          "Tian F",
+          "Xiao B",
+          "Yuan C",
+          "Zeng C",
+          "Zhou P"
+        ],
+        "date": "2015-08-01",
+        "first": "Zeng C",
+        "identifier": "25213992",
+        "journal": "Molecular neurobiology",
+        "last": "Tian F",
+        "name": "Upregulation and Diverse Roles of TRPC3 and TRPC6 in Synaptic Reorganization of the Mossy Fiber Pathway in Temporal Lobe Epilepsy.",
+        "namespace": "pubmed",
+        "pages": "562-72",
+        "volume": "52"
+      },
+      "evidence": " Our results indicate that TRPC3 and TRPC6 participate diversely in synaptic reorganization in the mossy fiber pathway in TLE.",
+      "key": "adfb186f517f39f31a3019dc804e0de8",
+      "line": 78,
+      "relation": "association",
+      "source": 33,
+      "target": 32
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Feng L",
+          "Jiang T",
+          "Liu R",
+          "Long X",
+          "Ma Y",
+          "Tang W",
+          "Tian F",
+          "Xiao B",
+          "Yuan C",
+          "Zeng C",
+          "Zhou P"
+        ],
+        "date": "2015-08-01",
+        "first": "Zeng C",
+        "identifier": "25213992",
+        "journal": "Molecular neurobiology",
+        "last": "Tian F",
+        "name": "Upregulation and Diverse Roles of TRPC3 and TRPC6 in Synaptic Reorganization of the Mossy Fiber Pathway in Temporal Lobe Epilepsy.",
+        "namespace": "pubmed",
+        "pages": "562-72",
+        "volume": "52"
+      },
+      "evidence": " Our results indicate that TRPC3 and TRPC6 participate diversely in synaptic reorganization in the mossy fiber pathway in TLE.",
+      "key": "35d547a8b8f13d95f4cd55ebfbb27cdb",
+      "line": 78,
+      "relation": "association",
+      "source": 32,
+      "target": 33
+    },
+    {
+      "annotations": {
+        "Species": [
+          {
+            "identifier": "10116",
+            "namespace": "Species"
+          }
+        ],
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Brown A",
+          "Fahnestock M",
+          "Gerlai R",
+          "Li S",
+          "Racine RJ",
+          "Xu B"
+        ],
+        "date": "2003-12-01",
+        "first": "Xu B",
+        "identifier": "14697663",
+        "journal": "Molecular and cellular neurosciences",
+        "last": "Racine RJ",
+        "name": "EphA/ephrin-A interactions regulate epileptogenesis and activity-dependent axonal sprouting in adult rats.",
+        "namespace": "pubmed",
+        "pages": "984-99",
+        "volume": "24"
+      },
+      "evidence": "We show that the ligand ephrin-A3 and the receptor EphA5 are expressed in complementary gradients in the adult rat mossy fiber system.",
+      "key": "d88428d6e7bb1c7db389e1ea11f8af3d",
+      "line": 87,
+      "relation": "association",
+      "source": 14,
+      "target": 2,
+      "target_modifier": {
+        "effect": {
+          "name": "sprouting",
+          "namespace": "EPT"
+        },
+        "modifier": "Activity"
+      }
+    },
+    {
+      "annotations": {
+        "Species": [
+          {
+            "identifier": "10116",
+            "namespace": "Species"
+          }
+        ],
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Brown A",
+          "Fahnestock M",
+          "Gerlai R",
+          "Li S",
+          "Racine RJ",
+          "Xu B"
+        ],
+        "date": "2003-12-01",
+        "first": "Xu B",
+        "identifier": "14697663",
+        "journal": "Molecular and cellular neurosciences",
+        "last": "Racine RJ",
+        "name": "EphA/ephrin-A interactions regulate epileptogenesis and activity-dependent axonal sprouting in adult rats.",
+        "namespace": "pubmed",
+        "pages": "984-99",
+        "volume": "24"
+      },
+      "evidence": "We show that the ligand ephrin-A3 and the receptor EphA5 are expressed in complementary gradients in the adult rat mossy fiber system.",
+      "key": "ef47e54c966ecdd2f2648bd516270580",
+      "line": 87,
+      "relation": "association",
+      "source": 2,
+      "source_modifier": {
+        "effect": {
+          "name": "sprouting",
+          "namespace": "EPT"
+        },
+        "modifier": "Activity"
+      },
+      "target": 14
+    },
+    {
+      "annotations": {
+        "Species": [
+          {
+            "identifier": "10116",
+            "namespace": "Species"
+          }
+        ],
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Brown A",
+          "Fahnestock M",
+          "Gerlai R",
+          "Li S",
+          "Racine RJ",
+          "Xu B"
+        ],
+        "date": "2003-12-01",
+        "first": "Xu B",
+        "identifier": "14697663",
+        "journal": "Molecular and cellular neurosciences",
+        "last": "Racine RJ",
+        "name": "EphA/ephrin-A interactions regulate epileptogenesis and activity-dependent axonal sprouting in adult rats.",
+        "namespace": "pubmed",
+        "pages": "984-99",
+        "volume": "24"
+      },
+      "evidence": "We show that the ligand ephrin-A3 and the receptor EphA5 are expressed in complementary gradients in the adult rat mossy fiber system.",
+      "key": "ad4698c0a75eef6bc09ef4c0b0430bb3",
+      "line": 88,
+      "relation": "association",
+      "source": 2,
+      "source_modifier": {
+        "effect": {
+          "name": "sprouting",
+          "namespace": "EPT"
+        },
+        "modifier": "Activity"
+      },
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Assirati JA Jr",
+          "Carlotti CG Jr",
+          "Hallak JE",
+          "Kandratavicius L",
+          "Leite JP",
+          "Monteiro MR"
+        ],
+        "date": "2013-11-01",
+        "first": "Kandratavicius L",
+        "identifier": "24128677",
+        "journal": "Journal of neuropathology and experimental neurology",
+        "last": "Leite JP",
+        "name": "Neurotrophins in mesial temporal lobe epilepsy with and without psychiatric comorbidities.",
+        "namespace": "pubmed",
+        "pages": "1029-42",
+        "volume": "72"
+      },
+      "evidence": " Mossy fiber sprouting correlated with granular layer NGF immunoreactivity and seizure frequency.",
+      "key": "83a46af82e924a5afa95d93b635ff438",
+      "line": 108,
+      "relation": "positiveCorrelation",
+      "source": 2,
+      "source_modifier": {
+        "effect": {
+          "name": "sprouting",
+          "namespace": "EPT"
+        },
+        "modifier": "Activity"
+      },
+      "target": 23
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Assirati JA Jr",
+          "Carlotti CG Jr",
+          "Hallak JE",
+          "Kandratavicius L",
+          "Leite JP",
+          "Monteiro MR"
+        ],
+        "date": "2013-11-01",
+        "first": "Kandratavicius L",
+        "identifier": "24128677",
+        "journal": "Journal of neuropathology and experimental neurology",
+        "last": "Leite JP",
+        "name": "Neurotrophins in mesial temporal lobe epilepsy with and without psychiatric comorbidities.",
+        "namespace": "pubmed",
+        "pages": "1029-42",
+        "volume": "72"
+      },
+      "evidence": " Mossy fiber sprouting correlated with granular layer NGF immunoreactivity and seizure frequency.",
+      "key": "bcb6b6bdd6d09cd29804dc88c58a9730",
+      "line": 109,
+      "relation": "positiveCorrelation",
+      "source": 2,
+      "source_modifier": {
+        "effect": {
+          "name": "sprouting",
+          "namespace": "EPT"
+        },
+        "modifier": "Activity"
+      },
+      "target": 35
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Chen YC",
+          "Huang YG",
+          "Lin H",
+          "Wen XN",
+          "Wu LW"
+        ],
+        "date": "2007-01-30",
+        "first": "Lin H",
+        "identifier": "17456365",
+        "journal": "Zhonghua yi xue za zhi",
+        "last": "Wen XN",
+        "name": "[Correlation between hippocampal mossy fiber sprouting and synaptic reorganization and mechanisms of temporal lobe epilepsy].",
+        "namespace": "pubmed",
+        "pages": "341-4",
+        "volume": "87"
+      },
+      "evidence": " To explore the effects of the ultrastructural features of sprouted mossy fiber synapses in the mechanism of temporal lobe epilepsy. The time course of the increase of netrin-1 mRNA in the dentate granule cell layers was correlated with the time course of mossy fiber sprouting and synaptic reorganization in hippocampus. The axon guidance molecule- netrin-1 plays an important role in the process of mossy fiber axonal outgrowth and synaptogenesis in the hippocampal dentate gyrus.",
+      "key": "2675e95f926c640e27ffca6511fec8e5",
+      "line": 119,
+      "relation": "positiveCorrelation",
+      "source": 2,
+      "source_modifier": {
+        "effect": {
+          "name": "sprouting",
+          "namespace": "EPT"
+        },
+        "modifier": "Activity"
+      },
+      "target": 26
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Longo B",
+          "Mello LE",
+          "Vezzani A"
+        ],
+        "date": "2005-01-01",
+        "first": "Longo B",
+        "identifier": "15987266",
+        "journal": "Epilepsia",
+        "last": "Mello LE",
+        "name": "Growth-associated protein 43 expression in hippocampal molecular layer of chronic epileptic rats treated with cycloheximide.",
+        "namespace": "pubmed",
+        "pages": "125-8",
+        "volume": "46 Suppl 5"
+      },
+      "evidence": "GAP43 has been thought to be linked with mossy fiber sprouting (MFS) in various experimental models of epilepsy. ",
+      "key": "08a8375b60c66439a8050ac525d40260",
+      "line": 145,
+      "relation": "association",
+      "source": 2,
+      "source_modifier": {
+        "effect": {
+          "name": "sprouting",
+          "namespace": "EPT"
+        },
+        "modifier": "Activity"
+      },
+      "target": 17
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Shetty AK",
+          "Shetty GA",
+          "Zaman V"
+        ],
+        "date": "2003-10-01",
+        "first": "Shetty AK",
+        "identifier": "12969262",
+        "journal": "Journal of neurochemistry",
+        "last": "Shetty GA",
+        "name": "Hippocampal neurotrophin levels in a kainate model of temporal lobe epilepsy: a lack of correlation between brain-derived neurotrophic factor content and progression of aberrant dentate mossy fiber sprouting.",
+        "namespace": "pubmed",
+        "pages": "147-59",
+        "volume": "87"
+      },
+      "evidence": "Taken together, these results suggest that the period of robust mossy fiber sprouting does not correlate with the phase of post-lesion BDNF upregulation. Rather, it shows a relationship with the time of upregulation of neurotrophins NGF and NT-3.",
+      "key": "e26ba9b02557f8baa84c69be072dd50a",
+      "line": 154,
+      "relation": "positiveCorrelation",
+      "source": 2,
+      "source_modifier": {
+        "effect": {
+          "name": "sprouting",
+          "namespace": "EPT"
+        },
+        "modifier": "Activity"
+      },
+      "target": 25
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Jiang YW",
+          "Jin MF",
+          "Ni H",
+          "Tao LY",
+          "Wu XR"
+        ],
+        "date": "2009-02-10",
+        "first": "Ni H",
+        "identifier": "19059322",
+        "journal": "Toxicology letters",
+        "last": "Wu XR",
+        "name": "ZnT-1, ZnT-3, CaMK II, PRG-1 expressions in hippocampus following neonatal seizure-induced cognitive deficit in rats.",
+        "namespace": "pubmed",
+        "pages": "145-50",
+        "volume": "184"
+      },
+      "evidence": " Our results suggest that the long-term adverse effects of recurrent neonatal seizures on cognition and mossy fiber sprouting may be associated with the down-regulated expression of ZnT-1 and CaMK II in hippocampus.",
+      "key": "708734297c7a357549baaff61272129e",
+      "line": 163,
+      "relation": "negativeCorrelation",
+      "source": 2,
+      "source_modifier": {
+        "effect": {
+          "name": "sprouting",
+          "namespace": "EPT"
+        },
+        "modifier": "Activity"
+      },
+      "target": 30
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Jiang YW",
+          "Jin MF",
+          "Ni H",
+          "Tao LY",
+          "Wu XR"
+        ],
+        "date": "2009-02-10",
+        "first": "Ni H",
+        "identifier": "19059322",
+        "journal": "Toxicology letters",
+        "last": "Wu XR",
+        "name": "ZnT-1, ZnT-3, CaMK II, PRG-1 expressions in hippocampus following neonatal seizure-induced cognitive deficit in rats.",
+        "namespace": "pubmed",
+        "pages": "145-50",
+        "volume": "184"
+      },
+      "evidence": " Our results suggest that the long-term adverse effects of recurrent neonatal seizures on cognition and mossy fiber sprouting may be associated with the down-regulated expression of ZnT-1 and CaMK II in hippocampus.",
+      "key": "d172c4d01f6f071cc7a9298978ba4484",
+      "line": 164,
+      "relation": "negativeCorrelation",
+      "source": 2,
+      "source_modifier": {
+        "effect": {
+          "name": "sprouting",
+          "namespace": "EPT"
+        },
+        "modifier": "Activity"
+      },
+      "target": 10
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Berto E",
+          "Bovolenta R",
+          "Fabene PF",
+          "Marconi P",
+          "Marzola A",
+          "Navarro Mora G",
+          "Paradiso B",
+          "Simonato M",
+          "Su T",
+          "Zucchini S"
+        ],
+        "date": "2011-03-01",
+        "first": "Paradiso B",
+        "identifier": "21269288",
+        "journal": "Epilepsia",
+        "last": "Simonato M",
+        "name": "Localized overexpression of FGF-2 and BDNF in hippocampus reduces mossy fiber sprouting and spontaneous seizures up to 4 weeks after pilocarpine-induced status epilepticus.",
+        "namespace": "pubmed",
+        "pages": "572-8",
+        "volume": "52"
+      },
+      "evidence": "These data suggest that the supplementation of FGF-2 and BDNF in an epileptogenic hippocampus may prevent epileptogenesis by decreasing neuronal loss and mossy fiber sprouting, that is, reducing some forms of circuit reorganization.",
+      "key": "520fb9fc51d0058266351ddb732cb0e2",
+      "line": 177,
+      "relation": "increases",
+      "source": 2,
+      "source_modifier": {
+        "effect": {
+          "name": "sprouting",
+          "namespace": "EPT"
+        },
+        "modifier": "Activity"
+      },
+      "target": 3
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Beck H",
+          "Blümcke I",
+          "Elger CE",
+          "Jeub M",
+          "Lie A"
+        ],
+        "date": "1999-01-01",
+        "first": "Jeub M",
+        "identifier": "10579209",
+        "journal": "Neuroscience",
+        "last": "Beck H",
+        "name": "Loss of dynorphin-mediated inhibition of voltage-dependent Ca2+ currents in hippocampal granule cells isolated from epilepsy patients is associated with mossy fiber sprouting.",
+        "namespace": "pubmed",
+        "pages": "465-71",
+        "volume": "94"
+      },
+      "evidence": "Our data suggest that a protective mechanism exerted by dynorphin release and activation of kappa receptors may be lost in hippocampi with recurrent mossy fiber sprouting.",
+      "key": "057ee386ad4983ded54fd8d25ea5b9c5",
+      "line": 186,
+      "relation": "association",
+      "source": 2,
+      "source_modifier": {
+        "effect": {
+          "name": "sprouting",
+          "namespace": "EPT"
+        },
+        "modifier": "Activity"
+      },
+      "target": 28
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Beck H",
+          "Blümcke I",
+          "Elger CE",
+          "Jeub M",
+          "Lie A"
+        ],
+        "date": "1999-01-01",
+        "first": "Jeub M",
+        "identifier": "10579209",
+        "journal": "Neuroscience",
+        "last": "Beck H",
+        "name": "Loss of dynorphin-mediated inhibition of voltage-dependent Ca2+ currents in hippocampal granule cells isolated from epilepsy patients is associated with mossy fiber sprouting.",
+        "namespace": "pubmed",
+        "pages": "465-71",
+        "volume": "94"
+      },
+      "evidence": "Our data suggest that a protective mechanism exerted by dynorphin release and activation of kappa receptors may be lost in hippocampi with recurrent mossy fiber sprouting.",
+      "key": "cda335eb3c9eccfe851743f1e56431a3",
+      "line": 187,
+      "relation": "association",
+      "source": 2,
+      "source_modifier": {
+        "effect": {
+          "name": "sprouting",
+          "namespace": "EPT"
+        },
+        "modifier": "Activity"
+      },
+      "target": 29
+    },
+    {
+      "annotations": {
+        "Species": [
+          {
+            "identifier": "10116",
+            "namespace": "Species"
+          }
+        ],
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Brown A",
+          "Fahnestock M",
+          "Gerlai R",
+          "Li S",
+          "Racine RJ",
+          "Xu B"
+        ],
+        "date": "2003-12-01",
+        "first": "Xu B",
+        "identifier": "14697663",
+        "journal": "Molecular and cellular neurosciences",
+        "last": "Racine RJ",
+        "name": "EphA/ephrin-A interactions regulate epileptogenesis and activity-dependent axonal sprouting in adult rats.",
+        "namespace": "pubmed",
+        "pages": "984-99",
+        "volume": "24"
+      },
+      "evidence": "We show that the ligand ephrin-A3 and the receptor EphA5 are expressed in complementary gradients in the adult rat mossy fiber system.",
+      "key": "696d1d42a2fe362edb0b3ef366787c86",
+      "line": 88,
+      "relation": "association",
+      "source": 15,
+      "target": 2,
+      "target_modifier": {
+        "effect": {
+          "name": "sprouting",
+          "namespace": "EPT"
+        },
+        "modifier": "Activity"
+      }
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Barksdale D",
+          "Bausch SB",
+          "Dong Y",
+          "Galdzicki Z",
+          "Rittase WB"
+        ],
+        "date": "2014-05-01",
+        "first": "Rittase WB",
+        "identifier": "24769103",
+        "journal": "Molecular and cellular neurosciences",
+        "last": "Bausch SB",
+        "name": "Dynorphin up-regulation in the dentate granule cell mossy fiber pathway following chronic inhibition of GluN2B-containing NMDAR is associated with increased CREB (Ser 133) phosphorylation, but is independent of BDNF/TrkB signaling pathways.",
+        "namespace": "pubmed",
+        "pages": "63-71",
+        "volume": "60"
+      },
+      "evidence": " Activation of extrasynaptic NMDAR (comprised of GluN2B>GluN2) dephosphorylates CREB (Ser 133), reduces BDNF expression and triggers neuronal death. Consistent with our hypothesis, chronic treatment (17-21days) of hippocampal slice cultures with the GluN2B-selective antagonists ifenprodil or Ro25,6981 increased both CREB (Ser 133) phosphorylation and granule cell mossy fiber pathway DYN expression",
+      "key": "96fc504e7b7ade4c9942dd03abda0803",
+      "line": 98,
+      "relation": "decreases",
+      "source": 7,
+      "target": 13
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Barksdale D",
+          "Bausch SB",
+          "Dong Y",
+          "Galdzicki Z",
+          "Rittase WB"
+        ],
+        "date": "2014-05-01",
+        "first": "Rittase WB",
+        "identifier": "24769103",
+        "journal": "Molecular and cellular neurosciences",
+        "last": "Bausch SB",
+        "name": "Dynorphin up-regulation in the dentate granule cell mossy fiber pathway following chronic inhibition of GluN2B-containing NMDAR is associated with increased CREB (Ser 133) phosphorylation, but is independent of BDNF/TrkB signaling pathways.",
+        "namespace": "pubmed",
+        "pages": "63-71",
+        "volume": "60"
+      },
+      "evidence": " Activation of extrasynaptic NMDAR (comprised of GluN2B>GluN2) dephosphorylates CREB (Ser 133), reduces BDNF expression and triggers neuronal death. Consistent with our hypothesis, chronic treatment (17-21days) of hippocampal slice cultures with the GluN2B-selective antagonists ifenprodil or Ro25,6981 increased both CREB (Ser 133) phosphorylation and granule cell mossy fiber pathway DYN expression",
+      "key": "8b79b1e2a6a0f3acc4e8231d7d13481e",
+      "line": 99,
+      "relation": "decreases",
+      "source": 7,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Barksdale D",
+          "Bausch SB",
+          "Dong Y",
+          "Galdzicki Z",
+          "Rittase WB"
+        ],
+        "date": "2014-05-01",
+        "first": "Rittase WB",
+        "identifier": "24769103",
+        "journal": "Molecular and cellular neurosciences",
+        "last": "Bausch SB",
+        "name": "Dynorphin up-regulation in the dentate granule cell mossy fiber pathway following chronic inhibition of GluN2B-containing NMDAR is associated with increased CREB (Ser 133) phosphorylation, but is independent of BDNF/TrkB signaling pathways.",
+        "namespace": "pubmed",
+        "pages": "63-71",
+        "volume": "60"
+      },
+      "evidence": " Activation of extrasynaptic NMDAR (comprised of GluN2B>GluN2) dephosphorylates CREB (Ser 133), reduces BDNF expression and triggers neuronal death. Consistent with our hypothesis, chronic treatment (17-21days) of hippocampal slice cultures with the GluN2B-selective antagonists ifenprodil or Ro25,6981 increased both CREB (Ser 133) phosphorylation and granule cell mossy fiber pathway DYN expression",
+      "key": "7f13c13adef2ccae804581cac20d4260",
+      "line": 100,
+      "relation": "increases",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "key": "cd2736c3e8c7153bbebc99ddee289e4c",
+      "relation": "partOf",
+      "source": 18,
+      "target": 7
+    },
+    {
+      "key": "7314074aa36f4496362259e08ceb41a4",
+      "relation": "partOf",
+      "source": 19,
+      "target": 7
+    },
+    {
+      "key": "9ebc4ee97fb0cfd4c67451303503af1c",
+      "relation": "hasVariant",
+      "source": 12,
+      "target": 13
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Fahnestock M",
+          "Li S",
+          "Nedev H",
+          "Racine RJ",
+          "Saragovi HU",
+          "Zhao C"
+        ],
+        "date": "2005-06-01",
+        "first": "Li S",
+        "identifier": "15911341",
+        "journal": "Molecular and cellular neurosciences",
+        "last": "Fahnestock M",
+        "name": "Differential actions of nerve growth factor receptors TrkA and p75NTR in a rat model of epileptogenesis.",
+        "namespace": "pubmed",
+        "pages": "162-72",
+        "volume": "29"
+      },
+      "evidence": "Our results suggest that TrkA, but not p75NTR, plays a role in kindling, while both receptors modulate kindling-induced mossy fiber sprouting. This implicates different mechanisms of neurotrophin action on kindling (mediated by TrkA) and neuronal sprouting (mediated by both TrkA and p75NTR) and suggests that sprouting involves kindling-independent neurotrophin action via p75NTR.",
+      "key": "7a6633bfdef8a2c026e87eadf0e413a9",
+      "line": 136,
+      "relation": "increases",
+      "source": 9,
+      "target": 27
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Fahnestock M",
+          "Li S",
+          "Nedev H",
+          "Racine RJ",
+          "Saragovi HU",
+          "Zhao C"
+        ],
+        "date": "2005-06-01",
+        "first": "Li S",
+        "identifier": "15911341",
+        "journal": "Molecular and cellular neurosciences",
+        "last": "Fahnestock M",
+        "name": "Differential actions of nerve growth factor receptors TrkA and p75NTR in a rat model of epileptogenesis.",
+        "namespace": "pubmed",
+        "pages": "162-72",
+        "volume": "29"
+      },
+      "evidence": "Our results suggest that TrkA, but not p75NTR, plays a role in kindling, while both receptors modulate kindling-induced mossy fiber sprouting. This implicates different mechanisms of neurotrophin action on kindling (mediated by TrkA) and neuronal sprouting (mediated by both TrkA and p75NTR) and suggests that sprouting involves kindling-independent neurotrophin action via p75NTR.",
+      "key": "b2b777f9a09da3d107d5c9e2f572ebcb",
+      "line": 137,
+      "relation": "increases",
+      "source": 9,
+      "target": 24
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Berto E",
+          "Bovolenta R",
+          "Fabene PF",
+          "Marconi P",
+          "Marzola A",
+          "Navarro Mora G",
+          "Paradiso B",
+          "Simonato M",
+          "Su T",
+          "Zucchini S"
+        ],
+        "date": "2011-03-01",
+        "first": "Paradiso B",
+        "identifier": "21269288",
+        "journal": "Epilepsia",
+        "last": "Simonato M",
+        "name": "Localized overexpression of FGF-2 and BDNF in hippocampus reduces mossy fiber sprouting and spontaneous seizures up to 4 weeks after pilocarpine-induced status epilepticus.",
+        "namespace": "pubmed",
+        "pages": "572-8",
+        "volume": "52"
+      },
+      "evidence": "These data suggest that the supplementation of FGF-2 and BDNF in an epileptogenic hippocampus may prevent epileptogenesis by decreasing neuronal loss and mossy fiber sprouting, that is, reducing some forms of circuit reorganization.",
+      "key": "24284299359eabfe5b4451a941cd29a3",
+      "line": 176,
+      "relation": "decreases",
+      "source": 9,
+      "target": 2,
+      "target_modifier": {
+        "effect": {
+          "name": "sprouting",
+          "namespace": "EPT"
+        },
+        "modifier": "Activity"
+      }
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Assirati JA Jr",
+          "Carlotti CG Jr",
+          "Hallak JE",
+          "Kandratavicius L",
+          "Leite JP",
+          "Monteiro MR"
+        ],
+        "date": "2013-11-01",
+        "first": "Kandratavicius L",
+        "identifier": "24128677",
+        "journal": "Journal of neuropathology and experimental neurology",
+        "last": "Leite JP",
+        "name": "Neurotrophins in mesial temporal lobe epilepsy with and without psychiatric comorbidities.",
+        "namespace": "pubmed",
+        "pages": "1029-42",
+        "volume": "72"
+      },
+      "evidence": " Mossy fiber sprouting correlated with granular layer NGF immunoreactivity and seizure frequency.",
+      "key": "a0f9cecd561901f0dcd06c09484d6b38",
+      "line": 108,
+      "relation": "positiveCorrelation",
+      "source": 23,
+      "target": 2,
+      "target_modifier": {
+        "effect": {
+          "name": "sprouting",
+          "namespace": "EPT"
+        },
+        "modifier": "Activity"
+      }
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Chen YC",
+          "Huang YG",
+          "Lin H",
+          "Wen XN",
+          "Wu LW"
+        ],
+        "date": "2007-01-30",
+        "first": "Lin H",
+        "identifier": "17456365",
+        "journal": "Zhonghua yi xue za zhi",
+        "last": "Wen XN",
+        "name": "[Correlation between hippocampal mossy fiber sprouting and synaptic reorganization and mechanisms of temporal lobe epilepsy].",
+        "namespace": "pubmed",
+        "pages": "341-4",
+        "volume": "87"
+      },
+      "evidence": " To explore the effects of the ultrastructural features of sprouted mossy fiber synapses in the mechanism of temporal lobe epilepsy. The time course of the increase of netrin-1 mRNA in the dentate granule cell layers was correlated with the time course of mossy fiber sprouting and synaptic reorganization in hippocampus. The axon guidance molecule- netrin-1 plays an important role in the process of mossy fiber axonal outgrowth and synaptogenesis in the hippocampal dentate gyrus.",
+      "key": "be9e8cd1ac750e337d2eb11141284e40",
+      "line": 119,
+      "relation": "positiveCorrelation",
+      "source": 26,
+      "target": 2,
+      "target_modifier": {
+        "effect": {
+          "name": "sprouting",
+          "namespace": "EPT"
+        },
+        "modifier": "Activity"
+      }
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Chen YC",
+          "Huang YG",
+          "Lin H",
+          "Wen XN",
+          "Wu LW"
+        ],
+        "date": "2007-01-30",
+        "first": "Lin H",
+        "identifier": "17456365",
+        "journal": "Zhonghua yi xue za zhi",
+        "last": "Wen XN",
+        "name": "[Correlation between hippocampal mossy fiber sprouting and synaptic reorganization and mechanisms of temporal lobe epilepsy].",
+        "namespace": "pubmed",
+        "pages": "341-4",
+        "volume": "87"
+      },
+      "evidence": " To explore the effects of the ultrastructural features of sprouted mossy fiber synapses in the mechanism of temporal lobe epilepsy. The time course of the increase of netrin-1 mRNA in the dentate granule cell layers was correlated with the time course of mossy fiber sprouting and synaptic reorganization in hippocampus. The axon guidance molecule- netrin-1 plays an important role in the process of mossy fiber axonal outgrowth and synaptogenesis in the hippocampal dentate gyrus.",
+      "key": "c14d657784a46bee32bd847b8e0bb0d5",
+      "line": 120,
+      "relation": "increases",
+      "source": 26,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Chen YC",
+          "Huang YG",
+          "Lin H",
+          "Wen XN",
+          "Wu LW"
+        ],
+        "date": "2007-01-30",
+        "first": "Lin H",
+        "identifier": "17456365",
+        "journal": "Zhonghua yi xue za zhi",
+        "last": "Wen XN",
+        "name": "[Correlation between hippocampal mossy fiber sprouting and synaptic reorganization and mechanisms of temporal lobe epilepsy].",
+        "namespace": "pubmed",
+        "pages": "341-4",
+        "volume": "87"
+      },
+      "evidence": " To explore the effects of the ultrastructural features of sprouted mossy fiber synapses in the mechanism of temporal lobe epilepsy. The time course of the increase of netrin-1 mRNA in the dentate granule cell layers was correlated with the time course of mossy fiber sprouting and synaptic reorganization in hippocampus. The axon guidance molecule- netrin-1 plays an important role in the process of mossy fiber axonal outgrowth and synaptogenesis in the hippocampal dentate gyrus.",
+      "key": "5be38fa28717001a26fe6c23507cf59b",
+      "line": 121,
+      "relation": "increases",
+      "source": 26,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Chen YC",
+          "Huang YG",
+          "Lin H",
+          "Wen XN",
+          "Wu LW"
+        ],
+        "date": "2007-01-30",
+        "first": "Lin H",
+        "identifier": "17456365",
+        "journal": "Zhonghua yi xue za zhi",
+        "last": "Wen XN",
+        "name": "[Correlation between hippocampal mossy fiber sprouting and synaptic reorganization and mechanisms of temporal lobe epilepsy].",
+        "namespace": "pubmed",
+        "pages": "341-4",
+        "volume": "87"
+      },
+      "evidence": " To explore the effects of the ultrastructural features of sprouted mossy fiber synapses in the mechanism of temporal lobe epilepsy. The time course of the increase of netrin-1 mRNA in the dentate granule cell layers was correlated with the time course of mossy fiber sprouting and synaptic reorganization in hippocampus. The axon guidance molecule- netrin-1 plays an important role in the process of mossy fiber axonal outgrowth and synaptogenesis in the hippocampal dentate gyrus.",
+      "key": "36c6b9a8bd8b1c72f26e88498291fb20",
+      "line": 122,
+      "relation": "association",
+      "source": 26,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Chen YC",
+          "Huang YG",
+          "Lin H",
+          "Wen XN",
+          "Wu LW"
+        ],
+        "date": "2007-01-30",
+        "first": "Lin H",
+        "identifier": "17456365",
+        "journal": "Zhonghua yi xue za zhi",
+        "last": "Wen XN",
+        "name": "[Correlation between hippocampal mossy fiber sprouting and synaptic reorganization and mechanisms of temporal lobe epilepsy].",
+        "namespace": "pubmed",
+        "pages": "341-4",
+        "volume": "87"
+      },
+      "evidence": " To explore the effects of the ultrastructural features of sprouted mossy fiber synapses in the mechanism of temporal lobe epilepsy. The time course of the increase of netrin-1 mRNA in the dentate granule cell layers was correlated with the time course of mossy fiber sprouting and synaptic reorganization in hippocampus. The axon guidance molecule- netrin-1 plays an important role in the process of mossy fiber axonal outgrowth and synaptogenesis in the hippocampal dentate gyrus.",
+      "key": "e48e26e2939cf88240090261b6186b39",
+      "line": 123,
+      "relation": "association",
+      "source": 26,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Chen YC",
+          "Huang YG",
+          "Lin H",
+          "Wen XN",
+          "Wu LW"
+        ],
+        "date": "2007-01-30",
+        "first": "Lin H",
+        "identifier": "17456365",
+        "journal": "Zhonghua yi xue za zhi",
+        "last": "Wen XN",
+        "name": "[Correlation between hippocampal mossy fiber sprouting and synaptic reorganization and mechanisms of temporal lobe epilepsy].",
+        "namespace": "pubmed",
+        "pages": "341-4",
+        "volume": "87"
+      },
+      "evidence": " To explore the effects of the ultrastructural features of sprouted mossy fiber synapses in the mechanism of temporal lobe epilepsy. The time course of the increase of netrin-1 mRNA in the dentate granule cell layers was correlated with the time course of mossy fiber sprouting and synaptic reorganization in hippocampus. The axon guidance molecule- netrin-1 plays an important role in the process of mossy fiber axonal outgrowth and synaptogenesis in the hippocampal dentate gyrus.",
+      "key": "d0fe59c5080faa09317d6208b109b60e",
+      "line": 123,
+      "relation": "association",
+      "source": 0,
+      "target": 26
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Fahnestock M",
+          "Li S",
+          "Nedev H",
+          "Racine RJ",
+          "Saragovi HU",
+          "Zhao C"
+        ],
+        "date": "2005-06-01",
+        "first": "Li S",
+        "identifier": "15911341",
+        "journal": "Molecular and cellular neurosciences",
+        "last": "Fahnestock M",
+        "name": "Differential actions of nerve growth factor receptors TrkA and p75NTR in a rat model of epileptogenesis.",
+        "namespace": "pubmed",
+        "pages": "162-72",
+        "volume": "29"
+      },
+      "evidence": "Our results suggest that TrkA, but not p75NTR, plays a role in kindling, while both receptors modulate kindling-induced mossy fiber sprouting. This implicates different mechanisms of neurotrophin action on kindling (mediated by TrkA) and neuronal sprouting (mediated by both TrkA and p75NTR) and suggests that sprouting involves kindling-independent neurotrophin action via p75NTR.",
+      "key": "537fa645c03893638c7d64ab8490c030",
+      "line": 133,
+      "relation": "increases",
+      "source": 27,
+      "target": 35
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Fahnestock M",
+          "Li S",
+          "Nedev H",
+          "Racine RJ",
+          "Saragovi HU",
+          "Zhao C"
+        ],
+        "date": "2005-06-01",
+        "first": "Li S",
+        "identifier": "15911341",
+        "journal": "Molecular and cellular neurosciences",
+        "last": "Fahnestock M",
+        "name": "Differential actions of nerve growth factor receptors TrkA and p75NTR in a rat model of epileptogenesis.",
+        "namespace": "pubmed",
+        "pages": "162-72",
+        "volume": "29"
+      },
+      "evidence": "Our results suggest that TrkA, but not p75NTR, plays a role in kindling, while both receptors modulate kindling-induced mossy fiber sprouting. This implicates different mechanisms of neurotrophin action on kindling (mediated by TrkA) and neuronal sprouting (mediated by both TrkA and p75NTR) and suggests that sprouting involves kindling-independent neurotrophin action via p75NTR.",
+      "key": "f73eb20b79123a4bcc8c469fbd3db2a9",
+      "line": 134,
+      "relation": "increases",
+      "source": 27,
+      "target": 2,
+      "target_modifier": {
+        "effect": {
+          "name": "sprouting",
+          "namespace": "EPT"
+        },
+        "modifier": "Activity"
+      }
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Fahnestock M",
+          "Li S",
+          "Nedev H",
+          "Racine RJ",
+          "Saragovi HU",
+          "Zhao C"
+        ],
+        "date": "2005-06-01",
+        "first": "Li S",
+        "identifier": "15911341",
+        "journal": "Molecular and cellular neurosciences",
+        "last": "Fahnestock M",
+        "name": "Differential actions of nerve growth factor receptors TrkA and p75NTR in a rat model of epileptogenesis.",
+        "namespace": "pubmed",
+        "pages": "162-72",
+        "volume": "29"
+      },
+      "evidence": "Our results suggest that TrkA, but not p75NTR, plays a role in kindling, while both receptors modulate kindling-induced mossy fiber sprouting. This implicates different mechanisms of neurotrophin action on kindling (mediated by TrkA) and neuronal sprouting (mediated by both TrkA and p75NTR) and suggests that sprouting involves kindling-independent neurotrophin action via p75NTR.",
+      "key": "7ccb75d98de8cbb3a85f3f3762eaebad",
+      "line": 135,
+      "relation": "increases",
+      "source": 24,
+      "target": 2,
+      "target_modifier": {
+        "effect": {
+          "name": "sprouting",
+          "namespace": "EPT"
+        },
+        "modifier": "Activity"
+      }
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Longo B",
+          "Mello LE",
+          "Vezzani A"
+        ],
+        "date": "2005-01-01",
+        "first": "Longo B",
+        "identifier": "15987266",
+        "journal": "Epilepsia",
+        "last": "Mello LE",
+        "name": "Growth-associated protein 43 expression in hippocampal molecular layer of chronic epileptic rats treated with cycloheximide.",
+        "namespace": "pubmed",
+        "pages": "125-8",
+        "volume": "46 Suppl 5"
+      },
+      "evidence": "GAP43 has been thought to be linked with mossy fiber sprouting (MFS) in various experimental models of epilepsy. ",
+      "key": "d19380bdf4b13ca7507f77e7d941c77b",
+      "line": 145,
+      "relation": "association",
+      "source": 17,
+      "target": 2,
+      "target_modifier": {
+        "effect": {
+          "name": "sprouting",
+          "namespace": "EPT"
+        },
+        "modifier": "Activity"
+      }
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Longo B",
+          "Mello LE",
+          "Vezzani A"
+        ],
+        "date": "2005-01-01",
+        "first": "Longo B",
+        "identifier": "15987266",
+        "journal": "Epilepsia",
+        "last": "Mello LE",
+        "name": "Growth-associated protein 43 expression in hippocampal molecular layer of chronic epileptic rats treated with cycloheximide.",
+        "namespace": "pubmed",
+        "pages": "125-8",
+        "volume": "46 Suppl 5"
+      },
+      "evidence": "GAP43 has been thought to be linked with mossy fiber sprouting (MFS) in various experimental models of epilepsy. ",
+      "key": "3f2c32087db76e77f2b78b04a3c1c2bd",
+      "line": 146,
+      "relation": "association",
+      "source": 17,
+      "target": 34
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Longo B",
+          "Mello LE",
+          "Vezzani A"
+        ],
+        "date": "2005-01-01",
+        "first": "Longo B",
+        "identifier": "15987266",
+        "journal": "Epilepsia",
+        "last": "Mello LE",
+        "name": "Growth-associated protein 43 expression in hippocampal molecular layer of chronic epileptic rats treated with cycloheximide.",
+        "namespace": "pubmed",
+        "pages": "125-8",
+        "volume": "46 Suppl 5"
+      },
+      "evidence": "GAP43 has been thought to be linked with mossy fiber sprouting (MFS) in various experimental models of epilepsy. ",
+      "key": "bbc88cd766833ea1d34025f2326488f1",
+      "line": 146,
+      "relation": "association",
+      "source": 34,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Shetty AK",
+          "Shetty GA",
+          "Zaman V"
+        ],
+        "date": "2003-10-01",
+        "first": "Shetty AK",
+        "identifier": "12969262",
+        "journal": "Journal of neurochemistry",
+        "last": "Shetty GA",
+        "name": "Hippocampal neurotrophin levels in a kainate model of temporal lobe epilepsy: a lack of correlation between brain-derived neurotrophic factor content and progression of aberrant dentate mossy fiber sprouting.",
+        "namespace": "pubmed",
+        "pages": "147-59",
+        "volume": "87"
+      },
+      "evidence": "Taken together, these results suggest that the period of robust mossy fiber sprouting does not correlate with the phase of post-lesion BDNF upregulation. Rather, it shows a relationship with the time of upregulation of neurotrophins NGF and NT-3.",
+      "key": "7426d30864ab6d1d3be98aeffb767223",
+      "line": 154,
+      "relation": "positiveCorrelation",
+      "source": 25,
+      "target": 2,
+      "target_modifier": {
+        "effect": {
+          "name": "sprouting",
+          "namespace": "EPT"
+        },
+        "modifier": "Activity"
+      }
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Jiang YW",
+          "Jin MF",
+          "Ni H",
+          "Tao LY",
+          "Wu XR"
+        ],
+        "date": "2009-02-10",
+        "first": "Ni H",
+        "identifier": "19059322",
+        "journal": "Toxicology letters",
+        "last": "Wu XR",
+        "name": "ZnT-1, ZnT-3, CaMK II, PRG-1 expressions in hippocampus following neonatal seizure-induced cognitive deficit in rats.",
+        "namespace": "pubmed",
+        "pages": "145-50",
+        "volume": "184"
+      },
+      "evidence": " Our results suggest that the long-term adverse effects of recurrent neonatal seizures on cognition and mossy fiber sprouting may be associated with the down-regulated expression of ZnT-1 and CaMK II in hippocampus.",
+      "key": "510d5620207cef86516f349487900562",
+      "line": 163,
+      "relation": "negativeCorrelation",
+      "source": 30,
+      "target": 2,
+      "target_modifier": {
+        "effect": {
+          "name": "sprouting",
+          "namespace": "EPT"
+        },
+        "modifier": "Activity"
+      }
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Jiang YW",
+          "Jin MF",
+          "Ni H",
+          "Tao LY",
+          "Wu XR"
+        ],
+        "date": "2009-02-10",
+        "first": "Ni H",
+        "identifier": "19059322",
+        "journal": "Toxicology letters",
+        "last": "Wu XR",
+        "name": "ZnT-1, ZnT-3, CaMK II, PRG-1 expressions in hippocampus following neonatal seizure-induced cognitive deficit in rats.",
+        "namespace": "pubmed",
+        "pages": "145-50",
+        "volume": "184"
+      },
+      "evidence": " Our results suggest that the long-term adverse effects of recurrent neonatal seizures on cognition and mossy fiber sprouting may be associated with the down-regulated expression of ZnT-1 and CaMK II in hippocampus.",
+      "key": "6b84796e013c4ae74ca82eb7de06b178",
+      "line": 165,
+      "relation": "association",
+      "source": 30,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Jiang YW",
+          "Jin MF",
+          "Ni H",
+          "Tao LY",
+          "Wu XR"
+        ],
+        "date": "2009-02-10",
+        "first": "Ni H",
+        "identifier": "19059322",
+        "journal": "Toxicology letters",
+        "last": "Wu XR",
+        "name": "ZnT-1, ZnT-3, CaMK II, PRG-1 expressions in hippocampus following neonatal seizure-induced cognitive deficit in rats.",
+        "namespace": "pubmed",
+        "pages": "145-50",
+        "volume": "184"
+      },
+      "evidence": " Our results suggest that the long-term adverse effects of recurrent neonatal seizures on cognition and mossy fiber sprouting may be associated with the down-regulated expression of ZnT-1 and CaMK II in hippocampus.",
+      "key": "c3febe4a5d418d5c976cfd1f476316c5",
+      "line": 164,
+      "relation": "negativeCorrelation",
+      "source": 10,
+      "target": 2,
+      "target_modifier": {
+        "effect": {
+          "name": "sprouting",
+          "namespace": "EPT"
+        },
+        "modifier": "Activity"
+      }
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Jiang YW",
+          "Jin MF",
+          "Ni H",
+          "Tao LY",
+          "Wu XR"
+        ],
+        "date": "2009-02-10",
+        "first": "Ni H",
+        "identifier": "19059322",
+        "journal": "Toxicology letters",
+        "last": "Wu XR",
+        "name": "ZnT-1, ZnT-3, CaMK II, PRG-1 expressions in hippocampus following neonatal seizure-induced cognitive deficit in rats.",
+        "namespace": "pubmed",
+        "pages": "145-50",
+        "volume": "184"
+      },
+      "evidence": " Our results suggest that the long-term adverse effects of recurrent neonatal seizures on cognition and mossy fiber sprouting may be associated with the down-regulated expression of ZnT-1 and CaMK II in hippocampus.",
+      "key": "e3e7dfeebf14f012316a95a6a58cf64b",
+      "line": 166,
+      "relation": "association",
+      "source": 10,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Berto E",
+          "Bovolenta R",
+          "Fabene PF",
+          "Marconi P",
+          "Marzola A",
+          "Navarro Mora G",
+          "Paradiso B",
+          "Simonato M",
+          "Su T",
+          "Zucchini S"
+        ],
+        "date": "2011-03-01",
+        "first": "Paradiso B",
+        "identifier": "21269288",
+        "journal": "Epilepsia",
+        "last": "Simonato M",
+        "name": "Localized overexpression of FGF-2 and BDNF in hippocampus reduces mossy fiber sprouting and spontaneous seizures up to 4 weeks after pilocarpine-induced status epilepticus.",
+        "namespace": "pubmed",
+        "pages": "572-8",
+        "volume": "52"
+      },
+      "evidence": "These data suggest that the supplementation of FGF-2 and BDNF in an epileptogenic hippocampus may prevent epileptogenesis by decreasing neuronal loss and mossy fiber sprouting, that is, reducing some forms of circuit reorganization.",
+      "key": "5799eab032023a0ab520e3b645d9ba8b",
+      "line": 175,
+      "relation": "decreases",
+      "source": 16,
+      "target": 2,
+      "target_modifier": {
+        "effect": {
+          "name": "sprouting",
+          "namespace": "EPT"
+        },
+        "modifier": "Activity"
+      }
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Beck H",
+          "Blümcke I",
+          "Elger CE",
+          "Jeub M",
+          "Lie A"
+        ],
+        "date": "1999-01-01",
+        "first": "Jeub M",
+        "identifier": "10579209",
+        "journal": "Neuroscience",
+        "last": "Beck H",
+        "name": "Loss of dynorphin-mediated inhibition of voltage-dependent Ca2+ currents in hippocampal granule cells isolated from epilepsy patients is associated with mossy fiber sprouting.",
+        "namespace": "pubmed",
+        "pages": "465-71",
+        "volume": "94"
+      },
+      "evidence": "Our data suggest that a protective mechanism exerted by dynorphin release and activation of kappa receptors may be lost in hippocampi with recurrent mossy fiber sprouting.",
+      "key": "fab1437dbab3f8524780ae21c72af1ef",
+      "line": 185,
+      "relation": "decreases",
+      "source": 8,
+      "target": 3
+    },
+    {
+      "key": "dad03fa0063697041ace89bf6e5fe5a0",
+      "relation": "partOf",
+      "source": 28,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Beck H",
+          "Blümcke I",
+          "Elger CE",
+          "Jeub M",
+          "Lie A"
+        ],
+        "date": "1999-01-01",
+        "first": "Jeub M",
+        "identifier": "10579209",
+        "journal": "Neuroscience",
+        "last": "Beck H",
+        "name": "Loss of dynorphin-mediated inhibition of voltage-dependent Ca2+ currents in hippocampal granule cells isolated from epilepsy patients is associated with mossy fiber sprouting.",
+        "namespace": "pubmed",
+        "pages": "465-71",
+        "volume": "94"
+      },
+      "evidence": "Our data suggest that a protective mechanism exerted by dynorphin release and activation of kappa receptors may be lost in hippocampi with recurrent mossy fiber sprouting.",
+      "key": "9d0df0a95f3acfe15a127e24c055883f",
+      "line": 186,
+      "relation": "association",
+      "source": 28,
+      "target": 2,
+      "target_modifier": {
+        "effect": {
+          "name": "sprouting",
+          "namespace": "EPT"
+        },
+        "modifier": "Activity"
+      }
+    },
+    {
+      "key": "d4feae37e1c5e4aa0c4d1401595789f2",
+      "relation": "partOf",
+      "source": 29,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Beck H",
+          "Blümcke I",
+          "Elger CE",
+          "Jeub M",
+          "Lie A"
+        ],
+        "date": "1999-01-01",
+        "first": "Jeub M",
+        "identifier": "10579209",
+        "journal": "Neuroscience",
+        "last": "Beck H",
+        "name": "Loss of dynorphin-mediated inhibition of voltage-dependent Ca2+ currents in hippocampal granule cells isolated from epilepsy patients is associated with mossy fiber sprouting.",
+        "namespace": "pubmed",
+        "pages": "465-71",
+        "volume": "94"
+      },
+      "evidence": "Our data suggest that a protective mechanism exerted by dynorphin release and activation of kappa receptors may be lost in hippocampi with recurrent mossy fiber sprouting.",
+      "key": "cbcaab5b13d63796fac1c72354737122",
+      "line": 187,
+      "relation": "association",
+      "source": 29,
+      "target": 2,
+      "target_modifier": {
+        "effect": {
+          "name": "sprouting",
+          "namespace": "EPT"
+        },
+        "modifier": "Activity"
+      }
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Cai XF",
+          "Chen JM",
+          "Chen Y",
+          "Dang J",
+          "Guo TH",
+          "Ma YF",
+          "Song MY",
+          "Tian FF"
+        ],
+        "date": "2011-05-10",
+        "first": "Tian FF",
+        "identifier": "21756775",
+        "journal": "Zhonghua yi xue za zhi",
+        "last": "Song MY",
+        "name": "[Involvement of Cdk5/p35 and tau protein in the hippocampal mossy fiber sprouting in the PTZ kindling model].",
+        "namespace": "pubmed",
+        "pages": "1197-202",
+        "volume": "91"
+      },
+      "evidence": "Cdk5/p35 and its substrate tau protein may be involved in MFS. Understanding the molecular mechanisms of MFS may lead to therapeutic interventions for limiting epileptogenesis.",
+      "key": "36f93f0b0876b77ee39c7143cecfad49",
+      "line": 195,
+      "relation": "increases",
+      "source": 11,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Mossy Fiber Subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Cai XF",
+          "Chen JM",
+          "Chen Y",
+          "Dang J",
+          "Guo TH",
+          "Ma YF",
+          "Song MY",
+          "Tian FF"
+        ],
+        "date": "2011-05-10",
+        "first": "Tian FF",
+        "identifier": "21756775",
+        "journal": "Zhonghua yi xue za zhi",
+        "last": "Song MY",
+        "name": "[Involvement of Cdk5/p35 and tau protein in the hippocampal mossy fiber sprouting in the PTZ kindling model].",
+        "namespace": "pubmed",
+        "pages": "1197-202",
+        "volume": "91"
+      },
+      "evidence": "Cdk5/p35 and its substrate tau protein may be involved in MFS. Understanding the molecular mechanisms of MFS may lead to therapeutic interventions for limiting epileptogenesis.",
+      "key": "702af80728e78d8650f9478d1c4cefd5",
+      "line": 196,
+      "relation": "increases",
+      "source": 22,
+      "target": 2
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(EPT:\"dentate gyrus\")",
+      "concept": {
+        "name": "dentate gyrus",
+        "namespace": "EPT"
+      },
+      "function": "Abundance",
+      "id": "eb536103d9069d06df79fd8331299500"
+    },
+    {
+      "bel": "a(NIFT:Hippocampus)",
+      "concept": {
+        "name": "Hippocampus",
+        "namespace": "NIFT"
+      },
+      "function": "Abundance",
+      "id": "588d4e0223b08a11c50f78c67e5bb3a8"
+    },
+    {
+      "bel": "a(UBERON:\"mossy fiber\")",
+      "concept": {
+        "name": "mossy fiber",
+        "namespace": "UBERON"
+      },
+      "function": "Abundance",
+      "id": "59def8acedd9a70f230f865931ec4292"
+    },
+    {
+      "bel": "bp(EPT:epileptogenesis)",
+      "concept": {
+        "name": "epileptogenesis",
+        "namespace": "EPT"
+      },
+      "function": "BiologicalProcess",
+      "id": "5bc33d9391c2ef56042b8890530f3ad4"
+    },
+    {
+      "bel": "bp(GOBP:\"axon guidance\")",
+      "concept": {
+        "name": "axon guidance",
+        "namespace": "GOBP"
+      },
+      "function": "BiologicalProcess",
+      "id": "580fc8cef300089042d868c6b8698dcf"
+    },
+    {
+      "bel": "bp(GOBP:\"neuron death\")",
+      "concept": {
+        "name": "neuron death",
+        "namespace": "GOBP"
+      },
+      "function": "BiologicalProcess",
+      "id": "338d753b053e6a4bb9ea012c15882db7"
+    },
+    {
+      "bel": "bp(GOBP:\"synapse assembly\")",
+      "concept": {
+        "name": "synapse assembly",
+        "namespace": "GOBP"
+      },
+      "function": "BiologicalProcess",
+      "id": "2d3c0a202e6872f9139d919c94383287"
+    },
+    {
+      "bel": "complex(p(HGNC:GRIN2A), p(HGNC:GRIN2B))",
+      "function": "Complex",
+      "id": "42105883a07a3690eb9d1a623e58ed41",
+      "members": [
+        {
+          "bel": "p(HGNC:GRIN2A)",
+          "concept": {
+            "name": "GRIN2A",
+            "namespace": "HGNC"
+          },
+          "function": "Protein",
+          "id": "6ff7e0ce1b98538df3ad0e6716997e00"
+        },
+        {
+          "bel": "p(HGNC:GRIN2B)",
+          "concept": {
+            "name": "GRIN2B",
+            "namespace": "HGNC"
+          },
+          "function": "Protein",
+          "id": "8d77980144db7590b75dcb2c4f2a9827"
+        }
+      ]
+    },
+    {
+      "bel": "complex(p(HGNC:OPRK1), p(HGNC:PDYN))",
+      "function": "Complex",
+      "id": "659b8e37a833a2226b503f664895cb8a",
+      "members": [
+        {
+          "bel": "p(HGNC:OPRK1)",
+          "concept": {
+            "name": "OPRK1",
+            "namespace": "HGNC"
+          },
+          "function": "Protein",
+          "id": "232a4542f516771afa26d330807f5578"
+        },
+        {
+          "bel": "p(HGNC:PDYN)",
+          "concept": {
+            "name": "PDYN",
+            "namespace": "HGNC"
+          },
+          "function": "Protein",
+          "id": "d41f433de77e3512350383c4321e2320"
+        }
+      ]
+    },
+    {
+      "bel": "p(HGNC:BDNF)",
+      "concept": {
+        "name": "BDNF",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "a638d5f84b9678f17c8795852300134a"
+    },
+    {
+      "bel": "p(HGNC:CAMK2A)",
+      "concept": {
+        "name": "CAMK2A",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "9521849c2741fc30cd65f601c828f665"
+    },
+    {
+      "bel": "p(HGNC:CDK5)",
+      "concept": {
+        "name": "CDK5",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "cb1e1b28f1d3fe30db837d601f26fe1b"
+    },
+    {
+      "bel": "p(HGNC:CREB1)",
+      "concept": {
+        "name": "CREB1",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "b2c7eca9616c7cb9eedbe0da548afc35"
+    },
+    {
+      "bel": "p(HGNC:CREB1, pmod(go:0006468 ! \"protein phosphorylation\", Ser, 133))",
+      "concept": {
+        "name": "CREB1",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "6ad55504dfce3d64cded06f64bcb4852",
+      "variants": [
+        {
+          "code": "Ser",
+          "concept": {
+            "identifier": "0006468",
+            "name": "protein phosphorylation",
+            "namespace": "go"
+          },
+          "kind": "pmod",
+          "pos": 133
+        }
+      ]
+    },
+    {
+      "bel": "p(HGNC:EFNA3)",
+      "concept": {
+        "name": "EFNA3",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "195d2161e4789205c5e3883f77fb244e"
+    },
+    {
+      "bel": "p(HGNC:EPHA5)",
+      "concept": {
+        "name": "EPHA5",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "179e609a0e4d116ef4b6c4847c3d9598"
+    },
+    {
+      "bel": "p(HGNC:FGF2)",
+      "concept": {
+        "name": "FGF2",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "6581bba569bd510c92947f02d300354e"
+    },
+    {
+      "bel": "p(HGNC:GAP43)",
+      "concept": {
+        "name": "GAP43",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "bf074f7a74e34c702949e5d8ba42bf67"
+    },
+    {
+      "bel": "p(HGNC:GRIN2A)",
+      "concept": {
+        "name": "GRIN2A",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "6ff7e0ce1b98538df3ad0e6716997e00"
+    },
+    {
+      "bel": "p(HGNC:GRIN2B)",
+      "concept": {
+        "name": "GRIN2B",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "8d77980144db7590b75dcb2c4f2a9827"
+    },
+    {
+      "bel": "p(HGNC:GRM2)",
+      "concept": {
+        "name": "GRM2",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "34bbd9ab1605bd82f3104ee1fbd200e3"
+    },
+    {
+      "bel": "p(HGNC:GRM3)",
+      "concept": {
+        "name": "GRM3",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "1ab618603d8c81a440db415015a162dc"
+    },
+    {
+      "bel": "p(HGNC:MAPT)",
+      "concept": {
+        "name": "MAPT",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "7d1009217050e75d549c8c5aa83309a8"
+    },
+    {
+      "bel": "p(HGNC:NGF)",
+      "concept": {
+        "name": "NGF",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "433d189daff4b24311745ab14c33bce8"
+    },
+    {
+      "bel": "p(HGNC:NGFR)",
+      "concept": {
+        "name": "NGFR",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "6295b4a40310f8cbbcc54e9d0a24fb7e"
+    },
+    {
+      "bel": "p(HGNC:NTF3)",
+      "concept": {
+        "name": "NTF3",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "f3bbae10139162289728f06b1f79d964"
+    },
+    {
+      "bel": "p(HGNC:NTN1)",
+      "concept": {
+        "name": "NTN1",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "2e8bccd791e7005e69c3eaf6b3d91f8b"
+    },
+    {
+      "bel": "p(HGNC:NTRK1)",
+      "concept": {
+        "name": "NTRK1",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "f6d0e42ddec2f10019d986a00aa4ed62"
+    },
+    {
+      "bel": "p(HGNC:OPRK1)",
+      "concept": {
+        "name": "OPRK1",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "232a4542f516771afa26d330807f5578"
+    },
+    {
+      "bel": "p(HGNC:PDYN)",
+      "concept": {
+        "name": "PDYN",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "d41f433de77e3512350383c4321e2320"
+    },
+    {
+      "bel": "p(HGNC:SLC30A1)",
+      "concept": {
+        "name": "SLC30A1",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "08d49cede9e4442bb9ee0283c86dd92f"
+    },
+    {
+      "bel": "p(HGNC:TRPC3)",
+      "concept": {
+        "name": "TRPC3",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "07d0617bd70b31331dbc5a015cbe896c"
+    },
+    {
+      "bel": "p(HGNC:TRPC6)",
+      "concept": {
+        "name": "TRPC6",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "dcdd7f951934b4480c2d18b77ccfb03a"
+    },
+    {
+      "bel": "path(MESHD:\"Epilepsy, Temporal Lobe\")",
+      "concept": {
+        "name": "Epilepsy, Temporal Lobe",
+        "namespace": "MESHD"
+      },
+      "function": "Pathology",
+      "id": "18d0a9bfb8776f6c01c3cd6933066c80"
+    },
+    {
+      "bel": "path(MESHD:Epilepsy)",
+      "concept": {
+        "name": "Epilepsy",
+        "namespace": "MESHD"
+      },
+      "function": "Pathology",
+      "id": "fee7b78c63a926bb128c9148a0f3b960"
+    },
+    {
+      "bel": "path(MESHD:Seizures)",
+      "concept": {
+        "name": "Seizures",
+        "namespace": "MESHD"
+      },
+      "function": "Pathology",
+      "id": "8fbe2d99d8be7144cb09ec0a77fd6466"
+    }
+  ]
+}

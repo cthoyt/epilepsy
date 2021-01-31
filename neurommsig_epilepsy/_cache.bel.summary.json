@@ -1,0 +1,14 @@
+{
+  "Name": "NeuroMMSig Epilepsy Knowledge Graph",
+  "Version": "0.0.1-dev",
+  "Authors": "Nora Filep, Anka Gueldenpfennig, Charles Tapley Hoyt, Daniel Domingo-Fern\u00e1ndez",
+  "Number of Nodes": 2221,
+  "Number of Namespaces": 21,
+  "Number of Edges": 6975,
+  "Number of Annotations": 13,
+  "Number of Citations": 688,
+  "Number of Authors": 4417,
+  "Network Density": "1.41E-03",
+  "Number of Components": 23,
+  "Number of Warnings": 0
+}

@@ -1,0 +1,11 @@
+Line Number	Position	Line	Error	Message
+157	4	"SET Evidence = ""Rs1912960 has been associated with ASD and rs211037 with epilepsy. GABRA4 is associated with autism in the Argentinean dataset independently or in combination with GABRG2."""""	UndefinedAnnotationWarning	"""Evidence"" is not defined"
+2202	3	"bp(GOBP:""ion channel regulator activity"") -- path(MESHD:Epilepsy)"	MissingNamespaceNameWarning	"""ion channel regulator activity"" is not in the GOBP namespace"
+2203	22	"p(HGNC:CNTNAP2) -- bp(GOBP:""ion channel regulator activity"")"	MissingNamespaceNameWarning	"""ion channel regulator activity"" is not in the GOBP namespace"
+2476	44	"bp(GOBP:""cellular metabolic process"") -- bp(""maintenance of neuronal function"")"	NakedNameWarning	"""maintenance of neuronal function"" should be qualified with a valid namespace"
+4128	4	"SET Species = ""9940"""	IllegalAnnotationValueWarning	"""9940"" is not defined in the Species annotation"
+5965	5	"path(EPT:""Glucose transporter type 1 deficiency"") -- path(MESHD:Seizures)"	MissingNamespaceNameWarning	"""Glucose transporter type 1 deficiency"" is not in the EPT namespace"
+5968	5	"path(EPT:""Glucose transporter type 1 deficiency"") -- bp(PTS:""Energy Metabolism"")"	MissingNamespaceNameWarning	"""Glucose transporter type 1 deficiency"" is not in the EPT namespace"
+5969	5	"path(EPT:""Glucose transporter type 1 deficiency"") -| bp(PTS:""Citrate cycle _TCA cycle_"")"	MissingNamespaceNameWarning	"""Glucose transporter type 1 deficiency"" is not in the EPT namespace"
+6847	67	"bp(PTS:""mitogen activated protein kinase signaling pathway"") -> bp(GOBP:""translation initiation"")"	MissingNamespaceNameWarning	"""translation initiation"" is not in the GOBP namespace"
+6849	3	"bp(GOBP:""translation initiation"") -- bp(GOBP:""regulation of neuronal synaptic plasticity"")"	MissingNamespaceNameWarning	"""translation initiation"" is not in the GOBP namespace"

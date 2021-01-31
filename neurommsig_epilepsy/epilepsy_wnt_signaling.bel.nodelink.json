@@ -1,0 +1,1366 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_curie": [],
+    "annotation_list": {},
+    "annotation_miriam": [],
+    "annotation_pattern": {},
+    "annotation_url": {
+      "MeSHAnatomy": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20170511.belanno",
+      "Species": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno",
+      "Subgraph": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/neurommsig/neurommsig-1.0.3.belanno"
+    },
+    "document_metadata": {
+      "authors": "Nora Filep, Anka Gueldenpfennig, Charles Tapley Hoyt, Daniel Domingo-Fernandez",
+      "contact": "nora.filep@gmail.com",
+      "copyright": "Copyright © 2012-2018 Fraunhofer SCAI, All rights reserved.",
+      "description": "A knowledge assembly of biological entities involved in Wnt signaling and their relation to epilepsy.",
+      "licenses": "CC BY 4.0",
+      "name": "Epilepsy - Wnt Signaling",
+      "version": "1.0.0"
+    },
+    "namespace_pattern": {
+      "dbSNP": "rs[0-9]+"
+    },
+    "namespace_url": {
+      "HGNC": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc-human-genes/hgnc-human-genes-20170511.belns",
+      "MESHD": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-diseases/mesh-diseases-20170511.belns",
+      "PTS": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/neurodegeneration-pathways/neurodegeneration-pathways-1.0.0.belns"
+    },
+    "path": "epilepsy_wnt_signaling.bel",
+    "pybel_version": "0.15.0"
+  },
+  "links": [
+    {
+      "annotations": {
+        "MeSHAnatomy": [
+          {
+            "identifier": "Astrocytes",
+            "namespace": "MeSHAnatomy"
+          }
+        ],
+        "Species": [
+          {
+            "identifier": "10090",
+            "namespace": "Species"
+          }
+        ],
+        "Subgraph": [
+          {
+            "identifier": "Wnt signaling subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Battaglia G",
+          "Biagioni F",
+          "Bruno V",
+          "Busceti CL",
+          "Caricasole A",
+          "Fornai F",
+          "Giorgi FS",
+          "Gradini R",
+          "Nicoletti F",
+          "Riozzi B",
+          "Storto M"
+        ],
+        "date": "2007-04-01",
+        "first": "Busceti CL",
+        "identifier": "17437412",
+        "journal": "Epilepsia",
+        "last": "Bruno V",
+        "name": "Induction of the Wnt inhibitor, Dickkopf-1, is associated with neurodegeneration related to temporal lobe epilepsy.",
+        "namespace": "pubmed",
+        "pages": "694-705",
+        "volume": "48"
+      },
+      "evidence": "By using a Wnt signaling reporter mice line Topgal mice, we found that Wnt/β-catenin signaling was upregulated in reactive astrocytes after ischemia. Overexpression of beta-catenin in reactive astrocytes, in contrast, significantly increased seizure susceptibility and the expression of c-Fos.",
+      "key": "bc930eea9fd9cd4e2da3148eb7c69382",
+      "line": 54,
+      "relation": "association",
+      "source": 0,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Wnt signaling subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Jana NR",
+          "Mukherjee D",
+          "Mulherkar S",
+          "Sharma J"
+        ],
+        "date": "2012-02-24",
+        "first": "Sharma J",
+        "identifier": "22223637",
+        "journal": "The Journal of biological chemistry",
+        "last": "Jana NR",
+        "name": "Malin regulates Wnt signaling pathway through degradation of dishevelled2.",
+        "namespace": "pubmed",
+        "pages": "6830-9",
+        "volume": "287"
+      },
+      "evidence": " Overexpression of malin enhances the degradation of dishevelled2 (dishevelled2, a key mediator of Wnt signaling pathway.) and inhibits Wnt signaling, which is evident from the down-regulation of β-catenin target genes and the decrease in β-catenin-mediated transcriptional activity.",
+      "key": "0e75baf92f5decb63dcb518559f5fbb7",
+      "line": 99,
+      "relation": "association",
+      "source": 0,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Wnt signaling subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Liu Y",
+          "Wang Y",
+          "Wu C",
+          "Zheng P"
+        ],
+        "date": "2006-11-17",
+        "first": "Liu Y",
+        "identifier": "16971387",
+        "journal": "The Journal of biological chemistry",
+        "last": "Zheng P",
+        "name": "Dimerization of Laforin is required for its optimal phosphatase activity, regulation of GSK3beta phosphorylation, and Wnt signaling.",
+        "namespace": "pubmed",
+        "pages": "34768-74",
+        "volume": "281"
+      },
+      "evidence": "Identifying domains of EFHC1 involved in ciliary localization, ciliogenesis, and the regulation of Wnt signaling.",
+      "key": "a8448c36a34562a238daaa7399dedbc8",
+      "line": 107,
+      "relation": "association",
+      "source": 0,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Wnt signaling subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Becker AJ",
+          "Cichon S",
+          "Grimminger T",
+          "Hoffmann P",
+          "Niehusmann P",
+          "Pernhorst K",
+          "Priebe L",
+          "Schoch S",
+          "Surges R",
+          "von Lehe M"
+        ],
+        "date": "2013-12-01",
+        "first": "Grimminger T",
+        "identifier": "24018139",
+        "journal": "Neurobiology of disease",
+        "last": "Becker AJ",
+        "name": "Levetiracetam resistance: Synaptic signatures &amp; corresponding promoter SNPs in epileptic hippocampi.",
+        "namespace": "pubmed",
+        "pages": "115-25",
+        "volume": "60"
+      },
+      "evidence": "Subsequent promoter characterization revealed accumulation of the single nucleotide polymorphism (SNP) rs9305614 G-allele in a priori non-responders to correlate to abundant mRNAs of phosphatidylinositol N-acetylglucosaminyltransferase (PIGP), i.e. a key component of the Wnt-signaling pathway.",
+      "key": "b5fe934602e22cecef3fd7fa243cf8ee",
+      "line": 117,
+      "relation": "association",
+      "source": 0,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": [
+          {
+            "identifier": "Astrocytes",
+            "namespace": "MeSHAnatomy"
+          }
+        ],
+        "Species": [
+          {
+            "identifier": "10090",
+            "namespace": "Species"
+          }
+        ],
+        "Subgraph": [
+          {
+            "identifier": "Wnt signaling subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Battaglia G",
+          "Biagioni F",
+          "Bruno V",
+          "Busceti CL",
+          "Caricasole A",
+          "Fornai F",
+          "Giorgi FS",
+          "Gradini R",
+          "Nicoletti F",
+          "Riozzi B",
+          "Storto M"
+        ],
+        "date": "2007-04-01",
+        "first": "Busceti CL",
+        "identifier": "17437412",
+        "journal": "Epilepsia",
+        "last": "Bruno V",
+        "name": "Induction of the Wnt inhibitor, Dickkopf-1, is associated with neurodegeneration related to temporal lobe epilepsy.",
+        "namespace": "pubmed",
+        "pages": "694-705",
+        "volume": "48"
+      },
+      "evidence": "By using a Wnt signaling reporter mice line Topgal mice, we found that Wnt/β-catenin signaling was upregulated in reactive astrocytes after ischemia. Overexpression of beta-catenin in reactive astrocytes, in contrast, significantly increased seizure susceptibility and the expression of c-Fos.",
+      "key": "63b3e419acc5370dcc51089bfcb9b334",
+      "line": 54,
+      "relation": "association",
+      "source": 15,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": [
+          {
+            "identifier": "Astrocytes",
+            "namespace": "MeSHAnatomy"
+          }
+        ],
+        "Species": [
+          {
+            "identifier": "10090",
+            "namespace": "Species"
+          }
+        ],
+        "Subgraph": [
+          {
+            "identifier": "Wnt signaling subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Battaglia G",
+          "Biagioni F",
+          "Bruno V",
+          "Busceti CL",
+          "Caricasole A",
+          "Fornai F",
+          "Giorgi FS",
+          "Gradini R",
+          "Nicoletti F",
+          "Riozzi B",
+          "Storto M"
+        ],
+        "date": "2007-04-01",
+        "first": "Busceti CL",
+        "identifier": "17437412",
+        "journal": "Epilepsia",
+        "last": "Bruno V",
+        "name": "Induction of the Wnt inhibitor, Dickkopf-1, is associated with neurodegeneration related to temporal lobe epilepsy.",
+        "namespace": "pubmed",
+        "pages": "694-705",
+        "volume": "48"
+      },
+      "evidence": "By using a Wnt signaling reporter mice line Topgal mice, we found that Wnt/β-catenin signaling was upregulated in reactive astrocytes after ischemia. Overexpression of beta-catenin in reactive astrocytes, in contrast, significantly increased seizure susceptibility and the expression of c-Fos.",
+      "key": "cf60db3182e50cfc103fb539172010fd",
+      "line": 56,
+      "relation": "positiveCorrelation",
+      "source": 2,
+      "target": 16
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": [
+          {
+            "identifier": "Astrocytes",
+            "namespace": "MeSHAnatomy"
+          }
+        ],
+        "Species": [
+          {
+            "identifier": "10090",
+            "namespace": "Species"
+          }
+        ],
+        "Subgraph": [
+          {
+            "identifier": "Wnt signaling subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Battaglia G",
+          "Biagioni F",
+          "Bruno V",
+          "Busceti CL",
+          "Caricasole A",
+          "Fornai F",
+          "Giorgi FS",
+          "Gradini R",
+          "Nicoletti F",
+          "Riozzi B",
+          "Storto M"
+        ],
+        "date": "2007-04-01",
+        "first": "Busceti CL",
+        "identifier": "17437412",
+        "journal": "Epilepsia",
+        "last": "Bruno V",
+        "name": "Induction of the Wnt inhibitor, Dickkopf-1, is associated with neurodegeneration related to temporal lobe epilepsy.",
+        "namespace": "pubmed",
+        "pages": "694-705",
+        "volume": "48"
+      },
+      "evidence": "By using a Wnt signaling reporter mice line Topgal mice, we found that Wnt/β-catenin signaling was upregulated in reactive astrocytes after ischemia. Overexpression of beta-catenin in reactive astrocytes, in contrast, significantly increased seizure susceptibility and the expression of c-Fos.",
+      "key": "d6b5ab28cbf623ae5e7e9f4ff2b99514",
+      "line": 57,
+      "relation": "increases",
+      "source": 2,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": [
+          {
+            "identifier": "Astrocytes",
+            "namespace": "MeSHAnatomy"
+          }
+        ],
+        "Species": [
+          {
+            "identifier": "10090",
+            "namespace": "Species"
+          }
+        ],
+        "Subgraph": [
+          {
+            "identifier": "Wnt signaling subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Battaglia G",
+          "Biagioni F",
+          "Bruno V",
+          "Busceti CL",
+          "Caricasole A",
+          "Fornai F",
+          "Giorgi FS",
+          "Gradini R",
+          "Nicoletti F",
+          "Riozzi B",
+          "Storto M"
+        ],
+        "date": "2007-04-01",
+        "first": "Busceti CL",
+        "identifier": "17437412",
+        "journal": "Epilepsia",
+        "last": "Bruno V",
+        "name": "Induction of the Wnt inhibitor, Dickkopf-1, is associated with neurodegeneration related to temporal lobe epilepsy.",
+        "namespace": "pubmed",
+        "pages": "694-705",
+        "volume": "48"
+      },
+      "evidence": "By using a Wnt signaling reporter mice line Topgal mice, we found that Wnt/β-catenin signaling was upregulated in reactive astrocytes after ischemia. Overexpression of beta-catenin in reactive astrocytes, in contrast, significantly increased seizure susceptibility and the expression of c-Fos.",
+      "key": "7d037ca527d677ee83bf633169db1eed",
+      "line": 56,
+      "relation": "positiveCorrelation",
+      "source": 16,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Wnt signaling subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Klymkowsky MW",
+          "Shi J",
+          "Winey M",
+          "Zhao Y"
+        ],
+        "date": "2016-03-15",
+        "first": "Zhao Y",
+        "identifier": "26783883",
+        "journal": "Developmental biology",
+        "last": "Klymkowsky MW",
+        "name": "Identifying domains of EFHC1 involved in ciliary localization, ciliogenesis, and the regulation of Wnt signaling.",
+        "namespace": "pubmed",
+        "pages": "257-265",
+        "volume": "411"
+      },
+      "evidence": "Recent evidence suggests that an increased expression of Dickkopf-1 (Dkk-1), a secreted protein that negatively modulates the canonical Wnt pathway, is causally related to processes of neurodegeneration in a number of CNS disorders, including Alzheimer's disease (AD), brain ischemia and temporal lobe epilepsy (TLE).",
+      "key": "4dbf5a150166d3b5304d86b416379efe",
+      "line": 65,
+      "relation": "decreases",
+      "source": 3,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Wnt signaling subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Klymkowsky MW",
+          "Shi J",
+          "Winey M",
+          "Zhao Y"
+        ],
+        "date": "2016-03-15",
+        "first": "Zhao Y",
+        "identifier": "26783883",
+        "journal": "Developmental biology",
+        "last": "Klymkowsky MW",
+        "name": "Identifying domains of EFHC1 involved in ciliary localization, ciliogenesis, and the regulation of Wnt signaling.",
+        "namespace": "pubmed",
+        "pages": "257-265",
+        "volume": "411"
+      },
+      "evidence": "Recent evidence suggests that an increased expression of Dickkopf-1 (Dkk-1), a secreted protein that negatively modulates the canonical Wnt pathway, is causally related to processes of neurodegeneration in a number of CNS disorders, including Alzheimer's disease (AD), brain ischemia and temporal lobe epilepsy (TLE).",
+      "key": "0966572ec125341c067a3e081ba05ec9",
+      "line": 66,
+      "relation": "association",
+      "source": 3,
+      "target": 14
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Wnt signaling subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Battaglia G",
+          "Biagioni F",
+          "Bruno V",
+          "Busceti C",
+          "Cappuccio I",
+          "Caraci F",
+          "Caricasole A",
+          "Copani A",
+          "Mastroiacovo F",
+          "Nicoletti F"
+        ],
+        "date": "2008-12-01",
+        "first": "Caraci F",
+        "identifier": "18427981",
+        "journal": "Neurochemical research",
+        "last": "Nicoletti F",
+        "name": "The Wnt antagonist, Dickkopf-1, as a target for the treatment of neurodegenerative disorders.",
+        "namespace": "pubmed",
+        "pages": "2401-6",
+        "volume": "33"
+      },
+      "evidence": "Our data raise the attractive possibility that drugs able to rescue the canonical Wnt pathway, such as Dkk-1 antagonists or inhibitors of glycogen synthase kinase-3beta, reduce the development of hippocampal sclerosis in patients with temporal lobe epilepsy.",
+      "key": "15ed8895f5ddc5d1e78e4acf82f0f7f3",
+      "line": 78,
+      "relation": "association",
+      "source": 3,
+      "target": 14
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Wnt signaling subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Klymkowsky MW",
+          "Shi J",
+          "Winey M",
+          "Zhao Y"
+        ],
+        "date": "2016-03-15",
+        "first": "Zhao Y",
+        "identifier": "26783883",
+        "journal": "Developmental biology",
+        "last": "Klymkowsky MW",
+        "name": "Identifying domains of EFHC1 involved in ciliary localization, ciliogenesis, and the regulation of Wnt signaling.",
+        "namespace": "pubmed",
+        "pages": "257-265",
+        "volume": "411"
+      },
+      "evidence": "Recent evidence suggests that an increased expression of Dickkopf-1 (Dkk-1), a secreted protein that negatively modulates the canonical Wnt pathway, is causally related to processes of neurodegeneration in a number of CNS disorders, including Alzheimer's disease (AD), brain ischemia and temporal lobe epilepsy (TLE).",
+      "key": "66a2c3becd10ccbe83cc47a7fae2ba14",
+      "line": 67,
+      "relation": "association",
+      "source": 3,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Wnt signaling subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Klymkowsky MW",
+          "Shi J",
+          "Winey M",
+          "Zhao Y"
+        ],
+        "date": "2016-03-15",
+        "first": "Zhao Y",
+        "identifier": "26783883",
+        "journal": "Developmental biology",
+        "last": "Klymkowsky MW",
+        "name": "Identifying domains of EFHC1 involved in ciliary localization, ciliogenesis, and the regulation of Wnt signaling.",
+        "namespace": "pubmed",
+        "pages": "257-265",
+        "volume": "411"
+      },
+      "evidence": "Recent evidence suggests that an increased expression of Dickkopf-1 (Dkk-1), a secreted protein that negatively modulates the canonical Wnt pathway, is causally related to processes of neurodegeneration in a number of CNS disorders, including Alzheimer's disease (AD), brain ischemia and temporal lobe epilepsy (TLE).",
+      "key": "55319b10f333385a3c5a195f91111b1d",
+      "line": 68,
+      "relation": "association",
+      "source": 3,
+      "target": 13
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Wnt signaling subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Klymkowsky MW",
+          "Shi J",
+          "Winey M",
+          "Zhao Y"
+        ],
+        "date": "2016-03-15",
+        "first": "Zhao Y",
+        "identifier": "26783883",
+        "journal": "Developmental biology",
+        "last": "Klymkowsky MW",
+        "name": "Identifying domains of EFHC1 involved in ciliary localization, ciliogenesis, and the regulation of Wnt signaling.",
+        "namespace": "pubmed",
+        "pages": "257-265",
+        "volume": "411"
+      },
+      "evidence": "Recent evidence suggests that an increased expression of Dickkopf-1 (Dkk-1), a secreted protein that negatively modulates the canonical Wnt pathway, is causally related to processes of neurodegeneration in a number of CNS disorders, including Alzheimer's disease (AD), brain ischemia and temporal lobe epilepsy (TLE).",
+      "key": "d84083b2e725d9d938db00163045b3eb",
+      "line": 66,
+      "relation": "association",
+      "source": 14,
+      "target": 3
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Wnt signaling subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Battaglia G",
+          "Biagioni F",
+          "Bruno V",
+          "Busceti C",
+          "Cappuccio I",
+          "Caraci F",
+          "Caricasole A",
+          "Copani A",
+          "Mastroiacovo F",
+          "Nicoletti F"
+        ],
+        "date": "2008-12-01",
+        "first": "Caraci F",
+        "identifier": "18427981",
+        "journal": "Neurochemical research",
+        "last": "Nicoletti F",
+        "name": "The Wnt antagonist, Dickkopf-1, as a target for the treatment of neurodegenerative disorders.",
+        "namespace": "pubmed",
+        "pages": "2401-6",
+        "volume": "33"
+      },
+      "evidence": "Our data raise the attractive possibility that drugs able to rescue the canonical Wnt pathway, such as Dkk-1 antagonists or inhibitors of glycogen synthase kinase-3beta, reduce the development of hippocampal sclerosis in patients with temporal lobe epilepsy.",
+      "key": "e5a002b0e800808fb1ed9ec4f29fe8aa",
+      "line": 78,
+      "relation": "association",
+      "source": 14,
+      "target": 3
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Wnt signaling subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Becker AJ",
+          "Cichon S",
+          "Grimminger T",
+          "Hoffmann P",
+          "Niehusmann P",
+          "Pernhorst K",
+          "Priebe L",
+          "Schoch S",
+          "Surges R",
+          "von Lehe M"
+        ],
+        "date": "2013-12-01",
+        "first": "Grimminger T",
+        "identifier": "24018139",
+        "journal": "Neurobiology of disease",
+        "last": "Becker AJ",
+        "name": "Levetiracetam resistance: Synaptic signatures &amp; corresponding promoter SNPs in epileptic hippocampi.",
+        "namespace": "pubmed",
+        "pages": "115-25",
+        "volume": "60"
+      },
+      "evidence": "Subsequent promoter characterization revealed accumulation of the single nucleotide polymorphism (SNP) rs9305614 G-allele in a priori non-responders to correlate to abundant mRNAs of phosphatidylinositol N-acetylglucosaminyltransferase (PIGP), i.e. a key component of the Wnt-signaling pathway.",
+      "key": "35d1e0afc73a06546d1932aa8a7aa9f8",
+      "line": 119,
+      "relation": "positiveCorrelation",
+      "source": 14,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Wnt signaling subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Klymkowsky MW",
+          "Shi J",
+          "Winey M",
+          "Zhao Y"
+        ],
+        "date": "2016-03-15",
+        "first": "Zhao Y",
+        "identifier": "26783883",
+        "journal": "Developmental biology",
+        "last": "Klymkowsky MW",
+        "name": "Identifying domains of EFHC1 involved in ciliary localization, ciliogenesis, and the regulation of Wnt signaling.",
+        "namespace": "pubmed",
+        "pages": "257-265",
+        "volume": "411"
+      },
+      "evidence": "Recent evidence suggests that an increased expression of Dickkopf-1 (Dkk-1), a secreted protein that negatively modulates the canonical Wnt pathway, is causally related to processes of neurodegeneration in a number of CNS disorders, including Alzheimer's disease (AD), brain ischemia and temporal lobe epilepsy (TLE).",
+      "key": "69cd2067fe34e428fb84ff949888588d",
+      "line": 67,
+      "relation": "association",
+      "source": 12,
+      "target": 3
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Wnt signaling subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Klymkowsky MW",
+          "Shi J",
+          "Winey M",
+          "Zhao Y"
+        ],
+        "date": "2016-03-15",
+        "first": "Zhao Y",
+        "identifier": "26783883",
+        "journal": "Developmental biology",
+        "last": "Klymkowsky MW",
+        "name": "Identifying domains of EFHC1 involved in ciliary localization, ciliogenesis, and the regulation of Wnt signaling.",
+        "namespace": "pubmed",
+        "pages": "257-265",
+        "volume": "411"
+      },
+      "evidence": "Recent evidence suggests that an increased expression of Dickkopf-1 (Dkk-1), a secreted protein that negatively modulates the canonical Wnt pathway, is causally related to processes of neurodegeneration in a number of CNS disorders, including Alzheimer's disease (AD), brain ischemia and temporal lobe epilepsy (TLE).",
+      "key": "4d06f6e96013d47fa489de8eb008dd77",
+      "line": 68,
+      "relation": "association",
+      "source": 13,
+      "target": 3
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Wnt signaling subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Battaglia G",
+          "Biagioni F",
+          "Bruno V",
+          "Busceti C",
+          "Cappuccio I",
+          "Caraci F",
+          "Caricasole A",
+          "Copani A",
+          "Mastroiacovo F",
+          "Nicoletti F"
+        ],
+        "date": "2008-12-01",
+        "first": "Caraci F",
+        "identifier": "18427981",
+        "journal": "Neurochemical research",
+        "last": "Nicoletti F",
+        "name": "The Wnt antagonist, Dickkopf-1, as a target for the treatment of neurodegenerative disorders.",
+        "namespace": "pubmed",
+        "pages": "2401-6",
+        "volume": "33"
+      },
+      "evidence": "Our data raise the attractive possibility that drugs able to rescue the canonical Wnt pathway, such as Dkk-1 antagonists or inhibitors of glycogen synthase kinase-3beta, reduce the development of hippocampal sclerosis in patients with temporal lobe epilepsy.",
+      "key": "463678be99e300d0c342995dcb53341f",
+      "line": 77,
+      "relation": "decreases",
+      "source": 8,
+      "target": 0
+    },
+    {
+      "key": "129220eafb55a0adf5aa8ffe33bb16a1",
+      "relation": "hasVariant",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Wnt signaling subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Ding Y",
+          "Liu X",
+          "Liu Y",
+          "Pan Y",
+          "Qiu M",
+          "Wang YZ",
+          "Wu Y",
+          "Yang J",
+          "Zhang X",
+          "Zhao B",
+          "Zhao G"
+        ],
+        "date": "2016-06-01",
+        "first": "Yang J",
+        "identifier": "27003605",
+        "journal": "Glia",
+        "last": "Zhao G",
+        "name": "Wnt/β-catenin signaling mediates the seizure-facilitating effect of postischemic reactive astrocytes after pentylenetetrazole-kindling.",
+        "namespace": "pubmed",
+        "pages": "1083-91",
+        "volume": "64"
+      },
+      "evidence": " Laforin is also a tumor suppressor that dephosphorylates GSK3beta at the critical Ser9 position and regulates Wnt signaling",
+      "key": "d5c17bf1d1a784f8fc4204b8cb1e33f4",
+      "line": 85,
+      "relation": "regulates",
+      "source": 6,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Wnt signaling subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Ding Y",
+          "Liu X",
+          "Liu Y",
+          "Pan Y",
+          "Qiu M",
+          "Wang YZ",
+          "Wu Y",
+          "Yang J",
+          "Zhang X",
+          "Zhao B",
+          "Zhao G"
+        ],
+        "date": "2016-06-01",
+        "first": "Yang J",
+        "identifier": "27003605",
+        "journal": "Glia",
+        "last": "Zhao G",
+        "name": "Wnt/β-catenin signaling mediates the seizure-facilitating effect of postischemic reactive astrocytes after pentylenetetrazole-kindling.",
+        "namespace": "pubmed",
+        "pages": "1083-91",
+        "volume": "64"
+      },
+      "evidence": " Laforin is also a tumor suppressor that dephosphorylates GSK3beta at the critical Ser9 position and regulates Wnt signaling",
+      "key": "c6a60f6b1ede1c7046863ea92b5149f9",
+      "line": 86,
+      "relation": "decreases",
+      "source": 6,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Wnt signaling subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Jana NR",
+          "Mukherjee D",
+          "Mulherkar S",
+          "Sharma J"
+        ],
+        "date": "2012-02-24",
+        "first": "Sharma J",
+        "identifier": "22223637",
+        "journal": "The Journal of biological chemistry",
+        "last": "Jana NR",
+        "name": "Malin regulates Wnt signaling pathway through degradation of dishevelled2.",
+        "namespace": "pubmed",
+        "pages": "6830-9",
+        "volume": "287"
+      },
+      "evidence": " Overexpression of malin enhances the degradation of dishevelled2 (dishevelled2, a key mediator of Wnt signaling pathway.) and inhibits Wnt signaling, which is evident from the down-regulation of β-catenin target genes and the decrease in β-catenin-mediated transcriptional activity.",
+      "key": "c12f3b61dd2fb3855da53158fd4337a1",
+      "line": 95,
+      "relation": "increases",
+      "source": 10,
+      "target": 4,
+      "target_modifier": {
+        "modifier": "Degradation"
+      }
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Wnt signaling subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Jana NR",
+          "Mukherjee D",
+          "Mulherkar S",
+          "Sharma J"
+        ],
+        "date": "2012-02-24",
+        "first": "Sharma J",
+        "identifier": "22223637",
+        "journal": "The Journal of biological chemistry",
+        "last": "Jana NR",
+        "name": "Malin regulates Wnt signaling pathway through degradation of dishevelled2.",
+        "namespace": "pubmed",
+        "pages": "6830-9",
+        "volume": "287"
+      },
+      "evidence": " Overexpression of malin enhances the degradation of dishevelled2 (dishevelled2, a key mediator of Wnt signaling pathway.) and inhibits Wnt signaling, which is evident from the down-regulation of β-catenin target genes and the decrease in β-catenin-mediated transcriptional activity.",
+      "key": "91c766d56b540ed3fa7c49007c9c4138",
+      "line": 96,
+      "relation": "decreases",
+      "source": 10,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Wnt signaling subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Jana NR",
+          "Mukherjee D",
+          "Mulherkar S",
+          "Sharma J"
+        ],
+        "date": "2012-02-24",
+        "first": "Sharma J",
+        "identifier": "22223637",
+        "journal": "The Journal of biological chemistry",
+        "last": "Jana NR",
+        "name": "Malin regulates Wnt signaling pathway through degradation of dishevelled2.",
+        "namespace": "pubmed",
+        "pages": "6830-9",
+        "volume": "287"
+      },
+      "evidence": " Overexpression of malin enhances the degradation of dishevelled2 (dishevelled2, a key mediator of Wnt signaling pathway.) and inhibits Wnt signaling, which is evident from the down-regulation of β-catenin target genes and the decrease in β-catenin-mediated transcriptional activity.",
+      "key": "51e009d4578519303fc0d2ae3065e62c",
+      "line": 97,
+      "relation": "decreases",
+      "source": 10,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Wnt signaling subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Jana NR",
+          "Mukherjee D",
+          "Mulherkar S",
+          "Sharma J"
+        ],
+        "date": "2012-02-24",
+        "first": "Sharma J",
+        "identifier": "22223637",
+        "journal": "The Journal of biological chemistry",
+        "last": "Jana NR",
+        "name": "Malin regulates Wnt signaling pathway through degradation of dishevelled2.",
+        "namespace": "pubmed",
+        "pages": "6830-9",
+        "volume": "287"
+      },
+      "evidence": " Overexpression of malin enhances the degradation of dishevelled2 (dishevelled2, a key mediator of Wnt signaling pathway.) and inhibits Wnt signaling, which is evident from the down-regulation of β-catenin target genes and the decrease in β-catenin-mediated transcriptional activity.",
+      "key": "67f56c99cde404412a49038dfb0525f4",
+      "line": 98,
+      "relation": "decreases",
+      "source": 10,
+      "target": 2,
+      "target_modifier": {
+        "modifier": "Activity"
+      }
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Wnt signaling subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Jana NR",
+          "Mukherjee D",
+          "Mulherkar S",
+          "Sharma J"
+        ],
+        "date": "2012-02-24",
+        "first": "Sharma J",
+        "identifier": "22223637",
+        "journal": "The Journal of biological chemistry",
+        "last": "Jana NR",
+        "name": "Malin regulates Wnt signaling pathway through degradation of dishevelled2.",
+        "namespace": "pubmed",
+        "pages": "6830-9",
+        "volume": "287"
+      },
+      "evidence": " Overexpression of malin enhances the degradation of dishevelled2 (dishevelled2, a key mediator of Wnt signaling pathway.) and inhibits Wnt signaling, which is evident from the down-regulation of β-catenin target genes and the decrease in β-catenin-mediated transcriptional activity.",
+      "key": "7b5cc625f22104f16f0c67b1f8b35819",
+      "line": 99,
+      "relation": "association",
+      "source": 4,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Wnt signaling subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Liu Y",
+          "Wang Y",
+          "Wu C",
+          "Zheng P"
+        ],
+        "date": "2006-11-17",
+        "first": "Liu Y",
+        "identifier": "16971387",
+        "journal": "The Journal of biological chemistry",
+        "last": "Zheng P",
+        "name": "Dimerization of Laforin is required for its optimal phosphatase activity, regulation of GSK3beta phosphorylation, and Wnt signaling.",
+        "namespace": "pubmed",
+        "pages": "34768-74",
+        "volume": "281"
+      },
+      "evidence": "Identifying domains of EFHC1 involved in ciliary localization, ciliogenesis, and the regulation of Wnt signaling.",
+      "key": "c53fdcc1ffc29917e32c2ee46ef407d3",
+      "line": 107,
+      "relation": "association",
+      "source": 5,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Wnt signaling subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Becker AJ",
+          "Cichon S",
+          "Grimminger T",
+          "Hoffmann P",
+          "Niehusmann P",
+          "Pernhorst K",
+          "Priebe L",
+          "Schoch S",
+          "Surges R",
+          "von Lehe M"
+        ],
+        "date": "2013-12-01",
+        "first": "Grimminger T",
+        "identifier": "24018139",
+        "journal": "Neurobiology of disease",
+        "last": "Becker AJ",
+        "name": "Levetiracetam resistance: Synaptic signatures &amp; corresponding promoter SNPs in epileptic hippocampi.",
+        "namespace": "pubmed",
+        "pages": "115-25",
+        "volume": "60"
+      },
+      "evidence": "Subsequent promoter characterization revealed accumulation of the single nucleotide polymorphism (SNP) rs9305614 G-allele in a priori non-responders to correlate to abundant mRNAs of phosphatidylinositol N-acetylglucosaminyltransferase (PIGP), i.e. a key component of the Wnt-signaling pathway.",
+      "key": "6e9640c7a4af68c48635cfd9864d4093",
+      "line": 117,
+      "relation": "association",
+      "source": 11,
+      "target": 0
+    },
+    {
+      "key": "7db1eff05b7217490d9e9d4dab5dc406",
+      "relation": "hasVariant",
+      "source": 11,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Wnt signaling subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Becker AJ",
+          "Cichon S",
+          "Grimminger T",
+          "Hoffmann P",
+          "Niehusmann P",
+          "Pernhorst K",
+          "Priebe L",
+          "Schoch S",
+          "Surges R",
+          "von Lehe M"
+        ],
+        "date": "2013-12-01",
+        "first": "Grimminger T",
+        "identifier": "24018139",
+        "journal": "Neurobiology of disease",
+        "last": "Becker AJ",
+        "name": "Levetiracetam resistance: Synaptic signatures &amp; corresponding promoter SNPs in epileptic hippocampi.",
+        "namespace": "pubmed",
+        "pages": "115-25",
+        "volume": "60"
+      },
+      "evidence": "Subsequent promoter characterization revealed accumulation of the single nucleotide polymorphism (SNP) rs9305614 G-allele in a priori non-responders to correlate to abundant mRNAs of phosphatidylinositol N-acetylglucosaminyltransferase (PIGP), i.e. a key component of the Wnt-signaling pathway.",
+      "key": "a9c85e78de88704ee1e6257047ce3350",
+      "line": 119,
+      "relation": "positiveCorrelation",
+      "source": 1,
+      "target": 14
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "bp(PTS:\"Wnt signaling pathway\")",
+      "concept": {
+        "name": "Wnt signaling pathway",
+        "namespace": "PTS"
+      },
+      "function": "BiologicalProcess",
+      "id": "5cdfaf37e6a55631011c8a5ec6b1c8e1"
+    },
+    {
+      "bel": "g(dbSNP:rs9305614)",
+      "concept": {
+        "name": "rs9305614",
+        "namespace": "dbSNP"
+      },
+      "function": "Gene",
+      "id": "5607c06c06c32f84368657ddf65762e3"
+    },
+    {
+      "bel": "p(HGNC:CTNNB1)",
+      "concept": {
+        "name": "CTNNB1",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "4bd0b8cd92c762d4a8c78aec03f7c0b4"
+    },
+    {
+      "bel": "p(HGNC:DKK1)",
+      "concept": {
+        "name": "DKK1",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "e636ff26ba1222aa06fe20e813b28fe0"
+    },
+    {
+      "bel": "p(HGNC:DVL2)",
+      "concept": {
+        "name": "DVL2",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "efa8bc02d3f43cbbf112d1d8f25576e9"
+    },
+    {
+      "bel": "p(HGNC:EFHC1)",
+      "concept": {
+        "name": "EFHC1",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "08dbd1b5f8146f5b77af28c8d52da368"
+    },
+    {
+      "bel": "p(HGNC:EPM2A)",
+      "concept": {
+        "name": "EPM2A",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "5e59ac7630d7c07988813abab9856aac"
+    },
+    {
+      "bel": "p(HGNC:FOS)",
+      "concept": {
+        "name": "FOS",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "d1b1a7472694275161b9990eaef3fcf8"
+    },
+    {
+      "bel": "p(HGNC:GSK3B)",
+      "concept": {
+        "name": "GSK3B",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "8eaf29c9e491ff4e49619e77de92467c"
+    },
+    {
+      "bel": "p(HGNC:GSK3B, pmod(go:0006468 ! \"protein phosphorylation\", Ser, 9))",
+      "concept": {
+        "name": "GSK3B",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "260f85a7f102f5174ec9379e8c9af37f",
+      "variants": [
+        {
+          "code": "Ser",
+          "concept": {
+            "identifier": "0006468",
+            "name": "protein phosphorylation",
+            "namespace": "go"
+          },
+          "kind": "pmod",
+          "pos": 9
+        }
+      ]
+    },
+    {
+      "bel": "p(HGNC:NHLRC1)",
+      "concept": {
+        "name": "NHLRC1",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "bcb4ef25f73e87e36642ca1858e3ca1b"
+    },
+    {
+      "bel": "p(HGNC:PIGP)",
+      "concept": {
+        "name": "PIGP",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "7791dc2066c2f9cfaf53010dd7a66bd7"
+    },
+    {
+      "bel": "path(MESHD:\"Alzheimer Disease\")",
+      "concept": {
+        "name": "Alzheimer Disease",
+        "namespace": "MESHD"
+      },
+      "function": "Pathology",
+      "id": "8d8f16bb67b98cde29710dbdc06daa13"
+    },
+    {
+      "bel": "path(MESHD:\"Brain Ischemia\")",
+      "concept": {
+        "name": "Brain Ischemia",
+        "namespace": "MESHD"
+      },
+      "function": "Pathology",
+      "id": "343a7c117b950d27b200108384252b44"
+    },
+    {
+      "bel": "path(MESHD:\"Epilepsy, Temporal Lobe\")",
+      "concept": {
+        "name": "Epilepsy, Temporal Lobe",
+        "namespace": "MESHD"
+      },
+      "function": "Pathology",
+      "id": "18d0a9bfb8776f6c01c3cd6933066c80"
+    },
+    {
+      "bel": "path(MESHD:Ischemia)",
+      "concept": {
+        "name": "Ischemia",
+        "namespace": "MESHD"
+      },
+      "function": "Pathology",
+      "id": "d7c9477bec3b7a5faa21db324f64848c"
+    },
+    {
+      "bel": "path(MESHD:Seizures)",
+      "concept": {
+        "name": "Seizures",
+        "namespace": "MESHD"
+      },
+      "function": "Pathology",
+      "id": "8fbe2d99d8be7144cb09ec0a77fd6466"
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+################################################################################
+# Metadata
+################################################################################
+
+SET DOCUMENT Name = "Epilepsy - Adaptive Immune System"
+SET DOCUMENT Description = "A knowledge assembly of biological entities associated with the adaptive immune system and its relation to epilepsy."
+SET DOCUMENT Version = "1.0.0"
+SET DOCUMENT Authors = "Nora Filep, Anka Gueldenpfennig, Charles Tapley Hoyt, Daniel Domingo-Fernandez"
+SET DOCUMENT ContactInfo = "nora.filep@gmail.com"
+SET DOCUMENT Copyright = "Copyright © 2012-2018 Fraunhofer SCAI, All rights reserved."
+SET DOCUMENT Licenses = "CC BY 4.0"
+
+################################################################################
+# Author Credits
+################################################################################
+# Nora Filep - main curation
+# Anka Gueldenpfennig - main curation
+# Charles Tapley Hoyt - revision and evaluation
+# Daniel Domingo-Fernandez - revision, evaluation, and supervision
+
+################################################################################
+# Namespaces
+################################################################################
+
+# BEL Framework Namespaces, distributed by SCAI
+
+DEFINE NAMESPACE UBERON AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/uberon/uberon-20170724.belns"
+DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20170511.belns"
+DEFINE NAMESPACE GOBP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go-biological-process/go-biological-process-20170511.belns"
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc-human-genes/hgnc-human-genes-20170511.belns"
+DEFINE NAMESPACE MESHD AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-diseases/mesh-diseases-20170511.belns"
+DEFINE NAMESPACE SCOMP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/selventa-named-complexes/selventa-named-complexes-20170511.belns"
+DEFINE NAMESPACE EPT AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/epilepsy-terminology/epilepsy-terminology-1.0.3.belns"
+
+# BELIEF Namespaces
+
+DEFINE NAMESPACE PTS AS URL "http://belief.scai.fraunhofer.de/openbel/repository/namespaces/PTS.belns"
+DEFINE NAMESPACE NIFT AS URL "http://belief.scai.fraunhofer.de/openbel/repository/namespaces/NIFT.belns"
+DEFINE NAMESPACE BRCO AS URL "http://belief.scai.fraunhofer.de/openbel/repository/namespaces/BRCO.belns"
+
+################################################################################
+# Annotations
+################################################################################
+
+# BEL Framework Annotations
+
+#DEFINE ANNOTATION CellLine AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell-line/cell-line-20170511.belanno"
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+
+# List Annotations
+
+DEFINE ANNOTATION Subgraph AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/neurommsig/neurommsig-1.0.3.belanno"
+###############################################################################
+# Statements
+###############################################################################
+
+SET STATEMENT_GROUP = "Group 1"
+
+# Add statements below this comment
+###########################################
+SET Citation = {"PubMed", "Complement C5-deficient mice are protected from seizures in experimental cerebral malaria.", "25385326", "2014-12-01", "Buckingham SC|Ramos TN|Barnum SR"}
+
+SET Evidence = "Studies have demonstrated that the membrane attack complex (MAC) of complement can evoke seizures when injected directly into rodent brain. In the course of studies that examine the role of complement in the development of experimental cerebral malaria (ECM), we observed fewer seizures in mice deficient in C5, a component required for MAC formation"
+
+SET Subgraph = "Adaptive immune system subgraph"
+complex(SCOMP:"Membrane Attack Complex") pos path(MESHD:Seizures)
+complex(SCOMP:"Membrane Attack Complex") hasMember p(HGNC:C5)
+p(HGNC:C5) pos path(MESHD:Seizures)
+
+###########################################
+SET Citation = {"PubMed", "Evaluation of the innate and adaptive immunity in type I and type II focal cortical dysplasias.", "20345941", "2010-09-01", "Iyer A|Zurolo E|Spliet WG|van Rijen PC|Baayen JC|Gorter JA|Aronica E"}
+
+SET Evidence = "Expression of components of the complement cascade, IL-1beta, and MCP1 was prominent in FCD II cases. DISCUSSION: Our findings indicate a prominent activation of both innate and adaptive immunity, with involvement of different inflammatory pathways in FCD II cases, supporting the possible involvement of inflammation in the epileptogenesis of these lesions"
+
+SET Subgraph = {"Adaptive immune system subgraph", "Innate immune system subgraph", "Inflammatory response subgraph"}
+bp(GOBP:"complement activation") -> path(MESHD:Seizures)
+p(HGNC:IL1B) pos path(MESHD:Seizures)
+p(HGNC:CCL2) pos path(MESHD:Seizures)
+bp(PTS:"inflammatory response pathway") pos path(MESHD:Seizures)
+bp(PTS:"inflammatory response pathway") pos bp(EPT:epileptogenesis)
+
+##############################################
+SET Citation = {"PubMed", "Complement activation in experimental and human temporal lobe epilepsy.", "17412602", "2007-06-01", "Aronica E|Boer K|van Vliet EA|Redeker S|Baayen JC|Spliet WG|van Rijen PC|Troost D|da Silva FH|Wadman WJ|Gorter JA"}
+
+SET Evidence = "We investigated the involvement of the complement cascade during epileptogenesis in a rat model of temporal lobe epilepsy (TLE), and in the chronic epileptic phase in both experimental as well as human TLE.
+The persistence of complement activation could contribute to a sustained inflammatory response and could destabilize neuronal networks involved."
+
+SET Species = "10116"
+SET Subgraph = {"Adaptive immune system subgraph", "Innate immune system subgraph"}
+bp(GOBP:"complement activation") -> bp(EPT:epileptogenesis)
+UNSET Subgraph
+
+SET Evidence = "Temporal lobe epilepsy (TLE) represents a severe and common epilepsy syndrome in patients with medically intractable epilepsy. The epileptogenic focus involves often the hippocampal formation,"
+
+path(MESHD:"Epilepsy, Temporal Lobe") -- a(NIFT:"Hippocampal Formation")
+
+SET Evidence = "The major histopathological features of HS include selective neuronal cell loss, gliosis and synaptic reorganization of the mossy fibers (mossy fiber sprouting) (Wieser and Epilepsy, 2004). However, an increasing number of evidence shows that the immune response plays a prominent role in the affected brain tissue in TLE"
+
+SET Subgraph = {"Mossy Fiber Subgraph", "Adaptive immune system subgraph"}
+path(MESHD:"Epilepsy, Temporal Lobe") -- act(a(UBERON:"mossy fiber"), ma(EPT:sprouting))
+path(MESHD:"Epilepsy, Temporal Lobe") -- bp(PTS:"immune response pathway")
+
+SET Evidence = "Interestingly, sequential infusion of individual proteins of the membrane attack pathway (C5b6, C7, C8, and C9) into the hippocampus of awake, freely moving rats induces both behavioral and electrographic seizures as well as cytotoxicity (Xiong et al., 2003), suggesting a role for the complement system in epileptogenesis."
+
+SET Species = "10116"
+SET Subgraph = {"Adaptive immune system subgraph", "Innate immune system subgraph"}
+complex(SCOMP:"Membrane Attack Complex") hasMembers list(p(HGNC:C7), p(HGNC:C8B), p(HGNC:C9))
+p(HGNC:C7) -> bp(EPT:epileptogenesis)
+p(HGNC:C7) -> path(MESHD:Seizures)
+p(HGNC:C8B) -> bp(EPT:epileptogenesis)
+p(HGNC:C8B) -> path(MESHD:Seizures)
+p(HGNC:C9) -> bp(EPT:epileptogenesis)
+p(HGNC:C9) -> path(MESHD:Seizures)
+
+UNSET Species
+UNSET Subgraph
+
+SET Evidence = "The classical pattern of HS was observed in 8 cases with neuronal loss predominantly in CA1 and hilar regions and with sparing of the CA2 region"
+path(MESHD:"Epilepsy, Temporal Lobe") -- a(NIFT:"CA1 of the hippocampus")
+
+SET Evidence = " HLA-DR staining showed the presence of activated microglia in HS cases"
+path(MESHD:"Epilepsy, Temporal Lobe") -- a(BRCO:Microglia)
+
+SET Evidence = "C1q and C3 gene products were significantly upregulated in patient material"
+
+SET Subgraph = {"Adaptive immune system subgraph", "Innate immune system subgraph"}
+complex(p(HGNC:C1QA), p(HGNC:C1QB)) positiveCorrelation path(MESHD:"Epilepsy, Temporal Lobe")
+p(HGNC:C3) positiveCorrelation path(MESHD:"Epilepsy, Temporal Lobe")
+
+SET Evidence = "The expression of CD59, a complement inhibitor at the level of the MAC, was increased in cells of the
+microglial/macrophage lineage present within the sclerotic hippocampus "
+
+p(HGNC:CD59) -| complex(SCOMP:"Membrane Attack Complex")
+p(HGNC:CD59) -| bp(GOBP:"complement activation")
+p(HGNC:CD59) positiveCorrelation path(MESHD:"Epilepsy, Temporal Lobe")
+p(HGNC:CD59) -- a(BRCO:Microglia)
+
+SET Evidence = "In our previous microarray study in the rat we detected changes in the expression of several components of the
+classical pathway (C1q and C4), of the alternative pathway (Cfh) and of the common pathway (C3, C3ar1)"
+
+complex(p(HGNC:C4A), p(HGNC:C4B)) positiveCorrelation path(MESHD:"Epilepsy, Temporal Lobe")
+p(HGNC:CFH) positiveCorrelation path(MESHD:"Epilepsy, Temporal Lobe")
+p(HGNC:C3AR1) positiveCorrelation path(MESHD:"Epilepsy, Temporal Lobe")
+UNSET Subgraph
+
+SET Evidence = "However, the reported changes suggest a reduced response of the immune system and inflammatory components
+(transient immunodeficiency) in patients receiving carbamazepine (Moreno-Ancillo et al., 2004) or reduced production of TNF-alpha
+and IL-6 and activation of NF-kappaB by sodium valproate in vitro (Ichiyama et al., 2000)."
+
+SET Subgraph = {"Adaptive immune system subgraph", "Innate immune system subgraph", "Inflammatory response subgraph"}
+a(CHEBI:carbamazepine) -| bp(PTS:"immune response pathway")
+a(CHEBI:carbamazepine) -| bp(PTS:"inflammatory response pathway")
+a(CHEBI:valproate) -| p(HGNC:IL6)
+a(CHEBI:valproate) -| p(HGNC:TNF)
+a(CHEBI:valproate) -| act(p(HGNC:NFKB1))
+UNSET Subgraph
+
+SET Evidence = " Thus, C5b-C9 expression could contribute to the persistent activation of microglial cells, observed within the sclerotic hippocampus of TLE patients."
+
+complex(SCOMP:"Membrane Attack Complex") -> bp(GOBP:"microglial cell activation")
+bp(GOBP:"microglial cell activation") positiveCorrelation path(MESHD:"Epilepsy, Temporal Lobe")
+
+UNSET STATEMENT_GROUP
+

@@ -35,5 +35,5 @@ To get the knowledge and summarize it, use:
 
     import neurommsig_epilepsy
 
-    graph = neurommsig_epilepsy.repository.get_graph()
+    graph = neurommsig_epilepsy.get_graph()
     graph.summarize()

@@ -1,0 +1,1920 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_curie": [],
+    "annotation_list": {},
+    "annotation_miriam": [],
+    "annotation_pattern": {},
+    "annotation_url": {
+      "Subgraph": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/neurommsig/neurommsig-1.0.3.belanno"
+    },
+    "document_metadata": {
+      "authors": "Nora Filep, Anka Gueldenpfennig, Charles Tapley Hoyt, Daniel Domingo-Fernandez",
+      "contact": "nora.filep@gmail.com",
+      "copyright": "Copyright © 2012-2018 Fraunhofer SCAI, All rights reserved.",
+      "description": "A knowledge assembly of biological entities involved in transport processes and their relations to epilepsy.",
+      "licenses": "CC BY 4.0",
+      "name": "Epilepsy - Transport",
+      "version": "1.0.0"
+    },
+    "namespace_pattern": {},
+    "namespace_url": {
+      "CHEBI": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20170511.belns",
+      "GOBP": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go-biological-process/go-biological-process-20170511.belns",
+      "GOCC": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go-cellular-component/go-cellular-component-20170511.belns",
+      "HGNC": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc-human-genes/hgnc-human-genes-20170511.belns",
+      "MESHD": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-diseases/mesh-diseases-20170511.belns",
+      "PTS": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/neurodegeneration-pathways/neurodegeneration-pathways-1.0.0.belns"
+    },
+    "path": "epilepsy_transport.bel",
+    "pybel_version": "0.15.0"
+  },
+  "links": [
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Adaptive immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Transport related subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "identifier": "GeneID:10058 NCBI Gene",
+        "namespace": "other"
+      },
+      "evidence": "ABCB6: This gene encodes a member of the ATP-binding cassette (ABC) transporter superfamily. ABC proteins transport various molecules across extra- and intra-cellular membranes. This protein is a member of the heavy metal importer subfamily and plays a role in porphyrin transport. This gene is the molecular basis of the Langereis (Lan) blood group antigen and mutations in this gene underlie familial pseudohyperkalemia and dyschromatosis universalis hereditaria. This protein is a member of the MDR/TAP subfamily. Members of the MDR/TAP subfamily are involved in multidrug resistance as well as antigen presentation. This half-transporter likely plays a role in mitochondrial function.",
+      "key": "cb874939d8fb0685e41f7fd176ed0362",
+      "line": 53,
+      "relation": "positiveCorrelation",
+      "source": 22,
+      "target": 30
+    },
+    {
+      "key": "ba4cf35c1e82d5d1a77a451fd7903d27",
+      "relation": "hasVariant",
+      "source": 21,
+      "target": 22
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Adaptive immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Transport related subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "identifier": "GeneID:10058 NCBI Gene",
+        "namespace": "other"
+      },
+      "evidence": "ABCB6: This gene encodes a member of the ATP-binding cassette (ABC) transporter superfamily. ABC proteins transport various molecules across extra- and intra-cellular membranes. This protein is a member of the heavy metal importer subfamily and plays a role in porphyrin transport. This gene is the molecular basis of the Langereis (Lan) blood group antigen and mutations in this gene underlie familial pseudohyperkalemia and dyschromatosis universalis hereditaria. This protein is a member of the MDR/TAP subfamily. Members of the MDR/TAP subfamily are involved in multidrug resistance as well as antigen presentation. This half-transporter likely plays a role in mitochondrial function.",
+      "key": "e7ae03c14e5c75037fbb384f06350735",
+      "line": 54,
+      "relation": "regulates",
+      "source": 21,
+      "target": 13,
+      "target_modifier": {
+        "effect": {
+          "identifier": "0005215",
+          "name": "transporter activity",
+          "namespace": "go"
+        },
+        "modifier": "Activity"
+      }
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Adaptive immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Transport related subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "identifier": "GeneID:10058 NCBI Gene",
+        "namespace": "other"
+      },
+      "evidence": "ABCB6: This gene encodes a member of the ATP-binding cassette (ABC) transporter superfamily. ABC proteins transport various molecules across extra- and intra-cellular membranes. This protein is a member of the heavy metal importer subfamily and plays a role in porphyrin transport. This gene is the molecular basis of the Langereis (Lan) blood group antigen and mutations in this gene underlie familial pseudohyperkalemia and dyschromatosis universalis hereditaria. This protein is a member of the MDR/TAP subfamily. Members of the MDR/TAP subfamily are involved in multidrug resistance as well as antigen presentation. This half-transporter likely plays a role in mitochondrial function.",
+      "key": "3a8e5a47faa933f118a8a9eaaf0c4746",
+      "line": 55,
+      "relation": "association",
+      "source": 21,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Adaptive immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Transport related subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "identifier": "GeneID:10058 NCBI Gene",
+        "namespace": "other"
+      },
+      "evidence": "ABCB6: This gene encodes a member of the ATP-binding cassette (ABC) transporter superfamily. ABC proteins transport various molecules across extra- and intra-cellular membranes. This protein is a member of the heavy metal importer subfamily and plays a role in porphyrin transport. This gene is the molecular basis of the Langereis (Lan) blood group antigen and mutations in this gene underlie familial pseudohyperkalemia and dyschromatosis universalis hereditaria. This protein is a member of the MDR/TAP subfamily. Members of the MDR/TAP subfamily are involved in multidrug resistance as well as antigen presentation. This half-transporter likely plays a role in mitochondrial function.",
+      "key": "f2f955883ec5a45579a213cf03a71c03",
+      "line": 56,
+      "relation": "association",
+      "source": 21,
+      "target": 18
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Adaptive immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Transport related subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "identifier": "GeneID:10058 NCBI Gene",
+        "namespace": "other"
+      },
+      "evidence": "ABCB6: This gene encodes a member of the ATP-binding cassette (ABC) transporter superfamily. ABC proteins transport various molecules across extra- and intra-cellular membranes. This protein is a member of the heavy metal importer subfamily and plays a role in porphyrin transport. This gene is the molecular basis of the Langereis (Lan) blood group antigen and mutations in this gene underlie familial pseudohyperkalemia and dyschromatosis universalis hereditaria. This protein is a member of the MDR/TAP subfamily. Members of the MDR/TAP subfamily are involved in multidrug resistance as well as antigen presentation. This half-transporter likely plays a role in mitochondrial function.",
+      "key": "873d1157adaf4ffee8922faa552deb57",
+      "line": 57,
+      "relation": "decreases",
+      "source": 21,
+      "target": 11,
+      "target_modifier": {
+        "modifier": "Activity"
+      }
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Adaptive immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Transport related subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "identifier": "GeneID:10058 NCBI Gene",
+        "namespace": "other"
+      },
+      "evidence": "ABCB6: This gene encodes a member of the ATP-binding cassette (ABC) transporter superfamily. ABC proteins transport various molecules across extra- and intra-cellular membranes. This protein is a member of the heavy metal importer subfamily and plays a role in porphyrin transport. This gene is the molecular basis of the Langereis (Lan) blood group antigen and mutations in this gene underlie familial pseudohyperkalemia and dyschromatosis universalis hereditaria. This protein is a member of the MDR/TAP subfamily. Members of the MDR/TAP subfamily are involved in multidrug resistance as well as antigen presentation. This half-transporter likely plays a role in mitochondrial function.",
+      "key": "e005bbbcc9f2996a283939e0636f1e2d",
+      "line": 58,
+      "relation": "increases",
+      "source": 21,
+      "target": 16
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Adaptive immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Transport related subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "identifier": "GeneID:10058 NCBI Gene",
+        "namespace": "other"
+      },
+      "evidence": "ABCB6: This gene encodes a member of the ATP-binding cassette (ABC) transporter superfamily. ABC proteins transport various molecules across extra- and intra-cellular membranes. This protein is a member of the heavy metal importer subfamily and plays a role in porphyrin transport. This gene is the molecular basis of the Langereis (Lan) blood group antigen and mutations in this gene underlie familial pseudohyperkalemia and dyschromatosis universalis hereditaria. This protein is a member of the MDR/TAP subfamily. Members of the MDR/TAP subfamily are involved in multidrug resistance as well as antigen presentation. This half-transporter likely plays a role in mitochondrial function.",
+      "key": "4b0c1a9ae730f590cba505a8c555b1d1",
+      "line": 53,
+      "relation": "positiveCorrelation",
+      "source": 30,
+      "target": 22
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Adaptive immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Transport related subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "identifier": "GeneID:10058 NCBI Gene",
+        "namespace": "other"
+      },
+      "evidence": "ABCB6: This gene encodes a member of the ATP-binding cassette (ABC) transporter superfamily. ABC proteins transport various molecules across extra- and intra-cellular membranes. This protein is a member of the heavy metal importer subfamily and plays a role in porphyrin transport. This gene is the molecular basis of the Langereis (Lan) blood group antigen and mutations in this gene underlie familial pseudohyperkalemia and dyschromatosis universalis hereditaria. This protein is a member of the MDR/TAP subfamily. Members of the MDR/TAP subfamily are involved in multidrug resistance as well as antigen presentation. This half-transporter likely plays a role in mitochondrial function.",
+      "key": "bc210d35a7392fdb45cc4296a3422ce4",
+      "line": 55,
+      "relation": "association",
+      "source": 15,
+      "target": 21
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Adaptive immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Transport related subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "identifier": "GeneID:10058 NCBI Gene",
+        "namespace": "other"
+      },
+      "evidence": "ABCB6: This gene encodes a member of the ATP-binding cassette (ABC) transporter superfamily. ABC proteins transport various molecules across extra- and intra-cellular membranes. This protein is a member of the heavy metal importer subfamily and plays a role in porphyrin transport. This gene is the molecular basis of the Langereis (Lan) blood group antigen and mutations in this gene underlie familial pseudohyperkalemia and dyschromatosis universalis hereditaria. This protein is a member of the MDR/TAP subfamily. Members of the MDR/TAP subfamily are involved in multidrug resistance as well as antigen presentation. This half-transporter likely plays a role in mitochondrial function.",
+      "key": "ee7d86c1b26ce1b8c12d463127d4e921",
+      "line": 56,
+      "relation": "association",
+      "source": 18,
+      "target": 21
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Transport related subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "identifier": "GeneID:4363 NCBI Gene",
+        "namespace": "other"
+      },
+      "evidence": "ABCC1: The protein encoded by this gene is a member of the superfamily of ATP-binding cassette (ABC) transporters. ABC proteins transport various molecules across extra-and intra-cellular membranes. ABC genes are divided into seven distinct subfamilies (ABC1, MDR/TAP, MRP, ALD, OABP, GCN20, White). This full transporter is a member of the MRP subfamily which is involved in multi-drug resistance. This protein functions as a multispecific organic anion transporter, with oxidized glutatione, cysteinyl leukotrienes, and activated aflatoxin B1 as substrates. This protein also transports glucuronides and sulfate conjugates of steroid hormones and bile salts. Alternatively spliced variants of this gene have been described but their full-length nature is unknown. [provided by RefSeq, Apr 2012]",
+      "key": "2ba32a0a8a07ebdf838d431d6b47c666",
+      "line": 66,
+      "relation": "decreases",
+      "source": 23,
+      "target": 11,
+      "target_modifier": {
+        "modifier": "Activity"
+      }
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Transport related subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Chamielec M",
+          "Makowska M",
+          "Połatyńska K",
+          "Romanowicz H",
+          "Skalski D",
+          "Smolarz B",
+          "Stasiołek M"
+        ],
+        "date": "2016-07-08",
+        "first": "Stasiołek M",
+        "identifier": "27391700",
+        "journal": "Behavioral and brain functions : BBF",
+        "last": "Smolarz B",
+        "name": "Association between C3435T polymorphism of MDR1 gene and the incidence of drug-resistant epilepsy in the population of Polish children.",
+        "namespace": "pubmed",
+        "pages": "21",
+        "volume": "12"
+      },
+      "evidence": "The multidrug resistance protein 1 and glycoprotein P, encoded by MDR1, play a significant role in the transmembrane transport of anti-epileptic agents",
+      "key": "1d4831e4f69b4c16c36e46dd24ce7751",
+      "line": 95,
+      "relation": "increases",
+      "source": 23,
+      "source_modifier": {
+        "effect": {
+          "identifier": "0005215",
+          "name": "transporter activity",
+          "namespace": "go"
+        },
+        "modifier": "Activity"
+      },
+      "target": 11,
+      "target_modifier": {
+        "effect": {
+          "fromLoc": {
+            "name": "extracellular space",
+            "namespace": "GOCC"
+          },
+          "toLoc": {
+            "name": "intracellular",
+            "namespace": "GOCC"
+          }
+        },
+        "modifier": "Translocation"
+      }
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Transport related subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "identifier": "GeneID:4363 NCBI Gene",
+        "namespace": "other"
+      },
+      "evidence": "ABCC1: The protein encoded by this gene is a member of the superfamily of ATP-binding cassette (ABC) transporters. ABC proteins transport various molecules across extra-and intra-cellular membranes. ABC genes are divided into seven distinct subfamilies (ABC1, MDR/TAP, MRP, ALD, OABP, GCN20, White). This full transporter is a member of the MRP subfamily which is involved in multi-drug resistance. This protein functions as a multispecific organic anion transporter, with oxidized glutatione, cysteinyl leukotrienes, and activated aflatoxin B1 as substrates. This protein also transports glucuronides and sulfate conjugates of steroid hormones and bile salts. Alternatively spliced variants of this gene have been described but their full-length nature is unknown. [provided by RefSeq, Apr 2012]",
+      "key": "8da45565617afdc8a88edf1aee4f873a",
+      "line": 69,
+      "relation": "association",
+      "source": 23,
+      "target": 5,
+      "target_modifier": {
+        "effect": {
+          "fromLoc": {
+            "name": "extracellular space",
+            "namespace": "GOCC"
+          },
+          "toLoc": {
+            "name": "intracellular",
+            "namespace": "GOCC"
+          }
+        },
+        "modifier": "Translocation"
+      }
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Transport related subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "identifier": "GeneID:4363 NCBI Gene",
+        "namespace": "other"
+      },
+      "evidence": "ABCC1: The protein encoded by this gene is a member of the superfamily of ATP-binding cassette (ABC) transporters. ABC proteins transport various molecules across extra-and intra-cellular membranes. ABC genes are divided into seven distinct subfamilies (ABC1, MDR/TAP, MRP, ALD, OABP, GCN20, White). This full transporter is a member of the MRP subfamily which is involved in multi-drug resistance. This protein functions as a multispecific organic anion transporter, with oxidized glutatione, cysteinyl leukotrienes, and activated aflatoxin B1 as substrates. This protein also transports glucuronides and sulfate conjugates of steroid hormones and bile salts. Alternatively spliced variants of this gene have been described but their full-length nature is unknown. [provided by RefSeq, Apr 2012]",
+      "key": "1e11259b3396393100be24d0e449cdab",
+      "line": 73,
+      "relation": "association",
+      "source": 23,
+      "target": 6,
+      "target_modifier": {
+        "effect": {
+          "fromLoc": {
+            "name": "extracellular space",
+            "namespace": "GOCC"
+          },
+          "toLoc": {
+            "name": "intracellular",
+            "namespace": "GOCC"
+          }
+        },
+        "modifier": "Translocation"
+      }
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Transport related subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "identifier": "GeneID:4363 NCBI Gene",
+        "namespace": "other"
+      },
+      "evidence": "ABCC1: The protein encoded by this gene is a member of the superfamily of ATP-binding cassette (ABC) transporters. ABC proteins transport various molecules across extra-and intra-cellular membranes. ABC genes are divided into seven distinct subfamilies (ABC1, MDR/TAP, MRP, ALD, OABP, GCN20, White). This full transporter is a member of the MRP subfamily which is involved in multi-drug resistance. This protein functions as a multispecific organic anion transporter, with oxidized glutatione, cysteinyl leukotrienes, and activated aflatoxin B1 as substrates. This protein also transports glucuronides and sulfate conjugates of steroid hormones and bile salts. Alternatively spliced variants of this gene have been described but their full-length nature is unknown. [provided by RefSeq, Apr 2012]",
+      "key": "469ea945e72e88d8a13ecd67ceb0b57e",
+      "line": 74,
+      "relation": "association",
+      "source": 23,
+      "target": 7,
+      "target_modifier": {
+        "effect": {
+          "fromLoc": {
+            "name": "extracellular space",
+            "namespace": "GOCC"
+          },
+          "toLoc": {
+            "name": "intracellular",
+            "namespace": "GOCC"
+          }
+        },
+        "modifier": "Translocation"
+      }
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Transport related subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "identifier": "GeneID:4363 NCBI Gene",
+        "namespace": "other"
+      },
+      "evidence": "ABCC1: The protein encoded by this gene is a member of the superfamily of ATP-binding cassette (ABC) transporters. ABC proteins transport various molecules across extra-and intra-cellular membranes. ABC genes are divided into seven distinct subfamilies (ABC1, MDR/TAP, MRP, ALD, OABP, GCN20, White). This full transporter is a member of the MRP subfamily which is involved in multi-drug resistance. This protein functions as a multispecific organic anion transporter, with oxidized glutatione, cysteinyl leukotrienes, and activated aflatoxin B1 as substrates. This protein also transports glucuronides and sulfate conjugates of steroid hormones and bile salts. Alternatively spliced variants of this gene have been described but their full-length nature is unknown. [provided by RefSeq, Apr 2012]",
+      "key": "936e9a37807cc75aa13f739d24154ce0",
+      "line": 75,
+      "relation": "association",
+      "source": 23,
+      "target": 8,
+      "target_modifier": {
+        "effect": {
+          "fromLoc": {
+            "name": "extracellular space",
+            "namespace": "GOCC"
+          },
+          "toLoc": {
+            "name": "intracellular",
+            "namespace": "GOCC"
+          }
+        },
+        "modifier": "Translocation"
+      }
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Transport related subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "identifier": "GeneID:4363 NCBI Gene",
+        "namespace": "other"
+      },
+      "evidence": "ABCC1: The protein encoded by this gene is a member of the superfamily of ATP-binding cassette (ABC) transporters. ABC proteins transport various molecules across extra-and intra-cellular membranes. ABC genes are divided into seven distinct subfamilies (ABC1, MDR/TAP, MRP, ALD, OABP, GCN20, White). This full transporter is a member of the MRP subfamily which is involved in multi-drug resistance. This protein functions as a multispecific organic anion transporter, with oxidized glutatione, cysteinyl leukotrienes, and activated aflatoxin B1 as substrates. This protein also transports glucuronides and sulfate conjugates of steroid hormones and bile salts. Alternatively spliced variants of this gene have been described but their full-length nature is unknown. [provided by RefSeq, Apr 2012]",
+      "key": "5c45bbef3182ad39a99a3bfed38520c9",
+      "line": 76,
+      "relation": "association",
+      "source": 23,
+      "target": 9,
+      "target_modifier": {
+        "effect": {
+          "fromLoc": {
+            "name": "extracellular space",
+            "namespace": "GOCC"
+          },
+          "toLoc": {
+            "name": "intracellular",
+            "namespace": "GOCC"
+          }
+        },
+        "modifier": "Translocation"
+      }
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Transport related subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "identifier": "GeneID:4363 NCBI Gene",
+        "namespace": "other"
+      },
+      "evidence": "ABCC1: The protein encoded by this gene is a member of the superfamily of ATP-binding cassette (ABC) transporters. ABC proteins transport various molecules across extra-and intra-cellular membranes. ABC genes are divided into seven distinct subfamilies (ABC1, MDR/TAP, MRP, ALD, OABP, GCN20, White). This full transporter is a member of the MRP subfamily which is involved in multi-drug resistance. This protein functions as a multispecific organic anion transporter, with oxidized glutatione, cysteinyl leukotrienes, and activated aflatoxin B1 as substrates. This protein also transports glucuronides and sulfate conjugates of steroid hormones and bile salts. Alternatively spliced variants of this gene have been described but their full-length nature is unknown. [provided by RefSeq, Apr 2012]",
+      "key": "fe510386c3bde7a461b28c5703963cc8",
+      "line": 77,
+      "relation": "association",
+      "source": 23,
+      "target": 0,
+      "target_modifier": {
+        "effect": {
+          "fromLoc": {
+            "name": "extracellular space",
+            "namespace": "GOCC"
+          },
+          "toLoc": {
+            "name": "intracellular",
+            "namespace": "GOCC"
+          }
+        },
+        "modifier": "Translocation"
+      }
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Transport related subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "identifier": "GeneID:4363 NCBI Gene",
+        "namespace": "other"
+      },
+      "evidence": "ABCC1: The protein encoded by this gene is a member of the superfamily of ATP-binding cassette (ABC) transporters. ABC proteins transport various molecules across extra-and intra-cellular membranes. ABC genes are divided into seven distinct subfamilies (ABC1, MDR/TAP, MRP, ALD, OABP, GCN20, White). This full transporter is a member of the MRP subfamily which is involved in multi-drug resistance. This protein functions as a multispecific organic anion transporter, with oxidized glutatione, cysteinyl leukotrienes, and activated aflatoxin B1 as substrates. This protein also transports glucuronides and sulfate conjugates of steroid hormones and bile salts. Alternatively spliced variants of this gene have been described but their full-length nature is unknown. [provided by RefSeq, Apr 2012]",
+      "key": "cf0d3d414609532e7c5d6a042720f944",
+      "line": 69,
+      "relation": "association",
+      "source": 5,
+      "source_modifier": {
+        "effect": {
+          "fromLoc": {
+            "name": "extracellular space",
+            "namespace": "GOCC"
+          },
+          "toLoc": {
+            "name": "intracellular",
+            "namespace": "GOCC"
+          }
+        },
+        "modifier": "Translocation"
+      },
+      "target": 23
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Transport related subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "identifier": "GeneID:4363 NCBI Gene",
+        "namespace": "other"
+      },
+      "evidence": "ABCC1: The protein encoded by this gene is a member of the superfamily of ATP-binding cassette (ABC) transporters. ABC proteins transport various molecules across extra-and intra-cellular membranes. ABC genes are divided into seven distinct subfamilies (ABC1, MDR/TAP, MRP, ALD, OABP, GCN20, White). This full transporter is a member of the MRP subfamily which is involved in multi-drug resistance. This protein functions as a multispecific organic anion transporter, with oxidized glutatione, cysteinyl leukotrienes, and activated aflatoxin B1 as substrates. This protein also transports glucuronides and sulfate conjugates of steroid hormones and bile salts. Alternatively spliced variants of this gene have been described but their full-length nature is unknown. [provided by RefSeq, Apr 2012]",
+      "key": "897f5fae61cdcde0741d38bd47b454de",
+      "line": 73,
+      "relation": "association",
+      "source": 6,
+      "source_modifier": {
+        "effect": {
+          "fromLoc": {
+            "name": "extracellular space",
+            "namespace": "GOCC"
+          },
+          "toLoc": {
+            "name": "intracellular",
+            "namespace": "GOCC"
+          }
+        },
+        "modifier": "Translocation"
+      },
+      "target": 23
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Transport related subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "identifier": "GeneID:4363 NCBI Gene",
+        "namespace": "other"
+      },
+      "evidence": "ABCC1: The protein encoded by this gene is a member of the superfamily of ATP-binding cassette (ABC) transporters. ABC proteins transport various molecules across extra-and intra-cellular membranes. ABC genes are divided into seven distinct subfamilies (ABC1, MDR/TAP, MRP, ALD, OABP, GCN20, White). This full transporter is a member of the MRP subfamily which is involved in multi-drug resistance. This protein functions as a multispecific organic anion transporter, with oxidized glutatione, cysteinyl leukotrienes, and activated aflatoxin B1 as substrates. This protein also transports glucuronides and sulfate conjugates of steroid hormones and bile salts. Alternatively spliced variants of this gene have been described but their full-length nature is unknown. [provided by RefSeq, Apr 2012]",
+      "key": "367da33cc09067bbb76b819834062e5e",
+      "line": 74,
+      "relation": "association",
+      "source": 7,
+      "source_modifier": {
+        "effect": {
+          "fromLoc": {
+            "name": "extracellular space",
+            "namespace": "GOCC"
+          },
+          "toLoc": {
+            "name": "intracellular",
+            "namespace": "GOCC"
+          }
+        },
+        "modifier": "Translocation"
+      },
+      "target": 23
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Transport related subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "identifier": "GeneID:4363 NCBI Gene",
+        "namespace": "other"
+      },
+      "evidence": "ABCC1: The protein encoded by this gene is a member of the superfamily of ATP-binding cassette (ABC) transporters. ABC proteins transport various molecules across extra-and intra-cellular membranes. ABC genes are divided into seven distinct subfamilies (ABC1, MDR/TAP, MRP, ALD, OABP, GCN20, White). This full transporter is a member of the MRP subfamily which is involved in multi-drug resistance. This protein functions as a multispecific organic anion transporter, with oxidized glutatione, cysteinyl leukotrienes, and activated aflatoxin B1 as substrates. This protein also transports glucuronides and sulfate conjugates of steroid hormones and bile salts. Alternatively spliced variants of this gene have been described but their full-length nature is unknown. [provided by RefSeq, Apr 2012]",
+      "key": "deb3bde7a6de56daf0b965c46f8ded5a",
+      "line": 75,
+      "relation": "association",
+      "source": 8,
+      "source_modifier": {
+        "effect": {
+          "fromLoc": {
+            "name": "extracellular space",
+            "namespace": "GOCC"
+          },
+          "toLoc": {
+            "name": "intracellular",
+            "namespace": "GOCC"
+          }
+        },
+        "modifier": "Translocation"
+      },
+      "target": 23
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Transport related subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "identifier": "GeneID:4363 NCBI Gene",
+        "namespace": "other"
+      },
+      "evidence": "ABCC1: The protein encoded by this gene is a member of the superfamily of ATP-binding cassette (ABC) transporters. ABC proteins transport various molecules across extra-and intra-cellular membranes. ABC genes are divided into seven distinct subfamilies (ABC1, MDR/TAP, MRP, ALD, OABP, GCN20, White). This full transporter is a member of the MRP subfamily which is involved in multi-drug resistance. This protein functions as a multispecific organic anion transporter, with oxidized glutatione, cysteinyl leukotrienes, and activated aflatoxin B1 as substrates. This protein also transports glucuronides and sulfate conjugates of steroid hormones and bile salts. Alternatively spliced variants of this gene have been described but their full-length nature is unknown. [provided by RefSeq, Apr 2012]",
+      "key": "ec76ab450f8b678cdf61b8c07fb399db",
+      "line": 76,
+      "relation": "association",
+      "source": 9,
+      "source_modifier": {
+        "effect": {
+          "fromLoc": {
+            "name": "extracellular space",
+            "namespace": "GOCC"
+          },
+          "toLoc": {
+            "name": "intracellular",
+            "namespace": "GOCC"
+          }
+        },
+        "modifier": "Translocation"
+      },
+      "target": 23
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Transport related subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "identifier": "GeneID:4363 NCBI Gene",
+        "namespace": "other"
+      },
+      "evidence": "ABCC1: The protein encoded by this gene is a member of the superfamily of ATP-binding cassette (ABC) transporters. ABC proteins transport various molecules across extra-and intra-cellular membranes. ABC genes are divided into seven distinct subfamilies (ABC1, MDR/TAP, MRP, ALD, OABP, GCN20, White). This full transporter is a member of the MRP subfamily which is involved in multi-drug resistance. This protein functions as a multispecific organic anion transporter, with oxidized glutatione, cysteinyl leukotrienes, and activated aflatoxin B1 as substrates. This protein also transports glucuronides and sulfate conjugates of steroid hormones and bile salts. Alternatively spliced variants of this gene have been described but their full-length nature is unknown. [provided by RefSeq, Apr 2012]",
+      "key": "137807361c6a0ca8c86581751ee964f0",
+      "line": 77,
+      "relation": "association",
+      "source": 0,
+      "source_modifier": {
+        "effect": {
+          "fromLoc": {
+            "name": "extracellular space",
+            "namespace": "GOCC"
+          },
+          "toLoc": {
+            "name": "intracellular",
+            "namespace": "GOCC"
+          }
+        },
+        "modifier": "Translocation"
+      },
+      "target": 23
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Transport related subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Johnson AB",
+          "Thulasiraman P"
+        ],
+        "date": "2016-08-01",
+        "first": "Thulasiraman P",
+        "identifier": "27221150",
+        "journal": "International journal of oncology",
+        "last": "Johnson AB",
+        "name": "Regulation of Mucin 1 and multidrug resistance protein 1 by honokiol enhances the efficacy of doxorubicin-mediated growth suppression in mammary carcinoma cells.",
+        "namespace": "pubmed",
+        "pages": "479-86",
+        "volume": "49"
+      },
+      "evidence": "Taken together, these findings suggest MUC1 regulates the expression of MRP1 and provides a direct link between cancer progression and chemoresistance in mammary carcinoma cells.",
+      "key": "03fcb92d369d4109f9f2e6e499f71d6b",
+      "line": 85,
+      "relation": "increases",
+      "source": 28,
+      "target": 23
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Transport related subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Chamielec M",
+          "Makowska M",
+          "Połatyńska K",
+          "Romanowicz H",
+          "Skalski D",
+          "Smolarz B",
+          "Stasiołek M"
+        ],
+        "date": "2016-07-08",
+        "first": "Stasiołek M",
+        "identifier": "27391700",
+        "journal": "Behavioral and brain functions : BBF",
+        "last": "Smolarz B",
+        "name": "Association between C3435T polymorphism of MDR1 gene and the incidence of drug-resistant epilepsy in the population of Polish children.",
+        "namespace": "pubmed",
+        "pages": "21",
+        "volume": "12"
+      },
+      "evidence": "The multidrug resistance protein 1 and glycoprotein P, encoded by MDR1, play a significant role in the transmembrane transport of anti-epileptic agents",
+      "key": "b9af0db7ff34a8f9fdc8e379be9e003b",
+      "line": 96,
+      "relation": "increases",
+      "source": 20,
+      "source_modifier": {
+        "effect": {
+          "identifier": "0005215",
+          "name": "transporter activity",
+          "namespace": "go"
+        },
+        "modifier": "Activity"
+      },
+      "target": 11,
+      "target_modifier": {
+        "effect": {
+          "fromLoc": {
+            "name": "extracellular space",
+            "namespace": "GOCC"
+          },
+          "toLoc": {
+            "name": "intracellular",
+            "namespace": "GOCC"
+          }
+        },
+        "modifier": "Translocation"
+      }
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Transport related subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Arnold JC",
+          "Booth J",
+          "Brzozowska N",
+          "Li KM",
+          "McGregor IS",
+          "Stuart J",
+          "Wang XS"
+        ],
+        "date": "2016-01-01",
+        "first": "Brzozowska N",
+        "identifier": "27257556",
+        "journal": "PeerJ",
+        "last": "Arnold JC",
+        "name": "ABC transporters P-gp and Bcrp do not limit the brain uptake of the novel antipsychotic and anticonvulsant drug cannabidiol in mice.",
+        "namespace": "pubmed",
+        "pages": "e2081",
+        "volume": "4"
+      },
+      "evidence": "Cannabidiol (CBD) is currently being investigated as a novel therapeutic for the treatment of CNS disorders like schizophrenia and epilepsy. ABC transporters such as P-glycoprotein (P-gp) and breast cancer resistance protein (Bcrp) mediate pharmacoresistance in these disorders",
+      "key": "1b944486612ae8c82bf777c6fdb2abb3",
+      "line": 167,
+      "relation": "decreases",
+      "source": 20,
+      "target": 11,
+      "target_modifier": {
+        "modifier": "Activity"
+      }
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Transport related subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Arnold JC",
+          "Booth J",
+          "Brzozowska N",
+          "Li KM",
+          "McGregor IS",
+          "Stuart J",
+          "Wang XS"
+        ],
+        "date": "2016-01-01",
+        "first": "Brzozowska N",
+        "identifier": "27257556",
+        "journal": "PeerJ",
+        "last": "Arnold JC",
+        "name": "ABC transporters P-gp and Bcrp do not limit the brain uptake of the novel antipsychotic and anticonvulsant drug cannabidiol in mice.",
+        "namespace": "pubmed",
+        "pages": "e2081",
+        "volume": "4"
+      },
+      "evidence": "Cannabidiol (CBD) is currently being investigated as a novel therapeutic for the treatment of CNS disorders like schizophrenia and epilepsy. ABC transporters such as P-glycoprotein (P-gp) and breast cancer resistance protein (Bcrp) mediate pharmacoresistance in these disorders",
+      "key": "59532d828de3d625ef7f4791780cf8fd",
+      "line": 166,
+      "relation": "increases",
+      "source": 20,
+      "target": 19
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Transport related subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Arnold JC",
+          "Booth J",
+          "Brzozowska N",
+          "Li KM",
+          "McGregor IS",
+          "Stuart J",
+          "Wang XS"
+        ],
+        "date": "2016-01-01",
+        "first": "Brzozowska N",
+        "identifier": "27257556",
+        "journal": "PeerJ",
+        "last": "Arnold JC",
+        "name": "ABC transporters P-gp and Bcrp do not limit the brain uptake of the novel antipsychotic and anticonvulsant drug cannabidiol in mice.",
+        "namespace": "pubmed",
+        "pages": "e2081",
+        "volume": "4"
+      },
+      "evidence": " These results suggest that CBD is not a substrate of P-gp or Bcrp and may be free from the complication of reduced brain uptake by these transporters.",
+      "key": "19ab492190d63dd4f27a6ef70d93f139",
+      "line": 174,
+      "relation": "causesNoChange",
+      "source": 20,
+      "target": 12,
+      "target_modifier": {
+        "effect": {
+          "identifier": "0005215",
+          "name": "transporter activity",
+          "namespace": "go"
+        },
+        "modifier": "Activity"
+      }
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Transport related subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "identifier": "GeneID:1244 NCBI Gene",
+        "namespace": "other"
+      },
+      "evidence": "ABCC2: The protein encoded by this gene is a member of the superfamily of ATP-binding cassette (ABC) transporters. ABC proteins transport various molecules across extra- and intra-cellular membranes. ABC genes are divided into seven distinct subfamilies (ABC1, MDR/TAP, MRP, ALD, OABP, GCN20, White). This protein is a member of the MRP subfamily which is involved in multi-drug resistance. This protein is expressed in the canalicular (apical) part of the hepatocyte and functions in biliary transport. Substrates include anticancer drugs such as vinblastine; therefore, this protein appears to contribute to drug resistance in mammalian cells. Several different mutations in this gene have been observed in patients with Dubin-Johnson syndrome (DJS), an autosomal recessive disorder characterized by conjugated hyperbilirubinemia. [provided by RefSeq, Jul 2008]",
+      "key": "304e7f6fdc9859c4c2d849422441913a",
+      "line": 111,
+      "relation": "decreases",
+      "source": 24,
+      "target": 11,
+      "target_modifier": {
+        "modifier": "Activity"
+      }
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Transport related subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "identifier": "GeneID:1244 NCBI Gene",
+        "namespace": "other"
+      },
+      "evidence": "ABCC2: The protein encoded by this gene is a member of the superfamily of ATP-binding cassette (ABC) transporters. ABC proteins transport various molecules across extra- and intra-cellular membranes. ABC genes are divided into seven distinct subfamilies (ABC1, MDR/TAP, MRP, ALD, OABP, GCN20, White). This protein is a member of the MRP subfamily which is involved in multi-drug resistance. This protein is expressed in the canalicular (apical) part of the hepatocyte and functions in biliary transport. Substrates include anticancer drugs such as vinblastine; therefore, this protein appears to contribute to drug resistance in mammalian cells. Several different mutations in this gene have been observed in patients with Dubin-Johnson syndrome (DJS), an autosomal recessive disorder characterized by conjugated hyperbilirubinemia. [provided by RefSeq, Jul 2008]",
+      "key": "53a7229ddd871b893848f548a9da99c4",
+      "line": 112,
+      "relation": "increases",
+      "source": 24,
+      "target": 1,
+      "target_modifier": {
+        "effect": {
+          "identifier": "0005215",
+          "name": "transporter activity",
+          "namespace": "go"
+        },
+        "modifier": "Activity"
+      }
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Transport related subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Getzinger T",
+          "Kluger G",
+          "Kudernatsch M",
+          "Luna-Munguia H",
+          "Pascher B",
+          "Pieper T",
+          "Potschka H",
+          "Salvamoser JD"
+        ],
+        "date": "2015-02-01",
+        "first": "Luna-Munguia H",
+        "identifier": "25503388",
+        "journal": "The Journal of pharmacology and experimental therapeutics",
+        "last": "Potschka H",
+        "name": "Glutamate-mediated upregulation of the multidrug resistance protein 2 in porcine and human brain capillaries.",
+        "namespace": "pubmed",
+        "pages": "368-78",
+        "volume": "352"
+      },
+      "evidence": "aken together the findings provide first evidence for a role of a glutamate-induced NMDA receptor/cyclooxygenase-2 signaling pathway in the regulation of MRP2 expression and function. ",
+      "key": "840e226e7638b0cd3992e87193b97eb4",
+      "line": 121,
+      "relation": "association",
+      "source": 24,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Transport related subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Getzinger T",
+          "Kluger G",
+          "Kudernatsch M",
+          "Luna-Munguia H",
+          "Pascher B",
+          "Pieper T",
+          "Potschka H",
+          "Salvamoser JD"
+        ],
+        "date": "2015-02-01",
+        "first": "Luna-Munguia H",
+        "identifier": "25503388",
+        "journal": "The Journal of pharmacology and experimental therapeutics",
+        "last": "Potschka H",
+        "name": "Glutamate-mediated upregulation of the multidrug resistance protein 2 in porcine and human brain capillaries.",
+        "namespace": "pubmed",
+        "pages": "368-78",
+        "volume": "352"
+      },
+      "evidence": "aken together the findings provide first evidence for a role of a glutamate-induced NMDA receptor/cyclooxygenase-2 signaling pathway in the regulation of MRP2 expression and function. ",
+      "key": "bb3e1d060afe3cb2d061d5c8f87e1c44",
+      "line": 122,
+      "relation": "association",
+      "source": 24,
+      "source_modifier": {
+        "modifier": "Activity"
+      },
+      "target": 4
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Transport related subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Getzinger T",
+          "Kluger G",
+          "Kudernatsch M",
+          "Luna-Munguia H",
+          "Pascher B",
+          "Pieper T",
+          "Potschka H",
+          "Salvamoser JD"
+        ],
+        "date": "2015-02-01",
+        "first": "Luna-Munguia H",
+        "identifier": "25503388",
+        "journal": "The Journal of pharmacology and experimental therapeutics",
+        "last": "Potschka H",
+        "name": "Glutamate-mediated upregulation of the multidrug resistance protein 2 in porcine and human brain capillaries.",
+        "namespace": "pubmed",
+        "pages": "368-78",
+        "volume": "352"
+      },
+      "evidence": "aken together the findings provide first evidence for a role of a glutamate-induced NMDA receptor/cyclooxygenase-2 signaling pathway in the regulation of MRP2 expression and function. ",
+      "key": "2940a4261505d28f44a6b9d38cd2e7df",
+      "line": 123,
+      "relation": "association",
+      "source": 24,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Transport related subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Getzinger T",
+          "Kluger G",
+          "Kudernatsch M",
+          "Luna-Munguia H",
+          "Pascher B",
+          "Pieper T",
+          "Potschka H",
+          "Salvamoser JD"
+        ],
+        "date": "2015-02-01",
+        "first": "Luna-Munguia H",
+        "identifier": "25503388",
+        "journal": "The Journal of pharmacology and experimental therapeutics",
+        "last": "Potschka H",
+        "name": "Glutamate-mediated upregulation of the multidrug resistance protein 2 in porcine and human brain capillaries.",
+        "namespace": "pubmed",
+        "pages": "368-78",
+        "volume": "352"
+      },
+      "evidence": "aken together the findings provide first evidence for a role of a glutamate-induced NMDA receptor/cyclooxygenase-2 signaling pathway in the regulation of MRP2 expression and function. ",
+      "key": "62badaf3cbdb71c1b8bae8ce6ee21e32",
+      "line": 124,
+      "relation": "association",
+      "source": 24,
+      "source_modifier": {
+        "modifier": "Activity"
+      },
+      "target": 17
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Transport related subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Getzinger T",
+          "Kluger G",
+          "Kudernatsch M",
+          "Luna-Munguia H",
+          "Pascher B",
+          "Pieper T",
+          "Potschka H",
+          "Salvamoser JD"
+        ],
+        "date": "2015-02-01",
+        "first": "Luna-Munguia H",
+        "identifier": "25503388",
+        "journal": "The Journal of pharmacology and experimental therapeutics",
+        "last": "Potschka H",
+        "name": "Glutamate-mediated upregulation of the multidrug resistance protein 2 in porcine and human brain capillaries.",
+        "namespace": "pubmed",
+        "pages": "368-78",
+        "volume": "352"
+      },
+      "evidence": "aken together the findings provide first evidence for a role of a glutamate-induced NMDA receptor/cyclooxygenase-2 signaling pathway in the regulation of MRP2 expression and function. ",
+      "key": "3e83a045a5b8a4f8282678459e4d567e",
+      "line": 121,
+      "relation": "association",
+      "source": 4,
+      "target": 24
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Transport related subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Getzinger T",
+          "Kluger G",
+          "Kudernatsch M",
+          "Luna-Munguia H",
+          "Pascher B",
+          "Pieper T",
+          "Potschka H",
+          "Salvamoser JD"
+        ],
+        "date": "2015-02-01",
+        "first": "Luna-Munguia H",
+        "identifier": "25503388",
+        "journal": "The Journal of pharmacology and experimental therapeutics",
+        "last": "Potschka H",
+        "name": "Glutamate-mediated upregulation of the multidrug resistance protein 2 in porcine and human brain capillaries.",
+        "namespace": "pubmed",
+        "pages": "368-78",
+        "volume": "352"
+      },
+      "evidence": "aken together the findings provide first evidence for a role of a glutamate-induced NMDA receptor/cyclooxygenase-2 signaling pathway in the regulation of MRP2 expression and function. ",
+      "key": "7a17fc9fbc035593bb7a5d8f667377da",
+      "line": 122,
+      "relation": "association",
+      "source": 4,
+      "target": 24,
+      "target_modifier": {
+        "modifier": "Activity"
+      }
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Transport related subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Getzinger T",
+          "Kluger G",
+          "Kudernatsch M",
+          "Luna-Munguia H",
+          "Pascher B",
+          "Pieper T",
+          "Potschka H",
+          "Salvamoser JD"
+        ],
+        "date": "2015-02-01",
+        "first": "Luna-Munguia H",
+        "identifier": "25503388",
+        "journal": "The Journal of pharmacology and experimental therapeutics",
+        "last": "Potschka H",
+        "name": "Glutamate-mediated upregulation of the multidrug resistance protein 2 in porcine and human brain capillaries.",
+        "namespace": "pubmed",
+        "pages": "368-78",
+        "volume": "352"
+      },
+      "evidence": "aken together the findings provide first evidence for a role of a glutamate-induced NMDA receptor/cyclooxygenase-2 signaling pathway in the regulation of MRP2 expression and function. ",
+      "key": "13976f438e26868628712ddb7167415f",
+      "line": 123,
+      "relation": "association",
+      "source": 17,
+      "target": 24
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Transport related subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Getzinger T",
+          "Kluger G",
+          "Kudernatsch M",
+          "Luna-Munguia H",
+          "Pascher B",
+          "Pieper T",
+          "Potschka H",
+          "Salvamoser JD"
+        ],
+        "date": "2015-02-01",
+        "first": "Luna-Munguia H",
+        "identifier": "25503388",
+        "journal": "The Journal of pharmacology and experimental therapeutics",
+        "last": "Potschka H",
+        "name": "Glutamate-mediated upregulation of the multidrug resistance protein 2 in porcine and human brain capillaries.",
+        "namespace": "pubmed",
+        "pages": "368-78",
+        "volume": "352"
+      },
+      "evidence": "aken together the findings provide first evidence for a role of a glutamate-induced NMDA receptor/cyclooxygenase-2 signaling pathway in the regulation of MRP2 expression and function. ",
+      "key": "a2d70b6e1ada3f3f6aabb6dd5e1d2718",
+      "line": 124,
+      "relation": "association",
+      "source": 17,
+      "target": 24,
+      "target_modifier": {
+        "modifier": "Activity"
+      }
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Transport related subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "identifier": "GeneID:10257 NCBI Gene",
+        "namespace": "other"
+      },
+      "evidence": "ABCC4: The protein encoded by this gene is a member of the superfamily of ATP-binding cassette (ABC) transporters. ABC proteins transport various molecules across extra- and intra-cellular membranes. ABC genes are divided into seven distinct subfamilies (ABC1, MDR/TAP, MRP, ALD, OABP, GCN20, White). This protein is a member of the MRP subfamily which is involved in multi-drug resistance. This family member plays a role in cellular detoxification as a pump for its substrate, organic anions. It may also function in prostaglandin-mediated cAMP signaling in ciliogenesis. Alternative splicing of this gene results in multiple transcript variants. [provided by RefSeq, Sep 2014]",
+      "key": "22a858b4e6776cea4d56a7f480efefbc",
+      "line": 137,
+      "relation": "increases",
+      "source": 25,
+      "target": 14
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Transport related subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "identifier": "GeneID:10257 NCBI Gene",
+        "namespace": "other"
+      },
+      "evidence": "ABCC4: The protein encoded by this gene is a member of the superfamily of ATP-binding cassette (ABC) transporters. ABC proteins transport various molecules across extra- and intra-cellular membranes. ABC genes are divided into seven distinct subfamilies (ABC1, MDR/TAP, MRP, ALD, OABP, GCN20, White). This protein is a member of the MRP subfamily which is involved in multi-drug resistance. This family member plays a role in cellular detoxification as a pump for its substrate, organic anions. It may also function in prostaglandin-mediated cAMP signaling in ciliogenesis. Alternative splicing of this gene results in multiple transcript variants. [provided by RefSeq, Sep 2014]",
+      "key": "f638b55a7120f985b6b749d7ec36ba4f",
+      "line": 138,
+      "relation": "increases",
+      "source": 25,
+      "target": 10,
+      "target_modifier": {
+        "effect": {
+          "identifier": "0005215",
+          "name": "transporter activity",
+          "namespace": "go"
+        },
+        "modifier": "Activity"
+      }
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Transport related subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "identifier": "GeneID:10257 NCBI Gene",
+        "namespace": "other"
+      },
+      "evidence": "ABCC4: The protein encoded by this gene is a member of the superfamily of ATP-binding cassette (ABC) transporters. ABC proteins transport various molecules across extra- and intra-cellular membranes. ABC genes are divided into seven distinct subfamilies (ABC1, MDR/TAP, MRP, ALD, OABP, GCN20, White). This protein is a member of the MRP subfamily which is involved in multi-drug resistance. This family member plays a role in cellular detoxification as a pump for its substrate, organic anions. It may also function in prostaglandin-mediated cAMP signaling in ciliogenesis. Alternative splicing of this gene results in multiple transcript variants. [provided by RefSeq, Sep 2014]",
+      "key": "7a08d70bf9ae1bb8fd9859db1c237369",
+      "line": 139,
+      "relation": "decreases",
+      "source": 25,
+      "target": 11,
+      "target_modifier": {
+        "modifier": "Activity"
+      }
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Transport related subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "identifier": "GeneID:10057 NCBI Gene",
+        "namespace": "other"
+      },
+      "evidence": "The protein encoded by this gene is a member of the superfamily of ATP-binding cassette (ABC) transporters. ABC proteins transport various molecules across extra- and intra-cellular membranes. ABC genes are divided into seven distinct subfamilies (ABC1, MDR/TAP, MRP, ALD, OABP, GCN20, White). This protein is a member of the MRP subfamily which is involved in multi-drug resistance. This protein functions in the cellular export of its substrate, cyclic nucleotides. This export contributes to the degradation of phosphodiesterases and possibly an elimination pathway for cyclic nucleotides. Studies show that this protein provides resistance to thiopurine anticancer drugs, 6-mercatopurine and thioguanine, and the anti-HIV drug 9-(2-phosphonylmethoxyethyl)adenine. This protein may be involved in resistance to thiopurines in acute lymphoblastic leukemia and antiretroviral nucleoside analogs in HIV-infected patients. Alternative splicing results in multiple transcript variants. [provided by RefSeq, Feb 2016]",
+      "key": "b77a46f293b11496757e995326c6111b",
+      "line": 155,
+      "relation": "decreases",
+      "source": 25,
+      "target": 11,
+      "target_modifier": {
+        "modifier": "Activity"
+      }
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Transport related subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "identifier": "GeneID:10057 NCBI Gene",
+        "namespace": "other"
+      },
+      "evidence": "The protein encoded by this gene is a member of the superfamily of ATP-binding cassette (ABC) transporters. ABC proteins transport various molecules across extra- and intra-cellular membranes. ABC genes are divided into seven distinct subfamilies (ABC1, MDR/TAP, MRP, ALD, OABP, GCN20, White). This protein is a member of the MRP subfamily which is involved in multi-drug resistance. This protein functions in the cellular export of its substrate, cyclic nucleotides. This export contributes to the degradation of phosphodiesterases and possibly an elimination pathway for cyclic nucleotides. Studies show that this protein provides resistance to thiopurine anticancer drugs, 6-mercatopurine and thioguanine, and the anti-HIV drug 9-(2-phosphonylmethoxyethyl)adenine. This protein may be involved in resistance to thiopurines in acute lymphoblastic leukemia and antiretroviral nucleoside analogs in HIV-infected patients. Alternative splicing results in multiple transcript variants. [provided by RefSeq, Feb 2016]",
+      "key": "490e075ecda2025c91bc850dc9375311",
+      "line": 156,
+      "relation": "increases",
+      "source": 25,
+      "target": 3,
+      "target_modifier": {
+        "effect": {
+          "identifier": "0005215",
+          "name": "transporter activity",
+          "namespace": "go"
+        },
+        "modifier": "Activity"
+      }
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Transport related subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Arnold JC",
+          "Booth J",
+          "Brzozowska N",
+          "Li KM",
+          "McGregor IS",
+          "Stuart J",
+          "Wang XS"
+        ],
+        "date": "2016-01-01",
+        "first": "Brzozowska N",
+        "identifier": "27257556",
+        "journal": "PeerJ",
+        "last": "Arnold JC",
+        "name": "ABC transporters P-gp and Bcrp do not limit the brain uptake of the novel antipsychotic and anticonvulsant drug cannabidiol in mice.",
+        "namespace": "pubmed",
+        "pages": "e2081",
+        "volume": "4"
+      },
+      "evidence": "Cannabidiol (CBD) is currently being investigated as a novel therapeutic for the treatment of CNS disorders like schizophrenia and epilepsy. ABC transporters such as P-glycoprotein (P-gp) and breast cancer resistance protein (Bcrp) mediate pharmacoresistance in these disorders",
+      "key": "7b1f351d2be18309fdaf8e52be8f79a5",
+      "line": 168,
+      "relation": "decreases",
+      "source": 26,
+      "target": 11,
+      "target_modifier": {
+        "modifier": "Activity"
+      }
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Transport related subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Arnold JC",
+          "Booth J",
+          "Brzozowska N",
+          "Li KM",
+          "McGregor IS",
+          "Stuart J",
+          "Wang XS"
+        ],
+        "date": "2016-01-01",
+        "first": "Brzozowska N",
+        "identifier": "27257556",
+        "journal": "PeerJ",
+        "last": "Arnold JC",
+        "name": "ABC transporters P-gp and Bcrp do not limit the brain uptake of the novel antipsychotic and anticonvulsant drug cannabidiol in mice.",
+        "namespace": "pubmed",
+        "pages": "e2081",
+        "volume": "4"
+      },
+      "evidence": " These results suggest that CBD is not a substrate of P-gp or Bcrp and may be free from the complication of reduced brain uptake by these transporters.",
+      "key": "a9f5d38d6b80fe60fa9d734b272adb41",
+      "line": 175,
+      "relation": "causesNoChange",
+      "source": 26,
+      "target": 12,
+      "target_modifier": {
+        "effect": {
+          "identifier": "0005215",
+          "name": "transporter activity",
+          "namespace": "go"
+        },
+        "modifier": "Activity"
+      }
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Transport related subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Arnold JC",
+          "Booth J",
+          "Brzozowska N",
+          "Li KM",
+          "McGregor IS",
+          "Stuart J",
+          "Wang XS"
+        ],
+        "date": "2016-01-01",
+        "first": "Brzozowska N",
+        "identifier": "27257556",
+        "journal": "PeerJ",
+        "last": "Arnold JC",
+        "name": "ABC transporters P-gp and Bcrp do not limit the brain uptake of the novel antipsychotic and anticonvulsant drug cannabidiol in mice.",
+        "namespace": "pubmed",
+        "pages": "e2081",
+        "volume": "4"
+      },
+      "evidence": "Cannabidiol (CBD) is currently being investigated as a novel therapeutic for the treatment of CNS disorders like schizophrenia and epilepsy. ABC transporters such as P-glycoprotein (P-gp) and breast cancer resistance protein (Bcrp) mediate pharmacoresistance in these disorders",
+      "key": "e802eef3c61fd6cf8453458bb14b9164",
+      "line": 169,
+      "relation": "decreases",
+      "source": 12,
+      "target": 29
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Transport related subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Arnold JC",
+          "Booth J",
+          "Brzozowska N",
+          "Li KM",
+          "McGregor IS",
+          "Stuart J",
+          "Wang XS"
+        ],
+        "date": "2016-01-01",
+        "first": "Brzozowska N",
+        "identifier": "27257556",
+        "journal": "PeerJ",
+        "last": "Arnold JC",
+        "name": "ABC transporters P-gp and Bcrp do not limit the brain uptake of the novel antipsychotic and anticonvulsant drug cannabidiol in mice.",
+        "namespace": "pubmed",
+        "pages": "e2081",
+        "volume": "4"
+      },
+      "evidence": "Cannabidiol (CBD) is currently being investigated as a novel therapeutic for the treatment of CNS disorders like schizophrenia and epilepsy. ABC transporters such as P-glycoprotein (P-gp) and breast cancer resistance protein (Bcrp) mediate pharmacoresistance in these disorders",
+      "key": "484420f7ce79a3bbf3fcfb0277482261",
+      "line": 170,
+      "relation": "isA",
+      "source": 12,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Transport related subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "identifier": "GeneID:538 NCBI Gene",
+        "namespace": "other"
+      },
+      "evidence": "ATP7A: This gene encodes a transmembrane protein that functions in copper transport across membranes. This protein is localized to the trans Golgi network, where it is predicted to supply copper to copper-dependent enzymes in the secretory pathway. It relocalizes to the plasma membrane under conditions of elevated extracellular copper, and functions in the efflux of copper from cells. Mutations in this gene are associated with Menkes disease, X-linked distal spinal muscular atrophy, and occipital horn syndrome. Alternatively-spliced transcript variants have been observed. [provided by RefSeq, Aug 2013]",
+      "key": "80b7c6e66cd1a9329f62ea6089808dcc",
+      "line": 188,
+      "relation": "increases",
+      "source": 27,
+      "target": 2,
+      "target_modifier": {
+        "effect": {
+          "identifier": "0005215",
+          "name": "transporter activity",
+          "namespace": "go"
+        },
+        "modifier": "Activity"
+      }
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(CHEBI:\"aflatoxin B1 triol\")",
+      "concept": {
+        "name": "aflatoxin B1 triol",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "d52c9d9667d841aca2d35f61049c9710"
+    },
+    {
+      "bel": "a(CHEBI:\"antineoplastic agent\")",
+      "concept": {
+        "name": "antineoplastic agent",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "c5ecd61a8f9c6bbb6c62472cf769e2ce"
+    },
+    {
+      "bel": "a(CHEBI:\"copper(0)\")",
+      "concept": {
+        "name": "copper(0)",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "4d057be2868cc0e6527a0321939ba614"
+    },
+    {
+      "bel": "a(CHEBI:\"cyclic nucleotide\")",
+      "concept": {
+        "name": "cyclic nucleotide",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "aa8ce5bb10b0d602ca30ade30b4de735"
+    },
+    {
+      "bel": "a(CHEBI:\"glutamate(1-)\")",
+      "concept": {
+        "name": "glutamate(1-)",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "181eecacef5d8c628ddd68f709214612"
+    },
+    {
+      "bel": "a(CHEBI:\"glutathione disulfide\")",
+      "concept": {
+        "name": "glutathione disulfide",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "febce849ef7d2c0f4ec0cba48f41784d"
+    },
+    {
+      "bel": "a(CHEBI:\"leukotriene C4\")",
+      "concept": {
+        "name": "leukotriene C4",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "1ac91f7ae6233c10df71eb6a242958e1"
+    },
+    {
+      "bel": "a(CHEBI:\"leukotriene D4\")",
+      "concept": {
+        "name": "leukotriene D4",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "4572236f3f7a33dd31462a6dc7b2a600"
+    },
+    {
+      "bel": "a(CHEBI:\"leukotriene E4\")",
+      "concept": {
+        "name": "leukotriene E4",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "8832e8bb51d02041505b6571c548cdf5"
+    },
+    {
+      "bel": "a(CHEBI:\"leukotriene F4\")",
+      "concept": {
+        "name": "leukotriene F4",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "8577a4afc1d12e4ea1f4daef0c8fd079"
+    },
+    {
+      "bel": "a(CHEBI:\"organic anion\")",
+      "concept": {
+        "name": "organic anion",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "547cf5dd716fb6509955f0fa733b17b0"
+    },
+    {
+      "bel": "a(CHEBI:anticonvulsant)",
+      "concept": {
+        "name": "anticonvulsant",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "a8c01b5f9d16b04afd5a36fa5d60e863"
+    },
+    {
+      "bel": "a(CHEBI:cannabidiol)",
+      "concept": {
+        "name": "cannabidiol",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "14fd592a17affdb76ec1688fdee23984"
+    },
+    {
+      "bel": "a(CHEBI:porphyrin)",
+      "concept": {
+        "name": "porphyrin",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "ee862a8235e413bbf822b512deaab8ec"
+    },
+    {
+      "bel": "bp(GOBP:\"cellular detoxification\")",
+      "concept": {
+        "name": "cellular detoxification",
+        "namespace": "GOBP"
+      },
+      "function": "BiologicalProcess",
+      "id": "42bbc6553cfe2d61c27059cacb55634a"
+    },
+    {
+      "bel": "bp(GOBP:\"mitochondrial ATP transmembrane transport\")",
+      "concept": {
+        "name": "mitochondrial ATP transmembrane transport",
+        "namespace": "GOBP"
+      },
+      "function": "BiologicalProcess",
+      "id": "3d3965f23cb3d0faed50a57f401052d8"
+    },
+    {
+      "bel": "bp(PTS:\"antigen presentation pathway\")",
+      "concept": {
+        "name": "antigen presentation pathway",
+        "namespace": "PTS"
+      },
+      "function": "BiologicalProcess",
+      "id": "9d42e5213d9e68982b404917536823bd"
+    },
+    {
+      "bel": "bp(PTS:\"glutamate signaling pathway\")",
+      "concept": {
+        "name": "glutamate signaling pathway",
+        "namespace": "PTS"
+      },
+      "function": "BiologicalProcess",
+      "id": "afe592e9a38b2e399bd59445cb3568e7"
+    },
+    {
+      "bel": "bp(PTS:\"mitochondrial pathway\")",
+      "concept": {
+        "name": "mitochondrial pathway",
+        "namespace": "PTS"
+      },
+      "function": "BiologicalProcess",
+      "id": "b77b7f7c3a9593f50267c9a97687fb67"
+    },
+    {
+      "bel": "bp(PTS:\"transport pathway\")",
+      "concept": {
+        "name": "transport pathway",
+        "namespace": "PTS"
+      },
+      "function": "BiologicalProcess",
+      "id": "532559444a10195d38bf832439e56279"
+    },
+    {
+      "bel": "p(HGNC:ABCB1)",
+      "concept": {
+        "name": "ABCB1",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "9589d1bee328c32597838df3a63cf067"
+    },
+    {
+      "bel": "p(HGNC:ABCB6)",
+      "concept": {
+        "name": "ABCB6",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "e604128ffc3118648e652f99c9bff5d0"
+    },
+    {
+      "bel": "p(HGNC:ABCB6, var(\"?\"))",
+      "concept": {
+        "name": "ABCB6",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "e3e06ca1dd55335aa7569dcc3efc8a6a",
+      "variants": [
+        {
+          "hgvs": "?",
+          "kind": "hgvs"
+        }
+      ]
+    },
+    {
+      "bel": "p(HGNC:ABCC1)",
+      "concept": {
+        "name": "ABCC1",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "71c2a0f7d606e1ef2a9624ae207e1ec8"
+    },
+    {
+      "bel": "p(HGNC:ABCC2)",
+      "concept": {
+        "name": "ABCC2",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "99e89f4051425ee86da2c7bca5530121"
+    },
+    {
+      "bel": "p(HGNC:ABCC4)",
+      "concept": {
+        "name": "ABCC4",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "792be618c37f2eddb8ccf7020b981ceb"
+    },
+    {
+      "bel": "p(HGNC:ABCG2)",
+      "concept": {
+        "name": "ABCG2",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "56a1284404c58bb2bbd16c1464ac9e76"
+    },
+    {
+      "bel": "p(HGNC:ATP7A)",
+      "concept": {
+        "name": "ATP7A",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "be85eb0159a37d88b42146e31ff99ffb"
+    },
+    {
+      "bel": "p(HGNC:MUC1)",
+      "concept": {
+        "name": "MUC1",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "cec709f2d1c629740deced44fbc77763"
+    },
+    {
+      "bel": "path(MESHD:Epilepsy)",
+      "concept": {
+        "name": "Epilepsy",
+        "namespace": "MESHD"
+      },
+      "function": "Pathology",
+      "id": "fee7b78c63a926bb128c9148a0f3b960"
+    },
+    {
+      "bel": "path(MESHD:Hyperkalemia)",
+      "concept": {
+        "name": "Hyperkalemia",
+        "namespace": "MESHD"
+      },
+      "function": "Pathology",
+      "id": "3c1167f7e2d2ebed5124022bb373c74d"
+    }
+  ]
+}

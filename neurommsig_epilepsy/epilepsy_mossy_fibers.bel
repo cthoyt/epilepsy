@@ -1,0 +1,200 @@
+################################################################################
+# Metadata
+################################################################################
+
+SET DOCUMENT Name = "Epilepsy - Mossy Fibers"
+SET DOCUMENT Description = "A knowledge assembly of biological entities associated with mossy fibers and their relation to epilepsy."
+SET DOCUMENT Version = "1.0.0"
+SET DOCUMENT Authors = "Nora Filep, Anka Gueldenpfennig, Charles Tapley Hoyt, Daniel Domingo-Fernandez"
+SET DOCUMENT ContactInfo = "nora.filep@gmail.com"
+SET DOCUMENT Copyright = "Copyright © 2012-2018 Fraunhofer SCAI, All rights reserved."
+SET DOCUMENT Licenses = "CC BY 4.0"
+
+################################################################################
+# Author Credits
+################################################################################
+# Nora Filep - main curation
+# Anka Gueldenpfennig - main curation
+# Charles Tapley Hoyt - revision and evaluation
+# Daniel Domingo-Fernandez - revision, evaluation, and supervision
+
+################################################################################
+# Namespaces
+################################################################################
+
+# BEL Framework Namespaces, distributed by SCAI
+
+DEFINE NAMESPACE UBERON AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/uberon/uberon-20170724.belns"
+DEFINE NAMESPACE GOBP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go-biological-process/go-biological-process-20170511.belns"
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc-human-genes/hgnc-human-genes-20170511.belns"
+DEFINE NAMESPACE MESHD AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-diseases/mesh-diseases-20170511.belns"
+#DEFINE NAMESPACE MGI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mgi-mouse-genes/mgi-mouse-genes-20170511.belns"
+DEFINE NAMESPACE EPT AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/epilepsy-terminology/epilepsy-terminology-1.0.3.belns"
+# BELIEF Namespaces
+
+DEFINE NAMESPACE NIFT AS URL "http://belief.scai.fraunhofer.de/openbel/repository/namespaces/NIFT.belns"
+DEFINE NAMESPACE PMIBP AS URL "http://belief.scai.fraunhofer.de/BeliefDashboard/dicten/namespaces/pmibp.belns"
+
+# See: https://gist.github.com/lsauer/1312860
+DEFINE NAMESPACE INCHI AS PATTERN "^((InChI=)?[^J][0-9BCOHNSOPrIFla+\-\(\)\\\/,pqbtmsih]{6,})$"
+
+################################################################################
+# Annotations
+################################################################################
+
+# BEL Framework Annotations
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+
+# List Annotations
+DEFINE ANNOTATION Subgraph AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/neurommsig/neurommsig-1.0.3.belanno"
+
+################################################################################
+# Statements
+################################################################################
+
+SET STATEMENT_GROUP = "Group 1"
+
+# Add statements below this comment
+###########################################
+SET Citation = {"PubMed", "Brain Res. 2008 Nov 13;1240:165-76. doi: 10.1016/j.brainres.2008.08.084. Epub 2008 Sep 10.", "18804094"}
+
+SET Evidence = "A down-regulation of mGlu2/3 protein expression at the mossy fiber pathway was associated with a significant
+reduction in mGlu2/3 protein expression in the hippocampus and cortex of chronically epileptic rats."
+
+SET Species = "10116"
+SET Subgraph = "Mossy Fiber Subgraph"
+p(HGNC:GRM2) -- path(MESHD:Seizures)
+p(HGNC:GRM2) -- a(NIFT:Hippocampus)
+p(HGNC:GRM3) -- path(MESHD:Seizures)
+p(HGNC:GRM3) -- a(NIFT:Hippocampus)
+
+###########################################
+SET Citation = {"PubMed", "Mol Neurobiol. 2015 Aug;52(1):562-72. doi: 10.1007/s12035-014-8871-x. Epub 2014 Sep 12.", "25213992"}
+
+SET Evidence = " Our results indicate that TRPC3 and TRPC6 participate diversely in synaptic reorganization in the mossy fiber pathway in TLE."
+
+SET Subgraph = "Mossy Fiber Subgraph"
+p(HGNC:TRPC3) -- path(MESHD:"Epilepsy, Temporal Lobe")
+p(HGNC:TRPC6) -- path(MESHD:"Epilepsy, Temporal Lobe")
+
+############################################
+SET Citation = {"PubMed", "Mol Cell Neurosci. 2003 Dec;24(4):984-99.", "14697663"}
+
+SET Evidence = "We show that the ligand ephrin-A3 and the receptor EphA5 are expressed in complementary gradients in the adult rat mossy fiber system."
+
+SET Species = "10116"
+SET Subgraph = "Mossy Fiber Subgraph"
+p(HGNC:EFNA3) -- act(a(UBERON:"mossy fiber"), ma(EPT:sprouting))
+p(HGNC:EPHA5) -- act(a(UBERON:"mossy fiber"), ma(EPT:sprouting))
+
+###########################################
+SET Citation = {"PubMed", "Mol Cell Neurosci. 2014 May;60:63-71. doi: 10.1016/j.mcn.2014.04.002. Epub 2014 Apr 23.", "24769103"}
+
+SET Evidence = " Activation of extrasynaptic NMDAR (comprised of GluN2B>GluN2) dephosphorylates CREB (Ser 133), reduces BDNF expression and triggers neuronal death.
+Consistent with our hypothesis, chronic treatment (17-21days) of hippocampal slice cultures with the
+GluN2B-selective antagonists ifenprodil or Ro25,6981 increased both CREB (Ser 133) phosphorylation and granule cell mossy fiber pathway DYN expression"
+
+SET Subgraph = "Mossy Fiber Subgraph"
+complex(p(HGNC:GRIN2A), p(HGNC:GRIN2B)) -| p(HGNC:CREB1, pmod(P, S, 133))
+complex(p(HGNC:GRIN2A), p(HGNC:GRIN2B)) -| p(HGNC:BDNF)
+complex(p(HGNC:GRIN2A), p(HGNC:GRIN2B)) -> bp(GOBP:"neuron death")
+
+##########################################
+SET Citation = {"PubMed", "J Neuropathol Exp Neurol. 2013 Nov;72(11):1029-42. doi: 10.1097/NEN.0000000000000002.", "24128677"}
+
+SET Evidence = " Mossy fiber sprouting correlated with granular layer NGF immunoreactivity and seizure frequency."
+
+SET Subgraph = "Mossy Fiber Subgraph"
+p(HGNC:NGF) positiveCorrelation act(a(UBERON:"mossy fiber"), ma(EPT:sprouting))
+act(a(UBERON:"mossy fiber"), ma(EPT:sprouting)) positiveCorrelation path(MESHD:Seizures)
+
+############################################
+SET Citation = {"PubMed", "Zhonghua Yi Xue Za Zhi. 2007 Jan 30;87(5):341-4.", "17456365"}
+
+SET Evidence = " To explore the effects of the ultrastructural features of sprouted mossy fiber synapses in the mechanism of temporal lobe epilepsy.
+The time course of the increase of netrin-1 mRNA in the dentate granule cell layers was correlated with the time course of mossy fiber sprouting and synaptic reorganization in hippocampus.
+The axon guidance molecule- netrin-1 plays an important role in the process of mossy fiber axonal outgrowth and synaptogenesis in the hippocampal dentate gyrus."
+
+SET Subgraph = "Mossy Fiber Subgraph"
+p(HGNC:NTN1) positiveCorrelation act(a(UBERON:"mossy fiber"), ma(EPT:sprouting))
+p(HGNC:NTN1) -> bp(GOBP:"axon guidance")
+p(HGNC:NTN1) -> bp(GOBP:"synapse assembly")
+p(HGNC:NTN1) -- a(NIFT:Hippocampus)
+p(HGNC:NTN1) -- a(EPT:"dentate gyrus")
+
+###############################################
+SET Citation = {"PubMed", "Mol Cell Neurosci. 2005 Jun;29(2):162-72.", "15911341"}
+
+SET Evidence = "Our results suggest that TrkA, but not p75NTR, plays a role in kindling, while both receptors modulate kindling-induced
+mossy fiber sprouting. This implicates different mechanisms of neurotrophin action on kindling (mediated by TrkA) and neuronal
+sprouting (mediated by both TrkA and p75NTR) and suggests that sprouting involves kindling-independent neurotrophin action via p75NTR."
+
+SET Subgraph = "Mossy Fiber Subgraph"
+p(HGNC:NTRK1) -> path(MESHD:Seizures)
+p(HGNC:NTRK1) -> act(a(UBERON:"mossy fiber"), ma(EPT:sprouting))
+p(HGNC:NGFR) -> act(a(UBERON:"mossy fiber"), ma(EPT:sprouting))
+p(HGNC:BDNF) -> p(HGNC:NTRK1)
+p(HGNC:BDNF) -> p(HGNC:NGFR)
+
+###############################################
+SET Citation = {"PubMed", "Epilepsia. 2005;46 Suppl 5:125-8.", "15987266"}
+
+SET Evidence = "GAP43 has been thought to be linked with mossy fiber sprouting (MFS) in various experimental models of epilepsy. "
+
+SET Subgraph = "Mossy Fiber Subgraph"
+p(HGNC:GAP43) -- act(a(UBERON:"mossy fiber"), ma(EPT:sprouting))
+p(HGNC:GAP43) -- path(MESHD:Epilepsy)
+
+################################################
+SET Citation = {"PubMed", "J Neurochem. 2003 Oct;87(1):147-59.", "12969262"}
+
+SET Evidence = "Taken together, these results suggest that the period of robust mossy fiber sprouting does not correlate with the
+phase of post-lesion BDNF upregulation. Rather, it shows a relationship with the time of upregulation of neurotrophins NGF and NT-3."
+SET Subgraph = "Mossy Fiber Subgraph"
+p(HGNC:NTF3) positiveCorrelation act(a(UBERON:"mossy fiber"), ma(EPT:sprouting))
+
+################################################
+SET Citation = {"PubMed", "Toxicol Lett. 2009 Feb 10;184(3):145-50. doi: 10.1016/j.toxlet.2008.11.003. Epub 2008 Nov 18.", "19059322"}
+
+SET Evidence = " Our results suggest that the long-term adverse effects of recurrent neonatal seizures on cognition and
+mossy fiber sprouting may be associated with the down-regulated expression of ZnT-1 and CaMK II in hippocampus."
+
+SET Subgraph = "Mossy Fiber Subgraph"
+act(a(UBERON:"mossy fiber"), ma(EPT:sprouting)) negativeCorrelation p(HGNC:SLC30A1)
+act(a(UBERON:"mossy fiber"), ma(EPT:sprouting)) negativeCorrelation p(HGNC:CAMK2A)
+p(HGNC:SLC30A1) -- a(NIFT:Hippocampus)
+p(HGNC:CAMK2A) -- a(NIFT:Hippocampus)
+
+################################################
+SET Citation = {"PubMed", "Epilepsia. 2011 Mar;52(3):572-8. doi: 10.1111/j.1528-1167.2010.02930.x. Epub 2011 Jan 26.", "21269288"}
+
+SET Evidence = "These data suggest that the supplementation of FGF-2 and BDNF in an epileptogenic hippocampus may prevent
+epileptogenesis by decreasing neuronal loss and mossy fiber sprouting, that is, reducing some forms of circuit reorganization."
+
+SET Subgraph = "Mossy Fiber Subgraph"
+p(HGNC:FGF2) -| act(a(UBERON:"mossy fiber"), ma(EPT:sprouting))
+p(HGNC:BDNF) -| act(a(UBERON:"mossy fiber"), ma(EPT:sprouting))
+act(a(UBERON:"mossy fiber"), ma(EPT:sprouting)) -> bp(EPT:"epileptogenesis")
+
+#################################################
+SET Citation = {"PubMed", "Neuroscience. 1999;94(2):465-71.", "10579209"}
+
+SET Evidence = "Our data suggest that a protective mechanism exerted by dynorphin release and activation of kappa receptors
+may be lost in hippocampi with recurrent mossy fiber sprouting."
+SET Subgraph = "Mossy Fiber Subgraph"
+complex(p(HGNC:OPRK1), p(HGNC:PDYN)) -| bp(EPT:"epileptogenesis")
+p(HGNC:OPRK1) -- act(a(UBERON:"mossy fiber"), ma(EPT:sprouting))
+p(HGNC:PDYN) -- act(a(UBERON:"mossy fiber"), ma(EPT:sprouting))
+
+###################################################
+SET Citation = {"PubMed", "Zhonghua Yi Xue Za Zhi. 2011 May 10;91(17):1197-202.", "21756775"}
+
+SET Evidence = "Cdk5/p35 and its substrate tau protein may be involved in MFS. Understanding the molecular mechanisms
+of MFS may lead to therapeutic interventions for limiting epileptogenesis."
+SET Subgraph = "Mossy Fiber Subgraph"
+p(HGNC:CDK5) -> a(UBERON:"mossy fiber"))
+p(HGNC:MAPT) -> a(UBERON:"mossy fiber"))
+
+
+UNSET STATEMENT_GROUP
+

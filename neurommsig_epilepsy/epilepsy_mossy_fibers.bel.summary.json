@@ -1,0 +1,14 @@
+{
+  "Name": "Epilepsy - Mossy Fibers",
+  "Version": "1.0.0",
+  "Authors": "Nora Filep, Anka Gueldenpfennig, Charles Tapley Hoyt, Daniel Domingo-Fernandez",
+  "Number of Nodes": 36,
+  "Number of Namespaces": 7,
+  "Number of Edges": 65,
+  "Number of Annotations": 2,
+  "Number of Citations": 13,
+  "Number of Authors": 76,
+  "Network Density": "5.16E-02",
+  "Number of Components": 2,
+  "Number of Warnings": 0
+}

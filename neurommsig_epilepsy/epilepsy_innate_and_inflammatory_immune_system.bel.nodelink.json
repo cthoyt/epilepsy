@@ -1,0 +1,4382 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_curie": [],
+    "annotation_list": {},
+    "annotation_miriam": [],
+    "annotation_pattern": {},
+    "annotation_url": {
+      "Species": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno",
+      "Subgraph": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/neurommsig/neurommsig-1.0.3.belanno"
+    },
+    "document_metadata": {
+      "authors": "Nora Filep, Anka Gueldenpfennig, Charles Tapley Hoyt, Daniel Domingo-Fernandez",
+      "contact": "nora.filep@gmail.com",
+      "copyright": "Copyright © 2012-2018 Fraunhofer SCAI, All rights reserved.",
+      "description": "A knowledge assembly of biological entities involved in the innate and inflammatory immune responses and their relation to epilepsy.",
+      "licenses": "CC BY 4.0",
+      "name": "Epilepsy - Innate and Inflammatory Immune Response",
+      "version": "1.0.0"
+    },
+    "namespace_pattern": {},
+    "namespace_url": {
+      "BRCO": "http://belief.scai.fraunhofer.de/openbel/repository/namespaces/BRCO.belns",
+      "CHEBI": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20170511.belns",
+      "EPT": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/epilepsy-terminology/epilepsy-terminology-1.0.3.belns",
+      "GOBP": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go-biological-process/go-biological-process-20170511.belns",
+      "HGNC": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc-human-genes/hgnc-human-genes-20170511.belns",
+      "MESHD": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-diseases/mesh-diseases-20170511.belns",
+      "NIFT": "http://belief.scai.fraunhofer.de/openbel/repository/namespaces/NIFT.belns",
+      "PTS": "http://belief.scai.fraunhofer.de/openbel/repository/namespaces/PTS.belns"
+    },
+    "path": "epilepsy_innate_and_inflammatory_immune_system.bel",
+    "pybel_version": "0.15.0"
+  },
+  "links": [
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "miRNA subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "He F",
+          "Kong H",
+          "Li L",
+          "Omran A",
+          "Peng J",
+          "Wang Y",
+          "Wu T",
+          "Yin F"
+        ],
+        "date": "2015-09-01",
+        "first": "Kong H",
+        "identifier": "25957996",
+        "journal": "Journal of molecular neuroscience : MN",
+        "last": "Peng J",
+        "name": "The Effect of miR-132, miR-146a, and miR-155 on MRP8/TLR4-Induced Astrocyte-Related Inflammation.",
+        "namespace": "pubmed",
+        "pages": "28-37",
+        "volume": "57"
+      },
+      "evidence": "In this study, we investigated the effect of miR-132, miR-146a, and miR-155 on myeloid-related protein-8 (MRP8) induced astrocyte-related inflammation. Using quantitative polymerase chain reaction (qPCR) and western blot, we found clear upregulation of TLR4 and downstream inflammatory cytokines, along with dysregulation of miR-132, miR-146a, and miR-155 in in vitro astrocytes after exposing them to different concentrations of MRP8",
+      "key": "fa7679e204135ac44db368465a9d374b",
+      "line": 66,
+      "relation": "increases",
+      "source": 19,
+      "target": 0,
+      "target_modifier": {
+        "modifier": "Activity"
+      }
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "miRNA subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "He F",
+          "Kong H",
+          "Li L",
+          "Omran A",
+          "Peng J",
+          "Wang Y",
+          "Wu T",
+          "Yin F"
+        ],
+        "date": "2015-09-01",
+        "first": "Kong H",
+        "identifier": "25957996",
+        "journal": "Journal of molecular neuroscience : MN",
+        "last": "Peng J",
+        "name": "The Effect of miR-132, miR-146a, and miR-155 on MRP8/TLR4-Induced Astrocyte-Related Inflammation.",
+        "namespace": "pubmed",
+        "pages": "28-37",
+        "volume": "57"
+      },
+      "evidence": "In this study, we investigated the effect of miR-132, miR-146a, and miR-155 on myeloid-related protein-8 (MRP8) induced astrocyte-related inflammation. Using quantitative polymerase chain reaction (qPCR) and western blot, we found clear upregulation of TLR4 and downstream inflammatory cytokines, along with dysregulation of miR-132, miR-146a, and miR-155 in in vitro astrocytes after exposing them to different concentrations of MRP8",
+      "key": "ff55b9bfe9236dfbbfc4b8a3fc8efe41",
+      "line": 67,
+      "relation": "increases",
+      "source": 19,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "miRNA subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "He F",
+          "Kong H",
+          "Li L",
+          "Omran A",
+          "Peng J",
+          "Wang Y",
+          "Wu T",
+          "Yin F"
+        ],
+        "date": "2015-09-01",
+        "first": "Kong H",
+        "identifier": "25957996",
+        "journal": "Journal of molecular neuroscience : MN",
+        "last": "Peng J",
+        "name": "The Effect of miR-132, miR-146a, and miR-155 on MRP8/TLR4-Induced Astrocyte-Related Inflammation.",
+        "namespace": "pubmed",
+        "pages": "28-37",
+        "volume": "57"
+      },
+      "evidence": "In this study, we investigated the effect of miR-132, miR-146a, and miR-155 on myeloid-related protein-8 (MRP8) induced astrocyte-related inflammation. Using quantitative polymerase chain reaction (qPCR) and western blot, we found clear upregulation of TLR4 and downstream inflammatory cytokines, along with dysregulation of miR-132, miR-146a, and miR-155 in in vitro astrocytes after exposing them to different concentrations of MRP8",
+      "key": "d61bce2c89697f93ac28117566af4601",
+      "line": 68,
+      "relation": "association",
+      "source": 19,
+      "target": 33
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "miRNA subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "He F",
+          "Kong H",
+          "Li L",
+          "Omran A",
+          "Peng J",
+          "Wang Y",
+          "Wu T",
+          "Yin F"
+        ],
+        "date": "2015-09-01",
+        "first": "Kong H",
+        "identifier": "25957996",
+        "journal": "Journal of molecular neuroscience : MN",
+        "last": "Peng J",
+        "name": "The Effect of miR-132, miR-146a, and miR-155 on MRP8/TLR4-Induced Astrocyte-Related Inflammation.",
+        "namespace": "pubmed",
+        "pages": "28-37",
+        "volume": "57"
+      },
+      "evidence": "In this study, we investigated the effect of miR-132, miR-146a, and miR-155 on myeloid-related protein-8 (MRP8) induced astrocyte-related inflammation. Using quantitative polymerase chain reaction (qPCR) and western blot, we found clear upregulation of TLR4 and downstream inflammatory cytokines, along with dysregulation of miR-132, miR-146a, and miR-155 in in vitro astrocytes after exposing them to different concentrations of MRP8",
+      "key": "b2a91c9e2293e7dc211ddac214891d4b",
+      "line": 69,
+      "relation": "association",
+      "source": 19,
+      "target": 34
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "miRNA subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "He F",
+          "Kong H",
+          "Li L",
+          "Omran A",
+          "Peng J",
+          "Wang Y",
+          "Wu T",
+          "Yin F"
+        ],
+        "date": "2015-09-01",
+        "first": "Kong H",
+        "identifier": "25957996",
+        "journal": "Journal of molecular neuroscience : MN",
+        "last": "Peng J",
+        "name": "The Effect of miR-132, miR-146a, and miR-155 on MRP8/TLR4-Induced Astrocyte-Related Inflammation.",
+        "namespace": "pubmed",
+        "pages": "28-37",
+        "volume": "57"
+      },
+      "evidence": "In this study, we investigated the effect of miR-132, miR-146a, and miR-155 on myeloid-related protein-8 (MRP8) induced astrocyte-related inflammation. Using quantitative polymerase chain reaction (qPCR) and western blot, we found clear upregulation of TLR4 and downstream inflammatory cytokines, along with dysregulation of miR-132, miR-146a, and miR-155 in in vitro astrocytes after exposing them to different concentrations of MRP8",
+      "key": "481d9836cd749ca34a60ae9d0a1b4195",
+      "line": 70,
+      "relation": "association",
+      "source": 19,
+      "target": 35
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "miRNA subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "He F",
+          "Kong H",
+          "Li L",
+          "Omran A",
+          "Peng J",
+          "Wang Y",
+          "Wu T",
+          "Yin F"
+        ],
+        "date": "2015-09-01",
+        "first": "Kong H",
+        "identifier": "25957996",
+        "journal": "Journal of molecular neuroscience : MN",
+        "last": "Peng J",
+        "name": "The Effect of miR-132, miR-146a, and miR-155 on MRP8/TLR4-Induced Astrocyte-Related Inflammation.",
+        "namespace": "pubmed",
+        "pages": "28-37",
+        "volume": "57"
+      },
+      "evidence": "In this study, we investigated the effect of miR-132, miR-146a, and miR-155 on myeloid-related protein-8 (MRP8) induced astrocyte-related inflammation. Using quantitative polymerase chain reaction (qPCR) and western blot, we found clear upregulation of TLR4 and downstream inflammatory cytokines, along with dysregulation of miR-132, miR-146a, and miR-155 in in vitro astrocytes after exposing them to different concentrations of MRP8",
+      "key": "af9baa57f6b21794101bd74fbb7d840e",
+      "line": 74,
+      "relation": "increases",
+      "source": 19,
+      "target": 25
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Ashhab MU",
+          "Deng X",
+          "Gan N",
+          "He F",
+          "Kong H",
+          "Ma Y",
+          "Omran A",
+          "Peng J",
+          "Wu L",
+          "Xiang Q",
+          "Yang L",
+          "Yin F",
+          "Zhang C"
+        ],
+        "date": "2014-02-01",
+        "first": "Gan N",
+        "identifier": "23982744",
+        "journal": "Molecular neurobiology",
+        "last": "Yin F",
+        "name": "Myoloid-related protein 8, an endogenous ligand of Toll-like receptor 4, is involved in epileptogenesis of mesial temporal lobe epilepsy via activation of the nuclear factor-κB pathway in astrocytes.",
+        "namespace": "pubmed",
+        "pages": "337-51",
+        "volume": "49"
+      },
+      "evidence": "The role of Toll-like receptor 4 (TLR4) in the activation of innate immunity has been extensively studied in the past several years. Here, we are the first to report that myeloid-related protein 8 (MRP8), an endogenous TLR4 ligand, is involved in the epileptogenesis of mesial temporal lobe epilepsy (MTLE)",
+      "key": "30b669c98bf2a75d2e98da2e7749824e",
+      "line": 131,
+      "relation": "increases",
+      "source": 19,
+      "target": 3
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Ashhab MU",
+          "Deng X",
+          "Gan N",
+          "He F",
+          "Kong H",
+          "Ma Y",
+          "Omran A",
+          "Peng J",
+          "Wu L",
+          "Xiang Q",
+          "Yang L",
+          "Yin F",
+          "Zhang C"
+        ],
+        "date": "2014-02-01",
+        "first": "Gan N",
+        "identifier": "23982744",
+        "journal": "Molecular neurobiology",
+        "last": "Yin F",
+        "name": "Myoloid-related protein 8, an endogenous ligand of Toll-like receptor 4, is involved in epileptogenesis of mesial temporal lobe epilepsy via activation of the nuclear factor-κB pathway in astrocytes.",
+        "namespace": "pubmed",
+        "pages": "337-51",
+        "volume": "49"
+      },
+      "evidence": "The role of Toll-like receptor 4 (TLR4) in the activation of innate immunity has been extensively studied in the past several years. Here, we are the first to report that myeloid-related protein 8 (MRP8), an endogenous TLR4 ligand, is involved in the epileptogenesis of mesial temporal lobe epilepsy (MTLE)",
+      "key": "18ffea010922d0625c87de608cc46247",
+      "line": 132,
+      "relation": "increases",
+      "source": 19,
+      "target": 30
+    },
+    {
+      "key": "3d74ca3fcf1beb138353bc6d94c61bdf",
+      "relation": "partOf",
+      "source": 19,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "miRNA subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "He F",
+          "Kong H",
+          "Li L",
+          "Omran A",
+          "Peng J",
+          "Wang Y",
+          "Wu T",
+          "Yin F"
+        ],
+        "date": "2015-09-01",
+        "first": "Kong H",
+        "identifier": "25957996",
+        "journal": "Journal of molecular neuroscience : MN",
+        "last": "Peng J",
+        "name": "The Effect of miR-132, miR-146a, and miR-155 on MRP8/TLR4-Induced Astrocyte-Related Inflammation.",
+        "namespace": "pubmed",
+        "pages": "28-37",
+        "volume": "57"
+      },
+      "evidence": "In this study, we investigated the effect of miR-132, miR-146a, and miR-155 on myeloid-related protein-8 (MRP8) induced astrocyte-related inflammation. Using quantitative polymerase chain reaction (qPCR) and western blot, we found clear upregulation of TLR4 and downstream inflammatory cytokines, along with dysregulation of miR-132, miR-146a, and miR-155 in in vitro astrocytes after exposing them to different concentrations of MRP8",
+      "key": "595a2ab6f3fa64b808c06d758a465266",
+      "line": 71,
+      "relation": "association",
+      "source": 0,
+      "target": 33
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "miRNA subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "He F",
+          "Kong H",
+          "Li L",
+          "Omran A",
+          "Peng J",
+          "Wang Y",
+          "Wu T",
+          "Yin F"
+        ],
+        "date": "2015-09-01",
+        "first": "Kong H",
+        "identifier": "25957996",
+        "journal": "Journal of molecular neuroscience : MN",
+        "last": "Peng J",
+        "name": "The Effect of miR-132, miR-146a, and miR-155 on MRP8/TLR4-Induced Astrocyte-Related Inflammation.",
+        "namespace": "pubmed",
+        "pages": "28-37",
+        "volume": "57"
+      },
+      "evidence": "Together, our findings demonstrate the novel role of TLR4-related microRNAs, especially miR-132, in the regulation of MRP8-induced astrocyte activation and highlight the importance of miR-132 in the modulation of innate immune response induced by endogenous ligands in neurological diseases.",
+      "key": "53382f33c921bda674211cc047659e04",
+      "line": 83,
+      "relation": "association",
+      "source": 0,
+      "source_modifier": {
+        "modifier": "Activity"
+      },
+      "target": 33
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "miRNA subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "He F",
+          "Kong H",
+          "Li L",
+          "Omran A",
+          "Peng J",
+          "Wang Y",
+          "Wu T",
+          "Yin F"
+        ],
+        "date": "2015-09-01",
+        "first": "Kong H",
+        "identifier": "25957996",
+        "journal": "Journal of molecular neuroscience : MN",
+        "last": "Peng J",
+        "name": "The Effect of miR-132, miR-146a, and miR-155 on MRP8/TLR4-Induced Astrocyte-Related Inflammation.",
+        "namespace": "pubmed",
+        "pages": "28-37",
+        "volume": "57"
+      },
+      "evidence": "In this study, we investigated the effect of miR-132, miR-146a, and miR-155 on myeloid-related protein-8 (MRP8) induced astrocyte-related inflammation. Using quantitative polymerase chain reaction (qPCR) and western blot, we found clear upregulation of TLR4 and downstream inflammatory cytokines, along with dysregulation of miR-132, miR-146a, and miR-155 in in vitro astrocytes after exposing them to different concentrations of MRP8",
+      "key": "27458a3dc5aa377775543493def9af7a",
+      "line": 72,
+      "relation": "association",
+      "source": 0,
+      "target": 34
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "miRNA subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "He F",
+          "Kong H",
+          "Li L",
+          "Omran A",
+          "Peng J",
+          "Wang Y",
+          "Wu T",
+          "Yin F"
+        ],
+        "date": "2015-09-01",
+        "first": "Kong H",
+        "identifier": "25957996",
+        "journal": "Journal of molecular neuroscience : MN",
+        "last": "Peng J",
+        "name": "The Effect of miR-132, miR-146a, and miR-155 on MRP8/TLR4-Induced Astrocyte-Related Inflammation.",
+        "namespace": "pubmed",
+        "pages": "28-37",
+        "volume": "57"
+      },
+      "evidence": "In this study, we investigated the effect of miR-132, miR-146a, and miR-155 on myeloid-related protein-8 (MRP8) induced astrocyte-related inflammation. Using quantitative polymerase chain reaction (qPCR) and western blot, we found clear upregulation of TLR4 and downstream inflammatory cytokines, along with dysregulation of miR-132, miR-146a, and miR-155 in in vitro astrocytes after exposing them to different concentrations of MRP8",
+      "key": "9ccae7157621ebf523edd9415e05a384",
+      "line": 73,
+      "relation": "association",
+      "source": 0,
+      "target": 35
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "He F",
+          "Kong H",
+          "Li L",
+          "Omran A",
+          "Peng J",
+          "Wang Y",
+          "Wu T",
+          "Yin F"
+        ],
+        "date": "2015-09-01",
+        "first": "Kong H",
+        "identifier": "25957996",
+        "journal": "Journal of molecular neuroscience : MN",
+        "last": "Peng J",
+        "name": "The Effect of miR-132, miR-146a, and miR-155 on MRP8/TLR4-Induced Astrocyte-Related Inflammation.",
+        "namespace": "pubmed",
+        "pages": "28-37",
+        "volume": "57"
+      },
+      "evidence": "Astrocyte activation, associated with the release of pro-inflammatory cytokines interleukin 1-β (IL-1β), interleukin-6 (IL-6), and tumor necrosis factor alpha (TNF-α), is a hallmark of multiple brain diseases, including mesial temporal lobe epilepsy.",
+      "key": "30ebf2b98c1ca43ba6371e3ce49675f0",
+      "line": 101,
+      "relation": "increases",
+      "source": 0,
+      "source_modifier": {
+        "modifier": "Activity"
+      },
+      "target": 30
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "He F",
+          "Kong H",
+          "Li L",
+          "Omran A",
+          "Peng J",
+          "Wang Y",
+          "Wu T",
+          "Yin F"
+        ],
+        "date": "2015-09-01",
+        "first": "Kong H",
+        "identifier": "25957996",
+        "journal": "Journal of molecular neuroscience : MN",
+        "last": "Peng J",
+        "name": "The Effect of miR-132, miR-146a, and miR-155 on MRP8/TLR4-Induced Astrocyte-Related Inflammation.",
+        "namespace": "pubmed",
+        "pages": "28-37",
+        "volume": "57"
+      },
+      "evidence": "Astrocyte activation, associated with the release of pro-inflammatory cytokines interleukin 1-β (IL-1β), interleukin-6 (IL-6), and tumor necrosis factor alpha (TNF-α), is a hallmark of multiple brain diseases, including mesial temporal lobe epilepsy.",
+      "key": "5855206bfdff6a2a08c69eaef3961d8b",
+      "line": 102,
+      "relation": "increases",
+      "source": 0,
+      "source_modifier": {
+        "modifier": "Activity"
+      },
+      "target": 12
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "He F",
+          "Kong H",
+          "Li L",
+          "Omran A",
+          "Peng J",
+          "Wang Y",
+          "Wu T",
+          "Yin F"
+        ],
+        "date": "2015-09-01",
+        "first": "Kong H",
+        "identifier": "25957996",
+        "journal": "Journal of molecular neuroscience : MN",
+        "last": "Peng J",
+        "name": "The Effect of miR-132, miR-146a, and miR-155 on MRP8/TLR4-Induced Astrocyte-Related Inflammation.",
+        "namespace": "pubmed",
+        "pages": "28-37",
+        "volume": "57"
+      },
+      "evidence": "Astrocyte activation, associated with the release of pro-inflammatory cytokines interleukin 1-β (IL-1β), interleukin-6 (IL-6), and tumor necrosis factor alpha (TNF-α), is a hallmark of multiple brain diseases, including mesial temporal lobe epilepsy.",
+      "key": "1c8a292001e11447eba31c87b8839289",
+      "line": 103,
+      "relation": "increases",
+      "source": 0,
+      "source_modifier": {
+        "modifier": "Activity"
+      },
+      "target": 14
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "He F",
+          "Kong H",
+          "Li L",
+          "Omran A",
+          "Peng J",
+          "Wang Y",
+          "Wu T",
+          "Yin F"
+        ],
+        "date": "2015-09-01",
+        "first": "Kong H",
+        "identifier": "25957996",
+        "journal": "Journal of molecular neuroscience : MN",
+        "last": "Peng J",
+        "name": "The Effect of miR-132, miR-146a, and miR-155 on MRP8/TLR4-Induced Astrocyte-Related Inflammation.",
+        "namespace": "pubmed",
+        "pages": "28-37",
+        "volume": "57"
+      },
+      "evidence": "Astrocyte activation, associated with the release of pro-inflammatory cytokines interleukin 1-β (IL-1β), interleukin-6 (IL-6), and tumor necrosis factor alpha (TNF-α), is a hallmark of multiple brain diseases, including mesial temporal lobe epilepsy.",
+      "key": "d247ae823c6b8159d589ceca2ce34dde",
+      "line": 104,
+      "relation": "increases",
+      "source": 0,
+      "source_modifier": {
+        "modifier": "Activity"
+      },
+      "target": 27
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Anink J",
+          "Aronica E",
+          "Baayen JC",
+          "Boison D",
+          "Carbonell C",
+          "Gorter JA",
+          "Iyer A",
+          "Zurolo E",
+          "de Groot M",
+          "van Vliet EA"
+        ],
+        "date": "2011-09-01",
+        "first": "Aronica E",
+        "identifier": "21635241",
+        "journal": "Epilepsia",
+        "last": "Gorter JA",
+        "name": "Upregulation of adenosine kinase in astrocytes in experimental and human temporal lobe epilepsy.",
+        "namespace": "pubmed",
+        "pages": "1645-55",
+        "volume": "52"
+      },
+      "evidence": "These results suggest that dysregulation of ADK in astrocytes is a common pathologic hallmark of TLE. Moreover, in vitro data suggest the existence of an additional layer of modulatory crosstalk between the astrocyte-based adenosine cycle and inflammation. ",
+      "key": "2f41f00603cab7cfe8d535b0f6951793",
+      "line": 212,
+      "relation": "association",
+      "source": 0,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Duksal T",
+          "Kirkali G",
+          "Ozkaya F",
+          "Tiftikcioglu BI",
+          "Uludag IF",
+          "Zorlu Y"
+        ],
+        "date": "2015-03-01",
+        "first": "Uludag IF",
+        "identifier": "25799897",
+        "journal": "Seizure",
+        "last": "Kirkali G",
+        "name": "IL-1β, IL-6 and IL1Ra levels in temporal lobe epilepsy.",
+        "namespace": "pubmed",
+        "pages": "22-5",
+        "volume": "26"
+      },
+      "evidence": "The major findings in our study were increased levels of IL-1β, IL-6 and IL-1Ra in epileptic patients and high levels of IL-1β in TLE group. Our results support the existence of a chronic inflammatory state in epileptic patients.",
+      "key": "3d0878484e2a312d83702e52840e3577",
+      "line": 204,
+      "relation": "increases",
+      "source": 5,
+      "target": 31
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Anink J",
+          "Aronica E",
+          "Baayen JC",
+          "Boison D",
+          "Carbonell C",
+          "Gorter JA",
+          "Iyer A",
+          "Zurolo E",
+          "de Groot M",
+          "van Vliet EA"
+        ],
+        "date": "2011-09-01",
+        "first": "Aronica E",
+        "identifier": "21635241",
+        "journal": "Epilepsia",
+        "last": "Gorter JA",
+        "name": "Upregulation of adenosine kinase in astrocytes in experimental and human temporal lobe epilepsy.",
+        "namespace": "pubmed",
+        "pages": "1645-55",
+        "volume": "52"
+      },
+      "evidence": "These results suggest that dysregulation of ADK in astrocytes is a common pathologic hallmark of TLE. Moreover, in vitro data suggest the existence of an additional layer of modulatory crosstalk between the astrocyte-based adenosine cycle and inflammation. ",
+      "key": "d58e0e609e87a5cf2170c8d34edd9027",
+      "line": 214,
+      "relation": "association",
+      "source": 5,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Brouwer C",
+          "Dustin IH",
+          "Fujita M",
+          "Gershen LD",
+          "Hirvonen J",
+          "Hong JS",
+          "Inati SK",
+          "Innis RB",
+          "Jenko KJ",
+          "Kreisl WC",
+          "Liow JS",
+          "Morse CL",
+          "Pike VW",
+          "Theodore WH",
+          "Zanotti-Fregonara P",
+          "Zoghbi SS"
+        ],
+        "date": "2015-08-01",
+        "first": "Gershen LD",
+        "identifier": "26052981",
+        "journal": "JAMA neurology",
+        "last": "Theodore WH",
+        "name": "Neuroinflammation in Temporal Lobe Epilepsy Measured Using Positron Emission Tomographic Imaging of Translocator Protein.",
+        "namespace": "pubmed",
+        "pages": "882-8",
+        "volume": "72"
+      },
+      "evidence": " Binding of TSPO is increased both ipsilateral and contralateral to seizure foci in patients with TLE, suggesting ongoing inflammation. Anti-inflammatory therapy may play a role in treating drug-resistant epilepsy.",
+      "key": "e7d2b1f89a13dba748129efbdff2b21d",
+      "line": 223,
+      "relation": "association",
+      "source": 5,
+      "target": 29
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Brouwer C",
+          "Dustin IH",
+          "Fujita M",
+          "Gershen LD",
+          "Hirvonen J",
+          "Hong JS",
+          "Inati SK",
+          "Innis RB",
+          "Jenko KJ",
+          "Kreisl WC",
+          "Liow JS",
+          "Morse CL",
+          "Pike VW",
+          "Theodore WH",
+          "Zanotti-Fregonara P",
+          "Zoghbi SS"
+        ],
+        "date": "2015-08-01",
+        "first": "Gershen LD",
+        "identifier": "26052981",
+        "journal": "JAMA neurology",
+        "last": "Theodore WH",
+        "name": "Neuroinflammation in Temporal Lobe Epilepsy Measured Using Positron Emission Tomographic Imaging of Translocator Protein.",
+        "namespace": "pubmed",
+        "pages": "882-8",
+        "volume": "72"
+      },
+      "evidence": " Binding of TSPO is increased both ipsilateral and contralateral to seizure foci in patients with TLE, suggesting ongoing inflammation. Anti-inflammatory therapy may play a role in treating drug-resistant epilepsy.",
+      "key": "1bd0d417a102c4ce78b7a9c86dab7e5a",
+      "line": 224,
+      "relation": "association",
+      "source": 5,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "miRNA subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "He F",
+          "Kong H",
+          "Li L",
+          "Omran A",
+          "Peng J",
+          "Wang Y",
+          "Wu T",
+          "Yin F"
+        ],
+        "date": "2015-09-01",
+        "first": "Kong H",
+        "identifier": "25957996",
+        "journal": "Journal of molecular neuroscience : MN",
+        "last": "Peng J",
+        "name": "The Effect of miR-132, miR-146a, and miR-155 on MRP8/TLR4-Induced Astrocyte-Related Inflammation.",
+        "namespace": "pubmed",
+        "pages": "28-37",
+        "volume": "57"
+      },
+      "evidence": "In this study, we investigated the effect of miR-132, miR-146a, and miR-155 on myeloid-related protein-8 (MRP8) induced astrocyte-related inflammation. Using quantitative polymerase chain reaction (qPCR) and western blot, we found clear upregulation of TLR4 and downstream inflammatory cytokines, along with dysregulation of miR-132, miR-146a, and miR-155 in in vitro astrocytes after exposing them to different concentrations of MRP8",
+      "key": "04221af2db8f1257ca719f53e71b9144",
+      "line": 68,
+      "relation": "association",
+      "source": 33,
+      "target": 19
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "miRNA subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "He F",
+          "Kong H",
+          "Li L",
+          "Omran A",
+          "Peng J",
+          "Wang Y",
+          "Wu T",
+          "Yin F"
+        ],
+        "date": "2015-09-01",
+        "first": "Kong H",
+        "identifier": "25957996",
+        "journal": "Journal of molecular neuroscience : MN",
+        "last": "Peng J",
+        "name": "The Effect of miR-132, miR-146a, and miR-155 on MRP8/TLR4-Induced Astrocyte-Related Inflammation.",
+        "namespace": "pubmed",
+        "pages": "28-37",
+        "volume": "57"
+      },
+      "evidence": "In this study, we investigated the effect of miR-132, miR-146a, and miR-155 on myeloid-related protein-8 (MRP8) induced astrocyte-related inflammation. Using quantitative polymerase chain reaction (qPCR) and western blot, we found clear upregulation of TLR4 and downstream inflammatory cytokines, along with dysregulation of miR-132, miR-146a, and miR-155 in in vitro astrocytes after exposing them to different concentrations of MRP8",
+      "key": "441372fcdf74749329eb477a572669c3",
+      "line": 71,
+      "relation": "association",
+      "source": 33,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "miRNA subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "He F",
+          "Kong H",
+          "Li L",
+          "Omran A",
+          "Peng J",
+          "Wang Y",
+          "Wu T",
+          "Yin F"
+        ],
+        "date": "2015-09-01",
+        "first": "Kong H",
+        "identifier": "25957996",
+        "journal": "Journal of molecular neuroscience : MN",
+        "last": "Peng J",
+        "name": "The Effect of miR-132, miR-146a, and miR-155 on MRP8/TLR4-Induced Astrocyte-Related Inflammation.",
+        "namespace": "pubmed",
+        "pages": "28-37",
+        "volume": "57"
+      },
+      "evidence": "Together, our findings demonstrate the novel role of TLR4-related microRNAs, especially miR-132, in the regulation of MRP8-induced astrocyte activation and highlight the importance of miR-132 in the modulation of innate immune response induced by endogenous ligands in neurological diseases.",
+      "key": "671a045158fbe118538cf3e4b01fb60d",
+      "line": 83,
+      "relation": "association",
+      "source": 33,
+      "target": 0,
+      "target_modifier": {
+        "modifier": "Activity"
+      }
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "miRNA subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "He F",
+          "Kong H",
+          "Li L",
+          "Omran A",
+          "Peng J",
+          "Wang Y",
+          "Wu T",
+          "Yin F"
+        ],
+        "date": "2015-09-01",
+        "first": "Kong H",
+        "identifier": "25957996",
+        "journal": "Journal of molecular neuroscience : MN",
+        "last": "Peng J",
+        "name": "The Effect of miR-132, miR-146a, and miR-155 on MRP8/TLR4-Induced Astrocyte-Related Inflammation.",
+        "namespace": "pubmed",
+        "pages": "28-37",
+        "volume": "57"
+      },
+      "evidence": "Together, our findings demonstrate the novel role of TLR4-related microRNAs, especially miR-132, in the regulation of MRP8-induced astrocyte activation and highlight the importance of miR-132 in the modulation of innate immune response induced by endogenous ligands in neurological diseases.",
+      "key": "e6a834cfe92f8c826bf2fcfd8cb6dce1",
+      "line": 81,
+      "relation": "association",
+      "source": 33,
+      "target": 25
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "miRNA subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "He F",
+          "Kong H",
+          "Li L",
+          "Omran A",
+          "Peng J",
+          "Wang Y",
+          "Wu T",
+          "Yin F"
+        ],
+        "date": "2015-09-01",
+        "first": "Kong H",
+        "identifier": "25957996",
+        "journal": "Journal of molecular neuroscience : MN",
+        "last": "Peng J",
+        "name": "The Effect of miR-132, miR-146a, and miR-155 on MRP8/TLR4-Induced Astrocyte-Related Inflammation.",
+        "namespace": "pubmed",
+        "pages": "28-37",
+        "volume": "57"
+      },
+      "evidence": "Together, our findings demonstrate the novel role of TLR4-related microRNAs, especially miR-132, in the regulation of MRP8-induced astrocyte activation and highlight the importance of miR-132 in the modulation of innate immune response induced by endogenous ligands in neurological diseases.",
+      "key": "f47926786fd14fa29d64a404f43fe47b",
+      "line": 82,
+      "relation": "increases",
+      "source": 33,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "miRNA subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "He F",
+          "Kong H",
+          "Li L",
+          "Omran A",
+          "Peng J",
+          "Wang Y",
+          "Wu T",
+          "Yin F"
+        ],
+        "date": "2015-09-01",
+        "first": "Kong H",
+        "identifier": "25957996",
+        "journal": "Journal of molecular neuroscience : MN",
+        "last": "Peng J",
+        "name": "The Effect of miR-132, miR-146a, and miR-155 on MRP8/TLR4-Induced Astrocyte-Related Inflammation.",
+        "namespace": "pubmed",
+        "pages": "28-37",
+        "volume": "57"
+      },
+      "evidence": " Our results show that miR-132 is a negative feedback regulator of IL-1β and IL-6, but not TNF-α, by targeting IRAK4. ",
+      "key": "bc0c749f3a6794186fda6f64f7a94a33",
+      "line": 88,
+      "relation": "decreases",
+      "source": 33,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "miRNA subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "He F",
+          "Kong H",
+          "Li L",
+          "Omran A",
+          "Peng J",
+          "Wang Y",
+          "Wu T",
+          "Yin F"
+        ],
+        "date": "2015-09-01",
+        "first": "Kong H",
+        "identifier": "25957996",
+        "journal": "Journal of molecular neuroscience : MN",
+        "last": "Peng J",
+        "name": "The Effect of miR-132, miR-146a, and miR-155 on MRP8/TLR4-Induced Astrocyte-Related Inflammation.",
+        "namespace": "pubmed",
+        "pages": "28-37",
+        "volume": "57"
+      },
+      "evidence": " Our results show that miR-132 is a negative feedback regulator of IL-1β and IL-6, but not TNF-α, by targeting IRAK4. ",
+      "key": "cec555117d87d1529bda23bb12916fdb",
+      "line": 89,
+      "relation": "decreases",
+      "source": 33,
+      "target": 14
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "miRNA subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "He F",
+          "Kong H",
+          "Li L",
+          "Omran A",
+          "Peng J",
+          "Wang Y",
+          "Wu T",
+          "Yin F"
+        ],
+        "date": "2015-09-01",
+        "first": "Kong H",
+        "identifier": "25957996",
+        "journal": "Journal of molecular neuroscience : MN",
+        "last": "Peng J",
+        "name": "The Effect of miR-132, miR-146a, and miR-155 on MRP8/TLR4-Induced Astrocyte-Related Inflammation.",
+        "namespace": "pubmed",
+        "pages": "28-37",
+        "volume": "57"
+      },
+      "evidence": " Our results show that miR-132 is a negative feedback regulator of IL-1β and IL-6, but not TNF-α, by targeting IRAK4. ",
+      "key": "26047c6b77091859911b199d06ad1974",
+      "line": 90,
+      "relation": "causesNoChange",
+      "source": 33,
+      "target": 27
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "miRNA subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "He F",
+          "Kong H",
+          "Li L",
+          "Omran A",
+          "Peng J",
+          "Wang Y",
+          "Wu T",
+          "Yin F"
+        ],
+        "date": "2015-09-01",
+        "first": "Kong H",
+        "identifier": "25957996",
+        "journal": "Journal of molecular neuroscience : MN",
+        "last": "Peng J",
+        "name": "The Effect of miR-132, miR-146a, and miR-155 on MRP8/TLR4-Induced Astrocyte-Related Inflammation.",
+        "namespace": "pubmed",
+        "pages": "28-37",
+        "volume": "57"
+      },
+      "evidence": " Our results show that miR-132 is a negative feedback regulator of IL-1β and IL-6, but not TNF-α, by targeting IRAK4. ",
+      "key": "db90399d82f4472a840aa25658ceec5e",
+      "line": 91,
+      "relation": "association",
+      "source": 33,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "miRNA subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "He F",
+          "Kong H",
+          "Li L",
+          "Omran A",
+          "Peng J",
+          "Wang Y",
+          "Wu T",
+          "Yin F"
+        ],
+        "date": "2015-09-01",
+        "first": "Kong H",
+        "identifier": "25957996",
+        "journal": "Journal of molecular neuroscience : MN",
+        "last": "Peng J",
+        "name": "The Effect of miR-132, miR-146a, and miR-155 on MRP8/TLR4-Induced Astrocyte-Related Inflammation.",
+        "namespace": "pubmed",
+        "pages": "28-37",
+        "volume": "57"
+      },
+      "evidence": "In this study, we investigated the effect of miR-132, miR-146a, and miR-155 on myeloid-related protein-8 (MRP8) induced astrocyte-related inflammation. Using quantitative polymerase chain reaction (qPCR) and western blot, we found clear upregulation of TLR4 and downstream inflammatory cytokines, along with dysregulation of miR-132, miR-146a, and miR-155 in in vitro astrocytes after exposing them to different concentrations of MRP8",
+      "key": "dd4509c452d49b9851ebf76759597797",
+      "line": 69,
+      "relation": "association",
+      "source": 34,
+      "target": 19
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "miRNA subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "He F",
+          "Kong H",
+          "Li L",
+          "Omran A",
+          "Peng J",
+          "Wang Y",
+          "Wu T",
+          "Yin F"
+        ],
+        "date": "2015-09-01",
+        "first": "Kong H",
+        "identifier": "25957996",
+        "journal": "Journal of molecular neuroscience : MN",
+        "last": "Peng J",
+        "name": "The Effect of miR-132, miR-146a, and miR-155 on MRP8/TLR4-Induced Astrocyte-Related Inflammation.",
+        "namespace": "pubmed",
+        "pages": "28-37",
+        "volume": "57"
+      },
+      "evidence": "In this study, we investigated the effect of miR-132, miR-146a, and miR-155 on myeloid-related protein-8 (MRP8) induced astrocyte-related inflammation. Using quantitative polymerase chain reaction (qPCR) and western blot, we found clear upregulation of TLR4 and downstream inflammatory cytokines, along with dysregulation of miR-132, miR-146a, and miR-155 in in vitro astrocytes after exposing them to different concentrations of MRP8",
+      "key": "a4783d9c221aa1a796be7ca0840df1a9",
+      "line": 72,
+      "relation": "association",
+      "source": 34,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "miRNA subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Fluiter K",
+          "Gorter JA",
+          "Iyer A",
+          "Prabowo A",
+          "Spliet WG",
+          "Zurolo E",
+          "van Rijen PC"
+        ],
+        "date": "2012-01-01",
+        "first": "Iyer A",
+        "identifier": "23028621",
+        "journal": "PloS one",
+        "last": "Aronica E",
+        "name": "MicroRNA-146a: a key regulator of astrocyte-mediated inflammatory response.",
+        "namespace": "pubmed",
+        "pages": "e44789",
+        "volume": "7"
+      },
+      "evidence": " In the present study we investigated the role of miR-146a, a key regulator of the innate immune response, in the modulation of astrocyte-mediated inflammation.",
+      "key": "ed141d4d3507d22d0fdfa26aa06c9d44",
+      "line": 170,
+      "relation": "association",
+      "source": 34,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "miRNA subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Fluiter K",
+          "Gorter JA",
+          "Iyer A",
+          "Prabowo A",
+          "Spliet WG",
+          "Zurolo E",
+          "van Rijen PC"
+        ],
+        "date": "2012-01-01",
+        "first": "Iyer A",
+        "identifier": "23028621",
+        "journal": "PloS one",
+        "last": "Aronica E",
+        "name": "MicroRNA-146a: a key regulator of astrocyte-mediated inflammatory response.",
+        "namespace": "pubmed",
+        "pages": "e44789",
+        "volume": "7"
+      },
+      "evidence": "Modulation of miR-146a expression by transfection of astrocytes with anti-miR146a or mimic, regulated the mRNA expression levels of downstream targets of miR-146a (IRAK-1, IRAK-2 and TRAF-6) and the expression of IRAK-1 protein.",
+      "key": "42d7ef8b844cb5ef4742557373bb68cc",
+      "line": 174,
+      "relation": "association",
+      "source": 34,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "miRNA subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Fluiter K",
+          "Gorter JA",
+          "Iyer A",
+          "Prabowo A",
+          "Spliet WG",
+          "Zurolo E",
+          "van Rijen PC"
+        ],
+        "date": "2012-01-01",
+        "first": "Iyer A",
+        "identifier": "23028621",
+        "journal": "PloS one",
+        "last": "Aronica E",
+        "name": "MicroRNA-146a: a key regulator of astrocyte-mediated inflammatory response.",
+        "namespace": "pubmed",
+        "pages": "e44789",
+        "volume": "7"
+      },
+      "evidence": "Modulation of miR-146a expression by transfection of astrocytes with anti-miR146a or mimic, regulated the mRNA expression levels of downstream targets of miR-146a (IRAK-1, IRAK-2 and TRAF-6) and the expression of IRAK-1 protein.",
+      "key": "a577725b4e4654c7be05931c6476d228",
+      "line": 175,
+      "relation": "association",
+      "source": 34,
+      "target": 16
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "miRNA subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Fluiter K",
+          "Gorter JA",
+          "Iyer A",
+          "Prabowo A",
+          "Spliet WG",
+          "Zurolo E",
+          "van Rijen PC"
+        ],
+        "date": "2012-01-01",
+        "first": "Iyer A",
+        "identifier": "23028621",
+        "journal": "PloS one",
+        "last": "Aronica E",
+        "name": "MicroRNA-146a: a key regulator of astrocyte-mediated inflammatory response.",
+        "namespace": "pubmed",
+        "pages": "e44789",
+        "volume": "7"
+      },
+      "evidence": "Modulation of miR-146a expression by transfection of astrocytes with anti-miR146a or mimic, regulated the mRNA expression levels of downstream targets of miR-146a (IRAK-1, IRAK-2 and TRAF-6) and the expression of IRAK-1 protein.",
+      "key": "dc25a133f66e04e1e1533f00113ae623",
+      "line": 176,
+      "relation": "association",
+      "source": 34,
+      "target": 28
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "miRNA subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Fluiter K",
+          "Gorter JA",
+          "Iyer A",
+          "Prabowo A",
+          "Spliet WG",
+          "Zurolo E",
+          "van Rijen PC"
+        ],
+        "date": "2012-01-01",
+        "first": "Iyer A",
+        "identifier": "23028621",
+        "journal": "PloS one",
+        "last": "Aronica E",
+        "name": "MicroRNA-146a: a key regulator of astrocyte-mediated inflammatory response.",
+        "namespace": "pubmed",
+        "pages": "e44789",
+        "volume": "7"
+      },
+      "evidence": "In addition, the expression of IL-6 and COX-2 upon IL-1β stimulation was suppressed by increased levels of miR-146a and increased by the reduction of miR-146a.",
+      "key": "939b01c444acb4844ba1bb4c43960721",
+      "line": 179,
+      "relation": "decreases",
+      "source": 34,
+      "target": 14
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "miRNA subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Fluiter K",
+          "Gorter JA",
+          "Iyer A",
+          "Prabowo A",
+          "Spliet WG",
+          "Zurolo E",
+          "van Rijen PC"
+        ],
+        "date": "2012-01-01",
+        "first": "Iyer A",
+        "identifier": "23028621",
+        "journal": "PloS one",
+        "last": "Aronica E",
+        "name": "MicroRNA-146a: a key regulator of astrocyte-mediated inflammatory response.",
+        "namespace": "pubmed",
+        "pages": "e44789",
+        "volume": "7"
+      },
+      "evidence": "In addition, the expression of IL-6 and COX-2 upon IL-1β stimulation was suppressed by increased levels of miR-146a and increased by the reduction of miR-146a.",
+      "key": "d021d6269a4ef1868f163bb08b613683",
+      "line": 180,
+      "relation": "decreases",
+      "source": 34,
+      "target": 18
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "miRNA subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "He F",
+          "Kong H",
+          "Li L",
+          "Omran A",
+          "Peng J",
+          "Wang Y",
+          "Wu T",
+          "Yin F"
+        ],
+        "date": "2015-09-01",
+        "first": "Kong H",
+        "identifier": "25957996",
+        "journal": "Journal of molecular neuroscience : MN",
+        "last": "Peng J",
+        "name": "The Effect of miR-132, miR-146a, and miR-155 on MRP8/TLR4-Induced Astrocyte-Related Inflammation.",
+        "namespace": "pubmed",
+        "pages": "28-37",
+        "volume": "57"
+      },
+      "evidence": "In this study, we investigated the effect of miR-132, miR-146a, and miR-155 on myeloid-related protein-8 (MRP8) induced astrocyte-related inflammation. Using quantitative polymerase chain reaction (qPCR) and western blot, we found clear upregulation of TLR4 and downstream inflammatory cytokines, along with dysregulation of miR-132, miR-146a, and miR-155 in in vitro astrocytes after exposing them to different concentrations of MRP8",
+      "key": "5633a875626107dc6910028b464d4916",
+      "line": 70,
+      "relation": "association",
+      "source": 35,
+      "target": 19
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "miRNA subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "He F",
+          "Kong H",
+          "Li L",
+          "Omran A",
+          "Peng J",
+          "Wang Y",
+          "Wu T",
+          "Yin F"
+        ],
+        "date": "2015-09-01",
+        "first": "Kong H",
+        "identifier": "25957996",
+        "journal": "Journal of molecular neuroscience : MN",
+        "last": "Peng J",
+        "name": "The Effect of miR-132, miR-146a, and miR-155 on MRP8/TLR4-Induced Astrocyte-Related Inflammation.",
+        "namespace": "pubmed",
+        "pages": "28-37",
+        "volume": "57"
+      },
+      "evidence": "In this study, we investigated the effect of miR-132, miR-146a, and miR-155 on myeloid-related protein-8 (MRP8) induced astrocyte-related inflammation. Using quantitative polymerase chain reaction (qPCR) and western blot, we found clear upregulation of TLR4 and downstream inflammatory cytokines, along with dysregulation of miR-132, miR-146a, and miR-155 in in vitro astrocytes after exposing them to different concentrations of MRP8",
+      "key": "47a3f97a32dbf9d1fed5c84b7c766c04",
+      "line": 73,
+      "relation": "association",
+      "source": 35,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "miRNA subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "He F",
+          "Kong H",
+          "Li L",
+          "Omran A",
+          "Peng J",
+          "Wang Y",
+          "Wu T",
+          "Yin F"
+        ],
+        "date": "2015-09-01",
+        "first": "Kong H",
+        "identifier": "25957996",
+        "journal": "Journal of molecular neuroscience : MN",
+        "last": "Peng J",
+        "name": "The Effect of miR-132, miR-146a, and miR-155 on MRP8/TLR4-Induced Astrocyte-Related Inflammation.",
+        "namespace": "pubmed",
+        "pages": "28-37",
+        "volume": "57"
+      },
+      "evidence": "Together, our findings demonstrate the novel role of TLR4-related microRNAs, especially miR-132, in the regulation of MRP8-induced astrocyte activation and highlight the importance of miR-132 in the modulation of innate immune response induced by endogenous ligands in neurological diseases.",
+      "key": "61e06b7c67e8ee261d4a1b08c3c4c38f",
+      "line": 81,
+      "relation": "association",
+      "source": 25,
+      "target": 33
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Dey A",
+          "Du Y",
+          "Jiang J",
+          "Kang X",
+          "Qiu J"
+        ],
+        "date": "2016-06-01",
+        "first": "Dey A",
+        "identifier": "27062228",
+        "journal": "Trends in pharmacological sciences",
+        "last": "Jiang J",
+        "name": "Anti-Inflammatory Small Molecules To Treat Seizures and Epilepsy: From Bench to Bedside.",
+        "namespace": "pubmed",
+        "pages": "463-484",
+        "volume": "37"
+      },
+      "evidence": " As a crucial component of brain innate immunity, neuroinflammation initially contributes to neuronal tissue repair and maintenance. However, chronic inflammatory processes within the brain and associated blood-brain barrier (BBB) impairment often cause neurotoxicity and hyperexcitability.Mounting evidence points to a mutual facilitation between inflammation and epilepsy, suggesting that blocking the undesired inflammatory signaling within the brain might provide novel strategies to treat seizures and epilepsy. Neuroinflammation is primarily characterized by the upregulation of proinflammatory mediators in epileptogenic foci, among which cyclooxygenase-2 (COX-2)/prostaglandin E2 (PGE2), interleukin-1β (IL-1β), transforming growth factor-β (TGF-β), toll-like receptor 4 (TLR4), high-mobility group box 1 (HMGB1), and tumor necrosis factor-α (TNF-α) have been extensively studied.",
+      "key": "e12f9d4c80eee680e627b9358b25a8d1",
+      "line": 120,
+      "relation": "increases",
+      "source": 25,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Ashhab MU",
+          "Deng X",
+          "Gan N",
+          "He F",
+          "Kong H",
+          "Ma Y",
+          "Omran A",
+          "Peng J",
+          "Wu L",
+          "Xiang Q",
+          "Yang L",
+          "Yin F",
+          "Zhang C"
+        ],
+        "date": "2014-02-01",
+        "first": "Gan N",
+        "identifier": "23982744",
+        "journal": "Molecular neurobiology",
+        "last": "Yin F",
+        "name": "Myoloid-related protein 8, an endogenous ligand of Toll-like receptor 4, is involved in epileptogenesis of mesial temporal lobe epilepsy via activation of the nuclear factor-κB pathway in astrocytes.",
+        "namespace": "pubmed",
+        "pages": "337-51",
+        "volume": "49"
+      },
+      "evidence": "The role of Toll-like receptor 4 (TLR4) in the activation of innate immunity has been extensively studied in the past several years. Here, we are the first to report that myeloid-related protein 8 (MRP8), an endogenous TLR4 ligand, is involved in the epileptogenesis of mesial temporal lobe epilepsy (MTLE)",
+      "key": "5ea07ff65eb9ab0f97fd11d0011cf48c",
+      "line": 130,
+      "relation": "increases",
+      "source": 25,
+      "target": 6
+    },
+    {
+      "key": "65166fd986544434ffb79a93c3099dc4",
+      "relation": "partOf",
+      "source": 25,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "Species": [
+          {
+            "identifier": "10116",
+            "namespace": "Species"
+          }
+        ],
+        "Subgraph": [
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Dang J",
+          "Ding DX",
+          "Huang WJ",
+          "Liu H",
+          "Song MY",
+          "Tian FF",
+          "Wang YZ"
+        ],
+        "date": "2014-01-01",
+        "first": "Song MY",
+        "identifier": "24660535",
+        "journal": "Clinical laboratory",
+        "last": "Ding DX",
+        "name": "Expression of SOCSs and TLRs in the hippocampus of pentylenetetrazole kindling model.",
+        "namespace": "pubmed",
+        "pages": "233-40",
+        "volume": "60"
+      },
+      "evidence": "To explore the role of innate immunity in the mechanism of epilepsy, the pentylenetetrazole (PTZ) kindling rat model was established using intraperitoneal injection of PTZ. The expression levels of TLR2, TLR4, and STAT molecules in rat hippocampi were analyzed using qRT-PCR and western blotting techniques. The expression levels of SOCS-1 and SOCS-3 in rat hippocampi were analyzed using qRT-PCR. RESULTS: Our data demonstrated that both the mRNA and protein expression of TLR2 and TLR4 were significantly upregulated in the rat hippocampus with PTZ injection, which was accompanied by an inhibition of SOCS-1 and SOCS-3 and an upregulation of STAT3.",
+      "key": "98d1fdae8640c9a2e091c9a9045d1027",
+      "line": 153,
+      "relation": "association",
+      "source": 25,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Ashhab MU",
+          "Deng X",
+          "Gan N",
+          "He F",
+          "Kong H",
+          "Ma Y",
+          "Omran A",
+          "Peng J",
+          "Wu L",
+          "Xiang Q",
+          "Yang L",
+          "Yin F",
+          "Zhang C"
+        ],
+        "date": "2014-02-01",
+        "first": "Gan N",
+        "identifier": "23982744",
+        "journal": "Molecular neurobiology",
+        "last": "Yin F",
+        "name": "Myoloid-related protein 8, an endogenous ligand of Toll-like receptor 4, is involved in epileptogenesis of mesial temporal lobe epilepsy via activation of the nuclear factor-κB pathway in astrocytes.",
+        "namespace": "pubmed",
+        "pages": "337-51",
+        "volume": "49"
+      },
+      "evidence": "The role of Toll-like receptor 4 (TLR4) in the activation of innate immunity has been extensively studied in the past several years. Here, we are the first to report that myeloid-related protein 8 (MRP8), an endogenous TLR4 ligand, is involved in the epileptogenesis of mesial temporal lobe epilepsy (MTLE)",
+      "key": "657678ac3e2f4e6480404ca74cbc93bc",
+      "line": 133,
+      "relation": "association",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "miRNA subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Fluiter K",
+          "Gorter JA",
+          "Iyer A",
+          "Prabowo A",
+          "Spliet WG",
+          "Zurolo E",
+          "van Rijen PC"
+        ],
+        "date": "2012-01-01",
+        "first": "Iyer A",
+        "identifier": "23028621",
+        "journal": "PloS one",
+        "last": "Aronica E",
+        "name": "MicroRNA-146a: a key regulator of astrocyte-mediated inflammatory response.",
+        "namespace": "pubmed",
+        "pages": "e44789",
+        "volume": "7"
+      },
+      "evidence": " In the present study we investigated the role of miR-146a, a key regulator of the innate immune response, in the modulation of astrocyte-mediated inflammation.",
+      "key": "e7e82d7ffa032c2f099fd6e9da62cce1",
+      "line": 170,
+      "relation": "association",
+      "source": 6,
+      "target": 34
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "He F",
+          "Kong H",
+          "Li L",
+          "Omran A",
+          "Peng J",
+          "Wang Y",
+          "Wu T",
+          "Yin F"
+        ],
+        "date": "2015-09-01",
+        "first": "Kong H",
+        "identifier": "25957996",
+        "journal": "Journal of molecular neuroscience : MN",
+        "last": "Peng J",
+        "name": "The Effect of miR-132, miR-146a, and miR-155 on MRP8/TLR4-Induced Astrocyte-Related Inflammation.",
+        "namespace": "pubmed",
+        "pages": "28-37",
+        "volume": "57"
+      },
+      "evidence": " Our results show that miR-132 is a negative feedback regulator of IL-1β and IL-6, but not TNF-α, by targeting IRAK4. ",
+      "key": "80ed859068b188d5ed65d56ac4b4e1af",
+      "line": 95,
+      "relation": "association",
+      "source": 12,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Fluiter K",
+          "Gorter JA",
+          "Iyer A",
+          "Prabowo A",
+          "Spliet WG",
+          "Zurolo E",
+          "van Rijen PC"
+        ],
+        "date": "2012-01-01",
+        "first": "Iyer A",
+        "identifier": "23028621",
+        "journal": "PloS one",
+        "last": "Aronica E",
+        "name": "MicroRNA-146a: a key regulator of astrocyte-mediated inflammatory response.",
+        "namespace": "pubmed",
+        "pages": "e44789",
+        "volume": "7"
+      },
+      "evidence": "In addition, the expression of IL-6 and COX-2 upon IL-1β stimulation was suppressed by increased levels of miR-146a and increased by the reduction of miR-146a.",
+      "key": "6d0ea775470120c02db6698557ab5d7e",
+      "line": 183,
+      "relation": "increases",
+      "source": 12,
+      "target": 14
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Fluiter K",
+          "Gorter JA",
+          "Iyer A",
+          "Prabowo A",
+          "Spliet WG",
+          "Zurolo E",
+          "van Rijen PC"
+        ],
+        "date": "2012-01-01",
+        "first": "Iyer A",
+        "identifier": "23028621",
+        "journal": "PloS one",
+        "last": "Aronica E",
+        "name": "MicroRNA-146a: a key regulator of astrocyte-mediated inflammatory response.",
+        "namespace": "pubmed",
+        "pages": "e44789",
+        "volume": "7"
+      },
+      "evidence": "In addition, the expression of IL-6 and COX-2 upon IL-1β stimulation was suppressed by increased levels of miR-146a and increased by the reduction of miR-146a.",
+      "key": "6a21c77236e816d9cb28db78192ddf5e",
+      "line": 184,
+      "relation": "increases",
+      "source": 12,
+      "target": 18
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "He F",
+          "Kong H",
+          "Li L",
+          "Omran A",
+          "Peng J",
+          "Wang Y",
+          "Wu T",
+          "Yin F"
+        ],
+        "date": "2015-09-01",
+        "first": "Kong H",
+        "identifier": "25957996",
+        "journal": "Journal of molecular neuroscience : MN",
+        "last": "Peng J",
+        "name": "The Effect of miR-132, miR-146a, and miR-155 on MRP8/TLR4-Induced Astrocyte-Related Inflammation.",
+        "namespace": "pubmed",
+        "pages": "28-37",
+        "volume": "57"
+      },
+      "evidence": " Our results show that miR-132 is a negative feedback regulator of IL-1β and IL-6, but not TNF-α, by targeting IRAK4. ",
+      "key": "a73645c542997018509eca53216acbc4",
+      "line": 96,
+      "relation": "association",
+      "source": 14,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "miRNA subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "He F",
+          "Kong H",
+          "Li L",
+          "Omran A",
+          "Peng J",
+          "Wang Y",
+          "Wu T",
+          "Yin F"
+        ],
+        "date": "2015-09-01",
+        "first": "Kong H",
+        "identifier": "25957996",
+        "journal": "Journal of molecular neuroscience : MN",
+        "last": "Peng J",
+        "name": "The Effect of miR-132, miR-146a, and miR-155 on MRP8/TLR4-Induced Astrocyte-Related Inflammation.",
+        "namespace": "pubmed",
+        "pages": "28-37",
+        "volume": "57"
+      },
+      "evidence": " Our results show that miR-132 is a negative feedback regulator of IL-1β and IL-6, but not TNF-α, by targeting IRAK4. ",
+      "key": "7daff29d66ac60161a0948284802041b",
+      "line": 91,
+      "relation": "association",
+      "source": 17,
+      "target": 33
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "He F",
+          "Kong H",
+          "Li L",
+          "Omran A",
+          "Peng J",
+          "Wang Y",
+          "Wu T",
+          "Yin F"
+        ],
+        "date": "2015-09-01",
+        "first": "Kong H",
+        "identifier": "25957996",
+        "journal": "Journal of molecular neuroscience : MN",
+        "last": "Peng J",
+        "name": "The Effect of miR-132, miR-146a, and miR-155 on MRP8/TLR4-Induced Astrocyte-Related Inflammation.",
+        "namespace": "pubmed",
+        "pages": "28-37",
+        "volume": "57"
+      },
+      "evidence": " Our results show that miR-132 is a negative feedback regulator of IL-1β and IL-6, but not TNF-α, by targeting IRAK4. ",
+      "key": "d9abcee9b6eaae621ec7d6b8e16e40c4",
+      "line": 95,
+      "relation": "association",
+      "source": 17,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "He F",
+          "Kong H",
+          "Li L",
+          "Omran A",
+          "Peng J",
+          "Wang Y",
+          "Wu T",
+          "Yin F"
+        ],
+        "date": "2015-09-01",
+        "first": "Kong H",
+        "identifier": "25957996",
+        "journal": "Journal of molecular neuroscience : MN",
+        "last": "Peng J",
+        "name": "The Effect of miR-132, miR-146a, and miR-155 on MRP8/TLR4-Induced Astrocyte-Related Inflammation.",
+        "namespace": "pubmed",
+        "pages": "28-37",
+        "volume": "57"
+      },
+      "evidence": " Our results show that miR-132 is a negative feedback regulator of IL-1β and IL-6, but not TNF-α, by targeting IRAK4. ",
+      "key": "8b492b0e768827ad8905867adc4dbf7a",
+      "line": 96,
+      "relation": "association",
+      "source": 17,
+      "target": 14
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Anink J",
+          "Aronica E",
+          "Baayen JC",
+          "Boison D",
+          "Carbonell C",
+          "Gorter JA",
+          "Iyer A",
+          "Zurolo E",
+          "de Groot M",
+          "van Vliet EA"
+        ],
+        "date": "2011-09-01",
+        "first": "Aronica E",
+        "identifier": "21635241",
+        "journal": "Epilepsia",
+        "last": "Gorter JA",
+        "name": "Upregulation of adenosine kinase in astrocytes in experimental and human temporal lobe epilepsy.",
+        "namespace": "pubmed",
+        "pages": "1645-55",
+        "volume": "52"
+      },
+      "evidence": "These results suggest that dysregulation of ADK in astrocytes is a common pathologic hallmark of TLE. Moreover, in vitro data suggest the existence of an additional layer of modulatory crosstalk between the astrocyte-based adenosine cycle and inflammation. ",
+      "key": "7242c53cdbfaae56349a17e23f3cd3e0",
+      "line": 213,
+      "relation": "positiveCorrelation",
+      "source": 30,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Brouwer C",
+          "Dustin IH",
+          "Fujita M",
+          "Gershen LD",
+          "Hirvonen J",
+          "Hong JS",
+          "Inati SK",
+          "Innis RB",
+          "Jenko KJ",
+          "Kreisl WC",
+          "Liow JS",
+          "Morse CL",
+          "Pike VW",
+          "Theodore WH",
+          "Zanotti-Fregonara P",
+          "Zoghbi SS"
+        ],
+        "date": "2015-08-01",
+        "first": "Gershen LD",
+        "identifier": "26052981",
+        "journal": "JAMA neurology",
+        "last": "Theodore WH",
+        "name": "Neuroinflammation in Temporal Lobe Epilepsy Measured Using Positron Emission Tomographic Imaging of Translocator Protein.",
+        "namespace": "pubmed",
+        "pages": "882-8",
+        "volume": "72"
+      },
+      "evidence": " Binding of TSPO is increased both ipsilateral and contralateral to seizure foci in patients with TLE, suggesting ongoing inflammation. Anti-inflammatory therapy may play a role in treating drug-resistant epilepsy.",
+      "key": "024baefa82d258d1198905163347b5ec",
+      "line": 222,
+      "relation": "positiveCorrelation",
+      "source": 30,
+      "target": 29
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Dey A",
+          "Du Y",
+          "Jiang J",
+          "Kang X",
+          "Qiu J"
+        ],
+        "date": "2016-06-01",
+        "first": "Dey A",
+        "identifier": "27062228",
+        "journal": "Trends in pharmacological sciences",
+        "last": "Jiang J",
+        "name": "Anti-Inflammatory Small Molecules To Treat Seizures and Epilepsy: From Bench to Bedside.",
+        "namespace": "pubmed",
+        "pages": "463-484",
+        "volume": "37"
+      },
+      "evidence": " As a crucial component of brain innate immunity, neuroinflammation initially contributes to neuronal tissue repair and maintenance. However, chronic inflammatory processes within the brain and associated blood-brain barrier (BBB) impairment often cause neurotoxicity and hyperexcitability.Mounting evidence points to a mutual facilitation between inflammation and epilepsy, suggesting that blocking the undesired inflammatory signaling within the brain might provide novel strategies to treat seizures and epilepsy. Neuroinflammation is primarily characterized by the upregulation of proinflammatory mediators in epileptogenic foci, among which cyclooxygenase-2 (COX-2)/prostaglandin E2 (PGE2), interleukin-1β (IL-1β), transforming growth factor-β (TGF-β), toll-like receptor 4 (TLR4), high-mobility group box 1 (HMGB1), and tumor necrosis factor-α (TNF-α) have been extensively studied.",
+      "key": "b9a8206ced10820a089326d5c1124c8c",
+      "line": 118,
+      "relation": "increases",
+      "source": 18,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Dey A",
+          "Du Y",
+          "Jiang J",
+          "Kang X",
+          "Qiu J"
+        ],
+        "date": "2016-06-01",
+        "first": "Dey A",
+        "identifier": "27062228",
+        "journal": "Trends in pharmacological sciences",
+        "last": "Jiang J",
+        "name": "Anti-Inflammatory Small Molecules To Treat Seizures and Epilepsy: From Bench to Bedside.",
+        "namespace": "pubmed",
+        "pages": "463-484",
+        "volume": "37"
+      },
+      "evidence": " As a crucial component of brain innate immunity, neuroinflammation initially contributes to neuronal tissue repair and maintenance. However, chronic inflammatory processes within the brain and associated blood-brain barrier (BBB) impairment often cause neurotoxicity and hyperexcitability.Mounting evidence points to a mutual facilitation between inflammation and epilepsy, suggesting that blocking the undesired inflammatory signaling within the brain might provide novel strategies to treat seizures and epilepsy. Neuroinflammation is primarily characterized by the upregulation of proinflammatory mediators in epileptogenic foci, among which cyclooxygenase-2 (COX-2)/prostaglandin E2 (PGE2), interleukin-1β (IL-1β), transforming growth factor-β (TGF-β), toll-like receptor 4 (TLR4), high-mobility group box 1 (HMGB1), and tumor necrosis factor-α (TNF-α) have been extensively studied.",
+      "key": "0cad02183d30643612a2d6b1f0305afa",
+      "line": 119,
+      "relation": "increases",
+      "source": 23,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Dey A",
+          "Du Y",
+          "Jiang J",
+          "Kang X",
+          "Qiu J"
+        ],
+        "date": "2016-06-01",
+        "first": "Dey A",
+        "identifier": "27062228",
+        "journal": "Trends in pharmacological sciences",
+        "last": "Jiang J",
+        "name": "Anti-Inflammatory Small Molecules To Treat Seizures and Epilepsy: From Bench to Bedside.",
+        "namespace": "pubmed",
+        "pages": "463-484",
+        "volume": "37"
+      },
+      "evidence": " As a crucial component of brain innate immunity, neuroinflammation initially contributes to neuronal tissue repair and maintenance. However, chronic inflammatory processes within the brain and associated blood-brain barrier (BBB) impairment often cause neurotoxicity and hyperexcitability.Mounting evidence points to a mutual facilitation between inflammation and epilepsy, suggesting that blocking the undesired inflammatory signaling within the brain might provide novel strategies to treat seizures and epilepsy. Neuroinflammation is primarily characterized by the upregulation of proinflammatory mediators in epileptogenic foci, among which cyclooxygenase-2 (COX-2)/prostaglandin E2 (PGE2), interleukin-1β (IL-1β), transforming growth factor-β (TGF-β), toll-like receptor 4 (TLR4), high-mobility group box 1 (HMGB1), and tumor necrosis factor-α (TNF-α) have been extensively studied.",
+      "key": "660845951510549dc3392ef728c57085",
+      "line": 121,
+      "relation": "increases",
+      "source": 11,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Ashhab MU",
+          "Deng X",
+          "Gan N",
+          "He F",
+          "Kong H",
+          "Ma Y",
+          "Omran A",
+          "Peng J",
+          "Wu L",
+          "Xiang Q",
+          "Yang L",
+          "Yin F",
+          "Zhang C"
+        ],
+        "date": "2014-02-01",
+        "first": "Gan N",
+        "identifier": "23982744",
+        "journal": "Molecular neurobiology",
+        "last": "Yin F",
+        "name": "Myoloid-related protein 8, an endogenous ligand of Toll-like receptor 4, is involved in epileptogenesis of mesial temporal lobe epilepsy via activation of the nuclear factor-κB pathway in astrocytes.",
+        "namespace": "pubmed",
+        "pages": "337-51",
+        "volume": "49"
+      },
+      "evidence": "The role of Toll-like receptor 4 (TLR4) in the activation of innate immunity has been extensively studied in the past several years. Here, we are the first to report that myeloid-related protein 8 (MRP8), an endogenous TLR4 ligand, is involved in the epileptogenesis of mesial temporal lobe epilepsy (MTLE)",
+      "key": "8e025f76c98c526bbffaef242949d88f",
+      "line": 133,
+      "relation": "association",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "Species": [
+          {
+            "identifier": "10116",
+            "namespace": "Species"
+          }
+        ],
+        "Subgraph": [
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Dang J",
+          "Ding DX",
+          "Huang WJ",
+          "Liu H",
+          "Song MY",
+          "Tian FF",
+          "Wang YZ"
+        ],
+        "date": "2014-01-01",
+        "first": "Song MY",
+        "identifier": "24660535",
+        "journal": "Clinical laboratory",
+        "last": "Ding DX",
+        "name": "Expression of SOCSs and TLRs in the hippocampus of pentylenetetrazole kindling model.",
+        "namespace": "pubmed",
+        "pages": "233-40",
+        "volume": "60"
+      },
+      "evidence": "To explore the role of innate immunity in the mechanism of epilepsy, the pentylenetetrazole (PTZ) kindling rat model was established using intraperitoneal injection of PTZ. The expression levels of TLR2, TLR4, and STAT molecules in rat hippocampi were analyzed using qRT-PCR and western blotting techniques. The expression levels of SOCS-1 and SOCS-3 in rat hippocampi were analyzed using qRT-PCR. RESULTS: Our data demonstrated that both the mRNA and protein expression of TLR2 and TLR4 were significantly upregulated in the rat hippocampus with PTZ injection, which was accompanied by an inhibition of SOCS-1 and SOCS-3 and an upregulation of STAT3.",
+      "key": "f19a0e2984d6030a3c5de38f3b8f6723",
+      "line": 146,
+      "relation": "positiveCorrelation",
+      "source": 24,
+      "target": 31
+    },
+    {
+      "annotations": {
+        "Species": [
+          {
+            "identifier": "10116",
+            "namespace": "Species"
+          }
+        ],
+        "Subgraph": [
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Dang J",
+          "Ding DX",
+          "Huang WJ",
+          "Liu H",
+          "Song MY",
+          "Tian FF",
+          "Wang YZ"
+        ],
+        "date": "2014-01-01",
+        "first": "Song MY",
+        "identifier": "24660535",
+        "journal": "Clinical laboratory",
+        "last": "Ding DX",
+        "name": "Expression of SOCSs and TLRs in the hippocampus of pentylenetetrazole kindling model.",
+        "namespace": "pubmed",
+        "pages": "233-40",
+        "volume": "60"
+      },
+      "evidence": "To explore the role of innate immunity in the mechanism of epilepsy, the pentylenetetrazole (PTZ) kindling rat model was established using intraperitoneal injection of PTZ. The expression levels of TLR2, TLR4, and STAT molecules in rat hippocampi were analyzed using qRT-PCR and western blotting techniques. The expression levels of SOCS-1 and SOCS-3 in rat hippocampi were analyzed using qRT-PCR. RESULTS: Our data demonstrated that both the mRNA and protein expression of TLR2 and TLR4 were significantly upregulated in the rat hippocampus with PTZ injection, which was accompanied by an inhibition of SOCS-1 and SOCS-3 and an upregulation of STAT3.",
+      "key": "7f30dc6276983dea06ccda50cc24aab2",
+      "line": 150,
+      "relation": "association",
+      "source": 24,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "Species": [
+          {
+            "identifier": "10116",
+            "namespace": "Species"
+          }
+        ],
+        "Subgraph": [
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Dang J",
+          "Ding DX",
+          "Huang WJ",
+          "Liu H",
+          "Song MY",
+          "Tian FF",
+          "Wang YZ"
+        ],
+        "date": "2014-01-01",
+        "first": "Song MY",
+        "identifier": "24660535",
+        "journal": "Clinical laboratory",
+        "last": "Ding DX",
+        "name": "Expression of SOCSs and TLRs in the hippocampus of pentylenetetrazole kindling model.",
+        "namespace": "pubmed",
+        "pages": "233-40",
+        "volume": "60"
+      },
+      "evidence": "To explore the role of innate immunity in the mechanism of epilepsy, the pentylenetetrazole (PTZ) kindling rat model was established using intraperitoneal injection of PTZ. The expression levels of TLR2, TLR4, and STAT molecules in rat hippocampi were analyzed using qRT-PCR and western blotting techniques. The expression levels of SOCS-1 and SOCS-3 in rat hippocampi were analyzed using qRT-PCR. RESULTS: Our data demonstrated that both the mRNA and protein expression of TLR2 and TLR4 were significantly upregulated in the rat hippocampus with PTZ injection, which was accompanied by an inhibition of SOCS-1 and SOCS-3 and an upregulation of STAT3.",
+      "key": "c5523700df928a3d8dafd7c06105d653",
+      "line": 146,
+      "relation": "positiveCorrelation",
+      "source": 31,
+      "target": 24
+    },
+    {
+      "annotations": {
+        "Species": [
+          {
+            "identifier": "10116",
+            "namespace": "Species"
+          }
+        ],
+        "Subgraph": [
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Dang J",
+          "Ding DX",
+          "Huang WJ",
+          "Liu H",
+          "Song MY",
+          "Tian FF",
+          "Wang YZ"
+        ],
+        "date": "2014-01-01",
+        "first": "Song MY",
+        "identifier": "24660535",
+        "journal": "Clinical laboratory",
+        "last": "Ding DX",
+        "name": "Expression of SOCSs and TLRs in the hippocampus of pentylenetetrazole kindling model.",
+        "namespace": "pubmed",
+        "pages": "233-40",
+        "volume": "60"
+      },
+      "evidence": "To explore the role of innate immunity in the mechanism of epilepsy, the pentylenetetrazole (PTZ) kindling rat model was established using intraperitoneal injection of PTZ. The expression levels of TLR2, TLR4, and STAT molecules in rat hippocampi were analyzed using qRT-PCR and western blotting techniques. The expression levels of SOCS-1 and SOCS-3 in rat hippocampi were analyzed using qRT-PCR. RESULTS: Our data demonstrated that both the mRNA and protein expression of TLR2 and TLR4 were significantly upregulated in the rat hippocampus with PTZ injection, which was accompanied by an inhibition of SOCS-1 and SOCS-3 and an upregulation of STAT3.",
+      "key": "748b8582ce7b359caace3aae1d8dd04f",
+      "line": 147,
+      "relation": "negativeCorrelation",
+      "source": 31,
+      "target": 20
+    },
+    {
+      "annotations": {
+        "Species": [
+          {
+            "identifier": "10116",
+            "namespace": "Species"
+          }
+        ],
+        "Subgraph": [
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Dang J",
+          "Ding DX",
+          "Huang WJ",
+          "Liu H",
+          "Song MY",
+          "Tian FF",
+          "Wang YZ"
+        ],
+        "date": "2014-01-01",
+        "first": "Song MY",
+        "identifier": "24660535",
+        "journal": "Clinical laboratory",
+        "last": "Ding DX",
+        "name": "Expression of SOCSs and TLRs in the hippocampus of pentylenetetrazole kindling model.",
+        "namespace": "pubmed",
+        "pages": "233-40",
+        "volume": "60"
+      },
+      "evidence": "To explore the role of innate immunity in the mechanism of epilepsy, the pentylenetetrazole (PTZ) kindling rat model was established using intraperitoneal injection of PTZ. The expression levels of TLR2, TLR4, and STAT molecules in rat hippocampi were analyzed using qRT-PCR and western blotting techniques. The expression levels of SOCS-1 and SOCS-3 in rat hippocampi were analyzed using qRT-PCR. RESULTS: Our data demonstrated that both the mRNA and protein expression of TLR2 and TLR4 were significantly upregulated in the rat hippocampus with PTZ injection, which was accompanied by an inhibition of SOCS-1 and SOCS-3 and an upregulation of STAT3.",
+      "key": "07d1c543022f45316a826a92f50e74a4",
+      "line": 148,
+      "relation": "negativeCorrelation",
+      "source": 31,
+      "target": 21
+    },
+    {
+      "annotations": {
+        "Species": [
+          {
+            "identifier": "10116",
+            "namespace": "Species"
+          }
+        ],
+        "Subgraph": [
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Dang J",
+          "Ding DX",
+          "Huang WJ",
+          "Liu H",
+          "Song MY",
+          "Tian FF",
+          "Wang YZ"
+        ],
+        "date": "2014-01-01",
+        "first": "Song MY",
+        "identifier": "24660535",
+        "journal": "Clinical laboratory",
+        "last": "Ding DX",
+        "name": "Expression of SOCSs and TLRs in the hippocampus of pentylenetetrazole kindling model.",
+        "namespace": "pubmed",
+        "pages": "233-40",
+        "volume": "60"
+      },
+      "evidence": "To explore the role of innate immunity in the mechanism of epilepsy, the pentylenetetrazole (PTZ) kindling rat model was established using intraperitoneal injection of PTZ. The expression levels of TLR2, TLR4, and STAT molecules in rat hippocampi were analyzed using qRT-PCR and western blotting techniques. The expression levels of SOCS-1 and SOCS-3 in rat hippocampi were analyzed using qRT-PCR. RESULTS: Our data demonstrated that both the mRNA and protein expression of TLR2 and TLR4 were significantly upregulated in the rat hippocampus with PTZ injection, which was accompanied by an inhibition of SOCS-1 and SOCS-3 and an upregulation of STAT3.",
+      "key": "a4f888d90403efd15a0f3c9daea1ba5e",
+      "line": 149,
+      "relation": "positiveCorrelation",
+      "source": 31,
+      "target": 22
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Akira S",
+          "Juliandi B",
+          "Katano Y",
+          "Kawai T",
+          "Kohyama J",
+          "Matsuda T",
+          "Murao N",
+          "Nakashima K"
+        ],
+        "date": "2015-03-09",
+        "first": "Matsuda T",
+        "identifier": "25751136",
+        "journal": "Nature communications",
+        "last": "Nakashima K",
+        "name": "TLR9 signalling in microglia attenuates seizure-induced aberrant neurogenesis in the adult hippocampus.",
+        "namespace": "pubmed",
+        "pages": "6514",
+        "volume": "6"
+      },
+      "evidence": "Furthermore, TLR9 deficiency exacerbated seizure-induced cognitive decline and recurrent seizure severity. Our findings thus suggest the existence of bidirectional communication between the innate immune and nervous systems for the maintenance of adult brain integrity.",
+      "key": "9d643248e6e5a4cc16c7ea1c01cc0e09",
+      "line": 162,
+      "relation": "association",
+      "source": 31,
+      "target": 26
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Duksal T",
+          "Kirkali G",
+          "Ozkaya F",
+          "Tiftikcioglu BI",
+          "Uludag IF",
+          "Zorlu Y"
+        ],
+        "date": "2015-03-01",
+        "first": "Uludag IF",
+        "identifier": "25799897",
+        "journal": "Seizure",
+        "last": "Kirkali G",
+        "name": "IL-1β, IL-6 and IL1Ra levels in temporal lobe epilepsy.",
+        "namespace": "pubmed",
+        "pages": "22-5",
+        "volume": "26"
+      },
+      "evidence": "The major findings in our study were increased levels of IL-1β, IL-6 and IL-1Ra in epileptic patients and high levels of IL-1β in TLE group. Our results support the existence of a chronic inflammatory state in epileptic patients.",
+      "key": "7a0932e69d386d186fdcd4fe2d22db38",
+      "line": 203,
+      "relation": "positiveCorrelation",
+      "source": 31,
+      "target": 13
+    },
+    {
+      "annotations": {
+        "Species": [
+          {
+            "identifier": "10116",
+            "namespace": "Species"
+          }
+        ],
+        "Subgraph": [
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Dang J",
+          "Ding DX",
+          "Huang WJ",
+          "Liu H",
+          "Song MY",
+          "Tian FF",
+          "Wang YZ"
+        ],
+        "date": "2014-01-01",
+        "first": "Song MY",
+        "identifier": "24660535",
+        "journal": "Clinical laboratory",
+        "last": "Ding DX",
+        "name": "Expression of SOCSs and TLRs in the hippocampus of pentylenetetrazole kindling model.",
+        "namespace": "pubmed",
+        "pages": "233-40",
+        "volume": "60"
+      },
+      "evidence": "To explore the role of innate immunity in the mechanism of epilepsy, the pentylenetetrazole (PTZ) kindling rat model was established using intraperitoneal injection of PTZ. The expression levels of TLR2, TLR4, and STAT molecules in rat hippocampi were analyzed using qRT-PCR and western blotting techniques. The expression levels of SOCS-1 and SOCS-3 in rat hippocampi were analyzed using qRT-PCR. RESULTS: Our data demonstrated that both the mRNA and protein expression of TLR2 and TLR4 were significantly upregulated in the rat hippocampus with PTZ injection, which was accompanied by an inhibition of SOCS-1 and SOCS-3 and an upregulation of STAT3.",
+      "key": "5337027d09b70188beddcb37a5052802",
+      "line": 147,
+      "relation": "negativeCorrelation",
+      "source": 20,
+      "target": 31
+    },
+    {
+      "annotations": {
+        "Species": [
+          {
+            "identifier": "10116",
+            "namespace": "Species"
+          }
+        ],
+        "Subgraph": [
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Dang J",
+          "Ding DX",
+          "Huang WJ",
+          "Liu H",
+          "Song MY",
+          "Tian FF",
+          "Wang YZ"
+        ],
+        "date": "2014-01-01",
+        "first": "Song MY",
+        "identifier": "24660535",
+        "journal": "Clinical laboratory",
+        "last": "Ding DX",
+        "name": "Expression of SOCSs and TLRs in the hippocampus of pentylenetetrazole kindling model.",
+        "namespace": "pubmed",
+        "pages": "233-40",
+        "volume": "60"
+      },
+      "evidence": "To explore the role of innate immunity in the mechanism of epilepsy, the pentylenetetrazole (PTZ) kindling rat model was established using intraperitoneal injection of PTZ. The expression levels of TLR2, TLR4, and STAT molecules in rat hippocampi were analyzed using qRT-PCR and western blotting techniques. The expression levels of SOCS-1 and SOCS-3 in rat hippocampi were analyzed using qRT-PCR. RESULTS: Our data demonstrated that both the mRNA and protein expression of TLR2 and TLR4 were significantly upregulated in the rat hippocampus with PTZ injection, which was accompanied by an inhibition of SOCS-1 and SOCS-3 and an upregulation of STAT3.",
+      "key": "54bc304fa3895dd17ff5eddf14cc7e35",
+      "line": 151,
+      "relation": "association",
+      "source": 20,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "Species": [
+          {
+            "identifier": "10116",
+            "namespace": "Species"
+          }
+        ],
+        "Subgraph": [
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Dang J",
+          "Ding DX",
+          "Huang WJ",
+          "Liu H",
+          "Song MY",
+          "Tian FF",
+          "Wang YZ"
+        ],
+        "date": "2014-01-01",
+        "first": "Song MY",
+        "identifier": "24660535",
+        "journal": "Clinical laboratory",
+        "last": "Ding DX",
+        "name": "Expression of SOCSs and TLRs in the hippocampus of pentylenetetrazole kindling model.",
+        "namespace": "pubmed",
+        "pages": "233-40",
+        "volume": "60"
+      },
+      "evidence": "To explore the role of innate immunity in the mechanism of epilepsy, the pentylenetetrazole (PTZ) kindling rat model was established using intraperitoneal injection of PTZ. The expression levels of TLR2, TLR4, and STAT molecules in rat hippocampi were analyzed using qRT-PCR and western blotting techniques. The expression levels of SOCS-1 and SOCS-3 in rat hippocampi were analyzed using qRT-PCR. RESULTS: Our data demonstrated that both the mRNA and protein expression of TLR2 and TLR4 were significantly upregulated in the rat hippocampus with PTZ injection, which was accompanied by an inhibition of SOCS-1 and SOCS-3 and an upregulation of STAT3.",
+      "key": "ff3036a961dd607c40d6685b573cf8f3",
+      "line": 148,
+      "relation": "negativeCorrelation",
+      "source": 21,
+      "target": 31
+    },
+    {
+      "annotations": {
+        "Species": [
+          {
+            "identifier": "10116",
+            "namespace": "Species"
+          }
+        ],
+        "Subgraph": [
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Dang J",
+          "Ding DX",
+          "Huang WJ",
+          "Liu H",
+          "Song MY",
+          "Tian FF",
+          "Wang YZ"
+        ],
+        "date": "2014-01-01",
+        "first": "Song MY",
+        "identifier": "24660535",
+        "journal": "Clinical laboratory",
+        "last": "Ding DX",
+        "name": "Expression of SOCSs and TLRs in the hippocampus of pentylenetetrazole kindling model.",
+        "namespace": "pubmed",
+        "pages": "233-40",
+        "volume": "60"
+      },
+      "evidence": "To explore the role of innate immunity in the mechanism of epilepsy, the pentylenetetrazole (PTZ) kindling rat model was established using intraperitoneal injection of PTZ. The expression levels of TLR2, TLR4, and STAT molecules in rat hippocampi were analyzed using qRT-PCR and western blotting techniques. The expression levels of SOCS-1 and SOCS-3 in rat hippocampi were analyzed using qRT-PCR. RESULTS: Our data demonstrated that both the mRNA and protein expression of TLR2 and TLR4 were significantly upregulated in the rat hippocampus with PTZ injection, which was accompanied by an inhibition of SOCS-1 and SOCS-3 and an upregulation of STAT3.",
+      "key": "f782ad0e2e8859401b88644c7a55deed",
+      "line": 152,
+      "relation": "association",
+      "source": 21,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "Species": [
+          {
+            "identifier": "10116",
+            "namespace": "Species"
+          }
+        ],
+        "Subgraph": [
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Dang J",
+          "Ding DX",
+          "Huang WJ",
+          "Liu H",
+          "Song MY",
+          "Tian FF",
+          "Wang YZ"
+        ],
+        "date": "2014-01-01",
+        "first": "Song MY",
+        "identifier": "24660535",
+        "journal": "Clinical laboratory",
+        "last": "Ding DX",
+        "name": "Expression of SOCSs and TLRs in the hippocampus of pentylenetetrazole kindling model.",
+        "namespace": "pubmed",
+        "pages": "233-40",
+        "volume": "60"
+      },
+      "evidence": "To explore the role of innate immunity in the mechanism of epilepsy, the pentylenetetrazole (PTZ) kindling rat model was established using intraperitoneal injection of PTZ. The expression levels of TLR2, TLR4, and STAT molecules in rat hippocampi were analyzed using qRT-PCR and western blotting techniques. The expression levels of SOCS-1 and SOCS-3 in rat hippocampi were analyzed using qRT-PCR. RESULTS: Our data demonstrated that both the mRNA and protein expression of TLR2 and TLR4 were significantly upregulated in the rat hippocampus with PTZ injection, which was accompanied by an inhibition of SOCS-1 and SOCS-3 and an upregulation of STAT3.",
+      "key": "72fc309dae0d058775cdbf0cb09df8a5",
+      "line": 149,
+      "relation": "positiveCorrelation",
+      "source": 22,
+      "target": 31
+    },
+    {
+      "annotations": {
+        "Species": [
+          {
+            "identifier": "10116",
+            "namespace": "Species"
+          }
+        ],
+        "Subgraph": [
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Dang J",
+          "Ding DX",
+          "Huang WJ",
+          "Liu H",
+          "Song MY",
+          "Tian FF",
+          "Wang YZ"
+        ],
+        "date": "2014-01-01",
+        "first": "Song MY",
+        "identifier": "24660535",
+        "journal": "Clinical laboratory",
+        "last": "Ding DX",
+        "name": "Expression of SOCSs and TLRs in the hippocampus of pentylenetetrazole kindling model.",
+        "namespace": "pubmed",
+        "pages": "233-40",
+        "volume": "60"
+      },
+      "evidence": "To explore the role of innate immunity in the mechanism of epilepsy, the pentylenetetrazole (PTZ) kindling rat model was established using intraperitoneal injection of PTZ. The expression levels of TLR2, TLR4, and STAT molecules in rat hippocampi were analyzed using qRT-PCR and western blotting techniques. The expression levels of SOCS-1 and SOCS-3 in rat hippocampi were analyzed using qRT-PCR. RESULTS: Our data demonstrated that both the mRNA and protein expression of TLR2 and TLR4 were significantly upregulated in the rat hippocampus with PTZ injection, which was accompanied by an inhibition of SOCS-1 and SOCS-3 and an upregulation of STAT3.",
+      "key": "5a85c2b7d2a18d0dc66b1e63d24396dc",
+      "line": 150,
+      "relation": "association",
+      "source": 2,
+      "target": 24
+    },
+    {
+      "annotations": {
+        "Species": [
+          {
+            "identifier": "10116",
+            "namespace": "Species"
+          }
+        ],
+        "Subgraph": [
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Dang J",
+          "Ding DX",
+          "Huang WJ",
+          "Liu H",
+          "Song MY",
+          "Tian FF",
+          "Wang YZ"
+        ],
+        "date": "2014-01-01",
+        "first": "Song MY",
+        "identifier": "24660535",
+        "journal": "Clinical laboratory",
+        "last": "Ding DX",
+        "name": "Expression of SOCSs and TLRs in the hippocampus of pentylenetetrazole kindling model.",
+        "namespace": "pubmed",
+        "pages": "233-40",
+        "volume": "60"
+      },
+      "evidence": "To explore the role of innate immunity in the mechanism of epilepsy, the pentylenetetrazole (PTZ) kindling rat model was established using intraperitoneal injection of PTZ. The expression levels of TLR2, TLR4, and STAT molecules in rat hippocampi were analyzed using qRT-PCR and western blotting techniques. The expression levels of SOCS-1 and SOCS-3 in rat hippocampi were analyzed using qRT-PCR. RESULTS: Our data demonstrated that both the mRNA and protein expression of TLR2 and TLR4 were significantly upregulated in the rat hippocampus with PTZ injection, which was accompanied by an inhibition of SOCS-1 and SOCS-3 and an upregulation of STAT3.",
+      "key": "abaeab07513a85fc09681f30124d4a86",
+      "line": 151,
+      "relation": "association",
+      "source": 2,
+      "target": 20
+    },
+    {
+      "annotations": {
+        "Species": [
+          {
+            "identifier": "10116",
+            "namespace": "Species"
+          }
+        ],
+        "Subgraph": [
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Dang J",
+          "Ding DX",
+          "Huang WJ",
+          "Liu H",
+          "Song MY",
+          "Tian FF",
+          "Wang YZ"
+        ],
+        "date": "2014-01-01",
+        "first": "Song MY",
+        "identifier": "24660535",
+        "journal": "Clinical laboratory",
+        "last": "Ding DX",
+        "name": "Expression of SOCSs and TLRs in the hippocampus of pentylenetetrazole kindling model.",
+        "namespace": "pubmed",
+        "pages": "233-40",
+        "volume": "60"
+      },
+      "evidence": "To explore the role of innate immunity in the mechanism of epilepsy, the pentylenetetrazole (PTZ) kindling rat model was established using intraperitoneal injection of PTZ. The expression levels of TLR2, TLR4, and STAT molecules in rat hippocampi were analyzed using qRT-PCR and western blotting techniques. The expression levels of SOCS-1 and SOCS-3 in rat hippocampi were analyzed using qRT-PCR. RESULTS: Our data demonstrated that both the mRNA and protein expression of TLR2 and TLR4 were significantly upregulated in the rat hippocampus with PTZ injection, which was accompanied by an inhibition of SOCS-1 and SOCS-3 and an upregulation of STAT3.",
+      "key": "38da30a3de380ab9de2ffd4376331420",
+      "line": 152,
+      "relation": "association",
+      "source": 2,
+      "target": 21
+    },
+    {
+      "annotations": {
+        "Species": [
+          {
+            "identifier": "10116",
+            "namespace": "Species"
+          }
+        ],
+        "Subgraph": [
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Dang J",
+          "Ding DX",
+          "Huang WJ",
+          "Liu H",
+          "Song MY",
+          "Tian FF",
+          "Wang YZ"
+        ],
+        "date": "2014-01-01",
+        "first": "Song MY",
+        "identifier": "24660535",
+        "journal": "Clinical laboratory",
+        "last": "Ding DX",
+        "name": "Expression of SOCSs and TLRs in the hippocampus of pentylenetetrazole kindling model.",
+        "namespace": "pubmed",
+        "pages": "233-40",
+        "volume": "60"
+      },
+      "evidence": "To explore the role of innate immunity in the mechanism of epilepsy, the pentylenetetrazole (PTZ) kindling rat model was established using intraperitoneal injection of PTZ. The expression levels of TLR2, TLR4, and STAT molecules in rat hippocampi were analyzed using qRT-PCR and western blotting techniques. The expression levels of SOCS-1 and SOCS-3 in rat hippocampi were analyzed using qRT-PCR. RESULTS: Our data demonstrated that both the mRNA and protein expression of TLR2 and TLR4 were significantly upregulated in the rat hippocampus with PTZ injection, which was accompanied by an inhibition of SOCS-1 and SOCS-3 and an upregulation of STAT3.",
+      "key": "223727ec0a9f0ec101281c376968ac69",
+      "line": 153,
+      "relation": "association",
+      "source": 2,
+      "target": 25
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Akira S",
+          "Juliandi B",
+          "Katano Y",
+          "Kawai T",
+          "Kohyama J",
+          "Matsuda T",
+          "Murao N",
+          "Nakashima K"
+        ],
+        "date": "2015-03-09",
+        "first": "Matsuda T",
+        "identifier": "25751136",
+        "journal": "Nature communications",
+        "last": "Nakashima K",
+        "name": "TLR9 signalling in microglia attenuates seizure-induced aberrant neurogenesis in the adult hippocampus.",
+        "namespace": "pubmed",
+        "pages": "6514",
+        "volume": "6"
+      },
+      "evidence": "Furthermore, TLR9 deficiency exacerbated seizure-induced cognitive decline and recurrent seizure severity. Our findings thus suggest the existence of bidirectional communication between the innate immune and nervous systems for the maintenance of adult brain integrity.",
+      "key": "94b3bf06ff1db2bf01c578b507949b8c",
+      "line": 161,
+      "relation": "decreases",
+      "source": 26,
+      "target": 3
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Akira S",
+          "Juliandi B",
+          "Katano Y",
+          "Kawai T",
+          "Kohyama J",
+          "Matsuda T",
+          "Murao N",
+          "Nakashima K"
+        ],
+        "date": "2015-03-09",
+        "first": "Matsuda T",
+        "identifier": "25751136",
+        "journal": "Nature communications",
+        "last": "Nakashima K",
+        "name": "TLR9 signalling in microglia attenuates seizure-induced aberrant neurogenesis in the adult hippocampus.",
+        "namespace": "pubmed",
+        "pages": "6514",
+        "volume": "6"
+      },
+      "evidence": "Furthermore, TLR9 deficiency exacerbated seizure-induced cognitive decline and recurrent seizure severity. Our findings thus suggest the existence of bidirectional communication between the innate immune and nervous systems for the maintenance of adult brain integrity.",
+      "key": "19e08c74ae5c76cae34453787fa756e3",
+      "line": 162,
+      "relation": "association",
+      "source": 26,
+      "target": 31
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "miRNA subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Fluiter K",
+          "Gorter JA",
+          "Iyer A",
+          "Prabowo A",
+          "Spliet WG",
+          "Zurolo E",
+          "van Rijen PC"
+        ],
+        "date": "2012-01-01",
+        "first": "Iyer A",
+        "identifier": "23028621",
+        "journal": "PloS one",
+        "last": "Aronica E",
+        "name": "MicroRNA-146a: a key regulator of astrocyte-mediated inflammatory response.",
+        "namespace": "pubmed",
+        "pages": "e44789",
+        "volume": "7"
+      },
+      "evidence": "Modulation of miR-146a expression by transfection of astrocytes with anti-miR146a or mimic, regulated the mRNA expression levels of downstream targets of miR-146a (IRAK-1, IRAK-2 and TRAF-6) and the expression of IRAK-1 protein.",
+      "key": "99f092e5e5ad9e15ce85660002d4f100",
+      "line": 174,
+      "relation": "association",
+      "source": 15,
+      "target": 34
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "miRNA subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Fluiter K",
+          "Gorter JA",
+          "Iyer A",
+          "Prabowo A",
+          "Spliet WG",
+          "Zurolo E",
+          "van Rijen PC"
+        ],
+        "date": "2012-01-01",
+        "first": "Iyer A",
+        "identifier": "23028621",
+        "journal": "PloS one",
+        "last": "Aronica E",
+        "name": "MicroRNA-146a: a key regulator of astrocyte-mediated inflammatory response.",
+        "namespace": "pubmed",
+        "pages": "e44789",
+        "volume": "7"
+      },
+      "evidence": "Modulation of miR-146a expression by transfection of astrocytes with anti-miR146a or mimic, regulated the mRNA expression levels of downstream targets of miR-146a (IRAK-1, IRAK-2 and TRAF-6) and the expression of IRAK-1 protein.",
+      "key": "841ba636900b5a3f0101057a854a6276",
+      "line": 175,
+      "relation": "association",
+      "source": 16,
+      "target": 34
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "Innate immune system subgraph",
+            "namespace": "Subgraph"
+          },
+          {
+            "identifier": "miRNA subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Aronica E",
+          "Fluiter K",
+          "Gorter JA",
+          "Iyer A",
+          "Prabowo A",
+          "Spliet WG",
+          "Zurolo E",
+          "van Rijen PC"
+        ],
+        "date": "2012-01-01",
+        "first": "Iyer A",
+        "identifier": "23028621",
+        "journal": "PloS one",
+        "last": "Aronica E",
+        "name": "MicroRNA-146a: a key regulator of astrocyte-mediated inflammatory response.",
+        "namespace": "pubmed",
+        "pages": "e44789",
+        "volume": "7"
+      },
+      "evidence": "Modulation of miR-146a expression by transfection of astrocytes with anti-miR146a or mimic, regulated the mRNA expression levels of downstream targets of miR-146a (IRAK-1, IRAK-2 and TRAF-6) and the expression of IRAK-1 protein.",
+      "key": "6d222da392d370232b0c4d77bce2abf6",
+      "line": 176,
+      "relation": "association",
+      "source": 28,
+      "target": 34
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Benson MJ",
+          "Borges K",
+          "Manzanero S"
+        ],
+        "date": "2015-06-01",
+        "first": "Benson MJ",
+        "identifier": "25847097",
+        "journal": "Epilepsia",
+        "last": "Borges K",
+        "name": "Complex alterations in microglial M1/M2 markers during the development of epilepsy in two mouse models.",
+        "namespace": "pubmed",
+        "pages": "895-905",
+        "volume": "56"
+      },
+      "evidence": "Small mRNA level increases of CD11b, glial fibrillary acidic protein (GFAP), and IL-1β were found in the pilocarpine model, consistent with IL-1β contributing to spontaneous seizures. The difference may also be due to the contribution of peripheral inflammation after pilocarpine injection.",
+      "key": "f637a47d9c9e156c89a2788078e1a46a",
+      "line": 194,
+      "relation": "positiveCorrelation",
+      "source": 32,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Benson MJ",
+          "Borges K",
+          "Manzanero S"
+        ],
+        "date": "2015-06-01",
+        "first": "Benson MJ",
+        "identifier": "25847097",
+        "journal": "Epilepsia",
+        "last": "Borges K",
+        "name": "Complex alterations in microglial M1/M2 markers during the development of epilepsy in two mouse models.",
+        "namespace": "pubmed",
+        "pages": "895-905",
+        "volume": "56"
+      },
+      "evidence": "Small mRNA level increases of CD11b, glial fibrillary acidic protein (GFAP), and IL-1β were found in the pilocarpine model, consistent with IL-1β contributing to spontaneous seizures. The difference may also be due to the contribution of peripheral inflammation after pilocarpine injection.",
+      "key": "6462307c4e10331d949d0a0609c37168",
+      "line": 194,
+      "relation": "positiveCorrelation",
+      "source": 10,
+      "target": 32
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Duksal T",
+          "Kirkali G",
+          "Ozkaya F",
+          "Tiftikcioglu BI",
+          "Uludag IF",
+          "Zorlu Y"
+        ],
+        "date": "2015-03-01",
+        "first": "Uludag IF",
+        "identifier": "25799897",
+        "journal": "Seizure",
+        "last": "Kirkali G",
+        "name": "IL-1β, IL-6 and IL1Ra levels in temporal lobe epilepsy.",
+        "namespace": "pubmed",
+        "pages": "22-5",
+        "volume": "26"
+      },
+      "evidence": "The major findings in our study were increased levels of IL-1β, IL-6 and IL-1Ra in epileptic patients and high levels of IL-1β in TLE group. Our results support the existence of a chronic inflammatory state in epileptic patients.",
+      "key": "f1468df8b2cffe88615188717bc0f5cf",
+      "line": 203,
+      "relation": "positiveCorrelation",
+      "source": 13,
+      "target": 31
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Anink J",
+          "Aronica E",
+          "Baayen JC",
+          "Boison D",
+          "Carbonell C",
+          "Gorter JA",
+          "Iyer A",
+          "Zurolo E",
+          "de Groot M",
+          "van Vliet EA"
+        ],
+        "date": "2011-09-01",
+        "first": "Aronica E",
+        "identifier": "21635241",
+        "journal": "Epilepsia",
+        "last": "Gorter JA",
+        "name": "Upregulation of adenosine kinase in astrocytes in experimental and human temporal lobe epilepsy.",
+        "namespace": "pubmed",
+        "pages": "1645-55",
+        "volume": "52"
+      },
+      "evidence": "These results suggest that dysregulation of ADK in astrocytes is a common pathologic hallmark of TLE. Moreover, in vitro data suggest the existence of an additional layer of modulatory crosstalk between the astrocyte-based adenosine cycle and inflammation. ",
+      "key": "3068fae83acf6cd913f3f787abc619bb",
+      "line": 212,
+      "relation": "association",
+      "source": 8,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Anink J",
+          "Aronica E",
+          "Baayen JC",
+          "Boison D",
+          "Carbonell C",
+          "Gorter JA",
+          "Iyer A",
+          "Zurolo E",
+          "de Groot M",
+          "van Vliet EA"
+        ],
+        "date": "2011-09-01",
+        "first": "Aronica E",
+        "identifier": "21635241",
+        "journal": "Epilepsia",
+        "last": "Gorter JA",
+        "name": "Upregulation of adenosine kinase in astrocytes in experimental and human temporal lobe epilepsy.",
+        "namespace": "pubmed",
+        "pages": "1645-55",
+        "volume": "52"
+      },
+      "evidence": "These results suggest that dysregulation of ADK in astrocytes is a common pathologic hallmark of TLE. Moreover, in vitro data suggest the existence of an additional layer of modulatory crosstalk between the astrocyte-based adenosine cycle and inflammation. ",
+      "key": "194108ed2f00172db612c0c8a02de1d3",
+      "line": 213,
+      "relation": "positiveCorrelation",
+      "source": 8,
+      "target": 30
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Anink J",
+          "Aronica E",
+          "Baayen JC",
+          "Boison D",
+          "Carbonell C",
+          "Gorter JA",
+          "Iyer A",
+          "Zurolo E",
+          "de Groot M",
+          "van Vliet EA"
+        ],
+        "date": "2011-09-01",
+        "first": "Aronica E",
+        "identifier": "21635241",
+        "journal": "Epilepsia",
+        "last": "Gorter JA",
+        "name": "Upregulation of adenosine kinase in astrocytes in experimental and human temporal lobe epilepsy.",
+        "namespace": "pubmed",
+        "pages": "1645-55",
+        "volume": "52"
+      },
+      "evidence": "These results suggest that dysregulation of ADK in astrocytes is a common pathologic hallmark of TLE. Moreover, in vitro data suggest the existence of an additional layer of modulatory crosstalk between the astrocyte-based adenosine cycle and inflammation. ",
+      "key": "ba34f5d8ba35fc6674fc74c50e8e836e",
+      "line": 214,
+      "relation": "association",
+      "source": 8,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Brouwer C",
+          "Dustin IH",
+          "Fujita M",
+          "Gershen LD",
+          "Hirvonen J",
+          "Hong JS",
+          "Inati SK",
+          "Innis RB",
+          "Jenko KJ",
+          "Kreisl WC",
+          "Liow JS",
+          "Morse CL",
+          "Pike VW",
+          "Theodore WH",
+          "Zanotti-Fregonara P",
+          "Zoghbi SS"
+        ],
+        "date": "2015-08-01",
+        "first": "Gershen LD",
+        "identifier": "26052981",
+        "journal": "JAMA neurology",
+        "last": "Theodore WH",
+        "name": "Neuroinflammation in Temporal Lobe Epilepsy Measured Using Positron Emission Tomographic Imaging of Translocator Protein.",
+        "namespace": "pubmed",
+        "pages": "882-8",
+        "volume": "72"
+      },
+      "evidence": " Binding of TSPO is increased both ipsilateral and contralateral to seizure foci in patients with TLE, suggesting ongoing inflammation. Anti-inflammatory therapy may play a role in treating drug-resistant epilepsy.",
+      "key": "1040c4f0f017d10dd22ae73a32e8894a",
+      "line": 222,
+      "relation": "positiveCorrelation",
+      "source": 29,
+      "target": 30
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Brouwer C",
+          "Dustin IH",
+          "Fujita M",
+          "Gershen LD",
+          "Hirvonen J",
+          "Hong JS",
+          "Inati SK",
+          "Innis RB",
+          "Jenko KJ",
+          "Kreisl WC",
+          "Liow JS",
+          "Morse CL",
+          "Pike VW",
+          "Theodore WH",
+          "Zanotti-Fregonara P",
+          "Zoghbi SS"
+        ],
+        "date": "2015-08-01",
+        "first": "Gershen LD",
+        "identifier": "26052981",
+        "journal": "JAMA neurology",
+        "last": "Theodore WH",
+        "name": "Neuroinflammation in Temporal Lobe Epilepsy Measured Using Positron Emission Tomographic Imaging of Translocator Protein.",
+        "namespace": "pubmed",
+        "pages": "882-8",
+        "volume": "72"
+      },
+      "evidence": " Binding of TSPO is increased both ipsilateral and contralateral to seizure foci in patients with TLE, suggesting ongoing inflammation. Anti-inflammatory therapy may play a role in treating drug-resistant epilepsy.",
+      "key": "fa2dc8e0d8469ce76a23151fc899736f",
+      "line": 223,
+      "relation": "association",
+      "source": 29,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Brouwer C",
+          "Dustin IH",
+          "Fujita M",
+          "Gershen LD",
+          "Hirvonen J",
+          "Hong JS",
+          "Inati SK",
+          "Innis RB",
+          "Jenko KJ",
+          "Kreisl WC",
+          "Liow JS",
+          "Morse CL",
+          "Pike VW",
+          "Theodore WH",
+          "Zanotti-Fregonara P",
+          "Zoghbi SS"
+        ],
+        "date": "2015-08-01",
+        "first": "Gershen LD",
+        "identifier": "26052981",
+        "journal": "JAMA neurology",
+        "last": "Theodore WH",
+        "name": "Neuroinflammation in Temporal Lobe Epilepsy Measured Using Positron Emission Tomographic Imaging of Translocator Protein.",
+        "namespace": "pubmed",
+        "pages": "882-8",
+        "volume": "72"
+      },
+      "evidence": " Binding of TSPO is increased both ipsilateral and contralateral to seizure foci in patients with TLE, suggesting ongoing inflammation. Anti-inflammatory therapy may play a role in treating drug-resistant epilepsy.",
+      "key": "4fb4a3aed86d546db5614cf44046be0e",
+      "line": 224,
+      "relation": "association",
+      "source": 1,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Buonsenso D",
+          "Capozzi D",
+          "Chiaretti A",
+          "Fantacci C",
+          "Ferrara P",
+          "Manni L",
+          "Mariotti P",
+          "Valentini P"
+        ],
+        "date": "2014-03-01",
+        "first": "Chiaretti A",
+        "identifier": "24406738",
+        "journal": "International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases",
+        "last": "Ferrara P",
+        "name": "Increased levels of neurotrophins in the cerebrospinal fluid of children with Epstein-Barr virus meningoencephalitis.",
+        "namespace": "pubmed",
+        "pages": "52-7",
+        "volume": "20"
+      },
+      "evidence": "This neurotrophin over-expression is likely to play a key role in the mechanisms of neuronal inflammation and in the severity of brain damage, particularly in EBV-induced ME.",
+      "key": "bd377d0f60a4cd9005ebd35f3d844b52",
+      "line": 232,
+      "relation": "association",
+      "source": 9,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "Subgraph": [
+          {
+            "identifier": "Inflammatory response subgraph",
+            "namespace": "Subgraph"
+          }
+        ]
+      },
+      "citation": {
+        "article_type": "Journal Article",
+        "authors": [
+          "Buonsenso D",
+          "Capozzi D",
+          "Chiaretti A",
+          "Fantacci C",
+          "Ferrara P",
+          "Manni L",
+          "Mariotti P",
+          "Valentini P"
+        ],
+        "date": "2014-03-01",
+        "first": "Chiaretti A",
+        "identifier": "24406738",
+        "journal": "International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases",
+        "last": "Ferrara P",
+        "name": "Increased levels of neurotrophins in the cerebrospinal fluid of children with Epstein-Barr virus meningoencephalitis.",
+        "namespace": "pubmed",
+        "pages": "52-7",
+        "volume": "20"
+      },
+      "evidence": "This neurotrophin over-expression is likely to play a key role in the mechanisms of neuronal inflammation and in the severity of brain damage, particularly in EBV-induced ME.",
+      "key": "9879fb0e100d6e91f3f926561659d715",
+      "line": 232,
+      "relation": "association",
+      "source": 4,
+      "target": 9
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(BRCO:Astrocyte)",
+      "concept": {
+        "name": "Astrocyte",
+        "namespace": "BRCO"
+      },
+      "function": "Abundance",
+      "id": "3ffa519dbb7a528f092bc550a25197f2"
+    },
+    {
+      "bel": "a(CHEBI:anticonvulsant)",
+      "concept": {
+        "name": "anticonvulsant",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "a8c01b5f9d16b04afd5a36fa5d60e863"
+    },
+    {
+      "bel": "a(NIFT:Hippocampus)",
+      "concept": {
+        "name": "Hippocampus",
+        "namespace": "NIFT"
+      },
+      "function": "Abundance",
+      "id": "588d4e0223b08a11c50f78c67e5bb3a8"
+    },
+    {
+      "bel": "bp(EPT:epileptogenesis)",
+      "concept": {
+        "name": "epileptogenesis",
+        "namespace": "EPT"
+      },
+      "function": "BiologicalProcess",
+      "id": "5bc33d9391c2ef56042b8890530f3ad4"
+    },
+    {
+      "bel": "bp(GOBP:\"inflammatory response\")",
+      "concept": {
+        "name": "inflammatory response",
+        "namespace": "GOBP"
+      },
+      "function": "BiologicalProcess",
+      "id": "231ce9f9130365dfdf6765587f4e8343"
+    },
+    {
+      "bel": "bp(PTS:\"inflammatory response pathway\")",
+      "concept": {
+        "name": "inflammatory response pathway",
+        "namespace": "PTS"
+      },
+      "function": "BiologicalProcess",
+      "id": "fc2ee3dd7283cf2103a6782cab0025d8"
+    },
+    {
+      "bel": "bp(PTS:\"innate immune response pathway\")",
+      "concept": {
+        "name": "innate immune response pathway",
+        "namespace": "PTS"
+      },
+      "function": "BiologicalProcess",
+      "id": "078722679830e57510fd4e067720d439"
+    },
+    {
+      "bel": "complex(p(HGNC:S100A8), p(HGNC:TLR4))",
+      "function": "Complex",
+      "id": "0776d9b306f71765e3bca83a46d5de3f",
+      "members": [
+        {
+          "bel": "p(HGNC:S100A8)",
+          "concept": {
+            "name": "S100A8",
+            "namespace": "HGNC"
+          },
+          "function": "Protein",
+          "id": "2139d00984e7a6c9ed27f687991d06e8"
+        },
+        {
+          "bel": "p(HGNC:TLR4)",
+          "concept": {
+            "name": "TLR4",
+            "namespace": "HGNC"
+          },
+          "function": "Protein",
+          "id": "4d3aa2ce51d0cd7f2aa9267a9c61f9f7"
+        }
+      ]
+    },
+    {
+      "bel": "p(HGNC:ADK)",
+      "concept": {
+        "name": "ADK",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "5ff2b68216e765855c7fb9128af92fa0"
+    },
+    {
+      "bel": "p(HGNC:BDNF)",
+      "concept": {
+        "name": "BDNF",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "a638d5f84b9678f17c8795852300134a"
+    },
+    {
+      "bel": "p(HGNC:GFAP)",
+      "concept": {
+        "name": "GFAP",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "15da8945521071a11aee0c5e255276f4"
+    },
+    {
+      "bel": "p(HGNC:HMGB1)",
+      "concept": {
+        "name": "HMGB1",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "49cae6a35157605b512bcf8e54c1a60d"
+    },
+    {
+      "bel": "p(HGNC:IL1B)",
+      "concept": {
+        "name": "IL1B",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "cca08112d9fcf1a31015f1dbfc30b04c"
+    },
+    {
+      "bel": "p(HGNC:IL1RAP)",
+      "concept": {
+        "name": "IL1RAP",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "6f95dcaf67e6215d3fa0ada06019e03f"
+    },
+    {
+      "bel": "p(HGNC:IL6)",
+      "concept": {
+        "name": "IL6",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "8a1d3c4828c5416eba867c395cc65caa"
+    },
+    {
+      "bel": "p(HGNC:IRAK1)",
+      "concept": {
+        "name": "IRAK1",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "e9d1fefd162243ca5b829dadab66663d"
+    },
+    {
+      "bel": "p(HGNC:IRAK2)",
+      "concept": {
+        "name": "IRAK2",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "e1c7a634f7087af4fcb17b58b7545dc5"
+    },
+    {
+      "bel": "p(HGNC:IRAK4)",
+      "concept": {
+        "name": "IRAK4",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "5b3d0fc0229243f6eed8ffbc8fe4849a"
+    },
+    {
+      "bel": "p(HGNC:PTGS2)",
+      "concept": {
+        "name": "PTGS2",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "fcfa5df7382bf321071715cd08501263"
+    },
+    {
+      "bel": "p(HGNC:S100A8)",
+      "concept": {
+        "name": "S100A8",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "2139d00984e7a6c9ed27f687991d06e8"
+    },
+    {
+      "bel": "p(HGNC:SOCS1)",
+      "concept": {
+        "name": "SOCS1",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "231b37d127c5b0ecfebf12055bf910b9"
+    },
+    {
+      "bel": "p(HGNC:SOCS3)",
+      "concept": {
+        "name": "SOCS3",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "1c0225acd2562ce6686b356a103d26af"
+    },
+    {
+      "bel": "p(HGNC:STAT3)",
+      "concept": {
+        "name": "STAT3",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "9523cd88bdb7daf4a0aaf38eb43fbe28"
+    },
+    {
+      "bel": "p(HGNC:TGFB1)",
+      "concept": {
+        "name": "TGFB1",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "f1f493c4771241860fc73aaa3bfdad66"
+    },
+    {
+      "bel": "p(HGNC:TLR2)",
+      "concept": {
+        "name": "TLR2",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "582bd46752f7f09b247672cebb3f0ea1"
+    },
+    {
+      "bel": "p(HGNC:TLR4)",
+      "concept": {
+        "name": "TLR4",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "4d3aa2ce51d0cd7f2aa9267a9c61f9f7"
+    },
+    {
+      "bel": "p(HGNC:TLR9)",
+      "concept": {
+        "name": "TLR9",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "63e22ab9502c41d0972e9941bac852da"
+    },
+    {
+      "bel": "p(HGNC:TNF)",
+      "concept": {
+        "name": "TNF",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "fdc1c1f5a73c3c992b6eb71ce9b6908e"
+    },
+    {
+      "bel": "p(HGNC:TRAF6)",
+      "concept": {
+        "name": "TRAF6",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "c8dbe00612e3bf1cb55f201df44f953a"
+    },
+    {
+      "bel": "p(HGNC:TSPO)",
+      "concept": {
+        "name": "TSPO",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "e5ecacbf2bae4ee06943f864a30b4df5"
+    },
+    {
+      "bel": "path(MESHD:\"Epilepsy, Temporal Lobe\")",
+      "concept": {
+        "name": "Epilepsy, Temporal Lobe",
+        "namespace": "MESHD"
+      },
+      "function": "Pathology",
+      "id": "18d0a9bfb8776f6c01c3cd6933066c80"
+    },
+    {
+      "bel": "path(MESHD:Epilepsy)",
+      "concept": {
+        "name": "Epilepsy",
+        "namespace": "MESHD"
+      },
+      "function": "Pathology",
+      "id": "fee7b78c63a926bb128c9148a0f3b960"
+    },
+    {
+      "bel": "path(MESHD:Seizures)",
+      "concept": {
+        "name": "Seizures",
+        "namespace": "MESHD"
+      },
+      "function": "Pathology",
+      "id": "8fbe2d99d8be7144cb09ec0a77fd6466"
+    },
+    {
+      "bel": "r(HGNC:MIR132)",
+      "concept": {
+        "name": "MIR132",
+        "namespace": "HGNC"
+      },
+      "function": "RNA",
+      "id": "fa58155a18e2cd3a1500b015eeb95981"
+    },
+    {
+      "bel": "r(HGNC:MIR146A)",
+      "concept": {
+        "name": "MIR146A",
+        "namespace": "HGNC"
+      },
+      "function": "RNA",
+      "id": "9f48a647e0d799765b95034588f4c161"
+    },
+    {
+      "bel": "r(HGNC:MIR155)",
+      "concept": {
+        "name": "MIR155",
+        "namespace": "HGNC"
+      },
+      "function": "RNA",
+      "id": "4db32b359ac8efbd5202bbc04a620df6"
+    }
+  ]
+}

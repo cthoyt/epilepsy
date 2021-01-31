@@ -1,0 +1,14 @@
+{
+  "Name": "Epilepsy Knowledge Assembly",
+  "Version": "1.0.0",
+  "Authors": "Nora Filep, Anka Gueldenpfennig, Charles Tapley Hoyt, Daniel Domingo-Fernandez",
+  "Number of Nodes": 2148,
+  "Number of Namespaces": 21,
+  "Number of Edges": 6641,
+  "Number of Annotations": 13,
+  "Number of Citations": 641,
+  "Number of Authors": 4237,
+  "Network Density": "1.44E-03",
+  "Number of Components": 24,
+  "Number of Warnings": 10
+}
