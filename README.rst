@@ -1,15 +1,23 @@
-Epilepsy Knowledge
-==================
-Mechanistic pathway knowledge on Epilepsy encoded in Biological Expression Language.
+NeuroMMSig Epilepsy
+===================
+Mechanistic pathway knowledge on Epilepsy encoded in Biological Expression
+Language.
 
 Installation
 ------------
-To install the ``neurommsig_epilepsy_knowledge`` python package for programmatic access to the BEL files
-in this repository, use the following code in your shell:
+To install the ``neurommsig_epilepsy`` python package for programmatic access
+to the BEL files in this repository, use the following code in your shell:
 
 .. code-block:: sh
 
-    $ git clone https://github.com/neurommsig-epilepsy/neurommsig_epilepsy.git
+    $ pip install neurommsig_epilepsy
+
+To install the ``neurommsig_epilepsy`` python package for programmatic access
+to the BEL files in this repository, use the following code in your shell:
+
+.. code-block:: sh
+
+    $ git clone https://github.com/neurommsig-epilepsy/neurommsig-epilepsy.git
     $ cd neurommsig_epilepsy
     $ pip install -e .
 
@@ -17,7 +25,7 @@ To optionally re-compile all of the BEL files, use
 
 .. code-block:: sh
 
-    $ neurommsig-epilepsy-knowledge compile
+    $ neurommsig-epilepsy compile
 
 Usage
 -----
@@ -25,7 +33,7 @@ To get the knowledge and summarize it, use:
 
 .. code-block:: python
 
-    import neurommsig_epilepsy_knowledge
+    import neurommsig_epilepsy
 
-    graph = neurommsig_epilepsy_knowledge.repository.get_graph()
+    graph = neurommsig_epilepsy.repository.get_graph()
     graph.summarize()
