@@ -40,3 +40,9 @@ To get the knowledge and summarize it, use:
 
 .. |zenodo| image:: https://zenodo.org/badge/189166127.svg
    :target: https://zenodo.org/badge/latestdoi/189166127
+
+More BEL Content
+----------------
+See `A Listing of Publicly Available Content in the Biological Expression Language (BEL)
+<https://cthoyt.com/2020/04/30/public-bel-content.html>`_ on Charles Tapley Hoyt's blog
+for more BEL content.
