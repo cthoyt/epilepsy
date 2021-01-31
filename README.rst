@@ -1,5 +1,5 @@
-NeuroMMSig Epilepsy
-===================
+NeuroMMSig Epilepsy |zenodo|
+============================
 Mechanistic pathway knowledge on Epilepsy encoded in Biological Expression
 Language.
 
@@ -37,3 +37,6 @@ To get the knowledge and summarize it, use:
 
     graph = neurommsig_epilepsy.get_graph()
     graph.summarize()
+
+.. |zenodo| image:: https://zenodo.org/badge/189166127.svg
+   :target: https://zenodo.org/badge/latestdoi/189166127
